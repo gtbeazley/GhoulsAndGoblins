@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{FAC3401B-4CCE-24CD-93DD-928401F0D4AB}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GhoulsAndGoodies",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
