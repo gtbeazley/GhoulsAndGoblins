@@ -972,3 +972,208 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.10-05.44.26:640][507]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/TIFFANY604A2BAD40A6FED59B41F29F682FAE0A.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/TIFFANY.uasset'
 [2020.08.10-05.44.27:812][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
 [2020.08.10-05.44.27:936][593]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/TopDownExampleMapE4889E9B416E444BD431189169BBB6EB.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2020.08.10-05.45.08:750][859]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={66E5B9E9-44E8-6FA4-A031-839E73A191C9}
+[2020.08.10-05.45.17:299][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-05.45.22:743][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-05.45.25:750][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-05.45.39:794][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-05.45.59:475][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-05.46.09:324][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-05.47.08:867][218]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={6DAFF561-4544-7526-CF12-779EDD7E4E3B}
+[2020.08.10-05.49.09:502][578]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={8297A841-4BBA-1FFC-00A7-E49365BAD8EC}
+[2020.08.10-05.53.10:901][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-05.53.10:958][469]LogSlate: Window 'TIFFANY' being destroyed
+[2020.08.10-05.53.10:966][469]LogSlate: Window 'TIFFANY' being destroyed
+[2020.08.10-05.53.10:981][469]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.08.10-05.53.50:418][675]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Esqueleto.fbx)
+[2020.08.10-05.53.50:444][675]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Esqueleto.fbx
+[2020.08.10-05.53.50:466][675]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.10-05.54.17:969][675]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.10-05.56.56:605][868]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Esqueleto.fbx)
+[2020.08.10-05.56.56:616][868]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Esqueleto.fbx
+[2020.08.10-05.56.56:644][868]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.10-05.57.31:189][868]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.10-05.57.31:253][868]FBXImport: Warning: Ignoring mesh Bones:SM_Hat because it but no weights. 
+[2020.08.10-05.57.31:253][868]FBXImport: Warning: Ignoring mesh Bones:SM_Maraca because it but no weights. 
+[2020.08.10-05.57.31:253][868]FBXImport: Warning: Ignoring mesh Bones:SM_Neck because it but no weights. 
+[2020.08.10-05.57.31:253][868]FBXImport: Warning: Ignoring mesh Bones:SM_Hand because it but no weights. 
+[2020.08.10-05.57.31:253][868]FBXImport: Warning: Ignoring mesh Bones:SM_Body because it but no weights. 
+[2020.08.10-05.57.31:253][868]FBXImport: Warning: Ignoring mesh Bones:SM_Poncho because it but no weights. 
+[2020.08.10-05.57.31:254][868]FBXImport: Warning: Ignoring mesh Bones:SM_Head because it but no weights. 
+[2020.08.10-05.57.31:254][868]FBXImport: Error: Failed to find any bone hierarchy. Try disabling the "Import As Skeletal" option to import as a rigid mesh.  
+[2020.08.10-05.57.31:254][868]FBXImport: Error: Import failed. 
+[2020.08.10-05.57.35:464][868]LogSlate: Window 'Message' being destroyed
+[2020.08.10-05.57.35:470][868]LogAssetTools: Warning: Failed to import '../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Esqueleto.fbx'. Failed to create asset '/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto'.
+Please see Output Log for details.
+[2020.08.10-05.57.58:300][183]LogSlate: Window 'Message Log' being destroyed
+[2020.08.10-05.57.58:306][183]LogSlate: Window 'Message Log' being destroyed
+[2020.08.10-06.00.20:144][412]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Esqueleto.fbx)
+[2020.08.10-06.00.20:155][412]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Esqueleto.fbx
+[2020.08.10-06.00.20:179][412]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.10-06.00.22:497][412]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.10-06.00.22:530][412]LogFbx: Valid bind pose for Pose (skinCluster1) - Bones:SM_Hat
+[2020.08.10-06.00.22:530][412]LogFbx: Valid bind pose for Pose (skinCluster3) - Bones:SM_Hat
+[2020.08.10-06.00.22:530][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Hat : The relative matrices do not match
+[2020.08.10-06.00.22:530][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Maraca : The relative matrices do not match
+[2020.08.10-06.00.22:531][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Neck : The relative matrices do not match
+[2020.08.10-06.00.22:531][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Hand : The relative matrices do not match
+[2020.08.10-06.00.22:531][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Body : The relative matrices do not match
+[2020.08.10-06.00.22:531][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Poncho : The relative matrices do not match
+[2020.08.10-06.00.22:532][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Head : The relative matrices do not match
+[2020.08.10-06.00.22:532][412]LogFbx: Valid bind pose for Pose (skinCluster6) - Bones:SM_Hat
+[2020.08.10-06.00.22:532][412]LogFbx: Valid bind pose for Pose (skinCluster7) - Bones:SM_Hat
+[2020.08.10-06.00.22:532][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Hat : The relative matrices do not match
+[2020.08.10-06.00.22:532][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Maraca : The relative matrices do not match
+[2020.08.10-06.00.22:532][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Neck : The relative matrices do not match
+[2020.08.10-06.00.22:532][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Hand : The relative matrices do not match
+[2020.08.10-06.00.22:532][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Body : The relative matrices do not match
+[2020.08.10-06.00.22:532][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Poncho : The relative matrices do not match
+[2020.08.10-06.00.22:533][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Head : The relative matrices do not match
+[2020.08.10-06.00.22:533][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Hat : The relative matrices do not match
+[2020.08.10-06.00.22:533][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Maraca : The relative matrices do not match
+[2020.08.10-06.00.22:533][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Neck : The relative matrices do not match
+[2020.08.10-06.00.22:533][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Hand : The relative matrices do not match
+[2020.08.10-06.00.22:533][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Body : The relative matrices do not match
+[2020.08.10-06.00.22:533][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Poncho : The relative matrices do not match
+[2020.08.10-06.00.22:533][412]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Head : The relative matrices do not match
+[2020.08.10-06.00.22:537][412]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto_BaseColor': Can't find file.
+[2020.08.10-06.00.22:537][412]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto_BaseColor': Can't find file.
+[2020.08.10-06.00.22:537][412]LogFbxMaterialImport: Warning: Unable to find Texture file C:/Users/s191212/Desktop/Creeps and Candy/Textures/Esqueleto_BaseColor.tga
+[2020.08.10-06.00.22:538][412]LogFbx: Triangulating skeletal mesh Bones:SM_Hat
+[2020.08.10-06.00.22:553][412]LogFbxMaterialImport: Warning: Unable to find Texture file C:/Users/s191212/Desktop/Creeps and Candy/Textures/Esqueleto_BaseColor.tga
+[2020.08.10-06.00.22:553][412]LogFbx: Triangulating skeletal mesh Bones:SM_Maraca
+[2020.08.10-06.00.22:569][412]LogFbxMaterialImport: Warning: Unable to find Texture file C:/Users/s191212/Desktop/Creeps and Candy/Textures/Esqueleto_BaseColor.tga
+[2020.08.10-06.00.22:569][412]LogFbx: Triangulating skeletal mesh Bones:SM_Neck
+[2020.08.10-06.00.22:571][412]LogFbxMaterialImport: Warning: Unable to find Texture file C:/Users/s191212/Desktop/Creeps and Candy/Textures/Esqueleto_BaseColor.tga
+[2020.08.10-06.00.22:571][412]LogFbx: Triangulating skeletal mesh Bones:SM_Hand
+[2020.08.10-06.00.22:574][412]LogFbxMaterialImport: Warning: Unable to find Texture file C:/Users/s191212/Desktop/Creeps and Candy/Textures/Esqueleto_BaseColor.tga
+[2020.08.10-06.00.22:575][412]LogFbx: Triangulating skeletal mesh Bones:SM_Body
+[2020.08.10-06.00.22:592][412]LogFbxMaterialImport: Warning: Unable to find Texture file C:/Users/s191212/Desktop/Creeps and Candy/Textures/Esqueleto_BaseColor.tga
+[2020.08.10-06.00.22:593][412]LogFbx: Triangulating skeletal mesh Bones:SM_Poncho
+[2020.08.10-06.00.22:605][412]LogFbxMaterialImport: Warning: Unable to find Texture file C:/Users/s191212/Desktop/Creeps and Candy/Textures/Esqueleto_BaseColor.tga
+[2020.08.10-06.00.22:606][412]LogFbx: Triangulating skeletal mesh Bones:SM_Head
+[2020.08.10-06.00.22:633][412]LogFbx: Warning: Bones digested - 24  Depth of hierarchy - 8
+[2020.08.10-06.00.22:685][412]LogSkeletalMesh: Section 0: 1734 vertices, 23 active bones
+[2020.08.10-06.00.22:685][412]LogSkeletalMesh: Section 0: Material=0, 2628 triangles
+[2020.08.10-06.00.22:687][412]LogSkeletalMesh: Building Skeletal Mesh Anim_Esqueleto...
+[2020.08.10-06.00.22:689][412]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.Anim_Esqueleto
+[2020.08.10-06.00.22:691][412]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Skeleton': Can't find file.
+[2020.08.10-06.00.22:691][412]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Skeleton': Can't find file.
+[2020.08.10-06.00.22:693][412]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_PhysicsAsset': Can't find file.
+[2020.08.10-06.00.22:693][412]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_PhysicsAsset': Can't find file.
+[2020.08.10-06.00.22:702][412]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(0) Rig
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(1) Root_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(2) Cog_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(3) Hip_L_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(4) Knee_L_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(5) Ankle_L_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(6) Ball_L_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(7) Toe_L_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(8) Hip_R_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(9) Knee_R_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(10) Ankle_R_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(11) Ball_R_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(12) Toe_R_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(13) Chest_jnt
+[2020.08.10-06.00.22:704][412]LogFbx: SortedLinks :(14) Neck_jnt
+[2020.08.10-06.00.22:705][412]LogFbx: SortedLinks :(15) Head_jnt
+[2020.08.10-06.00.22:705][412]LogFbx: SortedLinks :(16) Shoulder_L_jnt
+[2020.08.10-06.00.22:705][412]LogFbx: SortedLinks :(17) Elbow_L_jnt
+[2020.08.10-06.00.22:705][412]LogFbx: SortedLinks :(18) Hand_L_jnt
+[2020.08.10-06.00.22:705][412]LogFbx: SortedLinks :(19) Maraca_L_jnt
+[2020.08.10-06.00.22:705][412]LogFbx: SortedLinks :(20) Shoulder_R_jnt
+[2020.08.10-06.00.22:705][412]LogFbx: SortedLinks :(21) Elbow_R_jnt
+[2020.08.10-06.00.22:705][412]LogFbx: SortedLinks :(22) Hand_R_jnt
+[2020.08.10-06.00.22:705][412]LogFbx: SortedLinks :(23) Maraca_R_jnt
+[2020.08.10-06.00.22:705][412]LogFbx: Parsing AnimStack Take 001
+[2020.08.10-06.00.22:705][412]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Anim': Can't find file.
+[2020.08.10-06.00.22:705][412]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Anim': Can't find file.
+[2020.08.10-06.00.23:045][412]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Anim.Anim_Esqueleto_Anim
+[2020.08.10-06.00.23:049][412]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Anim.Anim_Esqueleto_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.08.10-06.00.23:054][412]LogSkeletalMesh: Building Skeletal Mesh Anim_Esqueleto...
+[2020.08.10-06.00.23:057][412]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.Anim_Esqueleto
+[2020.08.10-06.00.23:064][412]FBXImport: Warning: The following bones are missing from the bind pose:
+Hip_L_jnt  
+Knee_L_jnt  
+Ankle_L_jnt  
+Ball_L_jnt  
+Toe_L_jnt  
+Hip_R_jnt  
+Knee_R_jnt  
+Ankle_R_jnt  
+Ball_R_jnt  
+Toe_R_jnt  
+Elbow_L_jnt  
+Hand_L_jnt  
+Maraca_L_jnt  
+Elbow_R_jnt  
+Hand_R_jnt  
+Maraca_R_jnt  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2020.08.10-06.00.23:076][412]LogSkeletalMesh: Building Skeletal Mesh Anim_Esqueleto...
+[2020.08.10-06.00.23:080][412]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.Anim_Esqueleto
+[2020.08.10-06.00.31:162][ 30]LogSlate: Window 'Message Log' being destroyed
+[2020.08.10-06.00.31:167][ 30]LogSlate: Window 'Message Log' being destroyed
+[2020.08.10-06.00.37:450][460]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.Anim_Esqueleto
+[2020.08.10-06.00.37:490][460]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.08.10-06.00.37:502][460]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.10-06.00.37:507][460]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.08.10-06.00.37:557][460]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.10-06.00.55:527][468]LogSkeletalMesh: Building Skeletal Mesh Anim_Esqueleto...
+[2020.08.10-06.00.55:530][468]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.Anim_Esqueleto
+[2020.08.10-06.00.55:530][468]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/MATERIAL/M_Esqueleto.M_Esqueleto needed to have new flag set bUsedWithSkeletalMesh !
+[2020.08.10-06.00.55:535][468]LogMaterial: Display: Missing cached shader map for material M_Esqueleto, compiling. 
+[2020.08.10-06.00.55:587][469]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2020.08.10-06.00.55:587][469]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
+[2020.08.10-06.00.55:587][469]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+[2020.08.10-06.00.55:587][469]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.08.10-06.00.58:755][622]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2020.08.10-06.00.58:761][622]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.08.10-06.00.59:487][672]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2020.08.10-06.01.00:172][715]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.08.10-06.01.00:197][715]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.08.10-06.01.00:609][734]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.08.10-06.01.00:723][739]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.08.10-06.01.00:860][745]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.08.10-06.01.08:834][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-06.01.10:861][386]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Anim.Anim_Esqueleto_Anim
+[2020.08.10-06.01.10:894][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.10-06.01.10:920][386]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.10-06.01.11:175][386]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.08.10-06.02.07:423][945]Cmd: TRANSACTION UNDO
+[2020.08.10-06.02.07:423][945]LogEditorTransaction: Undo Reset to Default
+[2020.08.10-06.02.07:703][945]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.10-06.02.07:704][945]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.10-06.02.08:334][  2]Cmd: TRANSACTION UNDO
+[2020.08.10-06.02.08:334][  2]LogEditorTransaction: Undo Edit Orbit Pitch
+[2020.08.10-06.02.08:541][  2]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.10-06.02.08:542][  2]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.10-06.02.09:733][ 11]Cmd: TRANSACTION UNDO
+[2020.08.10-06.02.09:733][ 11]LogEditorTransaction: Undo Persona editor: material changed
+[2020.08.10-06.02.09:792][ 11]LogSkeletalMesh: Building Skeletal Mesh Anim_Esqueleto...
+[2020.08.10-06.02.09:795][ 11]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.Anim_Esqueleto
+[2020.08.10-06.02.10:005][ 11]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.10-06.02.10:006][ 11]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.10-06.02.37:547][102]Cmd: TRANSACTION UNDO
+[2020.08.10-06.02.37:547][102]LogEditorTransaction: Undo Edit Update Skeleton Reference Pose
+[2020.08.10-06.02.37:757][102]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.10-06.02.37:758][102]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.10-06.03.19:132][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-06.03.30:525][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-06.03.30:640][322]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Esqueleto_Anim227F8C884F503F085239889797299B4B.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Anim.uasset'
+[2020.08.10-06.03.37:404][800]LogSkeletalMesh: Building Skeletal Mesh Anim_Esqueleto...
+[2020.08.10-06.03.37:407][800]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.Anim_Esqueleto
+[2020.08.10-06.03.40:666][ 33]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Esqueleto56E323F34FD4BCCE52290CB2E0D8342E.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.uasset'
+[2020.08.10-06.03.53:308][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-06.03.53:399][ 42]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Esqueleto_Anim0AC54E914E56F636EA040D8052050C9A.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Anim.uasset'
+[2020.08.10-06.04.16:928][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.10-06.04.17:013][972]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Esqueleto_Anim49C102594BDF809362313086A22E2994.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Anim.uasset'
+[2020.08.10-06.04.22:034][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.08.10-06.04.23:440][226]LogSlate: Window 'Save Content' being destroyed
+[2020.08.10-06.04.23:499][226]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Esqueleto_PhysicsAsset4703187A4A4FAC443DCFB5B31766C2E6.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_PhysicsAsset.uasset'
+[2020.08.10-06.04.23:514][226]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Esqueleto_SkeletonFEC39AE647F50012433D60A015C3A1EC.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Skeleton.uasset'
+[2020.08.10-06.04.25:001][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.08.10-06.04.25:125][338]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/TopDownExampleMap1CF7CC014AA2240AD4A8428BC25104E2.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
