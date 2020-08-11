@@ -67,12 +67,24 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyAIController.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGPawn.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGPlayerController.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\AICharacter.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyAIController.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGPawn.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGPlayerController.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
   </ItemGroup>

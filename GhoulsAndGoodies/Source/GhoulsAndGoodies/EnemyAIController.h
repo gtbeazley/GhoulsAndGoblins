@@ -16,4 +16,8 @@ class GHOULSANDGOODIES_API AEnemyAIController : public AAIController
 	AEnemyAIController();
 
 	virtual void BeginPlay();
+
+protected:
+	UBlackboardData* m_bBData;
+	UBehaviorTree* m_behTree;
 };
