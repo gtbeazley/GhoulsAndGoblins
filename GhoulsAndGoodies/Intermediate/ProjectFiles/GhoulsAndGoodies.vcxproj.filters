@@ -60,4 +60,20 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\AICharacter.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyAIController.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\AICharacter.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyAIController.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
