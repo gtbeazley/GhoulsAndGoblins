@@ -364,6 +364,10 @@
     <NMakeOutput>..\..\Binaries\HTML5\GhoulsAndGoodies-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGPawn.cpp" />
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGPlayerController.cpp" />
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGPawn.h" />
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGPlayerController.h" />
     <None Include="..\..\GhoulsAndGoodies.uproject" />
     <None Include="..\..\Source\GhoulsAndGoodies.Target.cs" />
     <None Include="..\..\Source\GhoulsAndGoodiesEditor.Target.cs" />

@@ -2,8 +2,11 @@
 
 
 #include "AICharacter.h"
-#include <Components/SkeletalMeshComponent.h>
 #include <Animation/AnimBlueprint.h>
+#include <Components/SkeletalMeshComponent.h>
+#include <Materials/MaterialInstanceDynamic.h>
+#include <Materials/Material.h>
+
 #include <ConstructorHelpers.h>
 #include <EnemyAIController.h>
 
@@ -13,11 +16,15 @@ AAICharacter::AAICharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	
-	const ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_AnimClass(TEXT("AnimBlueprint'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP'"));
-	const ConstructorHelpers::FObjectFinder<USkeletalMesh> l_SkeletalMesh(TEXT("'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'"));
+	const ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_AnimClass(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Esqueleto.Esqueleto'"));
+	const ConstructorHelpers::FObjectFinder<USkeletalMesh> l_SkeletalMesh(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.Anim_Esqueleto'"));
+	const ConstructorHelpers::FObjectFinder<UMaterial> l_materialObject(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/M_Esqueleto.M_Esqueleto'"));
+
+	GetMesh()->SetMaterial(0, l_materialObject.Object);
 
 	GetMesh()->SetSkeletalMesh(l_SkeletalMesh.Object);
 	GetMesh()->SetRelativeLocation(FVector(0, 0, -88.0f));
+	GetMesh()->SetRelativeRotation(FRotator(0, -90, 0));
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 	GetMesh()->SetAnimClass(l_AnimClass.Object->GeneratedClass);
 	AIControllerClass = AEnemyAIController::StaticClass();
