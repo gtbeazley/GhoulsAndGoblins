@@ -26,7 +26,6 @@ void AGNGPlayerController::BeginPlay()
 	{
 		if (Cast<ACameraActor>(l_camActor))
 		{
-			if(l_camActor->)
 			m_camActors.Add(Cast<ACameraActor>(l_camActor));
 
 		}
