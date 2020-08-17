@@ -705,3 +705,412 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.17-23.24.11:002][874]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Marvin_Walk_Skeleton710B45194EB7A45B79AB25A6202C3351.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Skeleton.uasset'
 [2020.08.17-23.24.11:989][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
 [2020.08.17-23.24.12:124][956]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/TopDownExampleMapEC0C8EE74198B8E550DDB5A4465EA33A.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2020.08.17-23.29.39:429][796]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Skeleton.Anim_Marvin_Walk_Skeleton
+[2020.08.17-23.29.39:439][796]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.17-23.29.39:466][796]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.17-23.29.39:682][797]LogRenderer: Reallocating scene render targets to support 1056x856 Format 10 NumSamples 1 (Frame:1).
+[2020.08.17-23.29.42:041][  1]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.29.43:562][106]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk.Anim_Marvin_Walk
+[2020.08.17-23.29.43:571][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.17-23.29.43:600][106]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.17-23.29.43:816][106]LogSlate: Took 0.007037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.17-23.32.54:812][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-23.33.06:404][332]LogSlate: Window 'Pick Skeleton' being destroyed
+[2020.08.17-23.33.16:310][880]LogAssetEditorManager: Opening Asset editor for BlendSpace /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Marvin_BS.Marvin_BS
+[2020.08.17-23.33.16:409][880]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.33.37:687][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.08.17-23.33.39:122][674]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.17-23.33.39:671][674]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.33.39:699][674]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.33.39:715][674]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Marvin_BS.Marvin_BS
+[2020.08.17-23.33.40:272][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.08.17-23.33.45:446][  6]LogSlate: Window 'Pick Skeleton' being destroyed
+[2020.08.17-23.33.56:058][912]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Marvin_BS.Marvin_BS
+[2020.08.17-23.33.56:067][912]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.17-23.33.56:097][912]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.17-23.33.56:353][912]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.08.17-23.34.21:379][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.08.17-23.34.21:379][ 54]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.033
+[2020.08.17-23.34.21:381][ 54]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Marvin_BS] ([1] browsable assets)...
+[2020.08.17-23.34.21:412][ 54]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Marvin_BS.Marvin_BS]
+[2020.08.17-23.34.21:412][ 54]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Marvin_BS]
+[2020.08.17-23.34.21:427][ 54]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Marvin_BS_Auto1845117824D8AD25C57E66BBB8EA9C12A.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Marvin_BS_Auto1.uasset'
+[2020.08.17-23.34.21:428][ 54]LogFileHelpers: Auto-saving content packages took 0.048
+[2020.08.17-23.36.32:107][ 63]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Marvin_BSD79AA8B74D7CDF7F8201918F725D3BBD.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Marvin_BS.uasset'
+[2020.08.17-23.37.37:558][791]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.08.17-23.37.39:920][791]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.08.17-23.37.46:763][791]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2020.08.17-23.38.03:278][633]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_BP.Anim_BP
+[2020.08.17-23.38.03:298][633]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.17-23.38.03:330][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:330][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:330][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:331][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:336][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:336][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:339][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:339][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:339][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:339][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:340][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:340][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:342][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:343][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:343][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:343][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:344][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:344][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:344][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:344][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:346][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:346][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:346][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:347][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:348][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:348][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:348][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:349][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:359][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:359][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array Index  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array Index  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array Index  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] In use pin  Array Index  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:360][633]LogBlueprint: Error: [Compiler RenderToTextureFunctionLibrary] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:361][633]LogBlueprint: Warning: [Compiler RenderToTextureFunctionLibrary] Macro instance  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2020.08.17-23.38.03:361][633]LogBlueprint: Warning: [Compiler RenderToTextureFunctionLibrary] Macro instance  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2020.08.17-23.38.03:361][633]LogBlueprint: Warning: [Compiler RenderToTextureFunctionLibrary] Macro instance  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2020.08.17-23.38.03:361][633]LogBlueprint: Warning: [Compiler RenderToTextureFunctionLibrary] Macro instance  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2020.08.17-23.38.03:370][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:370][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:371][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:371][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:371][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:371][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:377][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:377][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:378][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:378][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:378][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:378][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:378][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:378][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:378][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:378][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:381][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:381][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:381][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:381][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:382][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:382][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:382][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:382][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:391][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:391][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:391][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:391][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:398][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:398][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:398][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:398][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:401][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:401][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:401][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:401][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:405][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:405][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:405][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:405][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:408][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:408][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:408][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:408][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:413][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:413][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:413][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:413][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:418][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:418][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:418][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:418][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:420][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:421][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:421][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:421][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:424][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:424][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:424][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:424][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:427][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:427][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:427][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:427][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:465][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:465][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:471][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:471][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:472][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:472][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:478][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:478][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:481][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:481][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:482][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:482][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:482][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:482][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:483][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:483][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:484][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:484][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:486][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:486][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:486][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:486][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:489][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:489][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:489][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:489][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:490][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:490][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:490][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:490][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:491][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:491][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:491][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:491][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:492][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:492][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:492][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:492][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:492][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:492][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:492][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:493][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:494][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:494][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:494][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:494][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:494][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:494][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:495][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:495][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:496][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:496][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:496][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:496][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:496][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:496][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:497][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:497][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:497][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:497][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:498][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:498][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:498][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:498][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:498][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:498][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:501][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:501][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:501][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:501][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:501][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:501][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:503][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:503][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:503][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:503][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:505][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:505][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:505][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:506][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:514][633]LogBlueprint: Error: [Compiler BP_SceneNode] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:514][633]LogBlueprint: Error: [Compiler BP_SceneNode] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:514][633]LogBlueprint: Error: [Compiler BP_SceneNode] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:514][633]LogBlueprint: Error: [Compiler BP_SceneNode] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:514][633]LogBlueprint: Error: [Compiler BP_SceneNode] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:514][633]LogBlueprint: Error: [Compiler BP_SceneNode] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:515][633]LogBlueprint: Error: [Compiler BP_SceneNode] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:515][633]LogBlueprint: Error: [Compiler BP_SceneNode] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:515][633]LogBlueprint: Error: [Compiler BP_SceneNode] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:516][633]LogBlueprint: Error: [Compiler BP_SceneRoot] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:516][633]LogBlueprint: Error: [Compiler BP_SceneRoot] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:516][633]LogBlueprint: Error: [Compiler BP_SceneRoot] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:518][633]LogBlueprint: Error: [Compiler BP_SceneRoot] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:518][633]LogBlueprint: Error: [Compiler BP_SceneRoot] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:518][633]LogBlueprint: Error: [Compiler BP_SceneRoot] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:520][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:520][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:520][633]LogBlueprint: Error: [Compiler BP_Switch] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:520][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:520][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:520][633]LogBlueprint: Error: [Compiler BP_Switch] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:522][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:522][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:522][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Array Index  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:522][633]LogBlueprint: Error: [Compiler BP_Switch] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:523][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:523][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:523][633]LogBlueprint: Error: [Compiler BP_Switch] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:523][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Input Object  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:523][633]LogBlueprint: Error: [Compiler BP_Switch] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:523][633]LogBlueprint: Error: [Compiler BP_Switch] In use pin  Input Object  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:523][633]LogBlueprint: Error: [Compiler BP_Switch] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:535][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:535][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:536][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:536][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:536][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:537][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:538][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:539][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:539][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:539][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:540][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:540][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:540][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:541][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:541][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:541][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:541][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:541][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:542][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:542][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:542][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:542][633]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-23.38.03:544][633]LogBlueprint: Error: [Compiler FBXImporterUtils] In use pin  Array  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:544][633]LogBlueprint: Error: [Compiler FBXImporterUtils] In use pin  Array Element  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-23.38.03:545][633]LogBlueprint: Error: [Compiler FBXImporterUtils] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-23.38.03:625][633]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.08.17-23.38.04:397][633]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.17-23.38.04:681][633]LogSlate: Took 0.008668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.17-23.38.49:377][445]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2020.08.17-23.38.49:393][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.17-23.38.49:689][445]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.17-23.40.05:685][755]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.40.05:690][755]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.40.05:823][755]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.41.35:593][236]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.08.17-23.41.46:580][349]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.41.46:584][349]LogBlueprint: Error: [Compiler Anim_BP] Play ThirdPersonJump_Start  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2020.08.17-23.41.46:585][349]LogBlueprint: Error: [Compiler Anim_BP] Play ThirdPersonJump_Loop  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2020.08.17-23.41.46:585][349]LogBlueprint: Error: [Compiler Anim_BP] Play ThirdPerson_Jump  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2020.08.17-23.41.46:586][349]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2020.08.17-23.41.46:586][349]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2020.08.17-23.41.46:586][349]LogBlueprint: Error: [Compiler Anim_BP] Missing allocated node for AnimGraphNode_SequencePlayer_34 while searching for node links - likely due to the node having outstanding errors.
+[2020.08.17-23.41.46:586][349]LogBlueprint: Error: [Compiler Anim_BP] Missing allocated node for AnimGraphNode_SequencePlayer_40 while searching for node links - likely due to the node having outstanding errors.
+[2020.08.17-23.41.46:586][349]LogBlueprint: Error: [Compiler Anim_BP] Missing allocated node for AnimGraphNode_SequencePlayer_46 while searching for node links - likely due to the node having outstanding errors.
+[2020.08.17-23.41.46:588][349]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.41.46:588][349]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.41.46:588][349]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.41.46:588][349]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.41.46:765][349]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2020.08.17-23.42.28:134][360]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.42.28:139][360]LogBlueprint: Error: [Compiler Anim_BP] Play ThirdPersonJump_Start  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2020.08.17-23.42.28:139][360]LogBlueprint: Error: [Compiler Anim_BP] Play ThirdPersonJump_Loop  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2020.08.17-23.42.28:140][360]LogBlueprint: Error: [Compiler Anim_BP] Play ThirdPerson_Jump  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2020.08.17-23.42.28:140][360]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2020.08.17-23.42.28:141][360]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2020.08.17-23.42.28:141][360]LogBlueprint: Error: [Compiler Anim_BP] Missing allocated node for AnimGraphNode_SequencePlayer_34 while searching for node links - likely due to the node having outstanding errors.
+[2020.08.17-23.42.28:141][360]LogBlueprint: Error: [Compiler Anim_BP] Missing allocated node for AnimGraphNode_SequencePlayer_40 while searching for node links - likely due to the node having outstanding errors.
+[2020.08.17-23.42.28:141][360]LogBlueprint: Error: [Compiler Anim_BP] Missing allocated node for AnimGraphNode_SequencePlayer_46 while searching for node links - likely due to the node having outstanding errors.
+[2020.08.17-23.42.28:143][360]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.42.28:143][360]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.42.28:143][360]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.42.28:143][360]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.42.28:313][360]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.08.17-23.42.41:760][655]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.42.41:765][655]LogBlueprint: Error: [Compiler Anim_BP] Play ThirdPersonJump_Start  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2020.08.17-23.42.41:765][655]LogBlueprint: Error: [Compiler Anim_BP] Play ThirdPerson_Jump  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2020.08.17-23.42.41:766][655]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2020.08.17-23.42.41:767][655]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2020.08.17-23.42.41:767][655]LogBlueprint: Error: [Compiler Anim_BP] Missing allocated node for AnimGraphNode_SequencePlayer_34 while searching for node links - likely due to the node having outstanding errors.
+[2020.08.17-23.42.41:767][655]LogBlueprint: Error: [Compiler Anim_BP] Missing allocated node for AnimGraphNode_SequencePlayer_46 while searching for node links - likely due to the node having outstanding errors.
+[2020.08.17-23.42.41:768][655]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.42.41:768][655]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.42.41:769][655]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.42.41:769][655]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.42.41:935][655]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.08.17-23.42.55:151][910]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.42.55:156][910]LogBlueprint: Error: [Compiler Anim_BP] Play ThirdPerson_Jump  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2020.08.17-23.42.55:157][910]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2020.08.17-23.42.55:157][910]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2020.08.17-23.42.55:158][910]LogBlueprint: Error: [Compiler Anim_BP] Missing allocated node for AnimGraphNode_SequencePlayer_46 while searching for node links - likely due to the node having outstanding errors.
+[2020.08.17-23.42.55:159][910]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.42.55:159][910]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.42.55:159][910]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.42.55:160][910]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.42.55:350][910]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.08.17-23.43.03:171][603]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.43.03:178][603]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2020.08.17-23.43.03:178][603]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2020.08.17-23.43.03:180][603]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.43.03:180][603]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.43.03:180][603]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.43.03:180][603]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.43.03:349][603]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.08.17-23.43.53:756][700]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.43.53:763][700]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2020.08.17-23.43.53:763][700]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2020.08.17-23.43.53:765][700]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.43.53:765][700]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.43.53:765][700]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.43.53:765][700]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.43.53:931][700]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.08.17-23.43.57:404][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-23.44.09:242][108]LogSlate: Took 0.009123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.08.17-23.44.33:568][460]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.44.33:574][460]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2020.08.17-23.44.33:575][460]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2020.08.17-23.44.33:576][460]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.44.33:577][460]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.44.33:577][460]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.44.33:577][460]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2020.08.17-23.44.33:747][460]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.08.17-23.45.03:490][116]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2020.08.17-23.45.03:490][116]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.036
+[2020.08.17-23.45.03:492][116]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_BP] ([1] browsable assets)...
+[2020.08.17-23.45.03:520][116]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_BP.Anim_BP]
+[2020.08.17-23.45.03:520][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_BP]
+[2020.08.17-23.45.03:570][116]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_BP_Auto2B96AC237478EA41ECA89FF854C26BDC5.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_BP_Auto2.uasset'
+[2020.08.17-23.45.03:571][116]LogFileHelpers: Auto-saving content packages took 0.080
+[2020.08.17-23.46.18:989][418]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.46.18:996][418]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2020.08.17-23.46.18:998][418]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.46.18:998][418]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.46.19:162][418]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.08.17-23.46.43:411][499]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.46.43:419][499]LogBlueprint: Error: [Compiler Anim_BP] ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2020.08.17-23.46.43:420][499]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.46.43:420][499]LogBlueprint: Error: [Compiler Anim_BP] Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2020.08.17-23.46.43:589][499]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.08.17-23.46.58:668][949]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.46.58:841][949]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.08.17-23.47.24:431][480]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.47.24:603][480]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.08.17-23.47.53:042][505]BlueprintLog: New page: Compile Anim_BP
+[2020.08.17-23.47.53:217][505]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2020.08.17-23.50.05:642][183]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.50.05:647][183]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.50.05:773][183]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.50.36:201][283]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Marvin_BS90729E744EEC4F049425BF8509F3A4C0.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Marvin_BS.uasset'
+[2020.08.17-23.50.39:530][600]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.50.39:650][600]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.50.42:147][848]LogSlate: Window 'Anim_Marvin_Walk' being destroyed
+[2020.08.17-23.50.42:155][848]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-23.50.44:202][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.08.17-23.50.45:383][ 15]LogSlate: Window 'Save Content' being destroyed
+[2020.08.17-23.50.45:461][ 15]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_BP06A0CD63410C8D764EF65582B5A3B792.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_BP.uasset'
+[2020.08.17-23.50.46:409][120]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.08.17-23.50.46:590][120]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/TopDownExampleMapC5BA4AA34B82AFD020DCC2930990135E.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
