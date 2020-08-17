@@ -90,4 +90,20 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Tile.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\TileDefenceType.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Tile.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\TileDefenceType.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
