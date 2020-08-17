@@ -1,4 +1,4 @@
-﻿Log file open, 08/17/20 08:57:01
+﻿Log file open, 08/17/20 13:47:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: GhoulsAndGoodies
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.119329
+LogStats: Stats thread started at 0.535565
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -97,6 +97,70 @@ LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Warning: Incompatible or missing module: GhoulsAndGoodies
+Running C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/GhoulsAndGoodies.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s191212\Documents\GitHub\GhoulsAndGoblins).
+Creating makefile for GhoulsAndGoodiesEditor (game project files are newer)
+@progress push 5%
+Parsing headers for GhoulsAndGoodiesEditor
+  Running UnrealHeaderTool "C:\Users\s191212\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\GhoulsAndGoodies.uproject" "C:\Users\s191212\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\GhoulsAndGoodiesEditor\Development\GhoulsAndGoodiesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for GhoulsAndGoodiesEditor in 18.2560373 seconds
+@progress pop
+Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 23 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 4%
+  [1/23] Default.rc2
+  @progress 'Compiling C++ source code...' 9%
+  [2/23] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 13%
+  [3/23] GhoulsAndGoodies.cpp
+  @progress 'Compiling C++ source code...' 17%
+  [4/23] GhoulsAndGoodiesGameMode.cpp
+  @progress 'Compiling C++ source code...' 22%
+  [5/23] GNGPlayerController.cpp
+  C:\Users\s191212\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.cpp(34): warning C4458: declaration of 'm_camTraversal' hides class member
+  C:\Users\s191212\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.h(26): note: see declaration of 'AGNGPlayerController::m_camTraversal'
+  @progress 'Compiling C++ source code...' 26%
+  [6/23] GhoulsAndGoodiesPlayerController.cpp
+  @progress 'Compiling C++ source code...' 30%
+  [7/23] GhoulsAndGoodiesCharacter.cpp
+  @progress 'Compiling C++ source code...' 35%
+  [8/23] GNGPawn.cpp
+  @progress 'Compiling C++ source code...' 39%
+  [9/23] AICharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 43%
+  [10/23] GhoulsAndGoodies.init.gen.cpp
+  @progress 'Compiling C++ source code...' 48%
+  [11/23] AICharacter.cpp
+  @progress 'Compiling C++ source code...' 52%
+  [12/23] GNGPawn.gen.cpp
+  @progress 'Compiling C++ source code...' 57%
+  [13/23] GhoulsAndGoodiesGameMode.gen.cpp
+  @progress 'Compiling C++ source code...' 61%
+  [14/23] GhoulsAndGoodiesPlayerController.gen.cpp
+  @progress 'Compiling C++ source code...' 65%
+  [15/23] GhoulsAndGoodiesCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 70%
+  [16/23] GNGPlayerController.gen.cpp
+  @progress 'Compiling C++ source code...' 74%
+  [17/23] TileBoard.gen.cpp
+  @progress 'Compiling C++ source code...' 78%
+  [18/23] TileBoard.cpp
+  @progress 'Compiling C++ source code...' 83%
+  [19/23] EnemyAIController.cpp
+  @progress 'Compiling C++ source code...' 87%
+  [20/23] EnemyAIController.gen.cpp
+  @progress 'Compiling C++ source code...' 91%
+  [21/23] UE4Editor-GhoulsAndGoodies.lib
+     Creating library C:\Users\s191212\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.lib and object C:\Users\s191212\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.exp
+  @progress 'Compiling C++ source code...' 96%
+  [22/23] UE4Editor-GhoulsAndGoodies.dll
+     Creating library C:\Users\s191212\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.suppressed.lib and object C:\Users\s191212\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [23/23] GhoulsAndGoodiesEditor.target
+Total time in Parallel executor: 23.10 seconds
+Total execution time: 44.48 seconds
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -157,705 +221,515 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.08.16-22.57.02:355][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.08.16-22.57.02:355][  0]LogInit: Selected Device Profile: [Windows]
-[2020.08.16-22.57.02:355][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.08.16-22.57.02:374][  0]LogHAL: Display: Platform has ~ 32 GB [34241372160 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.08.16-22.57.02:374][  0]LogInit: Going up to parent DeviceProfile []
-[2020.08.16-22.57.02:374][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.08.16-22.57.02:374][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.08.16-22.57.02:375][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.08.16-22.57.02:380][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.08.16-22.57.02:380][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.08.16-22.57.02:380][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
-[2020.08.16-22.57.02:380][  0]LogInit: Computer: SYD-19EF44
-[2020.08.16-22.57.02:380][  0]LogInit: User: s181813
-[2020.08.16-22.57.02:380][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.08.16-22.57.02:380][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.08.16-22.57.02:380][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2020.08.16-22.57.02:380][  0]LogMemory: Platform Memory Stats for Windows
-[2020.08.16-22.57.02:380][  0]LogMemory: Process Physical Memory: 101.30 MB used, 101.30 MB peak
-[2020.08.16-22.57.02:380][  0]LogMemory: Process Virtual Memory: 100.54 MB used, 100.54 MB peak
-[2020.08.16-22.57.02:380][  0]LogMemory: Physical Memory: 6067.98 MB used,  26587.14 MB free, 32655.12 MB total
-[2020.08.16-22.57.02:380][  0]LogMemory: Virtual Memory: 4668.43 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2020.08.16-22.57.02:384][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.08.16-22.57.02:522][  0]LogInit: Using OS detected language (en-US).
-[2020.08.16-22.57.02:522][  0]LogInit: Using OS detected locale (en-AU).
-[2020.08.16-22.57.02:522][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.08.16-22.57.02:740][  0]LogInit: Setting process to per monitor DPI aware
-[2020.08.16-22.57.02:832][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.08.16-22.57.02:833][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.08.16-22.57.04:707][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.08.16-22.57.04:707][  0]LogD3D11RHI: D3D11 adapters:
-[2020.08.16-22.57.04:766][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
-[2020.08.16-22.57.04:766][  0]LogD3D11RHI:       2007/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.08.16-22.57.04:773][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2020.08.16-22.57.04:773][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.08.16-22.57.04:775][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.08.16-22.57.04:775][  0]LogD3D11RHI:       0/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.08.16-22.57.04:775][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.08.16-22.57.04:781][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.08.16-22.57.04:781][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
-[2020.08.16-22.57.04:781][  0]LogWindows: EnumDisplayDevices:
-[2020.08.16-22.57.04:781][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
-[2020.08.16-22.57.04:781][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
-[2020.08.16-22.57.04:781][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
-[2020.08.16-22.57.04:782][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
-[2020.08.16-22.57.04:782][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2020.08.16-22.57.04:782][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2020.08.16-22.57.04:782][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2020.08.16-22.57.04:782][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.08.16-22.57.04:782][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
-[2020.08.16-22.57.04:782][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
-[2020.08.16-22.57.04:782][  0]LogD3D11RHI:      Driver Date: 7-24-2019
-[2020.08.16-22.57.04:782][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
-[2020.08.16-22.57.04:820][  0]LogD3D11RHI: Async texture creation enabled
-[2020.08.16-22.57.04:835][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.08.16-22.57.05:223][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.08.16-22.57.05:232][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.08.16-22.57.05:240][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.08.16-22.57.05:248][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.08.16-22.57.05:261][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.08.16-22.57.05:269][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.08.16-22.57.05:277][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.08.16-22.57.05:285][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.08.16-22.57.05:289][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.08.16-22.57.05:327][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.08.16-22.57.05:329][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.08.16-22.57.05:352][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.08.16-22.57.05:352][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.08.16-22.57.05:365][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.08.16-22.57.05:365][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.08.16-22.57.05:371][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.08.16-22.57.05:378][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.08.16-22.57.05:384][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.08.16-22.57.05:399][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.08.16-22.57.05:427][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.08.16-22.57.05:427][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.08.16-22.57.05:427][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.08.16-22.57.05:467][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.08.16-22.57.05:540][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Intermediate/Shaders/WorkingDirectory/15356/).
-[2020.08.16-22.57.05:540][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s181813/AppData/Local/Temp/UnrealShaderWorkingDir/7D55E3854EBFE3596559FDAEC839342D/'.
-[2020.08.16-22.57.05:543][  0]LogXGEController: Cleaning working directory: C:/Users/s181813/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.08.16-22.57.05:543][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.08.16-22.57.05:543][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.08.16-22.57.05:543][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.08.16-22.57.07:809][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.08.16-22.57.07:865][  0]LogDerivedDataCache: Loaded boot cache 0.06s 77MB C:/Users/s181813/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.08.16-22.57.07:865][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s181813/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2020.08.16-22.57.07:865][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.08.16-22.57.07:865][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.08.16-22.57.07:865][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.08.16-22.57.07:865][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.08.16-22.57.07:882][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.08.16-22.57.07:882][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.08.16-22.57.07:882][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.08.16-22.57.07:883][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s181813/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.08.16-22.57.07:883][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.08.16-22.57.07:883][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.08.16-22.57.07:904][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.08.16-22.57.07:907][  0]LogSlate: Using FreeType 2.6.0
-[2020.08.16-22.57.07:920][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.08.16-22.57.08:082][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2020.08.16-22.57.08:372][  0]LogInit: Selected Device Profile: [Windows]
-[2020.08.16-22.57.08:623][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.08.16-22.57.08:623][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.08.16-22.57.08:623][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.08.16-22.57.08:623][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.08.16-22.57.08:623][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.08.16-22.57.08:651][  0]LogNetVersion: GhoulsAndGoodies 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1842056771)
-[2020.08.16-22.57.09:126][  0]LogClass: Warning: In asset 'None', there is an enum property of type 'EDepthOfFieldMethod' with an invalid value of '('
-[2020.08.16-22.57.09:554][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.053992 seconds
-[2020.08.16-22.57.09:561][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2020.08.16-22.57.09:561][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2020.08.16-22.57.09:561][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.08.16-22.57.11:612][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.08.16-22.57.11:614][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.08.16-22.57.11:877][  0]SourceControl: Source control is disabled
-[2020.08.16-22.57.11:877][  0]SourceControl: Source control is disabled
-[2020.08.16-22.57.11:878][  0]SourceControl: Source control is disabled
-[2020.08.16-22.57.11:879][  0]SourceControl: Source control is disabled
-[2020.08.16-22.57.11:991][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.08.16-22.57.12:101][  0]LogOcInput: OculusInput pre-init called
-[2020.08.16-22.57.12:108][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.08.16-22.57.12:108][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.08.16-22.57.12:192][  0]LogEngine: Initializing Engine...
-[2020.08.16-22.57.12:193][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.08.16-22.57.12:194][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.08.16-22.57.12:549][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.08.16-22.57.12:566][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.08.16-22.57.12:575][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.08.16-22.57.12:618][  0]LogInit: FAudioDevice initialized.
-[2020.08.16-22.57.12:618][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.08.16-22.57.12:711][  0]LogDerivedDataCache: Saved boot cache 0.09s 77MB C:/Users/s181813/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.08.16-22.57.12:716][  0]LogInit: Texture streaming: Enabled
-[2020.08.16-22.57.12:733][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.08.16-22.57.12:733][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.08.16-22.57.12:734][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.08.16-22.57.12:802][  0]LogInit: Transaction tracking system initialized
-[2020.08.16-22.57.12:831][  0]BlueprintLog: New page: Editor Load
-[2020.08.16-22.57.12:907][  0]LocalizationService: Localization service is disabled
-[2020.08.16-22.57.13:364][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/' took 0.00s
-[2020.08.16-22.57.13:364][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.08.16-22.57.13:364][  0]LogCook: Display: Mobile HDR setting 1
-[2020.08.16-22.57.13:661][  0]SourceControl: Source control is disabled
-[2020.08.16-22.57.13:661][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.08.16-22.57.13:661][  0]LightingResults: New page: Lighting Build
-[2020.08.16-22.57.13:663][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.08.16-22.57.13:664][  0]MapCheck: New page: Map Check
-[2020.08.16-22.57.13:664][  0]LightingResults: New page: Lighting Build
-[2020.08.16-22.57.13:685][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
-[2020.08.16-22.57.13:824][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2020.08.16-22.57.13:834][  0]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/MATERIAL/M_Esqueleto.M_Esqueleto needed to have new flag set bUsedWithSkeletalMesh !
-[2020.08.16-22.57.13:838][  0]LogMaterial: Display: Missing cached shader map for material M_Esqueleto, compiling. 
-[2020.08.16-22.57.13:908][  0]MapCheck: Warning: M_Esqueleto Material /Game/TopDownCPP/ASSETS/MATERIAL/M_Esqueleto.M_Esqueleto was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2020.08.16-22.57.13:910][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.08.16-22.57.13:932][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
-[2020.08.16-22.57.13:932][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
-[2020.08.16-22.57.13:932][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
-[2020.08.16-22.57.13:932][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
-[2020.08.16-22.57.13:932][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 20
-[2020.08.16-22.57.13:935][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
-[2020.08.16-22.57.13:935][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.08.16-22.57.13:935][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.145ms to complete.
-[2020.08.16-22.57.13:940][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.279
-[2020.08.16-22.57.15:566][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2020.08.16-22.57.15:688][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.16-22.57.15:699][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.16-22.57.15:715][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.16-22.57.15:726][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.16-22.57.15:746][  0]LogCollectionManager: Loaded 0 collections in 0.002518 seconds
-[2020.08.16-22.57.15:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Collections/' took 0.00s
-[2020.08.16-22.57.15:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/Developers/s181813/Collections/' took 0.00s
-[2020.08.16-22.57.15:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/Collections/' took 0.00s
-[2020.08.16-22.57.15:755][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2020.08.16-22.57.15:768][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2870 classes and 682 folders.
-[2020.08.16-22.57.15:779][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.08.16-22.57.16:291][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.08.16-22.57.16:301][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2020.08.16-22.57.16:349][  0]LogSlate: Took 0.014539 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.08.16-22.57.16:363][  0]LogSlate: Took 0.011238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.08.16-22.57.16:377][  0]LogSlate: Took 0.008782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.08.16-22.57.16:601][  0]LogRenderer: Reallocating scene render targets to support 1056x532 Format 10 NumSamples 1 (Frame:1).
-[2020.08.16-22.57.16:746][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.08.16-22.57.16:746][  0]LogLoad: (Engine Initialization) Total time: 16.81 seconds
-[2020.08.16-22.57.16:746][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.08.16-22.57.16:805][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.08.16-22.57.16:870][  0]LogSlate: Took 0.007952 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.08.16-22.57.17:337][  7]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
-[2020.08.16-22.57.17:449][  9]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
-[2020.08.16-22.57.18:202][ 17]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
-[2020.08.16-22.57.18:243][ 17]LogAssetRegistry: Asset discovery search completed in 10.1618 seconds
-[2020.08.16-22.57.18:248][ 17]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
-[2020.08.16-22.57.18:248][ 17]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
-[2020.08.16-22.57.18:371][ 23]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
-[2020.08.16-22.57.18:478][ 28]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
-[2020.08.16-22.57.18:852][ 69]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
-[2020.08.16-22.57.26:818][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.08.16-22.57.26:884][ 29]LogTemp: Repeating last play command: Selected Viewport
-[2020.08.16-22.57.26:898][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2020.08.16-22.57.26:898][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.08.16-22.57.26:899][ 29]PIE: New page: PIE session: TopDownExampleMap (17 Aug 2020 6:57:26 pm)
-[2020.08.16-22.57.26:899][ 29]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.08.16-22.57.26:900][ 29]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
-[2020.08.16-22.57.26:915][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014946s)
-[2020.08.16-22.57.26:917][ 29]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2020.08.16-22.57.26:917][ 29]LogPlayLevel: PIE: World Init took: (0.001632s)
-[2020.08.16-22.57.26:917][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.016915s)
-[2020.08.16-22.57.26:944][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
-[2020.08.16-22.57.26:948][ 29]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.08.16-22.57.26:964][ 29]LogInit: FAudioDevice initialized.
-[2020.08.16-22.57.26:974][ 29]LogLoad: Game class is 'GhoulsAndGoodiesGameMode'
-[2020.08.16-22.57.26:976][ 29]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.08.17-08.57.26
-[2020.08.16-22.57.26:976][ 29]LogWorld: Bringing up level for play took: 0.001914
-[2020.08.16-22.57.26:976][ 29]LogOnline: OSS: Creating online subsystem instance for: :Context_2
-[2020.08.16-22.57.26:983][ 29]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2020.08.16-22.57.26:984][ 29]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.527
-[2020.08.16-22.57.26:984][ 29]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2020.08.16-22.57.28:539][212]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2020.08.16-22.57.28:539][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.16-22.57.28:540][212]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
-[2020.08.16-22.57.28:540][212]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.08.16-22.57.28:552][212]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.08.16-22.57.28:552][212]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2020.08.16-22.57.28:578][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.16-22.57.28:580][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
-[2020.08.16-22.57.28:643][219]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2020.08.16-22.57.45:489][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.08.16-22.57.51:639][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.08.16-22.58.06:504][717]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.08.16-22.58.06:560][717]LogSlate: Took 0.006541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.08.16-22.58.16:753][926]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={17D6731F-45CF-7C20-9EA3-87A87FF3944B}
-[2020.08.16-22.59.10:372][325]Running C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/GhoulsAndGoodies.uproject" -game -rocket -progress
-[2020.08.16-22.59.10:676][325]Discovering modules, targets and source code for project...
-[2020.08.16-22.59.12:088][325]Binding IntelliSense data...
-[2020.08.16-22.59.14:211][325]Binding IntelliSense data... 100%
-[2020.08.16-22.59.14:211][325]Writing project files...
-[2020.08.16-22.59.17:337][325]Writing project files... 100%
-[2020.08.16-22.59.17:446][325]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2020.08.16-22.59.17:450][325]Candidate modules for hot reload:
-[2020.08.16-22.59.17:450][325]  GhoulsAndGoodies
-[2020.08.16-22.59.17:450][325]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GhoulsAndGoodies,345 Win64 Development -TargetType=Editor -Project="C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/GhoulsAndGoodies.uproject" "C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/GhoulsAndGoodies.uproject"  -IgnoreJunk]
-[2020.08.16-23.00.00:412][325]CompilerResultsLog: New page: Compilation - 17 Aug 2020 7:00:00 pm
-[2020.08.16-23.00.00:412][325]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins).
-[2020.08.16-23.00.00:412][325]CompilerResultsLog: Creating makefile for GhoulsAndGoodiesEditor (no existing makefile)
-[2020.08.16-23.00.00:412][325]CompilerResultsLog: Parsing headers for GhoulsAndGoodiesEditor
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\GhoulsAndGoodies.uproject" "C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\GhoulsAndGoodiesEditor\Development\GhoulsAndGoodiesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.08.16-23.00.00:412][325]CompilerResultsLog: Reflection code generated for GhoulsAndGoodiesEditor in 19.7386915 seconds
-[2020.08.16-23.00.00:412][325]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.08.16-23.00.00:412][325]CompilerResultsLog: Building 22 actions with 8 processes...
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [1/22] SharedPCH.Engine.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [2/22] GhoulsAndGoodies.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [3/22] GNGPlayerController.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:    C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.cpp(29) : error C2059: syntax error: ')'
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.cpp(35): warning C4458: declaration of 'm_camTraversal' hides class member
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.h(26): note: see declaration of 'AGNGPlayerController::m_camTraversal'
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [4/22] GhoulsAndGoodiesGameMode.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [5/22] GhoulsAndGoodiesPlayerController.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [6/22] GhoulsAndGoodiesCharacter.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [7/22] GNGPawn.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [8/22] GhoulsAndGoodies.init.gen.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [9/22] AICharacter.gen.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [10/22] AICharacter.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [11/22] GhoulsAndGoodiesCharacter.gen.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [12/22] GhoulsAndGoodiesPlayerController.gen.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [13/22] GNGPawn.gen.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [14/22] GhoulsAndGoodiesGameMode.gen.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [15/22] GNGPlayerController.gen.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [16/22] TileBoard.gen.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [17/22] TileBoard.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [18/22] EnemyAIController.cpp
-[2020.08.16-23.00.00:412][325]CompilerResultsLog:   [19/22] EnemyAIController.gen.cpp
-[2020.08.16-23.00.00:412][325]LogMainFrame: MainFrame: Module compiling took 42.967 seconds
-[2020.08.16-23.00.00:413][325]Warning: HotReload failed, recompile failed
-[2020.08.16-23.00.00:420][325]Warning: RebindPackages failed because compilation failed.
-[2020.08.16-23.01.20:837][325]LogSlate: Window 'Message' being destroyed
-[2020.08.16-23.01.20:842][325]LogSlate: Window 'Add C++ Class' being destroyed
-[2020.08.16-23.29.28:590][ 74]Candidate modules for hot reload:
-[2020.08.16-23.29.28:590][ 74]  GhoulsAndGoodies
-[2020.08.16-23.29.28:590][ 74]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GhoulsAndGoodies,1767 Win64 Development -TargetType=Editor -Project="C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/GhoulsAndGoodies.uproject" "C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/GhoulsAndGoodies.uproject"  -IgnoreJunk]
-[2020.08.16-23.29.28:592][ 74]Warning: Starting HotReload took  0.1s.
-[2020.08.16-23.29.38:515][333]CompilerResultsLog: New page: Compilation - 17 Aug 2020 7:29:38 pm
-[2020.08.16-23.29.38:516][333]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins).
-[2020.08.16-23.29.38:516][333]CompilerResultsLog: Parsing headers for GhoulsAndGoodiesEditor
-[2020.08.16-23.29.38:516][333]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\GhoulsAndGoodies.uproject" "C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\GhoulsAndGoodiesEditor\Development\GhoulsAndGoodiesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.08.16-23.29.38:516][333]CompilerResultsLog: Reflection code generated for GhoulsAndGoodiesEditor in 6.7687211 seconds
-[2020.08.16-23.29.38:516][333]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.08.16-23.29.38:516][333]CompilerResultsLog: Building 4 actions with 8 processes...
-[2020.08.16-23.29.38:516][333]CompilerResultsLog:   [1/4] GNGPlayerController.cpp
-[2020.08.16-23.29.38:516][333]CompilerResultsLog:   C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.cpp(34): warning C4458: declaration of 'm_camTraversal' hides class member
-[2020.08.16-23.29.38:516][333]CompilerResultsLog:   C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.h(26): note: see declaration of 'AGNGPlayerController::m_camTraversal'
-[2020.08.16-23.29.38:516][333]CompilerResultsLog:   [2/4] UE4Editor-GhoulsAndGoodies-1767.lib
-[2020.08.16-23.29.38:516][333]CompilerResultsLog:      Creating library C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies-1767.lib and object C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies-1767.exp
-[2020.08.16-23.29.38:516][333]CompilerResultsLog:   [3/4] UE4Editor-GhoulsAndGoodies-1767.dll
-[2020.08.16-23.29.38:516][333]CompilerResultsLog:      Creating library C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies-1767.suppressed.lib and object C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies-1767.suppressed.exp
-[2020.08.16-23.29.38:516][333]CompilerResultsLog:   [4/4] GhoulsAndGoodiesEditor.target
-[2020.08.16-23.29.38:516][333]CompilerResultsLog: Total time in Parallel executor: 1.70 seconds
-[2020.08.16-23.29.38:516][333]CompilerResultsLog: Total execution time: 9.58 seconds
-[2020.08.16-23.29.38:516][333]LogMainFrame: MainFrame: Module compiling took 9.929 seconds
-[2020.08.16-23.29.38:538][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
-[2020.08.16-23.29.38:563][333]LogClass: Could not find existing class GNGPawn in package /Script/GhoulsAndGoodies for HotReload, assuming new class
-[2020.08.16-23.29.38:563][333]LogClass: Could not find existing class TileBoard in package /Script/GhoulsAndGoodies for HotReload, assuming new class
-[2020.08.16-23.29.38:566][333]LogHotReload: Re-instancing AICharacter after hot-reload.
-[2020.08.16-23.29.38:672][333]LogHotReload: Re-instancing GhoulsAndGoodiesGameMode after hot-reload.
-[2020.08.16-23.29.38:767][333]LogHotReload: Re-instancing GNGPawn after hot-reload.
-[2020.08.16-23.29.38:858][333]LogContentBrowser: Native class hierarchy updated for 'GhoulsAndGoodies' in 0.0004 seconds. Added 8 classes and 2 folders.
-[2020.08.16-23.29.38:860][333]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2020.08.16-23.29.38:929][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
-[2020.08.16-23.29.38:942][333]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2872 classes and 684 folders.
-[2020.08.16-23.29.38:942][333]Display: HotReload took 10.4s.
-[2020.08.16-23.30.42:044][163]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownCPP/Maps/LevelBlockOut.LevelBlockOut
-[2020.08.16-23.30.42:066][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
-[2020.08.16-23.30.46:069][163]LogSlate: Window 'Save Content' being destroyed
-[2020.08.16-23.30.46:105][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
-[2020.08.16-23.30.46:120][163]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/LevelBlockOutCDC0FCBB4186DACA5A640490CBB36590.tmp' to '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/LevelBlockOut.umap'
-[2020.08.16-23.30.46:127][163]LogFileHelpers: Saving map 'LevelBlockOut' took 0.045
-[2020.08.16-23.30.46:129][163]Cmd: MAP LOAD FILE="../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/LevelBlockOut.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.08.16-23.30.46:129][163]LightingResults: New page: Lighting Build
-[2020.08.16-23.30.46:129][163]LoadErrors: New page: Loading map: LevelBlockOut.umap
-[2020.08.16-23.30.46:130][163]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.08.16-23.30.46:131][163]MapCheck: New page: Map Check
-[2020.08.16-23.30.46:131][163]LightingResults: New page: Lighting Build
-[2020.08.16-23.30.46:154][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
-[2020.08.16-23.30.46:154][163]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.08.16-23.30.46:154][163]LogAIModule: Creating AISystem for world LevelBlockOut
-[2020.08.16-23.30.46:176][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
-[2020.08.16-23.30.46:208][163]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.08.16-23.30.46:208][163]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
-[2020.08.16-23.30.46:209][163]LogFileHelpers: Loading map 'LevelBlockOut' took 0.081
-[2020.08.16-23.30.52:940][959]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2020.08.16-23.30.52:975][959]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap
-[2020.08.16-23.30.52:998][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
-[2020.08.16-23.30.52:999][959]Cmd: MAP LOAD FILE="../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.08.16-23.30.52:999][959]LightingResults: New page: Lighting Build
-[2020.08.16-23.30.52:999][959]LoadErrors: New page: Loading map: TopDownExampleMap.umap
-[2020.08.16-23.30.52:999][959]LogWorld: UWorld::CleanupWorld for LevelBlockOut, bSessionEnded=true, bCleanupResources=true
-[2020.08.16-23.30.52:999][959]MapCheck: New page: Map Check
-[2020.08.16-23.30.52:999][959]LightingResults: New page: Lighting Build
-[2020.08.16-23.30.53:021][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
-[2020.08.16-23.30.53:025][959]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.08.16-23.30.53:048][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
-[2020.08.16-23.30.53:078][959]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.08.16-23.30.53:078][959]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.131ms to complete.
-[2020.08.16-23.30.53:078][959]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.080
-[2020.08.16-23.31.12:099][232]LogAIModule: Creating AISystem for world LevelBlockOut
-[2020.08.16-23.31.12:101][232]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownCPP/Maps/LevelBlockOut.LevelBlockOut
-[2020.08.16-23.31.12:120][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
-[2020.08.16-23.31.12:121][232]Cmd: MAP LOAD FILE="../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/LevelBlockOut.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.08.16-23.31.12:121][232]LightingResults: New page: Lighting Build
-[2020.08.16-23.31.12:121][232]LoadErrors: New page: Loading map: LevelBlockOut.umap
-[2020.08.16-23.31.12:122][232]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.08.16-23.31.12:122][232]MapCheck: New page: Map Check
-[2020.08.16-23.31.12:122][232]LightingResults: New page: Lighting Build
-[2020.08.16-23.31.12:146][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
-[2020.08.16-23.31.12:147][232]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.08.16-23.31.12:170][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
-[2020.08.16-23.31.12:199][232]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.08.16-23.31.12:200][232]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.14ms to complete.
-[2020.08.16-23.31.12:200][232]LogFileHelpers: Loading map 'LevelBlockOut' took 0.080
-[2020.08.16-23.31.24:615][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.08.16-23.31.27:825][ 85]Cmd: TRANSACTION UNDO
-[2020.08.16-23.31.27:825][ 85]LogEditorTransaction: Undo Create Actors
-[2020.08.16-23.31.29:249][246]Cmd: TRANSACTION UNDO
-[2020.08.16-23.31.29:249][246]LogEditorTransaction: Undo Create Actors
-[2020.08.16-23.31.30:650][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.08.16-23.31.30:850][434]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2020.08.16-23.31.30:880][434]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap
-[2020.08.16-23.31.30:907][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
-[2020.08.16-23.31.30:907][434]Cmd: MAP LOAD FILE="../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.08.16-23.31.30:908][434]LightingResults: New page: Lighting Build
-[2020.08.16-23.31.30:908][434]LoadErrors: New page: Loading map: TopDownExampleMap.umap
-[2020.08.16-23.31.30:908][434]LogWorld: UWorld::CleanupWorld for LevelBlockOut, bSessionEnded=true, bCleanupResources=true
-[2020.08.16-23.31.30:908][434]MapCheck: New page: Map Check
-[2020.08.16-23.31.30:908][434]LightingResults: New page: Lighting Build
-[2020.08.16-23.31.30:931][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
-[2020.08.16-23.31.30:935][434]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.08.16-23.31.30:958][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
-[2020.08.16-23.31.30:988][434]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.08.16-23.31.30:988][434]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
-[2020.08.16-23.31.30:988][434]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.081
-[2020.08.16-23.31.43:114][880]LogAIModule: Creating AISystem for world LevelBlockOut
-[2020.08.16-23.31.43:116][880]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownCPP/Maps/LevelBlockOut.LevelBlockOut
-[2020.08.16-23.31.43:138][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
-[2020.08.16-23.31.43:139][880]Cmd: MAP LOAD FILE="../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/LevelBlockOut.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.08.16-23.31.43:139][880]LightingResults: New page: Lighting Build
-[2020.08.16-23.31.43:139][880]LoadErrors: New page: Loading map: LevelBlockOut.umap
-[2020.08.16-23.31.43:140][880]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.08.16-23.31.43:140][880]MapCheck: New page: Map Check
-[2020.08.16-23.31.43:140][880]LightingResults: New page: Lighting Build
-[2020.08.16-23.31.43:163][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
-[2020.08.16-23.31.43:164][880]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.08.16-23.31.43:191][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
-[2020.08.16-23.31.43:221][880]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.08.16-23.31.43:221][880]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.115ms to complete.
-[2020.08.16-23.31.43:221][880]LogFileHelpers: Loading map 'LevelBlockOut' took 0.083
-[2020.08.16-23.32.04:500][415]Cmd: DELETE
-[2020.08.16-23.32.04:500][415]Cmd: ACTOR DELETE
-[2020.08.16-23.32.04:501][415]LogEditorActor: Deleted Actor: AtmosphericFog
-[2020.08.16-23.32.04:521][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
-[2020.08.16-23.32.04:521][415]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2020.08.16-23.32.06:643][669]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.08.16-23.32.08:338][867]Cmd: DELETE
-[2020.08.16-23.32.08:338][867]Cmd: ACTOR DELETE
-[2020.08.16-23.32.08:338][867]LogEditorActor: Deleted Actor: SphereReflectionCapture
-[2020.08.16-23.32.08:360][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
-[2020.08.16-23.32.08:361][867]LogEditorActor: Deleted 1 Actors (0.023 secs)
-[2020.08.16-23.32.11:242][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.08.16-23.32.15:288][693]Cmd: DELETE
-[2020.08.16-23.32.15:288][693]Cmd: ACTOR DELETE
-[2020.08.16-23.32.15:289][693]LogEditorActor: Deleted Actor: ExponentialHeightFog
-[2020.08.16-23.32.15:309][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
-[2020.08.16-23.32.15:310][693]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2020.08.16-23.32.17:559][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.08.16-23.32.19:881][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.08.16-23.34.23:599][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
-[2020.08.16-23.34.23:714][782]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/LevelBlockOutA43F6CE844F168D17F6FD29B24D49DD6.tmp' to '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/LevelBlockOut.umap'
-[2020.08.16-23.34.26:686][121]MapCheck: New page: Map Check
-[2020.08.16-23.34.26:707][121]Cmd: MAP REBUILD ALLVISIBLE
-[2020.08.16-23.34.26:708][121]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2020.08.16-23.34.26:712][121]LogWorld: UWorld::CleanupWorld for LevelBlockOut, bSessionEnded=true, bCleanupResources=false
-[2020.08.16-23.34.26:765][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
-[2020.08.16-23.34.26:774][121]LightingResults: New page: Lighting Build - 17 Aug 2020 7:34:26 pm
-[2020.08.16-23.34.26:824][121]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2020.08.16-23.34.26:870][121]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2020.08.16-23.34.26:885][121]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2020.08.16-23.34.27:396][121]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2020.08.16-23.34.27:396][121]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15356
-[2020.08.16-23.34.33:906][121]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2020.08.16-23.34.33:906][121]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2020.08.16-23.34.33:906][121]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2020.08.16-23.34.33:906][121]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2020.08.16-23.34.33:906][121]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2020.08.16-23.34.33:906][121]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2020.08.16-23.34.33:999][121]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2020.08.16-23.34.33:999][121]MapCheck: New page: LevelBlockOut - 17 Aug 2020 7:34:33 pm
-[2020.08.16-23.34.33:999][121]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.244ms to complete.
-[2020.08.16-23.34.34:001][121]LogEditorBuildUtils: Build time 0:07
-[2020.08.16-23.34.34:050][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2020.08.16-23.34.35:051][168]Job is a success!
-[2020.08.16-23.34.35:157][170]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
-[2020.08.16-23.34.35:157][170]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2020.08.16-23.34.35:157][170]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
-[2020.08.16-23.34.35:157][170]LogVolumetricLightmapImport:      Bricks at Level
-[2020.08.16-23.34.35:157][170]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
-[2020.08.16-23.34.35:157][170]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
-[2020.08.16-23.34.35:157][170]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
-[2020.08.16-23.34.35:196][170]Lightmass on SYD-19EF44: 548 ms total, 123 ms importing, 27 ms setup, 17 ms photons, 323 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 2.26 sec total, 0 ms processing.
-[2020.08.16-23.34.35:221][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
-[2020.08.16-23.34.35:231][170]LogStaticLightingSystem: Illumination: 8.41 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2020.08.16-23.34.35:232][170]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2020.08.16-23.34.35:232][170]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2020.08.16-23.34.35:907][170]DumpUnbuiltLightIteractions
-[2020.08.16-23.34.35:907][170]Lights with unbuilt interactions: 0
-[2020.08.16-23.34.35:907][170]
-[2020.08.16-23.34.35:907][170]Primitives with unbuilt interactions: 0
-[2020.08.16-23.34.35:947][171]Cmd: MAP CHECK NOTIFYRESULTS
-[2020.08.16-23.34.35:947][171]MapCheck: New page: LevelBlockOut - 17 Aug 2020 7:34:35 pm
-[2020.08.16-23.34.35:947][171]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.244ms to complete.
-[2020.08.16-23.34.37:787][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
-[2020.08.16-23.34.37:886][383]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/LevelBlockOutA7D3F3EA442766390E27CE901EE62365.tmp' to '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/LevelBlockOut.umap'
-[2020.08.16-23.34.37:929][383]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/LevelBlockOut_BuiltData57FAEAFA4EAEFB66EB05A391B12E82D1.tmp' to '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/LevelBlockOut_BuiltData.uasset'
-[2020.08.16-23.34.39:999][625]Candidate modules for hot reload:
-[2020.08.16-23.34.39:999][625]  GhoulsAndGoodies
-[2020.08.16-23.34.40:000][625]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GhoulsAndGoodies,5878 Win64 Development -TargetType=Editor -Project="C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/GhoulsAndGoodies.uproject" "C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/GhoulsAndGoodies.uproject"  -IgnoreJunk]
-[2020.08.16-23.34.40:002][625]Warning: Starting HotReload took  0.0s.
-[2020.08.16-23.34.48:694][646]CompilerResultsLog: New page: Compilation - 17 Aug 2020 7:34:48 pm
-[2020.08.16-23.34.48:694][646]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins).
-[2020.08.16-23.34.48:694][646]CompilerResultsLog: Parsing headers for GhoulsAndGoodiesEditor
-[2020.08.16-23.34.48:694][646]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\GhoulsAndGoodies.uproject" "C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\GhoulsAndGoodiesEditor\Development\GhoulsAndGoodiesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.08.16-23.34.48:694][646]CompilerResultsLog: Reflection code generated for GhoulsAndGoodiesEditor in 6.5074934 seconds
-[2020.08.16-23.34.48:694][646]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.08.16-23.34.48:694][646]CompilerResultsLog: Building 3 actions with 8 processes...
-[2020.08.16-23.34.48:694][646]CompilerResultsLog:   [1/3] UE4Editor-GhoulsAndGoodies-5878.lib
-[2020.08.16-23.34.48:694][646]CompilerResultsLog:      Creating library C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies-5878.lib and object C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies-5878.exp
-[2020.08.16-23.34.48:694][646]CompilerResultsLog:   [2/3] UE4Editor-GhoulsAndGoodies-5878.dll
-[2020.08.16-23.34.48:694][646]CompilerResultsLog:      Creating library C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies-5878.suppressed.lib and object C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies-5878.suppressed.exp
-[2020.08.16-23.34.48:694][646]CompilerResultsLog:   [3/3] GhoulsAndGoodiesEditor.target
-[2020.08.16-23.34.48:695][646]CompilerResultsLog: Total time in Parallel executor: 0.94 seconds
-[2020.08.16-23.34.48:695][646]CompilerResultsLog: Total execution time: 8.61 seconds
-[2020.08.16-23.34.48:695][646]LogMainFrame: MainFrame: Module compiling took 8.699 seconds
-[2020.08.16-23.34.48:721][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
-[2020.08.16-23.34.48:749][646]LogHotReload: Re-instancing AICharacter after hot-reload.
-[2020.08.16-23.34.48:836][646]LogContentBrowser: Native class hierarchy updated for 'GhoulsAndGoodies' in 0.0004 seconds. Added 8 classes and 2 folders.
-[2020.08.16-23.34.48:839][646]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2020.08.16-23.34.48:900][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
-[2020.08.16-23.34.48:913][646]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2872 classes and 684 folders.
-[2020.08.16-23.34.48:913][646]Display: HotReload took  8.9s.
-[2020.08.16-23.35.06:521][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.08.16-23.35.16:702][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.08.16-23.35.17:801][100]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2020.08.16-23.35.24:017][840]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2020.08.16-23.35.24:055][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
-[2020.08.16-23.35.24:170][840]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/LevelBlockOut768735114E0ADBBF96FDF1BD0378AAE6.tmp' to '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/LevelBlockOut.umap'
-[2020.08.16-23.35.24:225][840]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/LevelBlockOut_BuiltData80D521D14071C354CEB4E39479DC4058.tmp' to '../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/LevelBlockOut_BuiltData.uasset'
+[2020.08.17-03.48.21:472][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.17-03.48.21:472][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.08.17-03.48.21:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.17-03.48.21:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.08.17-03.48.21:473][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.08.17-03.48.21:483][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.17-03.48.21:483][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.17-03.48.21:484][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.17-03.48.21:485][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.17-03.48.21:485][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.17-03.48.21:495][  0]LogHAL: Display: Platform has ~ 32 GB [34241368064 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.17-03.48.21:495][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.17-03.48.21:495][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.17-03.48.21:495][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.17-03.48.21:496][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.08.17-03.48.21:497][  0]LogInit: Computer: SYD-1C84FF
+[2020.08.17-03.48.21:497][  0]LogInit: User: s191212
+[2020.08.17-03.48.21:497][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.08.17-03.48.21:497][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.17-03.48.21:497][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.08.17-03.48.21:497][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.17-03.48.21:497][  0]LogMemory: Process Physical Memory: 105.03 MB used, 105.04 MB peak
+[2020.08.17-03.48.21:497][  0]LogMemory: Process Virtual Memory: 101.04 MB used, 101.04 MB peak
+[2020.08.17-03.48.21:497][  0]LogMemory: Physical Memory: 10769.72 MB used,  21885.39 MB free, 32655.11 MB total
+[2020.08.17-03.48.21:497][  0]LogMemory: Virtual Memory: 4716.59 MB used,  134213008.00 MB free, 134217728.00 MB total
+[2020.08.17-03.48.21:503][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.17-03.48.21:887][  0]LogInit: Using OS detected language (en-US).
+[2020.08.17-03.48.21:887][  0]LogInit: Using OS detected locale (en-AU).
+[2020.08.17-03.48.21:890][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.08.17-03.48.22:307][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.17-03.48.22:422][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.17-03.48.22:422][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.17-03.48.24:507][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.17-03.48.24:507][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.17-03.48.24:570][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2020.08.17-03.48.24:570][  0]LogD3D11RHI:       2007/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.08.17-03.48.24:576][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.08.17-03.48.24:576][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.08.17-03.48.24:579][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.17-03.48.24:579][  0]LogD3D11RHI:       0/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.17-03.48.24:579][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.17-03.48.24:585][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.17-03.48.24:585][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.17-03.48.24:585][  0]LogWindows: EnumDisplayDevices:
+[2020.08.17-03.48.24:585][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2020.08.17-03.48.24:585][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
+[2020.08.17-03.48.24:585][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2020.08.17-03.48.24:586][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2020.08.17-03.48.24:586][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.08.17-03.48.24:586][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.08.17-03.48.24:586][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.08.17-03.48.24:586][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.08.17-03.48.24:586][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2020.08.17-03.48.24:586][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.08.17-03.48.24:586][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.08.17-03.48.24:586][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2020.08.17-03.48.24:627][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.17-03.48.24:648][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.08.17-03.48.24:906][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.08.17-03.48.24:915][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.08.17-03.48.24:924][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.08.17-03.48.24:933][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.08.17-03.48.24:948][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.08.17-03.48.24:958][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.08.17-03.48.24:967][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.17-03.48.24:976][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.08.17-03.48.24:981][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.08.17-03.48.25:021][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.08.17-03.48.25:024][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.08.17-03.48.25:052][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.08.17-03.48.25:052][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.08.17-03.48.25:066][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.08.17-03.48.25:066][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.08.17-03.48.25:073][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.08.17-03.48.25:081][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.17-03.48.25:089][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.08.17-03.48.25:106][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.08.17-03.48.25:135][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.08.17-03.48.25:135][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.08.17-03.48.25:135][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.17-03.48.25:181][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.17-03.48.25:300][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Intermediate/Shaders/WorkingDirectory/14568/).
+[2020.08.17-03.48.25:300][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s191212/AppData/Local/Temp/UnrealShaderWorkingDir/0033603C4BC1B45E8FE93DAE7D81BFAC/'.
+[2020.08.17-03.48.25:304][  0]LogXGEController: Cleaning working directory: C:/Users/s191212/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.08.17-03.48.25:304][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.17-03.48.25:304][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.17-03.48.25:304][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.17-03.48.27:571][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.17-03.48.27:798][  0]LogDerivedDataCache: Loaded boot cache 0.23s 77MB C:/Users/s191212/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.08.17-03.48.27:798][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s191212/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.08.17-03.48.27:798][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.17-03.48.27:798][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.17-03.48.27:798][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.17-03.48.27:798][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.17-03.48.27:826][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.17-03.48.27:826][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.17-03.48.27:826][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.17-03.48.27:828][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s191212/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.17-03.48.27:828][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.17-03.48.27:828][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.17-03.48.27:857][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.08.17-03.48.27:863][  0]LogSlate: Using FreeType 2.6.0
+[2020.08.17-03.48.27:882][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.17-03.48.28:110][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
+[2020.08.17-03.48.28:528][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.17-03.48.28:825][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.17-03.48.28:825][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.17-03.48.28:825][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.17-03.48.28:825][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.17-03.48.28:825][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.17-03.48.28:868][  0]LogNetVersion: GhoulsAndGoodies 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1842056771)
+[2020.08.17-03.48.29:449][  0]LogClass: Warning: In asset 'None', there is an enum property of type 'EDepthOfFieldMethod' with an invalid value of '('
+[2020.08.17-03.48.30:021][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.055767 seconds
+[2020.08.17-03.48.30:029][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.08.17-03.48.30:029][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.08.17-03.48.30:029][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.17-03.48.33:134][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.17-03.48.33:139][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.17-03.48.33:290][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:290][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:290][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:290][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:291][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:291][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:293][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:293][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:293][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:293][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:293][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:293][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:295][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:295][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:295][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:295][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.33:307][  0]LogBlueprint: Error: [Compiler ThirdPerson_AnimBP] In use pin  InputObject  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-03.48.33:310][  0]LogBlueprint: Error: [Compiler ThirdPerson_AnimBP] In use pin  InputObject  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-03.48.33:310][  0]LogBlueprint: Error: [Compiler ThirdPerson_AnimBP] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-03.48.33:493][  0]SourceControl: Source control is disabled
+[2020.08.17-03.48.33:493][  0]SourceControl: Source control is disabled
+[2020.08.17-03.48.33:503][  0]SourceControl: Source control is disabled
+[2020.08.17-03.48.33:506][  0]SourceControl: Source control is disabled
+[2020.08.17-03.48.33:699][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.17-03.48.33:906][  0]LogOcInput: OculusInput pre-init called
+[2020.08.17-03.48.33:922][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.17-03.48.33:922][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.17-03.48.34:066][  0]LogEngine: Initializing Engine...
+[2020.08.17-03.48.34:068][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.17-03.48.34:071][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.08.17-03.48.34:479][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.17-03.48.34:510][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.17-03.48.34:528][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.08.17-03.48.34:606][  0]LogInit: FAudioDevice initialized.
+[2020.08.17-03.48.34:606][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.17-03.48.34:689][  0]LogDerivedDataCache: Saved boot cache 0.08s 77MB C:/Users/s191212/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.08.17-03.48.34:695][  0]LogInit: Texture streaming: Enabled
+[2020.08.17-03.48.34:720][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.17-03.48.34:720][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.17-03.48.34:720][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.17-03.48.34:809][  0]LogInit: Transaction tracking system initialized
+[2020.08.17-03.48.34:871][  0]BlueprintLog: New page: Editor Load
+[2020.08.17-03.48.35:033][  0]LocalizationService: Localization service is disabled
+[2020.08.17-03.48.35:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/' took 0.01s
+[2020.08.17-03.48.35:635][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.17-03.48.35:635][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.17-03.48.36:070][  0]SourceControl: Source control is disabled
+[2020.08.17-03.48.36:071][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.17-03.48.36:072][  0]LightingResults: New page: Lighting Build
+[2020.08.17-03.48.36:078][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-03.48.36:081][  0]MapCheck: New page: Map Check
+[2020.08.17-03.48.36:081][  0]LightingResults: New page: Lighting Build
+[2020.08.17-03.48.36:107][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.08.17-03.48.36:117][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:117][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:126][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'.
+[2020.08.17-03.48.36:126][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'.
+[2020.08.17-03.48.36:126][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:127][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:149][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:149][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:149][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'.
+[2020.08.17-03.48.36:149][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'.
+[2020.08.17-03.48.36:157][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:158][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:158][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'.
+[2020.08.17-03.48.36:158][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'.
+[2020.08.17-03.48.36:158][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:158][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:158][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:158][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:158][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'.
+[2020.08.17-03.48.36:158][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'.
+[2020.08.17-03.48.36:158][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'.
+[2020.08.17-03.48.36:159][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'.
+[2020.08.17-03.48.36:163][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:163][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:163][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:163][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'.
+[2020.08.17-03.48.36:175][  0]LogBlueprint: Error: [Compiler BP_Sky_Sphere] In use pin  Input Object  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2020.08.17-03.48.36:175][  0]LogBlueprint: Error: [Compiler BP_Sky_Sphere] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2020.08.17-03.48.36:177][  0]LogLinker: Warning: While loading '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.08.17-03.48.36:177][  0]LogLinker: Warning: While loading '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.08.17-03.48.36:180][  0]LogLinker: Warning: While loading '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.08.17-03.48.36:180][  0]LogLinker: Warning: While loading '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.08.17-03.48.36:181][  0]LogLinker: Warning: Failed to load '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.08.17-03.48.36:181][  0]LogLinker: Warning: Failed to load '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.08.17-03.48.36:181][  0]LogLinker: Warning: Failed to load '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.08.17-03.48.36:181][  0]LogLinker: Warning: Failed to load '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.08.17-03.48.36:187][  0]LogLinker: Warning: While loading '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.08.17-03.48.36:187][  0]LoadErrors: Failed to load /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2020.08.17-03.48.36:188][  0]LogLinker: Warning: While loading '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.08.17-03.48.36:188][  0]LoadErrors: Failed to load /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2020.08.17-03.48.36:256][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.08.17-03.48.36:276][  0]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/MATERIAL/M_Esqueleto.M_Esqueleto needed to have new flag set bUsedWithSkeletalMesh !
+[2020.08.17-03.48.36:281][  0]LogMaterial: Display: Missing cached shader map for material M_Esqueleto, compiling. 
+[2020.08.17-03.48.36:365][  0]MapCheck: Warning: M_Esqueleto Material /Game/TopDownCPP/ASSETS/MATERIAL/M_Esqueleto.M_Esqueleto was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2020.08.17-03.48.36:370][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2020.08.17-03.48.36:370][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
+[2020.08.17-03.48.36:370][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+[2020.08.17-03.48.36:370][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.08.17-03.48.36:370][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 20
+[2020.08.17-03.48.36:370][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.17-03.48.36:423][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.08.17-03.48.36:423][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.17-03.48.36:423][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.523ms to complete.
+[2020.08.17-03.48.36:433][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.362
+[2020.08.17-03.48.36:657][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.17-03.48.36:670][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.17-03.48.36:681][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.17-03.48.36:691][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.17-03.48.36:714][  0]LogCollectionManager: Loaded 0 collections in 0.002513 seconds
+[2020.08.17-03.48.36:736][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Collections/' took 0.00s
+[2020.08.17-03.48.36:736][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/Developers/s191212/Collections/' took 0.00s
+[2020.08.17-03.48.36:736][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/Collections/' took 0.00s
+[2020.08.17-03.48.36:736][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.08.17-03.48.36:752][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2871 classes and 682 folders.
+[2020.08.17-03.48.36:766][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.08.17-03.48.37:367][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.08.17-03.48.37:383][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.08.17-03.48.37:444][  0]LogSlate: Took 0.010216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.17-03.48.37:454][  0]LogSlate: Took 0.008084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.17-03.48.37:470][  0]LogSlate: Took 0.008555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.17-03.48.37:696][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 10 NumSamples 1 (Frame:1).
+[2020.08.17-03.48.38:222][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.08.17-03.48.38:222][  0]LogLoad: (Engine Initialization) Total time: 69.03 seconds
+[2020.08.17-03.48.38:222][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.17-03.48.38:291][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.17-03.48.38:297][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.08.17-03.48.38:559][  0]LogSlate: Took 0.009811 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.17-03.48.39:773][ 19]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.08.17-03.48.39:773][ 19]LogAssetRegistry: Asset discovery search completed in 11.6629 seconds
+[2020.08.17-03.48.39:779][ 19]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2020.08.17-03.48.39:779][ 19]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2020.08.17-03.48.39:799][ 20]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.08.17-03.48.40:534][ 92]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.08.17-03.48.40:873][128]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.08.17-03.48.41:093][151]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.08.17-03.48.41:223][166]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.08.17-03.49.24:528][350]LogSlate: Window 'Message Log' being destroyed
+[2020.08.17-03.49.24:533][350]LogSlate: Window 'Message Log' being destroyed
+[2020.08.17-03.49.25:200][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-03.49.38:221][986]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={DEDD6A27-4ACF-48BE-75EC-9DB6238B3D64}
+[2020.08.17-03.52.02:982][174]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.17-03.52.03:000][174]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s191212\Desktop\Creeps and Candy\FBX\SM_Marvin.fbx)
+[2020.08.17-03.52.03:030][174]LogFbx: Loading FBX Scene from C:\Users\s191212\Desktop\Creeps and Candy\FBX\SM_Marvin.fbx
+[2020.08.17-03.52.03:045][174]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.17-03.52.10:214][174]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.17-03.52.10:266][174]FBXImport: Warning: Ignoring mesh SM_Neck because it but no weights. 
+[2020.08.17-03.52.10:266][174]FBXImport: Warning: Ignoring mesh SM_Hand because it but no weights. 
+[2020.08.17-03.52.10:266][174]FBXImport: Warning: Ignoring mesh SM_Body because it but no weights. 
+[2020.08.17-03.52.10:266][174]FBXImport: Warning: Ignoring mesh SM_Head because it but no weights. 
+[2020.08.17-03.52.10:266][174]FBXImport: Warning: Ignoring mesh SM_Cane because it but no weights. 
+[2020.08.17-03.52.10:266][174]FBXImport: Warning: Ignoring mesh Bandage_04 because it but no weights. 
+[2020.08.17-03.52.10:266][174]FBXImport: Warning: Ignoring mesh Bandage_03 because it but no weights. 
+[2020.08.17-03.52.10:266][174]FBXImport: Warning: Ignoring mesh Bandage_02 because it but no weights. 
+[2020.08.17-03.52.10:266][174]FBXImport: Warning: Ignoring mesh Bandage_01 because it but no weights. 
+[2020.08.17-03.52.10:266][174]FBXImport: Error: Failed to find any bone hierarchy. Try disabling the "Import As Skeletal" option to import as a rigid mesh.  
+[2020.08.17-03.52.10:266][174]FBXImport: Error: Import failed. 
+[2020.08.17-03.52.13:961][174]LogSlate: Window 'Message' being destroyed
+[2020.08.17-03.52.13:968][174]LogAssetTools: Warning: Failed to import 'C:\Users\s191212\Desktop\Creeps and Candy\FBX\SM_Marvin.fbx'. Failed to create asset '/Game/TopDownCPP/ASSETS/SM_Marvin'.
+Please see Output Log for details.
+[2020.08.17-03.52.19:350][794]LogSlate: Window 'Message Log' being destroyed
+[2020.08.17-03.52.19:358][794]LogSlate: Window 'Message Log' being destroyed
+[2020.08.17-03.52.23:514][252]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s191212\Desktop\Creeps and Candy\FBX\SM_Marvin.fbx)
+[2020.08.17-03.52.23:525][252]LogFbx: Loading FBX Scene from C:\Users\s191212\Desktop\Creeps and Candy\FBX\SM_Marvin.fbx
+[2020.08.17-03.52.23:541][252]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.17-03.52.28:629][252]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.17-03.52.28:685][252]LogFbx: Display: Triangulating static mesh SM_Neck
+[2020.08.17-03.52.28:689][252]LogFbx: Display: Triangulating static mesh SM_Hand
+[2020.08.17-03.52.28:694][252]LogFbx: Display: Triangulating static mesh SM_Body
+[2020.08.17-03.52.28:717][252]LogFbx: Display: Triangulating static mesh SM_Head
+[2020.08.17-03.52.28:730][252]LogFbx: Display: Triangulating static mesh SM_Cane
+[2020.08.17-03.52.28:760][252]LogFbx: Display: Triangulating static mesh Bandage_04
+[2020.08.17-03.52.28:761][252]LogFbx: Display: Triangulating static mesh Bandage_03
+[2020.08.17-03.52.28:762][252]LogFbx: Display: Triangulating static mesh Bandage_02
+[2020.08.17-03.52.28:762][252]LogFbx: Display: Triangulating static mesh Bandage_01
+[2020.08.17-03.52.28:770][252]LogStaticMesh: Building static mesh SM_Marvin...
+[2020.08.17-03.52.28:798][252]LogStaticMesh: Built static mesh [0.03s] /Game/TopDownCPP/ASSETS/SM_Marvin.SM_Marvin
+[2020.08.17-03.52.31:676][585]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/TopDownCPP/ASSETS/SM_Marvin.SM_Marvin
+[2020.08.17-03.52.32:232][585]LogSlate: Took 0.006990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.17-03.52.37:995][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-03.52.38:091][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.08.17-03.52.39:106][186]LogSlate: Window 'Save Content' being destroyed
+[2020.08.17-03.52.39:168][186]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/SM_Marvin3873A1FC4BDBB7FC452242BBAA4C55F1.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/SM_Marvin.uasset'
+[2020.08.17-03.52.40:093][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.08.17-03.52.40:243][282]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/TopDownExampleMap7BA3C210476728B06713BD80D56F9B6C.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
