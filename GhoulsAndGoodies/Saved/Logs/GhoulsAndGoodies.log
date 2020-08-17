@@ -733,3 +733,113 @@ Please see Output Log for details.
 [2020.08.17-03.52.39:168][186]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/SM_Marvin3873A1FC4BDBB7FC452242BBAA4C55F1.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/SM_Marvin.uasset'
 [2020.08.17-03.52.40:093][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
 [2020.08.17-03.52.40:243][282]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/TopDownExampleMap7BA3C210476728B06713BD80D56F9B6C.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2020.08.17-03.53.07:854][604]LogRenderer: Reallocating scene render targets to support 1252x892 Format 10 NumSamples 1 (Frame:1011).
+[2020.08.17-03.53.11:718][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-03.54.11:607][878]LogMetaData: Removing '/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto.Anim_Esqueleto' ref from Metadata '/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.PackageMetaData'
+[2020.08.17-03.54.11:624][878]LogMetaData: Removing '/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Skeleton.Anim_Esqueleto_Skeleton' ref from Metadata '/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto_Skeleton.PackageMetaData'
+[2020.08.17-03.54.11:690][878]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Esqueleto85DB1F9141B2B108D14AD99EC97B45CF.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto.uasset'
+[2020.08.17-03.54.11:722][878]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Esqueleto_Anim24D2001441788458EC2270856A4F8C4E.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Anim.uasset'
+[2020.08.17-03.54.11:760][878]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Esqueleto_PhysicsAsset3AE6AF6348DFFE106D794BA2ECEEF924.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_PhysicsAsset.uasset'
+[2020.08.17-03.54.11:775][878]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Esqueleto_SkeletonE9FE4BAF4502C9CD266AB2BF535F7569.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Skeleton.uasset'
+[2020.08.17-03.54.11:840][878]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Esqueleto_BlendSpace26F0F6774E58F279075663888B56B9D9.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Esqueleto_BlendSpace.uasset'
+[2020.08.17-03.54.12:135][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.08.17-03.54.12:157][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.08.17-03.54.12:178][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.08.17-03.54.12:199][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.08.17-03.54.12:222][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.17-03.54.12:248][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.08.17-03.54.12:268][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.08.17-03.54.12:289][878]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Esqueleto_C /Engine/Transient.World_7:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Esqueleto_C_0
+	Function /Game/TopDownCPP/Blueprints/Esqueleto.Esqueleto_C:ExecuteUbergraph_Esqueleto:0040
+[2020.08.17-03.54.12:430][878]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/EsqueletoA2BBD7274F5CC71D05B4CAB31F9D8674.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Blueprints/Esqueleto.uasset'
+[2020.08.17-03.54.24:341][832]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s191212\Desktop\Creeps and Candy\FBX\Anim_Marvin_Walk.fbx)
+[2020.08.17-03.54.24:354][832]LogFbx: Loading FBX Scene from C:\Users\s191212\Desktop\Creeps and Candy\FBX\Anim_Marvin_Walk.fbx
+[2020.08.17-03.54.24:382][832]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.17-03.54.27:543][832]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.08.17-03.54.27:591][832]LogFbx: Valid bind pose for Pose (skinCluster1) - SM_Neck
+[2020.08.17-03.54.27:591][832]LogFbx: Valid bind pose for Pose (skinCluster2) - SM_Neck
+[2020.08.17-03.54.27:591][832]LogFbx: Valid bind pose for Pose (skinCluster3) - SM_Neck
+[2020.08.17-03.54.27:592][832]LogFbx: Valid bind pose for Pose (skinCluster4) - SM_Neck
+[2020.08.17-03.54.27:592][832]LogFbx: Valid bind pose for Pose (skinCluster5) - SM_Neck
+[2020.08.17-03.54.27:592][832]LogFbx: Valid bind pose for Pose (skinCluster6) - SM_Neck
+[2020.08.17-03.54.27:592][832]LogFbx: Valid bind pose for Pose (skinCluster7) - SM_Neck
+[2020.08.17-03.54.27:592][832]LogFbx: Valid bind pose for Pose (skinCluster8) - SM_Neck
+[2020.08.17-03.54.27:592][832]LogFbx: Triangulating skeletal mesh SM_Neck
+[2020.08.17-03.54.27:593][832]LogFbx: Triangulating skeletal mesh SM_Hand
+[2020.08.17-03.54.27:597][832]LogFbx: Triangulating skeletal mesh SM_Body
+[2020.08.17-03.54.27:624][832]LogFbx: Triangulating skeletal mesh SM_Head
+[2020.08.17-03.54.27:639][832]LogFbx: Triangulating skeletal mesh SM_Cane
+[2020.08.17-03.54.27:674][832]LogFbx: Triangulating skeletal mesh Bandage_04
+[2020.08.17-03.54.27:675][832]LogFbx: Triangulating skeletal mesh Bandage_03
+[2020.08.17-03.54.27:675][832]LogFbx: Triangulating skeletal mesh Bandage_02
+[2020.08.17-03.54.27:679][832]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 8
+[2020.08.17-03.54.27:759][832]LogSkeletalMesh: Section 0: 562 vertices, 20 active bones
+[2020.08.17-03.54.27:759][832]LogSkeletalMesh: Section 1: 801 vertices, 12 active bones
+[2020.08.17-03.54.27:760][832]LogSkeletalMesh: Section 0: Material=0, 751 triangles
+[2020.08.17-03.54.27:760][832]LogSkeletalMesh: Section 1: Material=1, 1234 triangles
+[2020.08.17-03.54.27:761][832]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Walk...
+[2020.08.17-03.54.27:763][832]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk.Anim_Marvin_Walk
+[2020.08.17-03.54.27:764][832]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Skeleton': Can't find file.
+[2020.08.17-03.54.27:764][832]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Skeleton': Can't find file.
+[2020.08.17-03.54.27:766][832]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_PhysicsAsset': Can't find file.
+[2020.08.17-03.54.27:766][832]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_PhysicsAsset': Can't find file.
+[2020.08.17-03.54.27:774][832]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(0) Rig
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(1) Root_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(2) Cog_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(3) Hip_L_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(4) Knee_L_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(5) Ankle_L_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(6) Ball_L_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(7) Toe_L_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(8) Hip_R_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(9) Knee_R_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(10) Ankle_R_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(11) Ball_R_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(12) Toe_R_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(13) Chest_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(14) Neck_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(15) Head_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(16) Shoulder_L_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(17) Elbow_L_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(18) Hand_L_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(19) Shoulder_R_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(20) Elbow_R_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: SortedLinks :(21) Hand_R_jnt
+[2020.08.17-03.54.27:777][832]LogFbx: Parsing AnimStack Take 001
+[2020.08.17-03.54.27:777][832]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Anim': Can't find file.
+[2020.08.17-03.54.27:777][832]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Anim': Can't find file.
+[2020.08.17-03.54.28:207][832]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Anim.Anim_Marvin_Walk_Anim
+[2020.08.17-03.54.28:209][832]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Anim.Anim_Marvin_Walk_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.08.17-03.54.28:215][832]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Esqueleto_C /Engine/Transient.World_7:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Esqueleto_C_0
+	Function /Game/TopDownCPP/Blueprints/Esqueleto.Esqueleto_C:ExecuteUbergraph_Esqueleto:0040
+[2020.08.17-03.54.28:215][832]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Walk...
+[2020.08.17-03.54.28:217][832]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk.Anim_Marvin_Walk
+[2020.08.17-03.54.28:225][832]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Walk...
+[2020.08.17-03.54.28:227][832]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk.Anim_Marvin_Walk
+[2020.08.17-03.54.32:147][976]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Anim.Anim_Marvin_Walk_Anim
+[2020.08.17-03.54.32:164][976]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.08.17-03.54.32:177][976]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.17-03.54.32:182][976]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2020.08.17-03.54.32:242][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.17-03.54.32:556][976]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.08.17-03.54.40:028][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-03.55.40:495][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-03.55.40:705][461]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk.Anim_Marvin_Walk
+[2020.08.17-03.55.40:717][461]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.08.17-03.55.40:748][461]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.08.17-03.56.00:276][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-03.56.03:493][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-03.56.06:969][542]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-03.56.11:211][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.17-03.56.11:275][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.08.17-03.56.12:435][865]LogSlate: Window 'Save Content' being destroyed
+[2020.08.17-03.56.12:494][865]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Marvin_Walk89F4347244D89387EF334B8C8E7C66E0.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk.uasset'
+[2020.08.17-03.56.12:530][865]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Marvin_Walk_Anim38F762F54282966E2B4B28AD9E067457.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Anim.uasset'
+[2020.08.17-03.56.12:568][865]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Marvin_Walk_PhysicsAssetD474FCD14FDBB4ADEF0064A9C88B01ED.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_PhysicsAsset.uasset'
+[2020.08.17-03.56.12:581][865]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Anim_Marvin_Walk_Skeleton3CE43B4B4593B0D34176E7B3921DF803.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk_Skeleton.uasset'
+[2020.08.17-03.56.12:627][865]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/SM_MarvinBF8BDDF9494721A5F49044A151A7AA3B.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/SM_Marvin.uasset'
+[2020.08.17-03.56.13:754][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.08.17-03.56.13:887][952]LogSavePackage: Moving '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/TopDownExampleMap22AC2BFA422AA66A883F41B4FC4106C4.tmp' to '../../../../../../Users/s191212/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
