@@ -7,6 +7,8 @@
 #include "TileDefenceType.h"
 #include "Tile.generated.h"
 
+class ADefendingUnit;
+
 UCLASS()
 class GHOULSANDGOODIES_API ATile : public AActor
 {
@@ -33,6 +35,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	//Spawns Defending Unit
 	void SetupDefUnit();
 
 	UPROPERTY(EditAnywhere)

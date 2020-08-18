@@ -17,7 +17,7 @@ AAICharacter::AAICharacter()
 	PrimaryActorTick.bCanEverTick = true;
 	
 	const ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_AnimClass(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Esqueleto.Esqueleto'"));
-	const ConstructorHelpers::FObjectFinder<USkeletalMesh> l_SkeletalMesh(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Anim_Esqueleto.Anim_Esqueleto'"));
+	const ConstructorHelpers::FObjectFinder<USkeletalMesh> l_SkeletalMesh(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto.Anim_Esqueleto'"));
 	const ConstructorHelpers::FObjectFinder<UMaterial> l_materialObject(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/M_Esqueleto.M_Esqueleto'"));
 
 	GetMesh()->SetMaterial(0, l_materialObject.Object);

@@ -3,9 +3,11 @@
 #include "GhoulsAndGoodiesGameMode.h"
 #include "GhoulsAndGoodiesPlayerController.h"
 #include "GhoulsAndGoodiesCharacter.h"
-#include "UObject/ConstructorHelpers.h"
 #include "GNGPawn.h"
 #include "GNGPlayerController.h"
+#include "TileBoard.h"
+#include "Kismet/GameplayStatics.h"
+#include "UObject/ConstructorHelpers.h"
 
 AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 {
@@ -13,5 +15,10 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 
 	DefaultPawnClass = AGNGPawn::StaticClass();
 
+	m_mainTileBoard = Cast<ATileBoard>(UGameplayStatics::GetActorOfClass(this, ATileBoard::StaticClass()));
+}
 
+void AGhoulsAndGoodiesGameMode::NextWave()
+{
+	m_wave++;
 }

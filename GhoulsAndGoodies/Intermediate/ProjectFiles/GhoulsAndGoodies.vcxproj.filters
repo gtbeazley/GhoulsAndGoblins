@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GhoulsAndGoodies.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5391D5D9-80F5-4DB7-B3BC-1BCCF21DF906}</UniqueIdentifier>
+      <UniqueIdentifier>{13B7FD9D-30A7-494E-B6C9-B32A7D754621}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GhoulsAndGoodies.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CF91037D-EED3-48D3-9232-CC5D2E6CBCA4}</UniqueIdentifier>
+      <UniqueIdentifier>{2D2362E7-EFBD-4636-BBE2-1902A37B11F1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,12 +30,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GhoulsAndGoodies">
-      <UniqueIdentifier>{A28C9309-49B3-489B-940C-CD3AFA0F475E}</UniqueIdentifier>
+      <UniqueIdentifier>{CD06FAD8-466C-4B46-87BE-1E34E0EE7438}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\AICharacter.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\AICharacter.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\DefendingUnit.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\DefendingUnit.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyAIController.cpp">
@@ -83,26 +89,32 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGPlayerController.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Tile.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Tile.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\TileBoard.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\TileBoard.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Tile.h">
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\TileDefenceType.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\TileDefenceType.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Tile.cpp">
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\LifeBar_W.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\TileDefenceType.cpp">
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\LifeBar_W.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
   </ItemGroup>

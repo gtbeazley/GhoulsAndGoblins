@@ -6,6 +6,8 @@
 #include "GameFramework/GameModeBase.h"
 #include "GhoulsAndGoodiesGameMode.generated.h"
 
+class ATileBoard;
+
 UCLASS(minimalapi)
 class AGhoulsAndGoodiesGameMode : public AGameModeBase
 {
@@ -13,6 +15,26 @@ class AGhoulsAndGoodiesGameMode : public AGameModeBase
 
 public:
 	AGhoulsAndGoodiesGameMode();
+
+	void NextWave();
+
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int m_JimmyFullCost = 10;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int m_GarryFullCost = 10;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int m_TiffanyFullCost = 10;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int m_wave = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int m_candyCorn = 100;
+
+	ATileBoard* m_mainTileBoard;
 };
 
 
