@@ -30,7 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeTileDefenceType() {}
 		return ETileDefenceType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETileDefenceType(ETileDefenceType_StaticEnum, TEXT("/Script/GhoulsAndGoodies"), TEXT("ETileDefenceType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_GhoulsAndGoodies_ETileDefenceType_Hash() { return 1572850986U; }
+	uint32 Get_Z_Construct_UEnum_GhoulsAndGoodies_ETileDefenceType_Hash() { return 1655930710U; }
 	UEnum* Z_Construct_UEnum_GhoulsAndGoodies_ETileDefenceType()
 	{
 #if WITH_HOT_RELOAD
@@ -46,15 +46,15 @@ void EmptyLinkFunctionForGeneratedCodeTileDefenceType() {}
 				{ "DEF_Base", (int64)DEF_Base },
 				{ "DEF_Tiffany", (int64)DEF_Tiffany },
 				{ "DEF_Jimmy", (int64)DEF_Jimmy },
-				{ "DEF_Gary", (int64)DEF_Gary },
+				{ "DEF_Garry", (int64)DEF_Garry },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
 				{ "DEF_Base.DisplayName", "Base" },
 				{ "DEF_Base.Name", "DEF_Base" },
-				{ "DEF_Gary.DisplayName", "Gary" },
-				{ "DEF_Gary.Name", "DEF_Gary" },
+				{ "DEF_Garry.DisplayName", "Garry" },
+				{ "DEF_Garry.Name", "DEF_Garry" },
 				{ "DEF_Jimmy.DisplayName", "Jimmy" },
 				{ "DEF_Jimmy.Name", "DEF_Jimmy" },
 				{ "DEF_None.DisplayName", "None" },

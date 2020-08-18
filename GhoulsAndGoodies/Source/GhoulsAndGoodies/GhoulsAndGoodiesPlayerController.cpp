@@ -11,6 +11,8 @@ AGhoulsAndGoodiesPlayerController::AGhoulsAndGoodiesPlayerController()
 {
 	bShowMouseCursor = true;
 	DefaultMouseCursor = EMouseCursor::Crosshairs;
+	bEnableMouseOverEvents = true;
+	bEnableClickEvents = true;
 }
 
 void AGhoulsAndGoodiesPlayerController::PlayerTick(float DeltaTime)

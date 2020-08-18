@@ -9,6 +9,7 @@
 
 class ATileBoard;
 class ATile;
+class UMaterial;
 
 UCLASS(minimalapi)
 class AGhoulsAndGoodiesGameMode : public AGameModeBase
@@ -17,6 +18,8 @@ class AGhoulsAndGoodiesGameMode : public AGameModeBase
 
 public:
 	AGhoulsAndGoodiesGameMode();
+
+	virtual void Tick(float a_deltaTime);
 
 	void NextWave();
 
@@ -42,6 +45,30 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		ATile* m_tileInFocus = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_canNotSelectMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_canSelectMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_jimmyTileMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_garryTileMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_tiffanyTileMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_baseTileMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_normalTileMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_selectedTileMaterial;
 };
 
 

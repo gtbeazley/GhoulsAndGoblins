@@ -22,5 +22,5 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	op(DEF_Base) \
 	op(DEF_Tiffany) \
 	op(DEF_Jimmy) \
-	op(DEF_Gary) 
+	op(DEF_Garry) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

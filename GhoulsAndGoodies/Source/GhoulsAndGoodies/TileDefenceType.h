@@ -11,5 +11,5 @@ enum ETileDefenceType
 	DEF_Base UMETA(DisplayName = "Base"),
 	DEF_Tiffany UMETA(DisplayName = "Tiffany"),
 	DEF_Jimmy UMETA(DisplayName = "Jimmy"),
-	DEF_Gary UMETA(DisplayName = "Gary"),
+	DEF_Garry UMETA(DisplayName = "Garry"),
 };
