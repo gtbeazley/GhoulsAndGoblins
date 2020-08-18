@@ -17,7 +17,7 @@ ATileBoard::ATileBoard()
 	SceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 
 	RootComponent = SceneComponent;
-	SceneComponent->SetMobility(EComponentMobility::Static);
+	SceneComponent->SetMobility(EComponentMobility::Movable);
 }
 
 // Called when the game starts or when spawned

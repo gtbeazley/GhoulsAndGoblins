@@ -4,9 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "TileDefenceType.h"
 #include "GhoulsAndGoodiesGameMode.generated.h"
 
 class ATileBoard;
+class ATile;
 
 UCLASS(minimalapi)
 class AGhoulsAndGoodiesGameMode : public AGameModeBase
@@ -18,6 +20,7 @@ public:
 
 	void NextWave();
 
+	void SetTileInFocus(ATile* a_tile);
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -31,10 +34,14 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_wave = 0;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_candyCorn = 100;
 
 	ATileBoard* m_mainTileBoard;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		ATile* m_tileInFocus = nullptr;
 };
 
 

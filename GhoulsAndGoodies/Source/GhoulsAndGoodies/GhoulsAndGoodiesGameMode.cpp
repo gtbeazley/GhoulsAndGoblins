@@ -6,6 +6,7 @@
 #include "GNGPawn.h"
 #include "GNGPlayerController.h"
 #include "TileBoard.h"
+#include "Tile.h"
 #include "Kismet/GameplayStatics.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -21,4 +22,14 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 void AGhoulsAndGoodiesGameMode::NextWave()
 {
 	m_wave++;
+}
+
+void AGhoulsAndGoodiesGameMode::SetTileInFocus(ATile* a_tile)
+{
+	if (m_tileInFocus == a_tile)
+	{
+		m_tileInFocus = nullptr;
+	}
+	else
+		m_tileInFocus = a_tile;
 }

@@ -35,6 +35,7 @@ ADefendingUnit::ADefendingUnit()
 		l_lifeBar->m_fullHealth = m_fullHealth;
 	}
 
+	m_lifeBarComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
 }
 
 // Called when the game starts or when spawned

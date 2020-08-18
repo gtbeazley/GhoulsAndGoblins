@@ -8,6 +8,7 @@
 #include "Tile.generated.h"
 
 class ADefendingUnit;
+class ATile;
 
 UCLASS()
 class GHOULSANDGOODIES_API ATile : public AActor
@@ -22,8 +23,6 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	//Type to determine which unit to spawn and whether to add to the path
-	ETileDefenceType m_defType = ETileDefenceType::DEF_None;
 
 	//Static mesh of the tile
 	UPROPERTY(EditAnywhere)
@@ -38,7 +37,12 @@ public:
 	//Spawns Defending Unit
 	void SetupDefUnit();
 
+	//Type to determine which unit to spawn and whether to add to the path
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TEnumAsByte<ETileDefenceType> m_defType = ETileDefenceType::DEF_None;
+
 	UPROPERTY(EditAnywhere)
 	//List of neighbours for the ai traverse through
 	TArray<ATile*> m_neighbours;
+
 };

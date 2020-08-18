@@ -18,7 +18,7 @@ ATile::ATile()
 	m_mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 
 	RootComponent = m_mesh;
-	m_mesh->SetMobility(EComponentMobility::Static);
+	m_mesh->SetMobility(EComponentMobility::Movable);
 	m_mesh->SetStaticMesh(CubeObjectFinder.Object);
 	m_mesh->SetRelativeScale3D(FVector(1, 1, 0.1));
 }
