@@ -17,11 +17,73 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_AGhoulsAndGoodiesGameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
-	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus();
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ATile_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
 // End Cross Module References
 	void AGhoulsAndGoodiesGameMode::StaticRegisterNativesAGhoulsAndGoodiesGameMode()
 	{
+		UClass* Class = AGhoulsAndGoodiesGameMode::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "NextWave", &AGhoulsAndGoodiesGameMode::execNextWave },
+			{ "SetTileInFocus", &AGhoulsAndGoodiesGameMode::execSetTileInFocus },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGhoulsAndGoodiesGameMode, nullptr, "NextWave", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics
+	{
+		struct GhoulsAndGoodiesGameMode_eventSetTileInFocus_Parms
+		{
+			ATile* a_tile;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_tile;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::NewProp_a_tile = { "a_tile", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GhoulsAndGoodiesGameMode_eventSetTileInFocus_Parms, a_tile), Z_Construct_UClass_ATile_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::NewProp_a_tile,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGhoulsAndGoodiesGameMode, nullptr, "SetTileInFocus", nullptr, nullptr, sizeof(GhoulsAndGoodiesGameMode_eventSetTileInFocus_Parms), Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AGhoulsAndGoodiesGameMode_NoRegister()
 	{
@@ -30,6 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 	struct Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -78,6 +141,10 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_m_wave;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_afterWaveCostMultiplier_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_afterWaveCostMultiplier;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_TiffanyFullCost_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_m_TiffanyFullCost;
@@ -89,6 +156,10 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_JimmyFullCost_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_m_JimmyFullCost;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_potentialCut_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_m_potentialCut;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -96,6 +167,10 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 	UObject* (*const Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AGameModeBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_GhoulsAndGoodies,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave, "NextWave" }, // 3909590007
+		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus, "SetTileInFocus" }, // 169358576
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::Class_MetaDataParams[] = {
@@ -183,6 +258,13 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_wave = { "m_wave", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGhoulsAndGoodiesGameMode, m_wave), METADATA_PARAMS(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_wave_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_wave_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_afterWaveCostMultiplier_MetaData[] = {
+		{ "Category", "GhoulsAndGoodiesGameMode" },
+		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_afterWaveCostMultiplier = { "m_afterWaveCostMultiplier", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGhoulsAndGoodiesGameMode, m_afterWaveCostMultiplier), METADATA_PARAMS(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_afterWaveCostMultiplier_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_afterWaveCostMultiplier_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_TiffanyFullCost_MetaData[] = {
 		{ "Category", "GhoulsAndGoodiesGameMode" },
 		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
@@ -203,6 +285,13 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_JimmyFullCost = { "m_JimmyFullCost", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGhoulsAndGoodiesGameMode, m_JimmyFullCost), METADATA_PARAMS(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_JimmyFullCost_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_JimmyFullCost_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_potentialCut_MetaData[] = {
+		{ "Category", "GhoulsAndGoodiesGameMode" },
+		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_potentialCut = { "m_potentialCut", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGhoulsAndGoodiesGameMode, m_potentialCut), METADATA_PARAMS(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_potentialCut_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_potentialCut_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_selectedTileMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_normalTileMaterial,
@@ -215,9 +304,11 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_tileInFocus,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_candyCorn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_wave,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_afterWaveCostMultiplier,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_TiffanyFullCost,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_GarryFullCost,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_JimmyFullCost,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_potentialCut,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGhoulsAndGoodiesGameMode>::IsAbstract,
@@ -227,11 +318,11 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		ARRAY_COUNT(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::PropPointers),
 		0,
 		0x008802A8u,
@@ -246,7 +337,7 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGhoulsAndGoodiesGameMode, 723603044);
+	IMPLEMENT_CLASS(AGhoulsAndGoodiesGameMode, 1317105477);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AGhoulsAndGoodiesGameMode>()
 	{
 		return AGhoulsAndGoodiesGameMode::StaticClass();

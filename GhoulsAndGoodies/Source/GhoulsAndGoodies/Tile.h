@@ -47,9 +47,6 @@ public:
 	//Spawns Defending Unit
 	void SetupDefUnit();
 
-	UFUNCTION(BlueprintCallable)
-	//Sets the defence unit type according to whats on the tile
-	void SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType);
 
 	//Type to determine which unit to spawn and whether to add to the path
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -68,8 +65,12 @@ public:
 		AGhoulsAndGoodiesGameMode* m_gNGGameMode;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool m_highlighted;
+		bool m_plannedToDeploy = false;
 
+	UFUNCTION(BlueprintCallable)
+	//Sets the defence unit type according to whats on the tile
+	void SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType);
+	
 	UFUNCTION()
 		void MeshOnBeginHover(UPrimitiveComponent* a_primCom);
 

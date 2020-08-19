@@ -60,14 +60,40 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 void AGhoulsAndGoodiesGameMode::NextWave()
 {
 	m_wave++;
+	m_candyCorn -= m_potentialCut;
+	m_potentialCut = 0;
+
+	TArray<AActor*> l_outTileActors;
+	UGameplayStatics::GetAllActorsOfClass(this, ATile::StaticClass(), l_outTileActors);
+	if (l_outTileActors.Num() > 0)
+	{
+		for (AActor* l_tileActor : l_outTileActors)
+		{
+			ATile* l_tile = Cast<ATile>(l_tileActor);
+			if (l_tile->m_plannedToDeploy)
+			{
+				l_tile->SetupDefUnit();
+			}
+		}
+	}
 }
 
 void AGhoulsAndGoodiesGameMode::SetTileInFocus(ATile* a_tile)
 {
 	if (m_tileInFocus == a_tile)
 	{
+		m_tileInFocus->SetDefenceUnitType(m_tileInFocus->m_defType);
 		m_tileInFocus = nullptr;
 	}
 	else
+	{
+		if (m_tileInFocus)
+		{
+			m_tileInFocus->SetDefenceUnitType(m_tileInFocus->m_defType);
+		}
+		if (a_tile)
+		{
+		}
 		m_tileInFocus = a_tile;
+	}
 }

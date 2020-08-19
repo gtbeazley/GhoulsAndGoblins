@@ -8,13 +8,52 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ATile;
 #ifdef GHOULSANDGOODIES_GhoulsAndGoodiesGameMode_generated_h
 #error "GhoulsAndGoodiesGameMode.generated.h already included, missing '#pragma once' in GhoulsAndGoodiesGameMode.h"
 #endif
 #define GHOULSANDGOODIES_GhoulsAndGoodiesGameMode_generated_h
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_17_RPC_WRAPPERS
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetTileInFocus) \
+	{ \
+		P_GET_OBJECT(ATile,Z_Param_a_tile); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTileInFocus(Z_Param_a_tile); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execNextWave) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->NextWave(); \
+		P_NATIVE_END; \
+	}
+
+
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetTileInFocus) \
+	{ \
+		P_GET_OBJECT(ATile,Z_Param_a_tile); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTileInFocus(Z_Param_a_tile); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execNextWave) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->NextWave(); \
+		P_NATIVE_END; \
+	}
+
+
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGhoulsAndGoodiesGameMode(); \

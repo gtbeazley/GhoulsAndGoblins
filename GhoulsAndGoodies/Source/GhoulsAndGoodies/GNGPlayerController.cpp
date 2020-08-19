@@ -12,6 +12,10 @@
 AGNGPlayerController::AGNGPlayerController()
 {
 	m_inputGameandUIMode = FInputModeGameAndUI();
+
+	bShowMouseCursor = true;
+	bEnableMouseOverEvents = true;
+	bEnableClickEvents = true;
 }
 
 void AGNGPlayerController::BeginPlay()
@@ -35,7 +39,7 @@ void AGNGPlayerController::BeginPlay()
 
 	}
 
-	//SetInputMode(m_inputGameandUIMode);
+	SetInputMode(m_inputGameandUIMode);
 
 }
 

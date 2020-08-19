@@ -251,10 +251,10 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_highlighted_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_plannedToDeploy_MetaData[];
 #endif
-		static void NewProp_m_highlighted_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_m_highlighted;
+		static void NewProp_m_plannedToDeploy_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_m_plannedToDeploy;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_gNGGameMode_MetaData[];
 #endif
@@ -306,16 +306,16 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATile_Statics::NewProp_m_highlighted_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATile_Statics::NewProp_m_plannedToDeploy_MetaData[] = {
 		{ "Category", "Tile" },
 		{ "ModuleRelativePath", "Tile.h" },
 	};
 #endif
-	void Z_Construct_UClass_ATile_Statics::NewProp_m_highlighted_SetBit(void* Obj)
+	void Z_Construct_UClass_ATile_Statics::NewProp_m_plannedToDeploy_SetBit(void* Obj)
 	{
-		((ATile*)Obj)->m_highlighted = 1;
+		((ATile*)Obj)->m_plannedToDeploy = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATile_Statics::NewProp_m_highlighted = { "m_highlighted", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATile), &Z_Construct_UClass_ATile_Statics::NewProp_m_highlighted_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATile_Statics::NewProp_m_highlighted_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATile_Statics::NewProp_m_highlighted_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATile_Statics::NewProp_m_plannedToDeploy = { "m_plannedToDeploy", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATile), &Z_Construct_UClass_ATile_Statics::NewProp_m_plannedToDeploy_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATile_Statics::NewProp_m_plannedToDeploy_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATile_Statics::NewProp_m_plannedToDeploy_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATile_Statics::NewProp_m_gNGGameMode_MetaData[] = {
 		{ "Category", "Tile" },
@@ -376,7 +376,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATile_Statics::NewProp_m_mesh = { "m_mesh", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATile, m_mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATile_Statics::NewProp_m_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATile_Statics::NewProp_m_mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATile_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_highlighted,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_plannedToDeploy,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_gNGGameMode,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_neighbours,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_neighbours_Inner,
@@ -413,7 +413,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATile, 3211936493);
+	IMPLEMENT_CLASS(ATile, 4226684611);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ATile>()
 	{
 		return ATile::StaticClass();

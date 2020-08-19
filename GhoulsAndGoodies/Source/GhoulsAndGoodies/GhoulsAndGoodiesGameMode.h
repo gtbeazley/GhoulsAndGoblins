@@ -21,10 +21,15 @@ public:
 
 	virtual void Tick(float a_deltaTime);
 
+	UFUNCTION(BlueprintCallable)
 	void NextWave();
 
+	UFUNCTION(BlueprintCallable)
 	void SetTileInFocus(ATile* a_tile);
 public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int m_potentialCut = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_JimmyFullCost = 10;
@@ -34,6 +39,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_TiffanyFullCost = 10;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_afterWaveCostMultiplier = .5;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_wave = 0;

@@ -31,7 +31,8 @@ ATile::ATile()
 	m_mesh->OnBeginCursorOver.AddDynamic(this, & ATile::MeshOnBeginHover);
 	m_mesh->OnEndCursorOver.AddDynamic(this, & ATile::MeshOnEndHover);
 
-	m_gNGGameMode = Cast<AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this));
+
+
 }
 
 
@@ -39,7 +40,12 @@ ATile::ATile()
 void ATile::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	m_gNGGameMode = Cast<AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this));
+
+	m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
+	m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
+	m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 }
 
 // Called every frame
@@ -95,28 +101,90 @@ void ATile::SetupDefUnit()
 
 void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
 {
-	if (m_defType == ETileDefenceType::DEF_None)
+
+	m_defType = a_defType;
+
+	switch (m_lastDefType)
 	{
-		m_defType = a_defType;
+	case ETileDefenceType::DEF_Tiffany: 
+		if(m_plannedToDeploy)
+		m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_TiffanyFullCost;
+		else
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_TiffanyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
+
+		break;
+	case ETileDefenceType::DEF_Jimmy:
+		if (m_plannedToDeploy)
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_JimmyFullCost;
+		else
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_JimmyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
+		break;
+	case ETileDefenceType::DEF_Garry:
+		if (m_plannedToDeploy)
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_GarryFullCost;
+		else
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_GarryFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
+		break;
+
 	}
+	switch (a_defType)
+	{
+	case ETileDefenceType::DEF_None:
+		m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
+		break;
+	case ETileDefenceType::DEF_Base:
+		m_unhighlightedMaterial = m_gNGGameMode->m_baseTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+		break;
+	case ETileDefenceType::DEF_Tiffany:
+		m_unhighlightedMaterial = m_gNGGameMode->m_tiffanyTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+		m_gNGGameMode->m_potentialCut += m_gNGGameMode->m_TiffanyFullCost;
+		m_plannedToDeploy = true;
+		break;
+	case ETileDefenceType::DEF_Jimmy:
+		m_gNGGameMode->m_potentialCut += m_gNGGameMode->m_JimmyFullCost;
+		m_unhighlightedMaterial = m_gNGGameMode->m_jimmyTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+		m_plannedToDeploy = true;
+		break;
+	case ETileDefenceType::DEF_Garry:
+		m_gNGGameMode->m_potentialCut += m_gNGGameMode->m_GarryFullCost;
+		m_unhighlightedMaterial = m_gNGGameMode->m_garryTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+		m_plannedToDeploy = true;
+		break;
+	}
+	m_mesh->SetMaterial(0, m_unhighlightedMaterial);
+
 }
 
 void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
-{ 
+{  
 	m_mesh->SetMaterial(0, m_highlightedMaterial);
 }
 
 void ATile::MeshOnEndHover(UPrimitiveComponent* a_primCom)
-{
+{ 
 	m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 }
 
 void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)
 {
-	if (m_highlighted)
+	if (m_defType == ETileDefenceType::DEF_None)
 	{
-		m_gNGGameMode->SetTileInFocus(this);
+		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+		m_unhighlightedMaterial = m_gNGGameMode->m_selectedTileMaterial;
+		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 	}
+	else
+	{
+		m_unhighlightedMaterial = m_gNGGameMode->m_selectedTileMaterial;
+		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
+
+	}
+	m_gNGGameMode->SetTileInFocus(this);
 }
 
 UStaticMeshComponent* ATile::GetStaticMeshComponent()
