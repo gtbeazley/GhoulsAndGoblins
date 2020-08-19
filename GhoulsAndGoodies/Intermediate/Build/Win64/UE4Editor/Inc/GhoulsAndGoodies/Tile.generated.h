@@ -61,6 +61,14 @@ struct FKey;
 		P_NATIVE_BEGIN; \
 		P_THIS->SetDefenceUnitType(ETileDefenceType(Z_Param_a_defType)); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetupTileMaterial) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetupTileMaterial(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -108,6 +116,14 @@ struct FKey;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->SetDefenceUnitType(ETileDefenceType(Z_Param_a_defType)); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetupTileMaterial) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetupTileMaterial(); \
 		P_NATIVE_END; \
 	}
 

@@ -47,6 +47,9 @@ public:
 	//Spawns Defending Unit
 	void SetupDefUnit();
 
+	//Sets the material of the tile according to the defence unit type
+	UFUNCTION(BlueprintCallable)
+	void SetupTileMaterial();
 
 	//Type to determine which unit to spawn and whether to add to the path
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

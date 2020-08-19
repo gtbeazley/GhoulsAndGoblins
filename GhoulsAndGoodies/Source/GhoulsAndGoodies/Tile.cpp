@@ -99,6 +99,35 @@ void ATile::SetupDefUnit()
 	}
 }
 
+void ATile::SetupTileMaterial()
+{
+	
+	switch (m_defType)
+	{
+	case ETileDefenceType::DEF_None:
+		m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
+		break;
+	case ETileDefenceType::DEF_Base:
+		m_unhighlightedMaterial = m_gNGGameMode->m_baseTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+		break;
+	case ETileDefenceType::DEF_Tiffany:
+		m_unhighlightedMaterial = m_gNGGameMode->m_tiffanyTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+		break;
+	case ETileDefenceType::DEF_Jimmy:
+		m_unhighlightedMaterial = m_gNGGameMode->m_jimmyTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+		break;
+	case ETileDefenceType::DEF_Garry:
+		m_unhighlightedMaterial = m_gNGGameMode->m_garryTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+		break;
+	}
+	m_mesh->SetMaterial(0, m_unhighlightedMaterial);
+}
+
 void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
 {
 
@@ -129,35 +158,20 @@ void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
 	}
 	switch (a_defType)
 	{
-	case ETileDefenceType::DEF_None:
-		m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-		m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
-		break;
-	case ETileDefenceType::DEF_Base:
-		m_unhighlightedMaterial = m_gNGGameMode->m_baseTileMaterial;
-		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
-		break;
 	case ETileDefenceType::DEF_Tiffany:
-		m_unhighlightedMaterial = m_gNGGameMode->m_tiffanyTileMaterial;
-		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 		m_gNGGameMode->m_potentialCut += m_gNGGameMode->m_TiffanyFullCost;
 		m_plannedToDeploy = true;
 		break;
 	case ETileDefenceType::DEF_Jimmy:
 		m_gNGGameMode->m_potentialCut += m_gNGGameMode->m_JimmyFullCost;
-		m_unhighlightedMaterial = m_gNGGameMode->m_jimmyTileMaterial;
-		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 		m_plannedToDeploy = true;
 		break;
 	case ETileDefenceType::DEF_Garry:
 		m_gNGGameMode->m_potentialCut += m_gNGGameMode->m_GarryFullCost;
-		m_unhighlightedMaterial = m_gNGGameMode->m_garryTileMaterial;
-		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 		m_plannedToDeploy = true;
 		break;
 	}
-	m_mesh->SetMaterial(0, m_unhighlightedMaterial);
-
+	SetupTileMaterial();
 }
 
 void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)

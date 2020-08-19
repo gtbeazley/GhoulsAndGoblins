@@ -26,6 +26,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ATile_MeshOnEndHover();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ATile_SetDefenceUnitType();
 	GHOULSANDGOODIES_API UEnum* Z_Construct_UEnum_GhoulsAndGoodies_ETileDefenceType();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ATile_SetupTileMaterial();
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_AGhoulsAndGoodiesGameMode_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
 // End Cross Module References
@@ -38,6 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 			{ "MeshOnClick", &ATile::execMeshOnClick },
 			{ "MeshOnEndHover", &ATile::execMeshOnEndHover },
 			{ "SetDefenceUnitType", &ATile::execSetDefenceUnitType },
+			{ "SetupTileMaterial", &ATile::execSetupTileMaterial },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -239,6 +241,30 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATile_SetupTileMaterial_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATile_SetupTileMaterial_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Sets the material of the tile according to the defence unit type\n" },
+		{ "ModuleRelativePath", "Tile.h" },
+		{ "ToolTip", "Sets the material of the tile according to the defence unit type" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATile_SetupTileMaterial_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATile, nullptr, "SetupTileMaterial", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATile_SetupTileMaterial_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATile_SetupTileMaterial_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATile_SetupTileMaterial()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATile_SetupTileMaterial_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ATile_NoRegister()
 	{
 		return ATile::StaticClass();
@@ -298,6 +324,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 		{ &Z_Construct_UFunction_ATile_MeshOnClick, "MeshOnClick" }, // 2386218728
 		{ &Z_Construct_UFunction_ATile_MeshOnEndHover, "MeshOnEndHover" }, // 4270299322
 		{ &Z_Construct_UFunction_ATile_SetDefenceUnitType, "SetDefenceUnitType" }, // 130675544
+		{ &Z_Construct_UFunction_ATile_SetupTileMaterial, "SetupTileMaterial" }, // 3525212611
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATile_Statics::Class_MetaDataParams[] = {
@@ -413,7 +440,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATile, 4226684611);
+	IMPLEMENT_CLASS(ATile, 4235256543);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ATile>()
 	{
 		return ATile::StaticClass();

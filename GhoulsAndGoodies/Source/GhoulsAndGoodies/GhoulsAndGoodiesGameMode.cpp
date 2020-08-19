@@ -82,14 +82,14 @@ void AGhoulsAndGoodiesGameMode::SetTileInFocus(ATile* a_tile)
 {
 	if (m_tileInFocus == a_tile)
 	{
-		m_tileInFocus->SetDefenceUnitType(m_tileInFocus->m_defType);
+		m_tileInFocus->SetupTileMaterial();
 		m_tileInFocus = nullptr;
 	}
 	else
 	{
 		if (m_tileInFocus)
 		{
-			m_tileInFocus->SetDefenceUnitType(m_tileInFocus->m_defType);
+			m_tileInFocus->SetupTileMaterial();
 		}
 		if (a_tile)
 		{
