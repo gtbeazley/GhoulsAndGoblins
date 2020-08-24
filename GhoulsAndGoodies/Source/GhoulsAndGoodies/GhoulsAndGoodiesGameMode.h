@@ -5,7 +5,9 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "TileDefenceType.h"
+#include "GNGGameState.h"
 #include "GhoulsAndGoodiesGameMode.generated.h"
+
 
 class ATileBoard;
 class ATile;
@@ -27,6 +29,8 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SetTileInFocus(ATile* a_tile);
 public:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	TEnumAsByte<EGNGGameState> m_gameState = EGNGGameState::STATE_Plan;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_potentialCut = 0;

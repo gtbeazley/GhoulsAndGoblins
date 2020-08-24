@@ -112,9 +112,33 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\LifeBar_W.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGGameState.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Jimmy.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Tiffany.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Garry.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\LifeBar_W.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGGameState.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Jimmy.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Tiffany.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Garry.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
   </ItemGroup>

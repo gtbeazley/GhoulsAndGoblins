@@ -47,6 +47,7 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 	static ConstructorHelpers::FObjectFinder<UMaterial> l_selectedTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Blue.Blue'"));
 	m_selectedTileMaterial = l_selectedTileMaterial.Object;
 
+	
 }
 
 void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
@@ -76,6 +77,8 @@ void AGhoulsAndGoodiesGameMode::NextWave()
 			}
 		}
 	}
+
+	m_gameState = EGNGGameState::STATE_Defend;
 }
 
 void AGhoulsAndGoodiesGameMode::SetTileInFocus(ATile* a_tile)

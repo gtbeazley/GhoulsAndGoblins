@@ -5,6 +5,7 @@
 #include "ConstructorHelpers.h"
 
 #include "GhoulsAndGoodiesGameMode.h"
+#include "Jimmy.h"
 
 #include "Materials/Material.h"
 #include "GameFramework/GameModeBase.h"
@@ -85,6 +86,8 @@ void ATile::Tick(float DeltaTime)
 
 void ATile::SetupDefUnit()
 {
+	FAttachmentTransformRules* l_fATR = new FAttachmentTransformRules(EAttachmentRule::KeepWorld, EAttachmentRule::KeepRelative, EAttachmentRule::KeepWorld, false);
+	AActor* l_spawnedObject = nullptr;
 	switch (m_defType)
 	{
 	case ETileDefenceType::DEF_Base:
@@ -92,11 +95,15 @@ void ATile::SetupDefUnit()
 	case ETileDefenceType::DEF_Tiffany:
 		break;
 	case ETileDefenceType::DEF_Jimmy:
+		l_spawnedObject = GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), FRotator());
 		break;
 	case ETileDefenceType::DEF_Garry:
 		
 		break;
 	}
+
+	if(l_spawnedObject)
+		l_spawnedObject->AttachToActor(this, *l_fATR);
 }
 
 void ATile::SetupTileMaterial()
