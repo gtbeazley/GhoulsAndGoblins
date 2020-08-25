@@ -7,6 +7,8 @@
 #include "Tile.h"
 #include "LifeBar_W.h"
 #include "UserWidget.h"
+
+#include "Components/SkeletalMeshComponent.h"
 #include "Components/WidgetComponent.h"
 
 // Sets default values
@@ -15,9 +17,9 @@ ADefendingUnit::ADefendingUnit()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	m_rootSceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+	m_mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
 
-	RootComponent = m_rootSceneComponent;
+	SetRootComponent(m_mesh);
 
 	m_curHealth = m_fullHealth;
 

@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "DefendingUnit.generated.h"
 
+class USkeletalMeshComponent;
 class UWidgetComponent;
 class ATile;
 
@@ -32,7 +33,7 @@ public:
 		UWidgetComponent* m_lifeBarComponent;
 
 	UPROPERTY(EditAnywhere)
-		USceneComponent* m_rootSceneComponent;
+		USkeletalMeshComponent* m_mesh;
 
 	float m_fullHealth = 100.0f, 
 		m_curHealth = 100.0f;

@@ -5,8 +5,7 @@
 #include "CoreMinimal.h"
 #include "DefendingUnit.h"
 #include "Tiffany.generated.h"
-
-class USkeletalMeshComponent;
+ 
 class USphereComponent;
 /**
  * 
@@ -19,9 +18,7 @@ public:
 	ATiffany();
 	~ATiffany();
 
-public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		USkeletalMeshComponent* m_mesh;
+public: 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USphereComponent* m_detectionSphere;

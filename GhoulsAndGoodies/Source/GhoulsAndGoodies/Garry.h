@@ -22,8 +22,6 @@ public:
 	~AGarry();
 
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		USkeletalMeshComponent* m_mesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USphereComponent* m_detectionSphere;

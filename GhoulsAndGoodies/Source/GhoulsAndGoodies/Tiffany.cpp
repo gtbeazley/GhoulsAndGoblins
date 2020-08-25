@@ -6,8 +6,7 @@
 #include "Components/SphereComponent.h"
 
 ATiffany::ATiffany()
-{
-	m_mesh = CreateDefaultSubobject<USkeletalMeshComponent>("Mesh");
+{ 
 
 	m_detectionSphere = CreateDefaultSubobject<USphereComponent>("DetectionSphere");
 }

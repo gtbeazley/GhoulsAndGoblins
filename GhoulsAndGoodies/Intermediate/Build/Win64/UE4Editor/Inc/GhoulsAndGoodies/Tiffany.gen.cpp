@@ -18,7 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeTiffany() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ADefendingUnit();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
 	void ATiffany::StaticRegisterNativesATiffany()
 	{
@@ -37,10 +36,6 @@ void EmptyLinkFunctionForGeneratedCodeTiffany() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_detectionSphere_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_detectionSphere;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_mesh_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_mesh;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -64,17 +59,8 @@ void EmptyLinkFunctionForGeneratedCodeTiffany() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATiffany_Statics::NewProp_m_detectionSphere = { "m_detectionSphere", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATiffany, m_detectionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATiffany_Statics::NewProp_m_detectionSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATiffany_Statics::NewProp_m_detectionSphere_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATiffany_Statics::NewProp_m_mesh_MetaData[] = {
-		{ "Category", "Tiffany" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Tiffany.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATiffany_Statics::NewProp_m_mesh = { "m_mesh", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATiffany, m_mesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATiffany_Statics::NewProp_m_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATiffany_Statics::NewProp_m_mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATiffany_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATiffany_Statics::NewProp_m_detectionSphere,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATiffany_Statics::NewProp_m_mesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATiffany_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATiffany>::IsAbstract,
@@ -103,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeTiffany() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATiffany, 2182860106);
+	IMPLEMENT_CLASS(ATiffany, 1533479868);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ATiffany>()
 	{
 		return ATiffany::StaticClass();

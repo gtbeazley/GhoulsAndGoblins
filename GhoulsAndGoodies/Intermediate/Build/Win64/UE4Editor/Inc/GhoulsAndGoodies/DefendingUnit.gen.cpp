@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ADefendingUnit();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
-	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 // End Cross Module References
 	void ADefendingUnit::StaticRegisterNativesADefendingUnit()
@@ -34,9 +34,9 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_rootSceneComponent_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_mesh_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_rootSceneComponent;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_mesh;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_lifeBarComponent_MetaData[];
 #endif
@@ -56,13 +56,13 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_rootSceneComponent_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_mesh_MetaData[] = {
 		{ "Category", "DefendingUnit" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "DefendingUnit.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_rootSceneComponent = { "m_rootSceneComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADefendingUnit, m_rootSceneComponent), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_rootSceneComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_rootSceneComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_mesh = { "m_mesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADefendingUnit, m_mesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_mesh_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_lifeBarComponent_MetaData[] = {
 		{ "Category", "DefendingUnit" },
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_lifeBarComponent = { "m_lifeBarComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADefendingUnit, m_lifeBarComponent), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_lifeBarComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_lifeBarComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADefendingUnit_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_rootSceneComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_lifeBarComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ADefendingUnit_Statics::StaticCppClassTypeInfo = {
@@ -102,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADefendingUnit, 3355803694);
+	IMPLEMENT_CLASS(ADefendingUnit, 3877709388);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ADefendingUnit>()
 	{
 		return ADefendingUnit::StaticClass();

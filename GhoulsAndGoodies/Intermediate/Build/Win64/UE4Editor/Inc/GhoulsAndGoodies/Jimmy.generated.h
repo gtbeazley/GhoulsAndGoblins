@@ -57,10 +57,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AJimmy); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AJimmy)
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_Jimmy_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__m_mesh() { return STRUCT_OFFSET(AJimmy, m_mesh); }
-
-
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_Jimmy_h_17_PRIVATE_PROPERTY_OFFSET
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_Jimmy_h_14_PROLOG
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_Jimmy_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

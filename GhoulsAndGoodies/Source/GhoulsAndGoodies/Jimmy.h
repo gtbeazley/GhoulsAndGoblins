@@ -23,8 +23,6 @@ public:
 	~AJimmy();
 
 	virtual void BeginPlay();
-protected:
-	UPROPERTY(EditAnywhere)
-		USkeletalMeshComponent* m_mesh;
+protected: 
 
 };

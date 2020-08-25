@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodies_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD6C574EE,
+				0x5733053D,
 				0x2E0E08D5,
 				METADATA_PARAMS(nullptr, 0)
 			};
