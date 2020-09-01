@@ -7,6 +7,7 @@
 #include "GNGPlayerController.h"
 #include "TileBoard.h"
 #include "Tile.h"
+#include "GNGSaveGame.h"
 
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
@@ -99,4 +100,9 @@ void AGhoulsAndGoodiesGameMode::SetTileInFocus(ATile* a_tile)
 		}
 		m_tileInFocus = a_tile;
 	}
+}
+
+void AGhoulsAndGoodiesGameMode::SaveGame()
+{
+
 }

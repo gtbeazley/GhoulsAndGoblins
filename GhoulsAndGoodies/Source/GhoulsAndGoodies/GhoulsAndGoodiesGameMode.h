@@ -28,6 +28,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void SetTileInFocus(ATile* a_tile);
+
+	UFUNCTION(BlueprintCallable)
+		void SaveGame();
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TEnumAsByte<EGNGGameState> m_gameState = EGNGGameState::STATE_Plan;

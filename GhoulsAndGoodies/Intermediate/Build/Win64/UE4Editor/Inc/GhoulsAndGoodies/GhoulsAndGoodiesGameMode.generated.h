@@ -16,6 +16,14 @@ class ATile;
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_19_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSaveGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SaveGame(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetTileInFocus) \
 	{ \
 		P_GET_OBJECT(ATile,Z_Param_a_tile); \
@@ -35,6 +43,14 @@ class ATile;
 
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSaveGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SaveGame(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetTileInFocus) \
 	{ \
