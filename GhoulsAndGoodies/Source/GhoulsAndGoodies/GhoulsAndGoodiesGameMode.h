@@ -32,6 +32,16 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void SaveGame();
 public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString m_saveSlotName = "Goodies and Ghouls Save Data";
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FName m_levelName = "TopDownExampleMap";
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FName m_mainMenuLevelName = "MainMenu";
+
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TEnumAsByte<EGNGGameState> m_gameState = EGNGGameState::STATE_Plan;
 

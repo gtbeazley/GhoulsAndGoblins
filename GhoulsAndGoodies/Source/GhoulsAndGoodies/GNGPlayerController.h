@@ -22,6 +22,8 @@ class GHOULSANDGOODIES_API AGNGPlayerController : public APlayerController
 
 	FInputModeGameAndUI m_inputGameandUIMode;
 
+	FName m_camName = "GNGViewTarget";
+
 	TArray<ACameraActor*> m_camActors;
 	int m_camTraversal = 0;
 public:

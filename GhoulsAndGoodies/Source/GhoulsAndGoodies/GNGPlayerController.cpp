@@ -24,19 +24,26 @@ void AGNGPlayerController::BeginPlay()
 
 	TArray<AActor*> l_outActors;
 
-	UGameplayStatics::GetAllActorsOfClass(this, ACameraActor::StaticClass(), l_outActors);
-
+	UGameplayStatics::GetAllActorsOfClass(this, ACameraActor::StaticClass(), l_outActors); 
+	
 	for (AActor* l_camActor : l_outActors)
 	{
-		if (Cast<ACameraActor>(l_camActor))
+		if (l_camActor->GetName() == m_camName.ToString())
 		{
-			m_camActors.Add(Cast<ACameraActor>(l_camActor));
+			if (Cast<ACameraActor>(l_camActor))
+			{
+				m_camActors.Add(Cast<ACameraActor>(l_camActor));
+
+			}
+
+			int m_camTraversal = 0;
 
 		}
+	}
 
+	if (m_camActors.Num() > 0)
+	{
 		SetViewTargetWithBlend(m_camActors[0]);
-		int m_camTraversal = 0;
-
 	}
 
 	SetInputMode(m_inputGameandUIMode);

@@ -144,4 +144,14 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGGameInstance.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGGameInstance.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

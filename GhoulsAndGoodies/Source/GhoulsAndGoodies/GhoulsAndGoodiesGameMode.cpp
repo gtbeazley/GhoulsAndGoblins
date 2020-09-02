@@ -105,4 +105,8 @@ void AGhoulsAndGoodiesGameMode::SetTileInFocus(ATile* a_tile)
 void AGhoulsAndGoodiesGameMode::SaveGame()
 {
 
+	UGNGSaveGame * l_saveGame = Cast<UGNGSaveGame>(UGameplayStatics::CreateSaveGameObject(UGNGSaveGame::StaticClass()));
+
+	l_saveGame->m_wave = m_wave;
+	UGameplayStatics::SaveGameToSlot(l_saveGame, m_saveSlotName, 0);
 }
