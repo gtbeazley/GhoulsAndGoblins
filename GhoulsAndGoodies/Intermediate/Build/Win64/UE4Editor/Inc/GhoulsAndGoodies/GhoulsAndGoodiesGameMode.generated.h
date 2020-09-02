@@ -16,6 +16,14 @@ class ATile;
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_19_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execLoadGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LoadGame(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSaveGame) \
 	{ \
 		P_FINISH; \
@@ -43,6 +51,14 @@ class ATile;
 
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execLoadGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LoadGame(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSaveGame) \
 	{ \

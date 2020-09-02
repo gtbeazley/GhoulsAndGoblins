@@ -15,5 +15,6 @@ class GHOULSANDGOODIES_API UGNGSaveGame : public USaveGame
 	GENERATED_BODY()
 	
 public:
+	UPROPERTY(EditAnywhere)
 	int m_wave;
 };

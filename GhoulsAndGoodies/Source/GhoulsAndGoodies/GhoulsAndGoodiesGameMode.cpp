@@ -3,11 +3,12 @@
 #include "GhoulsAndGoodiesGameMode.h"
 #include "GhoulsAndGoodiesPlayerController.h"
 #include "GhoulsAndGoodiesCharacter.h"
+#include "GNGGameInstance.h"
 #include "GNGPawn.h"
 #include "GNGPlayerController.h"
+#include "GNGSaveGame.h"
 #include "TileBoard.h"
 #include "Tile.h"
-#include "GNGSaveGame.h"
 
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
@@ -109,4 +110,19 @@ void AGhoulsAndGoodiesGameMode::SaveGame()
 
 	l_saveGame->m_wave = m_wave;
 	UGameplayStatics::SaveGameToSlot(l_saveGame, m_saveSlotName, 0);
+}
+
+void AGhoulsAndGoodiesGameMode::LoadGame()
+{
+	UGNGGameInstance * l_gameInstance = Cast<UGNGGameInstance>(GetGameInstance());
+	if (l_gameInstance->m_loadGame)
+	{
+		UGNGSaveGame* l_saveGame = Cast<UGNGSaveGame>(UGameplayStatics::CreateSaveGameObject(UGNGSaveGame::StaticClass()));
+
+		l_saveGame = Cast<UGNGSaveGame>(UGameplayStatics::LoadGameFromSlot(m_saveSlotName, 0));
+
+		m_wave = l_saveGame->m_wave;
+
+		l_gameInstance->m_loadGame = false;
+	}
 }

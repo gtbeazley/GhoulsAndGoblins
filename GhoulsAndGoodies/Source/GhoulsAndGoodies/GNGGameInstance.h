@@ -16,5 +16,5 @@ class GHOULSANDGOODIES_API UGNGGameInstance : public UGameInstance
 	
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadwrite)
-		bool m_loadGame;
+		bool m_loadGame = false;
 };

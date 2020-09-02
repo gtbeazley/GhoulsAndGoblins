@@ -31,6 +31,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void SaveGame();
+
+	UFUNCTION(BlueprintCallable)
+		void LoadGame();
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString m_saveSlotName = "Goodies and Ghouls Save Data";
