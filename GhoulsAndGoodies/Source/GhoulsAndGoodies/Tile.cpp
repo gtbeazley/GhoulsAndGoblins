@@ -224,32 +224,35 @@ void ATile::DespawnUnit()
 
 void ATile::SellUnit()
 {
+	if(!m_plannedToDeploy)
 	DespawnUnit();
 	switch (m_lastDefType)
 	{
 	case ETileDefenceType::DEF_Tiffany:
 		if (m_plannedToDeploy)
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_TiffanyFullCost;
+			m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_TiffanyFullCost;
 		else
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_TiffanyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
+			m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_TiffanyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
 
 		break;
 	case ETileDefenceType::DEF_Jimmy:
 		if (m_plannedToDeploy)
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_JimmyFullCost;
+			m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_JimmyFullCost;
 		else
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_JimmyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
+			m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_JimmyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
 		break;
 	case ETileDefenceType::DEF_Garry:
 		if (m_plannedToDeploy)
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_GarryFullCost;
+			m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_GarryFullCost;
 		else
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_GarryFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
+			m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_GarryFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
 		break;
 
 	}
 
+	SetDefenceUnitType(ETileDefenceType::DEF_None);
 	m_plannedToDeploy = false;
+	m_gNGGameMode->m_tileInFocus = nullptr;
 }
 
 UStaticMeshComponent* ATile::GetStaticMeshComponent()

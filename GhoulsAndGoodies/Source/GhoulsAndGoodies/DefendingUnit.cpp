@@ -8,8 +8,11 @@
 #include "LifeBar_W.h"
 #include "UserWidget.h"
 
+
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/WidgetComponent.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ADefendingUnit::ADefendingUnit()
@@ -24,12 +27,13 @@ ADefendingUnit::ADefendingUnit()
 	m_curHealth = m_fullHealth;
 
 	m_lifeBarComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("LifeBar"));
+	m_lifeBarComponent->SetupAttachment(m_mesh);
 
 	static ConstructorHelpers::FClassFinder<UUserWidget>l_lifeBarClass(TEXT("Class'/Game/TopDownCPP/Blueprints/Widgets/LifeBar_WBP.LifeBar_WBP_C'"));
 	if (l_lifeBarClass.Succeeded())
 	{m_lifeBarComponent->SetWidgetClass(l_lifeBarClass.Class);
 	}
-	m_lifeBarComponent->SetWidgetSpace(EWidgetSpace::Screen);
+	m_lifeBarComponent->SetWidgetSpace(EWidgetSpace::World);
 	ULifeBar_W* l_lifeBar = Cast<ULifeBar_W>(m_lifeBarComponent->GetUserWidgetObject());
 	if (l_lifeBar)
 	{
@@ -37,14 +41,14 @@ ADefendingUnit::ADefendingUnit()
 		l_lifeBar->m_fullHealth = m_fullHealth;
 	}
 
-	m_lifeBarComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
+	m_lifeBarComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 400.0f));
 }
 
 // Called when the game starts or when spawned
 void ADefendingUnit::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	m_curHealth = m_fullHealth;
 }
 
@@ -52,9 +56,11 @@ void ADefendingUnit::BeginPlay()
 void ADefendingUnit::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	//SetActorRotation(FRotator(0.f, 0.f, 0.f));
 
 	if (IsValid(m_lifeBarComponent))
 	{
+		m_lifeBarComponent->SetWorldRotation(UKismetMathLibrary::FindLookAtRotation(m_lifeBarComponent->GetComponentLocation(),	UGameplayStatics::GetPlayerCameraManager(this, 0)->GetCameraLocation()));
 		ULifeBar_W* l_lifeBar = Cast<ULifeBar_W>(m_lifeBarComponent->GetUserWidgetObject());
 		if (l_lifeBar)
 		{
@@ -71,6 +77,6 @@ void ADefendingUnit::Tick(float DeltaTime)
 
 void ADefendingUnit::Despawn()
 {
-	Destroy();
+	SetLifeSpan(.01f);
 }
 
