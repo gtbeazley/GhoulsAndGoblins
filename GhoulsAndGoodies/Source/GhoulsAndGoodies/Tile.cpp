@@ -6,6 +6,8 @@
 
 #include "GhoulsAndGoodiesGameMode.h"
 #include "Jimmy.h"
+#include "Garry.h"
+#include "Tiffany.h"
 
 #include "Materials/Material.h"
 #include "GameFramework/GameModeBase.h"
@@ -93,17 +95,23 @@ void ATile::SetupDefUnit()
 	case ETileDefenceType::DEF_Base:
 		break;
 	case ETileDefenceType::DEF_Tiffany:
+		l_spawnedObject = GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), FRotator());
 		break;
 	case ETileDefenceType::DEF_Jimmy:
 		l_spawnedObject = GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), FRotator());
 		break;
 	case ETileDefenceType::DEF_Garry:
-		
+		l_spawnedObject = GetWorld()->SpawnActor<AGarry>(GetActorLocation(), FRotator());
+
 		break;
 	}
 
-	if(l_spawnedObject)
+	if (l_spawnedObject)
+	{
+
 		l_spawnedObject->AttachToActor(this, *l_fATR);
+		m_defenceUnit = Cast<ADefendingUnit>(l_spawnedObject);
+	}
 }
 
 void ATile::SetupTileMaterial()
@@ -206,6 +214,42 @@ void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)
 
 	}
 	m_gNGGameMode->SetTileInFocus(this);
+}
+
+void ATile::DespawnUnit()
+{
+	m_defType = ETileDefenceType::DEF_None;
+	m_defenceUnit->Despawn();
+}
+
+void ATile::SellUnit()
+{
+	DespawnUnit();
+	switch (m_lastDefType)
+	{
+	case ETileDefenceType::DEF_Tiffany:
+		if (m_plannedToDeploy)
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_TiffanyFullCost;
+		else
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_TiffanyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
+
+		break;
+	case ETileDefenceType::DEF_Jimmy:
+		if (m_plannedToDeploy)
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_JimmyFullCost;
+		else
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_JimmyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
+		break;
+	case ETileDefenceType::DEF_Garry:
+		if (m_plannedToDeploy)
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_GarryFullCost;
+		else
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_GarryFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
+		break;
+
+	}
+
+	m_plannedToDeploy = false;
 }
 
 UStaticMeshComponent* ATile::GetStaticMeshComponent()

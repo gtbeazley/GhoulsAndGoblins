@@ -26,6 +26,22 @@ struct FKey;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execSellUnit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SellUnit(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDespawnUnit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DespawnUnit(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execMeshOnClick) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_primCom); \
@@ -68,6 +84,14 @@ struct FKey;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->SetupTileMaterial(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetupDefUnit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetupDefUnit(); \
 		P_NATIVE_END; \
 	}
 
@@ -82,6 +106,22 @@ struct FKey;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execSellUnit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SellUnit(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDespawnUnit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DespawnUnit(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execMeshOnClick) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_primCom); \
@@ -124,6 +164,14 @@ struct FKey;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->SetupTileMaterial(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetupDefUnit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetupDefUnit(); \
 		P_NATIVE_END; \
 	}
 
@@ -171,6 +219,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATile); \
 
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_Tile_h_19_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_defenceUnit() { return STRUCT_OFFSET(ATile, m_defenceUnit); } \
 	FORCEINLINE static uint32 __PPO__m_mesh() { return STRUCT_OFFSET(ATile, m_mesh); } \
 	FORCEINLINE static uint32 __PPO__m_highlightedMaterial() { return STRUCT_OFFSET(ATile, m_highlightedMaterial); } \
 	FORCEINLINE static uint32 __PPO__m_unhighlightedMaterial() { return STRUCT_OFFSET(ATile, m_unhighlightedMaterial); }

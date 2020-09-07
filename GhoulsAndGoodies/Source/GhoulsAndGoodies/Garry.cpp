@@ -8,6 +8,8 @@
 
 AGarry::AGarry()
 {
+	m_fullHealth = 200.0f;
+	m_curHealth = m_fullHealth;
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_meshAsset (TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/GARRY/GARRY_SKEL.GARRY_SKEL'"));
 
 	m_mesh->SetSkeletalMesh(l_meshAsset.Object);

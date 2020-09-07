@@ -65,7 +65,7 @@ void ADefendingUnit::Tick(float DeltaTime)
 
 	if (m_curHealth <= 0.0f)
 	{
-		Despawn();
+		m_owningTile->DespawnUnit();
 	}
 }
 
