@@ -58,6 +58,8 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 	{
 		m_tileInFocus->GetStaticMeshComponent()->SetMaterial(0, m_selectedTileMaterial);
 	}
+
+	UE_LOG(LogTemp, Log, TEXT("Current Game State: %d"), m_gameState);
 }
 
 void AGhoulsAndGoodiesGameMode::NextWave()

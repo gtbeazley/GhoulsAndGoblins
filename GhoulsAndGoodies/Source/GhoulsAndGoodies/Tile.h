@@ -22,35 +22,63 @@ public:
 	// Sets default values for this actor's properties
 	ATile();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-
-	//Static mesh of the tile
-	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* m_mesh;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_highlightedMaterial;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_unhighlightedMaterial;
-
-public:	
-	//Adds a_neighbour to the neighbour list
+//Adds a_neighbour to the neighbour list
 	void AddNeighbour(ATile* a_neighbour);
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	//Spawns Defending Unit
+	UFUNCTION(BlueprintCallable)
 	void SetupDefUnit();
 
 	//Sets the material of the tile according to the defence unit type
 	UFUNCTION(BlueprintCallable)
 	void SetupTileMaterial();
 
+
+	UFUNCTION(BlueprintCallable)
+	//Sets the defence unit type according to whats on the tile
+	void SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType);
+	
+	UFUNCTION()
+		void MeshOnBeginHover(UPrimitiveComponent* a_primCom);
+
+	UFUNCTION()
+		void MeshOnEndHover(UPrimitiveComponent* a_primCom);
+
+	UFUNCTION()
+		void MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey);
+
+	UFUNCTION(BlueprintCallable)
+		void DespawnUnit();
+
+	UFUNCTION(BlueprintCallable)
+		void SellUnit();
+
+	UFUNCTION(BlueprintCallable)
+	UStaticMeshComponent* GetStaticMeshComponent();
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+	//Reference to the defence unit that this tile owns
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		ADefendingUnit* m_defenceUnit;
+
+	//Static mesh of the tile
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* m_mesh;
+
+	//Material used when hovering over this
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_highlightedMaterial;
+
+	//Material used when not hovering over this tile
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_unhighlightedMaterial; 
+
+public:
 	//Type to determine which unit to spawn and whether to add to the path
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TEnumAsByte<ETileDefenceType> m_defType = ETileDefenceType::DEF_None;
@@ -69,20 +97,5 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_plannedToDeploy = false;
-
-	UFUNCTION(BlueprintCallable)
-	//Sets the defence unit type according to whats on the tile
-	void SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType);
 	
-	UFUNCTION()
-		void MeshOnBeginHover(UPrimitiveComponent* a_primCom);
-
-	UFUNCTION()
-		void MeshOnEndHover(UPrimitiveComponent* a_primCom);
-
-	UFUNCTION()
-		void MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey);
-
-	UFUNCTION(BlueprintCallable)
-	UStaticMeshComponent* GetStaticMeshComponent();
 };
