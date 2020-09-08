@@ -29,6 +29,9 @@ public:
 
 	virtual void Despawn();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector4 m_lifeBarColour = FVector4(0, 1, .5f, 1);
+
 	UPROPERTY(EditAnywhere)
 		UWidgetComponent* m_lifeBarComponent;
 

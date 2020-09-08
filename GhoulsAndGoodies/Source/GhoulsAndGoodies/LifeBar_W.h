@@ -20,4 +20,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_curHealth = 0.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector4 m_progressColour = FVector4(1, 0, 0, 1);
 };

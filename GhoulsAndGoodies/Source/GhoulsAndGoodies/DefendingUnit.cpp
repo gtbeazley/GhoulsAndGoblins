@@ -41,7 +41,7 @@ ADefendingUnit::ADefendingUnit()
 		l_lifeBar->m_fullHealth = m_fullHealth;
 	}
 
-	m_lifeBarComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 400.0f));
+	m_lifeBarComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 200.0f));
 }
 
 // Called when the game starts or when spawned
@@ -66,6 +66,7 @@ void ADefendingUnit::Tick(float DeltaTime)
 		{
 			l_lifeBar->m_curHealth = m_curHealth;
 			l_lifeBar->m_fullHealth = m_fullHealth;
+			l_lifeBar->m_progressColour = m_lifeBarColour;
 		}
 	}
 

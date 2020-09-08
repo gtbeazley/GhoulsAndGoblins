@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeJimmy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AJimmy, 4034444325);
+	IMPLEMENT_CLASS(AJimmy, 2506064011);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AJimmy>()
 	{
 		return AJimmy::StaticClass();

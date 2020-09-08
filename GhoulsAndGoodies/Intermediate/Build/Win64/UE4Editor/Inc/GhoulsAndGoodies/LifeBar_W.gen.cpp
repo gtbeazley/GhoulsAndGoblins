@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeLifeBar_W() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ULifeBar_W();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector4();
 // End Cross Module References
 	void ULifeBar_W::StaticRegisterNativesULifeBar_W()
 	{
@@ -31,6 +32,10 @@ void EmptyLinkFunctionForGeneratedCodeLifeBar_W() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_progressColour_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_m_progressColour;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_curHealth_MetaData[];
 #endif
@@ -55,6 +60,13 @@ void EmptyLinkFunctionForGeneratedCodeLifeBar_W() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_progressColour_MetaData[] = {
+		{ "Category", "LifeBar_W" },
+		{ "ModuleRelativePath", "LifeBar_W.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_progressColour = { "m_progressColour", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ULifeBar_W, m_progressColour), Z_Construct_UScriptStruct_FVector4, METADATA_PARAMS(Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_progressColour_MetaData, ARRAY_COUNT(Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_progressColour_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_curHealth_MetaData[] = {
 		{ "Category", "LifeBar_W" },
 		{ "ModuleRelativePath", "LifeBar_W.h" },
@@ -69,6 +81,7 @@ void EmptyLinkFunctionForGeneratedCodeLifeBar_W() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_fullHealth = { "m_fullHealth", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ULifeBar_W, m_fullHealth), METADATA_PARAMS(Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_fullHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_fullHealth_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ULifeBar_W_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_progressColour,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_curHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULifeBar_W_Statics::NewProp_m_fullHealth,
 	};
@@ -99,7 +112,7 @@ void EmptyLinkFunctionForGeneratedCodeLifeBar_W() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ULifeBar_W, 771861309);
+	IMPLEMENT_CLASS(ULifeBar_W, 1085843754);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ULifeBar_W>()
 	{
 		return ULifeBar_W::StaticClass();

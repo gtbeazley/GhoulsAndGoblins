@@ -34,7 +34,7 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 	static ConstructorHelpers::FObjectFinder<UMaterial> l_jimmyTileMaterial(TEXT("Material'/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.M_Tech_Hex_Tile_Pulse'"));
 	m_jimmyTileMaterial = l_jimmyTileMaterial.Object;
 
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_garryTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Orange.Orange'"));
+	static ConstructorHelpers::FObjectFinder<UMaterial> l_garryTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/DarkPurple.DarkPurple'"));
 	m_garryTileMaterial = l_garryTileMaterial.Object;
 
 	static ConstructorHelpers::FObjectFinder<UMaterial> l_tifannyTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Yellow.Yellow'"));

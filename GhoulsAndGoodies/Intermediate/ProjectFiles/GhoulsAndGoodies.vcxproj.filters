@@ -148,9 +148,39 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGGameInstance.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyUnit.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Grace.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Marvin.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Esqueleto.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemySpawn.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGGameInstance.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyUnit.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Grace.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Marvin.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Esqueleto.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemySpawn.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
   </ItemGroup>
