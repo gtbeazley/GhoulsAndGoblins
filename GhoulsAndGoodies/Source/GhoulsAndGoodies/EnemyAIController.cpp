@@ -2,6 +2,9 @@
 
 
 #include "EnemyAIController.h"
+
+#include "DefendingUnit.h"
+
 #include <BehaviorTree/BlackboardData.h>
 #include <BehaviorTree/BlackboardComponent.h>
 #include <BehaviorTree/BehaviorTree.h>
@@ -32,7 +35,21 @@ void AEnemyAIController::BeginPlay()
 	if(m_bBData)
 	UseBlackboard(m_bBData, l_outBoard);
 	if(l_outBoard != nullptr)
-	l_outBoard->SetValueAsObject("CharacterTarget", Cast<UObject>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0)));
+	l_outBoard->SetValueAsObject("CharacterTarget", Cast<UObject>(UGameplayStatics::GetActorOfClass(this, ADefendingUnit::StaticClass())));
 	if(m_behTree)
 	RunBehaviorTree(m_behTree);
+}
+
+void AEnemyAIController::Tick(float a_deltaTime)
+{
+	Super::Tick(a_deltaTime);
+
+	UBlackboardComponent* l_outBoard = nullptr;
+	if (m_bBData)
+		UseBlackboard(m_bBData, l_outBoard);
+	if (l_outBoard != nullptr)
+		l_outBoard->SetValueAsObject("CharacterTarget", Cast<UObject>(UGameplayStatics::GetActorOfClass(this, ADefendingUnit::StaticClass())));
+	if (m_behTree)
+		RunBehaviorTree(m_behTree);
+	
 }

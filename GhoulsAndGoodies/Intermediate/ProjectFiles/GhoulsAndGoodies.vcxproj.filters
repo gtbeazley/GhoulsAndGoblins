@@ -163,6 +163,9 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemySpawn.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyUnitType.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGGameInstance.cpp">
@@ -181,6 +184,9 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemySpawn.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyUnitType.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
   </ItemGroup>

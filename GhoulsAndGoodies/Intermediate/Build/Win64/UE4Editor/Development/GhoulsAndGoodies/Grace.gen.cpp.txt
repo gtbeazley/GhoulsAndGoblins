@@ -3,5 +3,9 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UOb
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies/Grace.h
 C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\EnemyUnit.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\EnemyUnit.generated.h
 C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\Grace.generated.h

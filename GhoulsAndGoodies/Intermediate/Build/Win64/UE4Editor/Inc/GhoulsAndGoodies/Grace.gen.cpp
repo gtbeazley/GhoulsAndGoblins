@@ -41,6 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeGrace() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGrace_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
+		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Grace.h" },
 		{ "ModuleRelativePath", "Grace.h" },
 	};
@@ -72,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeGrace() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGrace, 2246065236);
+	IMPLEMENT_CLASS(AGrace, 4224562266);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AGrace>()
 	{
 		return AGrace::StaticClass();

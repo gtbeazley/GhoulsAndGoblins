@@ -41,6 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeEsqueleto() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEsqueleto_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
+		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Esqueleto.h" },
 		{ "ModuleRelativePath", "Esqueleto.h" },
 	};
@@ -72,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeEsqueleto() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEsqueleto, 3240515189);
+	IMPLEMENT_CLASS(AEsqueleto, 1633106963);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AEsqueleto>()
 	{
 		return AEsqueleto::StaticClass();

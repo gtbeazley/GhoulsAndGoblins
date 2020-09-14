@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "GameFramework/Character.h"
 #include "EnemyUnit.generated.h"
 
 class USkeletalMeshComponent;
@@ -13,7 +13,7 @@ class ATile;
 class ULifeBar_W;
 
 UCLASS()
-class GHOULSANDGOODIES_API AEnemyUnit : public AActor
+class GHOULSANDGOODIES_API AEnemyUnit : public ACharacter
 {
 	GENERATED_BODY()
 	
@@ -40,13 +40,13 @@ public:
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector4 m_colour = FVector4(0, 1, .5f, 1);
+		FVector4 m_lifeBarColour = FVector4(0, 1, .5f, 1);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UWidgetComponent* m_lifeBarComponent;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		USkeletalMeshComponent* m_mesh;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	//	USkeletalMeshComponent* m_mesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USphereComponent* m_detectionSphere;

@@ -24,6 +24,7 @@ ADefendingUnit::ADefendingUnit()
 
 	SetRootComponent(m_mesh);
 
+
 	m_curHealth = m_fullHealth;
 
 	m_lifeBarComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("LifeBar"));
@@ -31,7 +32,8 @@ ADefendingUnit::ADefendingUnit()
 
 	static ConstructorHelpers::FClassFinder<UUserWidget>l_lifeBarClass(TEXT("Class'/Game/TopDownCPP/Blueprints/Widgets/LifeBar_WBP.LifeBar_WBP_C'"));
 	if (l_lifeBarClass.Succeeded())
-	{m_lifeBarComponent->SetWidgetClass(l_lifeBarClass.Class);
+	{
+		m_lifeBarComponent->SetWidgetClass(l_lifeBarClass.Class);
 	}
 	m_lifeBarComponent->SetWidgetSpace(EWidgetSpace::World);
 	ULifeBar_W* l_lifeBar = Cast<ULifeBar_W>(m_lifeBarComponent->GetUserWidgetObject());
@@ -56,7 +58,8 @@ void ADefendingUnit::BeginPlay()
 void ADefendingUnit::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	//SetActorRotation(FRotator(0.f, 0.f, 0.f));
+
+	m_mesh->SetRelativeRotation(FRotator(0, 0, 0));
 
 	if (IsValid(m_lifeBarComponent))
 	{

@@ -13,9 +13,31 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GHOULSANDGOODIES_EnemySpawn_generated_h
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_RPC_WRAPPERS
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_INCLASS_NO_PURE_DECLS \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSpawn) \
+	{ \
+		P_GET_PROPERTY(UByteProperty,Z_Param_a_enemyType); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Spawn(EEnemyUnitType(Z_Param_a_enemyType)); \
+		P_NATIVE_END; \
+	}
+
+
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSpawn) \
+	{ \
+		P_GET_PROPERTY(UByteProperty,Z_Param_a_enemyType); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Spawn(EEnemyUnitType(Z_Param_a_enemyType)); \
+		P_NATIVE_END; \
+	}
+
+
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemySpawn(); \
 	friend struct Z_Construct_UClass_AEnemySpawn_Statics; \
@@ -24,7 +46,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemySpawn)
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_INCLASS \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemySpawn(); \
 	friend struct Z_Construct_UClass_AEnemySpawn_Statics; \
@@ -33,7 +55,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemySpawn)
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_STANDARD_CONSTRUCTORS \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemySpawn(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemySpawn) \
@@ -46,7 +68,7 @@ private: \
 public:
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_ENHANCED_CONSTRUCTORS \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemySpawn(AEnemySpawn&&); \
@@ -57,26 +79,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemySpawn); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemySpawn)
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_PRIVATE_PROPERTY_OFFSET
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_9_PROLOG
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_GENERATED_BODY_LEGACY \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_PRIVATE_PROPERTY_OFFSET
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_PROLOG
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_PRIVATE_PROPERTY_OFFSET \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_RPC_WRAPPERS \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_INCLASS \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_STANDARD_CONSTRUCTORS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_PRIVATE_PROPERTY_OFFSET \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_RPC_WRAPPERS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_INCLASS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_GENERATED_BODY \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_PRIVATE_PROPERTY_OFFSET \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_INCLASS_NO_PURE_DECLS \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_12_ENHANCED_CONSTRUCTORS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_PRIVATE_PROPERTY_OFFSET \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_INCLASS_NO_PURE_DECLS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -41,6 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeMarvin() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMarvin_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
+		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Marvin.h" },
 		{ "ModuleRelativePath", "Marvin.h" },
 	};
@@ -72,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeMarvin() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMarvin, 1851005823);
+	IMPLEMENT_CLASS(AMarvin, 4289902028);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AMarvin>()
 	{
 		return AMarvin::StaticClass();

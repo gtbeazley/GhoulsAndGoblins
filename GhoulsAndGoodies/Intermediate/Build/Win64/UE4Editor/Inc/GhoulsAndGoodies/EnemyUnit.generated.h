@@ -56,7 +56,7 @@ private: \
 	static void StaticRegisterNativesAEnemyUnit(); \
 	friend struct Z_Construct_UClass_AEnemyUnit_Statics; \
 public: \
-	DECLARE_CLASS(AEnemyUnit, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GhoulsAndGoodies"), NO_API) \
+	DECLARE_CLASS(AEnemyUnit, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GhoulsAndGoodies"), NO_API) \
 	DECLARE_SERIALIZER(AEnemyUnit)
 
 
@@ -65,7 +65,7 @@ private: \
 	static void StaticRegisterNativesAEnemyUnit(); \
 	friend struct Z_Construct_UClass_AEnemyUnit_Statics; \
 public: \
-	DECLARE_CLASS(AEnemyUnit, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GhoulsAndGoodies"), NO_API) \
+	DECLARE_CLASS(AEnemyUnit, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GhoulsAndGoodies"), NO_API) \
 	DECLARE_SERIALIZER(AEnemyUnit)
 
 

@@ -1,6 +1,8 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 #include "GhoulsAndGoodiesGameMode.h"
+
+#include "EnemySpawn.h"
 #include "GhoulsAndGoodiesPlayerController.h"
 #include "GhoulsAndGoodiesCharacter.h"
 #include "GNGGameInstance.h"
@@ -12,6 +14,7 @@
 
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "Materials/Material.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -49,7 +52,6 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 	static ConstructorHelpers::FObjectFinder<UMaterial> l_selectedTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Blue.Blue'"));
 	m_selectedTileMaterial = l_selectedTileMaterial.Object;
 
-	
 }
 
 void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
@@ -60,6 +62,19 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 	}
 
 	UE_LOG(LogTemp, Log, TEXT("Current Game State: %d"), m_gameState);
+}
+
+void AGhoulsAndGoodiesGameMode::BeginPlay()
+{
+	Super::BeginPlay();
+
+	TArray<AActor*> l_outActors;
+
+	UGameplayStatics::GetAllActorsOfClass(this, AEnemySpawn::StaticClass(), l_outActors);
+	for (AActor* l_outActor : l_outActors)
+	{
+		m_enemySpawns.AddUnique(Cast<AEnemySpawn>(l_outActor));
+	}
 }
 
 void AGhoulsAndGoodiesGameMode::NextWave()
@@ -80,7 +95,8 @@ void AGhoulsAndGoodiesGameMode::NextWave()
 				l_tile->SetupDefUnit();
 			}
 		}
-	}
+	} 
+	m_enemySpawns[UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1)]->Spawn((TEnumAsByte<EEnemyUnitType>)UKismetMathLibrary::RandomIntegerInRange(0, 2));
 
 	m_gameState = EGNGGameState::STATE_Defend;
 }

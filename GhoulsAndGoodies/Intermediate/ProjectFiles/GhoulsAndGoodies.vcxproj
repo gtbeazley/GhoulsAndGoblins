@@ -380,10 +380,12 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyAIController.h" />
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemySpawn.cpp" />
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyUnit.cpp" />
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyUnitType.cpp" />
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Esqueleto.cpp" />
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Garry.cpp" />
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemySpawn.h" />
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyUnit.h" />
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyUnitType.h" />
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Esqueleto.h" />
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Garry.h" />
     <None Include="..\..\Source\GhoulsAndGoodies\GhoulsAndGoodies.Build.cs" />

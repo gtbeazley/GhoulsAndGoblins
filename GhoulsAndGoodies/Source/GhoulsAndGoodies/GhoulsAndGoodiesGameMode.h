@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+ // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -8,7 +8,7 @@
 #include "GNGGameState.h"
 #include "GhoulsAndGoodiesGameMode.generated.h"
 
-
+class AEnemySpawn;
 class ATileBoard;
 class ATile;
 class UMaterial;
@@ -22,6 +22,8 @@ public:
 	AGhoulsAndGoodiesGameMode();
 
 	virtual void Tick(float a_deltaTime);
+
+	virtual void BeginPlay() override;
 
 	UFUNCTION(BlueprintCallable)
 	void NextWave();
@@ -43,7 +45,6 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FName m_mainMenuLevelName = "MainMenu";
-
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TEnumAsByte<EGNGGameState> m_gameState = EGNGGameState::STATE_Plan;
@@ -69,7 +70,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_candyCorn = 100;
 
-	ATileBoard* m_mainTileBoard;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		ATileBoard* m_mainTileBoard;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		ATile* m_tileInFocus = nullptr;
@@ -97,6 +99,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UMaterial* m_selectedTileMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<AEnemySpawn*> m_enemySpawns;
 };
 
 

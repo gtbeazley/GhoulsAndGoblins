@@ -15,12 +15,11 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 // Cross Module References
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_AEnemyUnit_NoRegister();
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_AEnemyUnit();
-	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_Despawn();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_UpdateLifeBar();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector4();
 // End Cross Module References
@@ -97,23 +96,19 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_detectionSphere;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_mesh_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_mesh;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_lifeBarComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_lifeBarComponent;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_colour_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_lifeBarColour_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_m_colour;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_m_lifeBarColour;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_AEnemyUnit_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_AActor,
+		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_GhoulsAndGoodies,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemyUnit_Statics::FuncInfo[] = {
@@ -122,6 +117,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::Class_MetaDataParams[] = {
+		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "EnemyUnit.h" },
 		{ "ModuleRelativePath", "EnemyUnit.h" },
 	};
@@ -129,19 +125,13 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_detectionSphere_MetaData[] = {
 		{ "Category", "EnemyUnit" },
+		{ "Comment", "//UPROPERTY(EditAnywhere, BlueprintReadWrite)\n//\x09USkeletalMeshComponent* m_mesh;\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "EnemyUnit.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite)\n       USkeletalMeshComponent* m_mesh;" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_detectionSphere = { "m_detectionSphere", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_detectionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_detectionSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_detectionSphere_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_mesh_MetaData[] = {
-		{ "Category", "EnemyUnit" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "EnemyUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_mesh = { "m_mesh", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_mesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_mesh_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarComponent_MetaData[] = {
 		{ "Category", "EnemyUnit" },
@@ -151,17 +141,16 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarComponent = { "m_lifeBarComponent", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_lifeBarComponent), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarComponent_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_colour_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarColour_MetaData[] = {
 		{ "Category", "EnemyUnit" },
 		{ "ModuleRelativePath", "EnemyUnit.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_colour = { "m_colour", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_colour), Z_Construct_UScriptStruct_FVector4, METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_colour_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_colour_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarColour = { "m_lifeBarColour", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_lifeBarColour), Z_Construct_UScriptStruct_FVector4, METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarColour_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarColour_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyUnit_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_detectionSphere,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarComponent,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_colour,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarColour,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemyUnit_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AEnemyUnit>::IsAbstract,
@@ -190,7 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyUnit, 1383566591);
+	IMPLEMENT_CLASS(AEnemyUnit, 2230639320);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AEnemyUnit>()
 	{
 		return AEnemyUnit::StaticClass();

@@ -15,7 +15,9 @@ class GHOULSANDGOODIES_API AEnemyAIController : public AAIController
 	GENERATED_BODY()
 	AEnemyAIController();
 
-	virtual void BeginPlay();
+	virtual void BeginPlay() override;
+
+	virtual void Tick(float a_deltaTime) override;
 
 protected:
 	UBlackboardData* m_bBData;
