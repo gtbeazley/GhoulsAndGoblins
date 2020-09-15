@@ -56,6 +56,11 @@ void ATile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (m_gNGGameMode->m_gameState == STATE_Base)
+	{
+
+	}
+	else {
 	if (m_lastDefType != m_defType)
 	{
 		switch (m_defType)
@@ -84,6 +89,8 @@ void ATile::Tick(float DeltaTime)
 	}
 
 	m_lastDefType = m_defType;
+
+	}
 }
 
 void ATile::SetupDefUnit()

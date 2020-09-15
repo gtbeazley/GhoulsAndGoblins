@@ -35,6 +35,9 @@ public:
 		void HighlightTile(ATile* a_highlightedtile);
 
 	UFUNCTION(BlueprintCallable)
+		void ClearHighlightTiles();
+
+	UFUNCTION(BlueprintCallable)
 		void UpdateLockTiles();
 
 	UFUNCTION(BlueprintCallable)
@@ -125,7 +128,6 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UMaterial* m_baseUnselectedMaterial; 
-
 };
 
 

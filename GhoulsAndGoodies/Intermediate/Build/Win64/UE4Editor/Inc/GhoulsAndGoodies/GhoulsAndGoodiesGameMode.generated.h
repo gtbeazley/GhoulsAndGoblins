@@ -40,6 +40,14 @@ class ATile;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execClearHighlightTiles) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ClearHighlightTiles(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execHighlightTile) \
 	{ \
 		P_GET_OBJECT(ATile,Z_Param_a_highlightedtile); \
@@ -90,6 +98,14 @@ class ATile;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->UpdateLockTiles(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execClearHighlightTiles) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ClearHighlightTiles(); \
 		P_NATIVE_END; \
 	} \
  \

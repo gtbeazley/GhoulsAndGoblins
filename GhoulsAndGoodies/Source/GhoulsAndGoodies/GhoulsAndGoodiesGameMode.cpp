@@ -62,8 +62,11 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 {
 	if (m_gameState == STATE_Base)
-	{
-
+	{ 
+		for (ATile* l_tile : m_baseHighlightTiles)
+		{
+			l_tile->GetStaticMeshComponent()->SetMaterial(0, m_baseSelectedMaterial);
+		} 
 	}
 	else
 	{ 
@@ -161,11 +164,15 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 	{
 		if (m_mainTileBoard->m_tileList.Num() > 0)
 		{
+			if (a_highlightedTile != m_baseTileLastHighlighted)
+			{
+
 			int l_iter = 0;
 			for (ATile* l_tile : m_mainTileBoard->m_tileList)
 			{
 				if (l_tile == a_highlightedTile)
 				{
+
 					break;
 				}
 				l_iter++;
@@ -181,40 +188,56 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 			}
 			if (!l_wasInList)
 			{
-				if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + 1]))
+				if (l_iter < m_mainTileBoard->m_tileList.Num() - 1 && a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + 1]))
 				{
-					if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]))
+					if (l_iter < m_mainTileBoard->m_tileList.Num() - 1 - m_mainTileBoard->m_rows && 
+						a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]))
 					{
-
+						for (ATile* l_tile : m_baseHighlightTiles)
+						{
+							l_tile->GetStaticMeshComponent()->SetMaterial(0, m_normalTileMaterial);
+						}
 						m_baseHighlightTiles.Empty();
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter + 1]);
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]);
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows] + 1);
+						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + 1]);
+						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]);
+						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows + 1] );
 					} 
-					else if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows]))
-					{ 
+					else if (l_iter >= m_mainTileBoard->m_rows 
+						&& a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows]))
+					{
+						for (ATile* l_tile : m_baseHighlightTiles)
+						{
+							l_tile->GetStaticMeshComponent()->SetMaterial(0, m_normalTileMaterial);
+						}
 						m_baseHighlightTiles.Empty();
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter + 1]);
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows]);
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows] + 1);
+						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + 1]);
+						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows]);
+						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows+ 1] );
 					}
 				}
 				else if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - 1]))
 				{
-					if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]))
+					if (l_iter < m_mainTileBoard->m_tileList.Num() - 1 - m_mainTileBoard->m_rows && a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]))
 					{
-
+						for (ATile* l_tile : m_baseHighlightTiles)
+						{
+							l_tile->GetStaticMeshComponent()->SetMaterial(0, m_normalTileMaterial);
+						}
 						m_baseHighlightTiles.Empty();
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - 1]);
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]);
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows] - 1);
+						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter - 1]);
+						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]);
+						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows- 1] );
 					}
 					else if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows]))
 					{
+						for (ATile* l_tile : m_baseHighlightTiles)
+						{
+							l_tile->GetStaticMeshComponent()->SetMaterial(0, m_normalTileMaterial);
+						}
 						m_baseHighlightTiles.Empty();
 						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - 1]);
 						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows]);
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows] - 1);
+						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows - 1]);
 					}
 				}
 			}
@@ -222,13 +245,13 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 			m_baseLastTileIndex = l_iter;
 			m_baseTileLastHighlighted = a_highlightedTile;
 
-			for (ATile* l_tile : m_baseHighlightTiles)
-			{
-				l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
-				l_tile->m_unhighlightedMaterial = m_baseUnselectedMaterial;
-			}
+		}
 		}
 	}
+}
+
+void AGhoulsAndGoodiesGameMode::ClearHighlightTiles()
+{
 }
 
 void AGhoulsAndGoodiesGameMode::UpdateLockTiles()
