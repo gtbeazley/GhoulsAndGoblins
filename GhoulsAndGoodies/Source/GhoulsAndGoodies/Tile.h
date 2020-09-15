@@ -25,6 +25,8 @@ public:
 //Adds a_neighbour to the neighbour list
 	void AddNeighbour(ATile* a_neighbour);
 
+	bool IsNeighbour(ATile* a_tile);
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -58,6 +60,14 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	UStaticMeshComponent* GetStaticMeshComponent();
+
+	//Material used when hovering over this
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_highlightedMaterial;
+
+	//Material used when not hovering over this tile
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_unhighlightedMaterial; 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -70,13 +80,6 @@ protected:
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* m_mesh;
 
-	//Material used when hovering over this
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_highlightedMaterial;
-
-	//Material used when not hovering over this tile
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_unhighlightedMaterial; 
 
 public:
 	//Type to determine which unit to spawn and whether to add to the path

@@ -10,6 +10,7 @@
 UENUM(BlueprintType)
 enum EGNGGameState 
 {
+    STATE_Base UMETA(DisplayName = "Base"),
     STATE_Plan UMETA(DisplayName = "Plan"),
     STATE_Defend UMETA(DisplayName = "Defend")
 };

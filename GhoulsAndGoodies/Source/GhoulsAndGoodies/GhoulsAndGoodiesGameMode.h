@@ -32,6 +32,12 @@ public:
 	void SetTileInFocus(ATile* a_tile);
 
 	UFUNCTION(BlueprintCallable)
+		void HighlightTile(ATile* a_highlightedtile);
+
+	UFUNCTION(BlueprintCallable)
+		void UpdateLockTiles();
+
+	UFUNCTION(BlueprintCallable)
 		void SaveGame();
 
 	UFUNCTION(BlueprintCallable)
@@ -47,7 +53,7 @@ public:
 		FName m_mainMenuLevelName = "MainMenu";
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	TEnumAsByte<EGNGGameState> m_gameState = EGNGGameState::STATE_Plan;
+	TEnumAsByte<EGNGGameState> m_gameState = EGNGGameState::STATE_Base;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_potentialCut = 0;
@@ -71,7 +77,21 @@ public:
 		int m_candyCorn = 100;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		ATileBoard* m_mainTileBoard;
+		TArray<AEnemySpawn*> m_enemySpawns;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<ATile*> m_baseHighlightTiles;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<ATile*> m_baseLockTiles;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		ATile* m_baseTileLastHighlighted = nullptr;
+
+	int m_baseLastTileIndex = -1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		ATileBoard* m_mainTileBoard = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		ATile* m_tileInFocus = nullptr;
@@ -101,7 +121,11 @@ public:
 		UMaterial* m_selectedTileMaterial;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TArray<AEnemySpawn*> m_enemySpawns;
+		UMaterial* m_baseSelectedMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_baseUnselectedMaterial; 
+
 };
 
 

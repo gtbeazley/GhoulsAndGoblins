@@ -30,7 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeGNGGameState() {}
 		return EGNGGameState_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EGNGGameState(EGNGGameState_StaticEnum, TEXT("/Script/GhoulsAndGoodies"), TEXT("EGNGGameState"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_GhoulsAndGoodies_EGNGGameState_Hash() { return 3518695470U; }
+	uint32 Get_Z_Construct_UEnum_GhoulsAndGoodies_EGNGGameState_Hash() { return 3805507132U; }
 	UEnum* Z_Construct_UEnum_GhoulsAndGoodies_EGNGGameState()
 	{
 #if WITH_HOT_RELOAD
@@ -42,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeGNGGameState() {}
 		if (!ReturnEnum)
 		{
 			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "STATE_Base", (int64)STATE_Base },
 				{ "STATE_Plan", (int64)STATE_Plan },
 				{ "STATE_Defend", (int64)STATE_Defend },
 			};
@@ -50,6 +51,9 @@ void EmptyLinkFunctionForGeneratedCodeGNGGameState() {}
 				{ "BlueprintType", "true" },
 				{ "Comment", "/**\n * \n */" },
 				{ "ModuleRelativePath", "GNGGameState.h" },
+				{ "STATE_Base.Comment", "/**\n * \n */" },
+				{ "STATE_Base.DisplayName", "Base" },
+				{ "STATE_Base.Name", "STATE_Base" },
 				{ "STATE_Defend.Comment", "/**\n * \n */" },
 				{ "STATE_Defend.DisplayName", "Defend" },
 				{ "STATE_Defend.Name", "STATE_Defend" },

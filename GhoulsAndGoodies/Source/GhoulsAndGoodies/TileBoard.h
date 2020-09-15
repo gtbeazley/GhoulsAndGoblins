@@ -18,9 +18,16 @@ public:
 	// Sets default values for this actor's properties
 	ATileBoard();
 
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	//Sets the board according to its values
+	void SetUpBoard();
+public:	
 
 	//The amount of rows in the tile board
 	UPROPERTY(EditAnywhere)
@@ -41,11 +48,4 @@ protected:
 
 	//The list of the tiles
 	TArray<ATile*> m_tileList;
-
-	//Sets the board according to its values
-	void SetUpBoard();
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
 };

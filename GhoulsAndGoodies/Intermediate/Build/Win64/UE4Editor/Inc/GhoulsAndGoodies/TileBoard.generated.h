@@ -57,13 +57,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATileBoard); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATileBoard)
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_TileBoard_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__m_rows() { return STRUCT_OFFSET(ATileBoard, m_rows); } \
-	FORCEINLINE static uint32 __PPO__m_columns() { return STRUCT_OFFSET(ATileBoard, m_columns); } \
-	FORCEINLINE static uint32 __PPO__m_tileSize() { return STRUCT_OFFSET(ATileBoard, m_tileSize); } \
-	FORCEINLINE static uint32 __PPO__SceneComponent() { return STRUCT_OFFSET(ATileBoard, SceneComponent); }
-
-
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_TileBoard_h_15_PRIVATE_PROPERTY_OFFSET
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_TileBoard_h_12_PROLOG
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_TileBoard_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

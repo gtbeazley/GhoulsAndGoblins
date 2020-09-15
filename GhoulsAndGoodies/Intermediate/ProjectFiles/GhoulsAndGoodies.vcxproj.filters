@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GhoulsAndGoodies.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CE48EC8D-F172-4AB5-B43D-825E265DA8C4}</UniqueIdentifier>
+      <UniqueIdentifier>{49117849-83AC-4DB3-BAB0-D27071881847}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GhoulsAndGoodies.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B1905205-5857-401C-96A6-35F9A1AE3062}</UniqueIdentifier>
+      <UniqueIdentifier>{58EDC661-8086-494C-83DF-F0DBB9A55EE7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GhoulsAndGoodies">
-      <UniqueIdentifier>{0828B277-A533-40E4-BDE0-620DBA4D2CE8}</UniqueIdentifier>
+      <UniqueIdentifier>{36245FC0-1571-43FD-A1D5-72A3AC7A52FD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\AICharacter.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
@@ -48,6 +48,30 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyAIController.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemySpawn.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemySpawn.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyUnit.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyUnit.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyUnitType.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyUnitType.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Esqueleto.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Esqueleto.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Garry.cpp">
@@ -83,6 +107,12 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\GhoulsAndGoodiesPlayerController.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGGameInstance.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGGameInstance.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGGameState.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
@@ -107,6 +137,12 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGSaveGame.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Grace.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Grace.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Jimmy.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
@@ -117,6 +153,12 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\LifeBar_W.h">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Marvin.cpp">
+      <Filter>Source\GhoulsAndGoodies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Marvin.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Tiffany.cpp">
@@ -143,51 +185,5 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\TileDefenceType.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\GhoulsAndGoodies\GNGGameInstance.h">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyUnit.h">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Grace.h">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Marvin.h">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Esqueleto.h">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemySpawn.h">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GhoulsAndGoodies\EnemyUnitType.h">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\GNGGameInstance.cpp">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyUnit.cpp">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Grace.cpp">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Marvin.cpp">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Esqueleto.cpp">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemySpawn.cpp">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\EnemyUnitType.cpp">
-      <Filter>Source\GhoulsAndGoodies</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

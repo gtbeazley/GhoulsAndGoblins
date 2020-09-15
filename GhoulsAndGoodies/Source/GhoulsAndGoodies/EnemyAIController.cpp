@@ -25,6 +25,8 @@ AEnemyAIController::AEnemyAIController()
 	if(l_behTree.Succeeded())
 	m_behTree = l_behTree.Object;
 
+	
+
 }
 
 void AEnemyAIController::BeginPlay()

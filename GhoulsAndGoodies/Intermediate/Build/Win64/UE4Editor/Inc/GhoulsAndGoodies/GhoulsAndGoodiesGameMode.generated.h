@@ -32,6 +32,23 @@ class ATile;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execUpdateLockTiles) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdateLockTiles(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execHighlightTile) \
+	{ \
+		P_GET_OBJECT(ATile,Z_Param_a_highlightedtile); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HighlightTile(Z_Param_a_highlightedtile); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetTileInFocus) \
 	{ \
 		P_GET_OBJECT(ATile,Z_Param_a_tile); \
@@ -65,6 +82,23 @@ class ATile;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->SaveGame(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execUpdateLockTiles) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdateLockTiles(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execHighlightTile) \
+	{ \
+		P_GET_OBJECT(ATile,Z_Param_a_highlightedtile); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HighlightTile(Z_Param_a_highlightedtile); \
 		P_NATIVE_END; \
 	} \
  \

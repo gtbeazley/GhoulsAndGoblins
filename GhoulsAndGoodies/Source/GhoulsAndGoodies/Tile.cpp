@@ -190,30 +190,51 @@ void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
 }
 
 void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
-{  
-	m_mesh->SetMaterial(0, m_highlightedMaterial);
+{
+	if (m_gNGGameMode->m_gameState == STATE_Base)
+	{
+		m_gNGGameMode->HighlightTile(this);
+		m_mesh->SetMaterial(0, m_highlightedMaterial);
+	}
+	else {
+		m_mesh->SetMaterial(0, m_highlightedMaterial); 
+	}
 }
 
 void ATile::MeshOnEndHover(UPrimitiveComponent* a_primCom)
 { 
+	if (m_gNGGameMode->m_gameState == STATE_Base)
+	{
+
+	}
+	else {
+	}
 	m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 }
 
 void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)
 {
-	if (m_defType == ETileDefenceType::DEF_None)
+	if (m_gNGGameMode->m_gameState == STATE_Base)
 	{
-		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
-		m_unhighlightedMaterial = m_gNGGameMode->m_selectedTileMaterial;
-		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
+		m_gNGGameMode->UpdateLockTiles();
 	}
 	else
 	{
-		m_unhighlightedMaterial = m_gNGGameMode->m_selectedTileMaterial;
-		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
+		if (m_defType == ETileDefenceType::DEF_None)
+		{
+			m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+			m_unhighlightedMaterial = m_gNGGameMode->m_selectedTileMaterial;
+			m_mesh->SetMaterial(0, m_unhighlightedMaterial);
+		}
+		else
+		{
+			m_unhighlightedMaterial = m_gNGGameMode->m_selectedTileMaterial;
+			m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 
+		}
+		m_gNGGameMode->SetTileInFocus(this);
 	}
-	m_gNGGameMode->SetTileInFocus(this);
+	
 }
 
 void ATile::DespawnUnit()
@@ -267,4 +288,20 @@ void ATile::AddNeighbour(ATile* a_neighbour)
 		m_neighbours.AddUnique(a_neighbour);
 		a_neighbour->m_neighbours.AddUnique(this);
 	}
+}
+
+bool ATile::IsNeighbour(ATile* a_tile)
+{
+	if (a_tile == nullptr)
+	{
+		return false;
+	}
+	for (ATile* l_neighbour : m_neighbours)
+	{
+		if (l_neighbour == a_tile)
+		{
+			return true;
+		}
+	}
+	return false;
 }

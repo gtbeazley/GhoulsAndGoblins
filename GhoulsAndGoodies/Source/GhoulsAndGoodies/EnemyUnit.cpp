@@ -26,6 +26,7 @@ AEnemyUnit::AEnemyUnit()
 	GetMesh()->SetCollisionObjectType(ECC_WorldDynamic);
 	GetMesh()->SetCollisionResponseToChannel(ECC_WorldStatic, ECR_Block);
 	GetMesh()->SetRelativeLocation(FVector(0, 0, -88.0f));
+	GetMesh()->SetRelativeRotation(FRotator(0, -90.0f, 0));
 
 	m_lifeBarComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("Life Bar"));
 	m_lifeBarComponent->SetupAttachment(RootComponent);
@@ -41,11 +42,15 @@ AEnemyUnit::AEnemyUnit()
 
 	m_detectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("Detection Sphere"));
 	m_detectionSphere->SetupAttachment(GetMesh());
+	m_detectionSphere->SetRelativeScale3D(FVector(10, 10, 10));
 
 	m_curHealth = m_fullHealth;
 	
 	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
 	AIControllerClass = AEnemyAIController::StaticClass();
+	bUseControllerRotationYaw = true;
+	bUseControllerRotationPitch = true;
+	bUseControllerRotationRoll = true;
 }
 
 // Called when the game starts or when spawned
