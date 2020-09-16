@@ -61,32 +61,32 @@ void ATile::Tick(float DeltaTime)
 
 	}
 	else {
-	if (m_lastDefType != m_defType)
-	{
-		switch (m_defType)
+		if (m_lastDefType != m_defType)
 		{
-		case ETileDefenceType::DEF_None: 
-			m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-			m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
-			break;
-		case ETileDefenceType::DEF_Base:
-			m_unhighlightedMaterial = m_gNGGameMode->m_baseTileMaterial;
-			m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
-			break;
-		case ETileDefenceType::DEF_Tiffany:
-			m_unhighlightedMaterial = m_gNGGameMode->m_tiffanyTileMaterial;
-			m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
-			break;
-		case ETileDefenceType::DEF_Jimmy:
-			m_unhighlightedMaterial = m_gNGGameMode->m_jimmyTileMaterial;
-			m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
-			break;
-		case ETileDefenceType::DEF_Garry:
-			m_unhighlightedMaterial = m_gNGGameMode->m_garryTileMaterial;
-			m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
-			break;
+			switch (m_defType)
+			{
+			case ETileDefenceType::DEF_None: 
+				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
+				m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
+				break;
+			case ETileDefenceType::DEF_Base:
+				m_unhighlightedMaterial = m_gNGGameMode->m_baseTileMaterial;
+				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+				break;
+			case ETileDefenceType::DEF_Tiffany:
+				m_unhighlightedMaterial = m_gNGGameMode->m_tiffanyTileMaterial;
+				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+				break;
+			case ETileDefenceType::DEF_Jimmy:
+				m_unhighlightedMaterial = m_gNGGameMode->m_jimmyTileMaterial;
+				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+				break;
+			case ETileDefenceType::DEF_Garry:
+				m_unhighlightedMaterial = m_gNGGameMode->m_garryTileMaterial;
+				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+				break;
+			}
 		}
-	}
 
 	m_lastDefType = m_defType;
 
@@ -201,7 +201,7 @@ void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 	if (m_gNGGameMode->m_gameState == STATE_Base)
 	{
 		m_gNGGameMode->HighlightTile(this);
-		m_mesh->SetMaterial(0, m_highlightedMaterial);
+		//m_mesh->SetMaterial(0, m_highlightedMaterial);
 	}
 	else {
 		m_mesh->SetMaterial(0, m_highlightedMaterial); 
@@ -212,11 +212,16 @@ void ATile::MeshOnEndHover(UPrimitiveComponent* a_primCom)
 { 
 	if (m_gNGGameMode->m_gameState == STATE_Base)
 	{
+		//for (ATile* l_tile : m_gNGGameMode->m_baseHighlightTiles)
+		//{
+		//	l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_unhighlightedMaterial);
+		//}
+		//m_gNGGameMode->m_baseHighlightTiles.Empty();
+	}
+	else {	
+		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 
 	}
-	else {
-	}
-	m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 }
 
 void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)

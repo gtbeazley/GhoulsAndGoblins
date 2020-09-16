@@ -2,7 +2,9 @@
 
 #include "GhoulsAndGoodiesGameMode.h"
 
+
 #include "EnemySpawn.h"
+#include "Garry.h"
 #include "GhoulsAndGoodiesPlayerController.h"
 #include "GhoulsAndGoodiesCharacter.h"
 #include "GNGGameInstance.h"
@@ -160,109 +162,170 @@ void AGhoulsAndGoodiesGameMode::SetTileInFocus(ATile* a_tile)
 void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 {
 
-	if (m_mainTileBoard != nullptr)
+	if (a_highlightedTile != m_baseTileLastHighlighted)
 	{
-		if (m_mainTileBoard->m_tileList.Num() > 0)
+
+		int l_iter = 0;
+		for (ATile* l_tile : m_mainTileBoard->m_tileList)
 		{
-			if (a_highlightedTile != m_baseTileLastHighlighted)
+			if (l_tile == a_highlightedTile)
 			{
 
-			int l_iter = 0;
-			for (ATile* l_tile : m_mainTileBoard->m_tileList)
-			{
-				if (l_tile == a_highlightedTile)
-				{
-
-					break;
-				}
-				l_iter++;
+				break;
 			}
-			bool l_wasInList = false;
-			for (ATile* l_tile : m_baseHighlightTiles)
-			{
-				if (l_tile == a_highlightedTile)
-				{
-					l_wasInList = true;
-					break;
-				}
-			}
-			if (!l_wasInList)
-			{
-				if (l_iter < m_mainTileBoard->m_tileList.Num() - 1 && a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + 1]))
-				{
-					if (l_iter < m_mainTileBoard->m_tileList.Num() - 1 - m_mainTileBoard->m_rows && 
-						a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]))
-					{
-						for (ATile* l_tile : m_baseHighlightTiles)
-						{
-							l_tile->GetStaticMeshComponent()->SetMaterial(0, m_normalTileMaterial);
-						}
-						m_baseHighlightTiles.Empty();
-						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + 1]);
-						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]);
-						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows + 1] );
-					} 
-					else if (l_iter >= m_mainTileBoard->m_rows 
-						&& a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows]))
-					{
-						for (ATile* l_tile : m_baseHighlightTiles)
-						{
-							l_tile->GetStaticMeshComponent()->SetMaterial(0, m_normalTileMaterial);
-						}
-						m_baseHighlightTiles.Empty();
-						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + 1]);
-						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows]);
-						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows+ 1] );
-					}
-				}
-				else if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - 1]))
-				{
-					if (l_iter < m_mainTileBoard->m_tileList.Num() - 1 - m_mainTileBoard->m_rows && a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]))
-					{
-						for (ATile* l_tile : m_baseHighlightTiles)
-						{
-							l_tile->GetStaticMeshComponent()->SetMaterial(0, m_normalTileMaterial);
-						}
-						m_baseHighlightTiles.Empty();
-						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter - 1]);
-						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows]);
-						m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_rows- 1] );
-					}
-					else if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows]))
-					{
-						for (ATile* l_tile : m_baseHighlightTiles)
-						{
-							l_tile->GetStaticMeshComponent()->SetMaterial(0, m_normalTileMaterial);
-						}
-						m_baseHighlightTiles.Empty();
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - 1]);
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows]);
-						m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_rows - 1]);
-					}
-				}
-			}
-
-			m_baseLastTileIndex = l_iter;
-			m_baseTileLastHighlighted = a_highlightedTile;
-
+			l_iter++;
 		}
+		bool l_wasInList = false;
+		for (ATile* l_tile : m_baseHighlightTiles)
+		{
+			if (l_tile == a_highlightedTile)
+			{
+				l_wasInList = true;
+				break;
+			}
 		}
+		if (!l_wasInList)
+		{
+			if (l_iter < m_mainTileBoard->m_tileList.Num() - 1 && a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + 1]))
+			{
+				if (l_iter < m_mainTileBoard->m_tileList.Num() - 1 - m_mainTileBoard->m_columns && 
+					a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_columns]))
+				{
+					for (ATile* l_tile : m_baseHighlightTiles)
+					{
+						l_tile->m_highlightedMaterial = m_canSelectMaterial;
+						l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_unhighlightedMaterial);
+					}
+					m_baseHighlightTiles.Empty();
+					m_baseHighlightTiles.Add(a_highlightedTile);
+					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + 1]);
+					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_columns]);
+					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_columns + 1] );
+
+					for (ATile* l_tile : m_baseHighlightTiles)
+					{
+						l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
+						l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_highlightedMaterial);
+					}
+				} 
+				else if (l_iter >= m_mainTileBoard->m_columns
+					&& a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_columns]))
+				{
+					for (ATile* l_tile : m_baseHighlightTiles)
+					{
+						l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_unhighlightedMaterial);
+					}
+					m_baseHighlightTiles.Empty();
+					m_baseHighlightTiles.Add(a_highlightedTile); 
+					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + 1]);
+					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_columns]);
+					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_columns + 1] );
+					for (ATile* l_tile : m_baseHighlightTiles)
+					{
+						l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
+						l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_highlightedMaterial);
+					}
+				}
+			}
+			else if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - 1]))
+			{
+				if (l_iter < m_mainTileBoard->m_tileList.Num() - 1 - m_mainTileBoard->m_columns && a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_columns]))
+				{
+					for (ATile* l_tile : m_baseHighlightTiles)
+					{
+						l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_unhighlightedMaterial);
+					}
+					m_baseHighlightTiles.Empty();					
+					m_baseHighlightTiles.Add(a_highlightedTile);
+					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter - 1]);
+					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_columns]);
+					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_columns - 1] );
+					for (ATile* l_tile : m_baseHighlightTiles)
+					{
+						l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
+						l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_highlightedMaterial);
+					}
+				}
+				else if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_columns]))
+				{
+					for (ATile* l_tile : m_baseHighlightTiles)
+					{
+						l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_unhighlightedMaterial);
+					}
+					m_baseHighlightTiles.Empty();
+					m_baseHighlightTiles.Add(a_highlightedTile);
+					m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - 1]);
+					m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_columns]);
+					m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_columns - 1]);
+					for (ATile* l_tile : m_baseHighlightTiles)
+					{
+						l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
+						l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_highlightedMaterial);
+					}
+				}
+			}
+		}
+
+		m_baseLastTileIndex = l_iter;
+		m_baseTileLastHighlighted = a_highlightedTile;
+
 	}
 }
 
-void AGhoulsAndGoodiesGameMode::ClearHighlightTiles()
+void AGhoulsAndGoodiesGameMode::SpawnBase()
 {
+	FVector l_locationOfLock0 = m_baseLockTiles[0]->GetActorLocation(),
+		l_locationOfLock1 = m_baseLockTiles[1]->GetActorLocation(),
+		l_locationOfLock2 = m_baseLockTiles[2]->GetActorLocation(),
+		l_locationOfLock3 = m_baseLockTiles[3]->GetActorLocation();
+
+	float l_distanceToLock1 = FVector::Distance(l_locationOfLock0, l_locationOfLock1),
+		l_distanceToLock2 = FVector::Distance(l_locationOfLock0, l_locationOfLock2),
+		l_distanceToLock3 = FVector::Distance(l_locationOfLock0, l_locationOfLock3);
+
+	FVector l_middleLocation = l_locationOfLock0;
+
+
+	if (l_distanceToLock1 == l_distanceToLock2)
+	{
+			//l_distanceToLock3
+		FVector DirTimesHalfLength = (l_locationOfLock3 - l_locationOfLock0) / 2;
+		l_middleLocation += DirTimesHalfLength;
+	}
+	else if (l_distanceToLock2 == l_distanceToLock3)
+	{
+		//l_distanceToLock1
+		FVector DirTimesHalfLength = (l_locationOfLock1 - l_locationOfLock0) / 2;
+		l_middleLocation += DirTimesHalfLength;
+
+	}
+	else if (l_distanceToLock1 == l_distanceToLock3)
+	{
+		//l_distanceToLock2
+		FVector DirTimesHalfLength = (l_locationOfLock3 - l_locationOfLock0) / 2;
+		l_middleLocation += DirTimesHalfLength;
+	}
+
+	GetWorld()->SpawnActor<AGarry>(l_middleLocation, FRotator());
+
 }
 
 void AGhoulsAndGoodiesGameMode::UpdateLockTiles()
 {
+	for (ATile* l_tile : m_baseLockTiles)
+	{
+		l_tile->m_unhighlightedMaterial = m_normalTileMaterial;
+		l_tile->GetStaticMeshComponent()->SetMaterial(0, m_normalTileMaterial);
+	}
 	m_baseLockTiles = m_baseHighlightTiles;
 	for (ATile* l_tile : m_baseLockTiles)
 	{
-		l_tile->m_highlightedMaterial = m_baseSelectedMaterial;
+		l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_unhighlightedMaterial);
 		l_tile->m_unhighlightedMaterial = m_baseSelectedMaterial;
+		l_tile->GetStaticMeshComponent()->SetMaterial(0, m_baseSelectedMaterial);
 	}
 }
+
 
 void AGhoulsAndGoodiesGameMode::SaveGame()
 {

@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_AGhoulsAndGoodiesGameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
-	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_ClearHighlightTiles();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_HighlightTile();
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ATile_NoRegister();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_LoadGame();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SaveGame();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_UpdateLockTiles();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ATileBoard_NoRegister();
@@ -34,37 +34,15 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 	{
 		UClass* Class = AGhoulsAndGoodiesGameMode::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "ClearHighlightTiles", &AGhoulsAndGoodiesGameMode::execClearHighlightTiles },
 			{ "HighlightTile", &AGhoulsAndGoodiesGameMode::execHighlightTile },
 			{ "LoadGame", &AGhoulsAndGoodiesGameMode::execLoadGame },
 			{ "NextWave", &AGhoulsAndGoodiesGameMode::execNextWave },
 			{ "SaveGame", &AGhoulsAndGoodiesGameMode::execSaveGame },
 			{ "SetTileInFocus", &AGhoulsAndGoodiesGameMode::execSetTileInFocus },
+			{ "SpawnBase", &AGhoulsAndGoodiesGameMode::execSpawnBase },
 			{ "UpdateLockTiles", &AGhoulsAndGoodiesGameMode::execUpdateLockTiles },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_ClearHighlightTiles_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_ClearHighlightTiles_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_ClearHighlightTiles_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGhoulsAndGoodiesGameMode, nullptr, "ClearHighlightTiles", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_ClearHighlightTiles_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_ClearHighlightTiles_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_ClearHighlightTiles()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_ClearHighlightTiles_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_HighlightTile_Statics
 	{
@@ -193,6 +171,28 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGhoulsAndGoodiesGameMode, nullptr, "SpawnBase", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -349,12 +349,12 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GhoulsAndGoodies,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_ClearHighlightTiles, "ClearHighlightTiles" }, // 1083538822
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_HighlightTile, "HighlightTile" }, // 3713117304
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_LoadGame, "LoadGame" }, // 3416382165
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave, "NextWave" }, // 3909590007
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SaveGame, "SaveGame" }, // 412109579
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus, "SetTileInFocus" }, // 169358576
+		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase, "SpawnBase" }, // 3013985194
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_UpdateLockTiles, "UpdateLockTiles" }, // 1707254275
 	};
 #if WITH_METADATA
@@ -616,7 +616,7 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGhoulsAndGoodiesGameMode, 1117842334);
+	IMPLEMENT_CLASS(AGhoulsAndGoodiesGameMode, 3851396324);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AGhoulsAndGoodiesGameMode>()
 	{
 		return AGhoulsAndGoodiesGameMode::StaticClass();

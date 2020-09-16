@@ -40,11 +40,11 @@ class ATile;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execClearHighlightTiles) \
+	DECLARE_FUNCTION(execSpawnBase) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->ClearHighlightTiles(); \
+		P_THIS->SpawnBase(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -101,11 +101,11 @@ class ATile;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execClearHighlightTiles) \
+	DECLARE_FUNCTION(execSpawnBase) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->ClearHighlightTiles(); \
+		P_THIS->SpawnBase(); \
 		P_NATIVE_END; \
 	} \
  \

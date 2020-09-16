@@ -35,7 +35,7 @@ public:
 		void HighlightTile(ATile* a_highlightedtile);
 
 	UFUNCTION(BlueprintCallable)
-		void ClearHighlightTiles();
+		void SpawnBase();
 
 	UFUNCTION(BlueprintCallable)
 		void UpdateLockTiles();
