@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GhoulsAndGoodies.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{49117849-83AC-4DB3-BAB0-D27071881847}</UniqueIdentifier>
+      <UniqueIdentifier>{A487ACAD-BBE0-4C50-87EF-DD56E942AA8A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GhoulsAndGoodies.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{58EDC661-8086-494C-83DF-F0DBB9A55EE7}</UniqueIdentifier>
+      <UniqueIdentifier>{25E9DD76-D10E-4B62-A0E9-854298FCAFB0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GhoulsAndGoodies">
-      <UniqueIdentifier>{36245FC0-1571-43FD-A1D5-72A3AC7A52FD}</UniqueIdentifier>
+      <UniqueIdentifier>{C7345CEF-56D7-40AD-A8E6-D20C5811420E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\AICharacter.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>

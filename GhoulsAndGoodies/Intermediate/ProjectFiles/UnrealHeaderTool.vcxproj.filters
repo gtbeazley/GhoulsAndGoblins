@@ -3,14 +3,14 @@
   <ItemGroup>
     <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
     <Filter Include="Config">
-      <UniqueIdentifier>{7DCEED5D-874B-42CC-9645-2F3D4777ED50}</UniqueIdentifier>
+      <UniqueIdentifier>{440C7C12-3BC9-458F-941B-77161892ADF3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{B9C61656-90C9-4A11-A5CA-8296E47A0762}</UniqueIdentifier>
+      <UniqueIdentifier>{F26CADD8-1F07-4C86-ABD1-C66B202AB199}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
       <Filter>Private</Filter>
@@ -121,7 +121,7 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Specifiers">
-      <UniqueIdentifier>{961F5814-D4E2-44E4-B44A-03BCEE09D046}</UniqueIdentifier>
+      <UniqueIdentifier>{E1093913-05C6-4527-9E83-07EEE0002B33}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def">
       <Filter>Private\Specifiers</Filter>
@@ -157,19 +157,19 @@
       <Filter>Private\Specifiers</Filter>
     </ClInclude>
     <Filter Include="Public">
-      <UniqueIdentifier>{73CB49C3-BE2C-4835-8B8B-846180DD5CB8}</UniqueIdentifier>
+      <UniqueIdentifier>{295FCA8C-9F71-441A-B802-436A0663A6E6}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h">
       <Filter>Public</Filter>
     </ClInclude>
     <Filter Include="Resources">
-      <UniqueIdentifier>{97EBA5EF-4BBC-4B61-ADFD-A5B0A483593E}</UniqueIdentifier>
+      <UniqueIdentifier>{593563EB-7C48-4E9E-8321-B027FFE127DE}</UniqueIdentifier>
     </Filter>
     <Manifest Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest">
       <Filter>Resources</Filter>
     </Manifest>
     <Filter Include="Resources\UHTDebugging">
-      <UniqueIdentifier>{4CA75392-E0D4-47F7-BF2A-6F6C39E68417}</UniqueIdentifier>
+      <UniqueIdentifier>{8B002CF4-A43A-439B-B10E-649F54D5CAD3}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h">
       <Filter>Resources\UHTDebugging</Filter>
