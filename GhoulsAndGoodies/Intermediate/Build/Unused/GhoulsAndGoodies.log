@@ -1,0 +1,6 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\GhoulsAndGoblins).
+  Parsing headers for GhoulsAndGoodiesEditor
+    Running UnrealHeaderTool "D:\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\GhoulsAndGoodies.uproject" "D:\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\GhoulsAndGoodiesEditor\Development\GhoulsAndGoodiesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for GhoulsAndGoodiesEditor in 6.7001696 seconds
+  Target is up to date
+  Total execution time: 7.54 seconds

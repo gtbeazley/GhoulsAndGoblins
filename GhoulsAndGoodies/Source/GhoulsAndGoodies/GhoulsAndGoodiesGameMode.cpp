@@ -4,6 +4,7 @@
 
 
 #include "EnemySpawn.h"
+#include "Base.h"
 #include "Garry.h"
 #include "GhoulsAndGoodiesPlayerController.h"
 #include "GhoulsAndGoodiesCharacter.h"
@@ -306,7 +307,7 @@ void AGhoulsAndGoodiesGameMode::SpawnBase()
 		l_middleLocation += DirTimesHalfLength;
 	}
 
-	GetWorld()->SpawnActor<AGarry>(l_middleLocation, FRotator());
+	GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator());
 
 }
 
