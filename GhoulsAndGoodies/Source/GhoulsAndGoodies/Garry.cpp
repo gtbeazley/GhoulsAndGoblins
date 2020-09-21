@@ -15,6 +15,8 @@ AGarry::AGarry()
 	m_mesh->SetSkeletalMesh(l_meshAsset.Object);
 
 	m_detectionSphere = CreateDefaultSubobject<USphereComponent>("Detection Sphere");
+	m_detectionSphere->SetupAttachment(m_mesh);
+	m_detectionSphere->SetRelativeScale3D(FVector(10));
 }
 
 AGarry::~AGarry()

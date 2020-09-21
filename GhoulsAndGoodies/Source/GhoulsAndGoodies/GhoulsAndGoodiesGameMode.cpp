@@ -87,7 +87,14 @@ void AGhoulsAndGoodiesGameMode::BeginPlay()
 	Super::BeginPlay(); 
 
 	m_mainTileBoard = Cast<ATileBoard>(UGameplayStatics::GetActorOfClass(this, ATileBoard::StaticClass()));
-
+	if (m_mainTileBoard)
+	{
+		m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[0]);
+		m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[1]);
+		m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[0 + m_mainTileBoard->m_columns]);
+		m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[1 + m_mainTileBoard->m_columns]);
+		UpdateLockTiles();
+	}
 	TArray<AActor*> l_outActors;
 	UGameplayStatics::GetAllActorsOfClass(this, AEnemySpawn::StaticClass(), l_outActors);
 	for (AActor* l_outActor : l_outActors)
@@ -289,7 +296,7 @@ void AGhoulsAndGoodiesGameMode::SpawnBase()
 
 	if (l_distanceToLock1 == l_distanceToLock2)
 	{
-			//l_distanceToLock3
+		//l_distanceToLock3
 		FVector DirTimesHalfLength = (l_locationOfLock3 - l_locationOfLock0) / 2;
 		l_middleLocation += DirTimesHalfLength;
 	}
@@ -306,6 +313,19 @@ void AGhoulsAndGoodiesGameMode::SpawnBase()
 		FVector DirTimesHalfLength = (l_locationOfLock3 - l_locationOfLock0) / 2;
 		l_middleLocation += DirTimesHalfLength;
 	}
+
+	for (ATile* l_tile : m_baseHighlightTiles)
+	{
+		l_tile->SetupTileMaterial();
+	}
+
+
+	for (ATile* l_tile : m_baseLockTiles)
+	{
+		l_tile->SetDefenceUnitType(ETileDefenceType::DEF_Base);
+		l_tile->SetupTileMaterial();
+	}
+
 
 	GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator());
 

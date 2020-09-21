@@ -4,6 +4,7 @@
 #include "Tile.h"
 #include "ConstructorHelpers.h"
 
+#include "DefendingUnit.h"
 #include "GhoulsAndGoodiesGameMode.h"
 #include "Jimmy.h"
 #include "Garry.h"

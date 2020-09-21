@@ -4,12 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "EnemyState.h"
 #include "EnemyUnit.generated.h"
 
+class ADefendingUnit;
+class ATile;
 class USkeletalMeshComponent;
 class UWidgetComponent;
 class USphereComponent;
-class ATile;
 class ULifeBar_W;
 
 UCLASS()
@@ -37,6 +39,15 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void UpdateLifeBar();
 
+	UFUNCTION(BlueprintCallable)
+		void OnDetectionSphereOverlapBegin(UPrimitiveComponent* l_overlappedComp, 
+			AActor* l_otherActor, UPrimitiveComponent* l_otherComp, int32 l_otherBodyIndex, 
+			bool l_fromSweep, const FHitResult& l_sweepResult);
+
+	UFUNCTION(BlueprintCallable)
+		void OnDetectionSphereOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -45,11 +56,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UWidgetComponent* m_lifeBarComponent;
 
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	//	USkeletalMeshComponent* m_mesh;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USphereComponent* m_detectionSphere;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<ADefendingUnit*> m_targetList;
 
 	ULifeBar_W* m_lifeBarWidgetObject;
 

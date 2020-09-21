@@ -8,12 +8,41 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef GHOULSANDGOODIES_EnemyUnit_generated_h
 #error "EnemyUnit.generated.h already included, missing '#pragma once' in EnemyUnit.h"
 #endif
 #define GHOULSANDGOODIES_EnemyUnit_generated_h
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_RPC_WRAPPERS \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDetectionSphereOverlapEnd(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnDetectionSphereOverlapBegin) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_l_overlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_l_otherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_l_otherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_l_otherBodyIndex); \
+		P_GET_UBOOL(Z_Param_l_fromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_l_sweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDetectionSphereOverlapBegin(Z_Param_l_overlappedComp,Z_Param_l_otherActor,Z_Param_l_otherComp,Z_Param_l_otherBodyIndex,Z_Param_l_fromSweep,Z_Param_Out_l_sweepResult); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execUpdateLifeBar) \
 	{ \
@@ -32,7 +61,33 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDetectionSphereOverlapEnd(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnDetectionSphereOverlapBegin) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_l_overlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_l_otherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_l_otherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_l_otherBodyIndex); \
+		P_GET_UBOOL(Z_Param_l_fromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_l_sweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDetectionSphereOverlapBegin(Z_Param_l_overlappedComp,Z_Param_l_otherActor,Z_Param_l_otherComp,Z_Param_l_otherBodyIndex,Z_Param_l_fromSweep,Z_Param_Out_l_sweepResult); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execUpdateLifeBar) \
 	{ \
@@ -51,7 +106,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_INCLASS_NO_PURE_DECLS \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyUnit(); \
 	friend struct Z_Construct_UClass_AEnemyUnit_Statics; \
@@ -60,7 +115,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyUnit)
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_INCLASS \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemyUnit(); \
 	friend struct Z_Construct_UClass_AEnemyUnit_Statics; \
@@ -69,7 +124,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyUnit)
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_STANDARD_CONSTRUCTORS \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemyUnit(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyUnit) \
@@ -82,7 +137,7 @@ private: \
 public:
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_ENHANCED_CONSTRUCTORS \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemyUnit(AEnemyUnit&&); \
@@ -93,26 +148,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyUnit); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemyUnit)
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_PRIVATE_PROPERTY_OFFSET
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_15_PROLOG
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_GENERATED_BODY_LEGACY \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_PRIVATE_PROPERTY_OFFSET
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_17_PROLOG
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_PRIVATE_PROPERTY_OFFSET \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_RPC_WRAPPERS \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_INCLASS \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_STANDARD_CONSTRUCTORS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_PRIVATE_PROPERTY_OFFSET \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_RPC_WRAPPERS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_INCLASS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_GENERATED_BODY \
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_PRIVATE_PROPERTY_OFFSET \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_INCLASS_NO_PURE_DECLS \
-	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_18_ENHANCED_CONSTRUCTORS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_PRIVATE_PROPERTY_OFFSET \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_INCLASS_NO_PURE_DECLS \
+	GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

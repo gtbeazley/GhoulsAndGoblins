@@ -14,7 +14,9 @@ ABase::ABase()
 	m_baseMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Base Mesh"));
 
 	SetRootComponent(m_baseMesh);
+	m_baseMesh->SetRelativeLocation(FVector(0, 0, 260));
 	m_baseMesh->SetStaticMesh(l_baseMeshObject.Object);
+	m_baseMesh->SetRelativeScale3D(FVector(.5, .5, .5));
 
 	m_lifeBarComponent->SetupAttachment(m_baseMesh);
 }

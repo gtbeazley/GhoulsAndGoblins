@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GhoulsAndGoodies.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D02864E3-2B2D-4D3D-BC05-9C84C7A647DE}</UniqueIdentifier>
+      <UniqueIdentifier>{4E81D95A-F2DD-4665-B633-7174C54AA47C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GhoulsAndGoodies.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B9EEB2BD-FDAF-4C03-86EA-007FA2DE58DE}</UniqueIdentifier>
+      <UniqueIdentifier>{873AA501-22AA-4579-BF7D-287E9BDB66C0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GhoulsAndGoodies">
-      <UniqueIdentifier>{6E07525F-C74E-4CCD-8BB2-F9759FF246D5}</UniqueIdentifier>
+      <UniqueIdentifier>{7F372280-404E-4493-B30E-AC17934CCB2A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\AICharacter.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
@@ -185,22 +185,26 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\TileDefenceType.h">
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\GhoulsAndGoodies\Public">
-      <UniqueIdentifier>{d170e588-88eb-4f12-9926-99ff4d2f66b0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source\GhoulsAndGoodies\Private">
-      <UniqueIdentifier>{9ba32712-06d0-4597-a65f-4a8d4e127db7}</UniqueIdentifier>
+      <UniqueIdentifier>{388DE30B-4908-41DF-9967-E3C0A4B86DA4}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Base.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GhoulsAndGoodies\Public">
+      <UniqueIdentifier>{0E643CD5-8F78-4DCF-AE25-C381FE1031B6}</UniqueIdentifier>
+    </Filter>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Base.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Base.cpp">
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\EnemyState.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\EnemyState.cpp">
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
     </ClCompile>
   </ItemGroup>

@@ -5,6 +5,8 @@
 
 #include "ConstructorHelpers.h"
 #include "EnemyAIController.h"
+#include "EnemyState.h"
+#include "DefendingUnit.h"
 #include "LifeBar_W.h"
 #include "tile.h"
 #include "UserWidget.h"
@@ -43,7 +45,8 @@ AEnemyUnit::AEnemyUnit()
 	m_detectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("Detection Sphere"));
 	m_detectionSphere->SetupAttachment(GetMesh());
 	m_detectionSphere->SetRelativeScale3D(FVector(10, 10, 10));
-
+	m_detectionSphere->OnComponentBeginOverlap.AddDynamic(this, &AEnemyUnit::OnDetectionSphereOverlapBegin);
+	m_detectionSphere->OnComponentEndOverlap.AddDynamic(this, &AEnemyUnit::OnDetectionSphereOverlapEnd);
 	m_curHealth = m_fullHealth;
 	
 	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
@@ -64,6 +67,9 @@ void AEnemyUnit::BeginPlay()
 void AEnemyUnit::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if(m_targetList.Num() <= 0)
+	Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Attack;
+	else 	Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Move;
 
 	UpdateLifeBar();
 }
@@ -83,6 +89,20 @@ void AEnemyUnit::UpdateLifeBar()
 		l_lifeBar->m_curHealth = m_curHealth;
 		l_lifeBar->m_fullHealth = m_fullHealth;
 		l_lifeBar->m_progressColour = m_lifeBarColour;
+	}
+}
+
+void AEnemyUnit::OnDetectionSphereOverlapBegin(UPrimitiveComponent* l_overlappedComp, AActor* l_otherActor, UPrimitiveComponent* l_otherComp, int32 l_otherBodyIndex, bool l_fromSweep, const FHitResult& l_sweepResult)
+{
+	if(Cast<ADefendingUnit>(l_otherActor))
+		m_targetList.Add(Cast<ADefendingUnit>(l_otherActor));
+}
+
+void AEnemyUnit::OnDetectionSphereOverlapEnd(UPrimitiveComponent* l_overlappedComp, AActor* l_otherActor, UPrimitiveComponent* l_otherComp, int32 l_otherBodyIndex)
+{
+	if (Cast<ADefendingUnit>(l_otherActor))
+	{
+		m_targetList.RemoveSingle(Cast<ADefendingUnit>(l_otherActor));
 	}
 }
 

@@ -7,10 +7,8 @@
 #include "TileDefenceType.h"
 #include "Tile.generated.h"
 
-class AGhoulsAndGoodiesGameMode;
+class AGhoulsAndGoodiesGameMode; 
 class UPrimitiveComponent;
-class ADefendingUnit;
-class ATile;
 class UMaterial;
 
 UCLASS()
@@ -74,7 +72,7 @@ protected:
 
 	//Reference to the defence unit that this tile owns
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		ADefendingUnit* m_defenceUnit;
+		class ADefendingUnit* m_defenceUnit;
 
 	//Static mesh of the tile
 	UPROPERTY(EditAnywhere)
