@@ -95,8 +95,11 @@ void AEnemyUnit::UpdateLifeBar()
 
 void AEnemyUnit::OnDetectionSphereOverlapBegin(UPrimitiveComponent* l_overlappedComp, AActor* l_otherActor, UPrimitiveComponent* l_otherComp, int32 l_otherBodyIndex, bool l_fromSweep, const FHitResult& l_sweepResult)
 {
-	if(Cast<ADefendingUnit>(l_otherActor))
-		m_targetList.Add(Cast<ADefendingUnit>(l_otherActor));
+	if (Cast<ADefendingUnit>(l_otherActor))
+	{
+		m_targetList.AddUnique(Cast<ADefendingUnit>(l_otherActor));
+		GetController()->StopMovement();
+	}
 }
 
 void AEnemyUnit::OnDetectionSphereOverlapEnd(UPrimitiveComponent* l_overlappedComp, AActor* l_otherActor, UPrimitiveComponent* l_otherComp, int32 l_otherBodyIndex)
