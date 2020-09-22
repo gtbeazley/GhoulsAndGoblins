@@ -46,22 +46,14 @@ void AEnemyAIController::BeginPlay()
 void AEnemyAIController::Tick(float a_deltaTime)
 {
 	Super::Tick(a_deltaTime);
-	UBlackboardComponent* l_outBoard = nullptr;
-	if (m_bBData)
-		UseBlackboard(m_bBData, l_outBoard);
 	switch (m_state)
 	{
 	case ENEMYSTATE_Attack:
-		if (l_outBoard != nullptr)
-			l_outBoard->SetValueAsBool("MoveState", false);
+		GetBlackboardComponent()->SetValueAsBool("MoveState", false);
 		break;
 	case ENEMYSTATE_Move:
-		if (l_outBoard != nullptr)
-			l_outBoard->SetValueAsBool("MoveState", true);
+		GetBlackboardComponent()->SetValueAsBool("MoveState", true);
 		break;
 	}
 
-	if (m_behTree)
-		RunBehaviorTree(m_behTree);
-	
 }

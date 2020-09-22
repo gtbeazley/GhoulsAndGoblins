@@ -68,8 +68,9 @@ void AEnemyUnit::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	if(m_targetList.Num() <= 0)
-	Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Attack;
-	else 	Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Move;
+		Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Move;
+	else 	  
+		Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Attack;
 
 	UpdateLifeBar();
 }
