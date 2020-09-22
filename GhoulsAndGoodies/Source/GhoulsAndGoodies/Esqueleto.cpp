@@ -11,7 +11,7 @@
 AEsqueleto::AEsqueleto()
 { 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_skeletalMeshObject(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto.Anim_Esqueleto'"));
-	const ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_AnimClass(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Esqueleto.Esqueleto'"));
+	const ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_AnimClass(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Esqueleto_AnimBP.Esqueleto_AnimBP'"));
 
 	GetMesh()->SetSkeletalMesh(l_skeletalMeshObject.Object);
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
