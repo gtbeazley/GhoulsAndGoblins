@@ -40,18 +40,21 @@ public:
 		void UpdateLifeBar();
 
 	UFUNCTION(BlueprintCallable)
-		void OnDetectionSphereOverlapBegin(UPrimitiveComponent* l_overlappedComp, 
-			AActor* l_otherActor, UPrimitiveComponent* l_otherComp, int32 l_otherBodyIndex, 
-			bool l_fromSweep, const FHitResult& l_sweepResult);
+		void OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp, 
+			AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex, 
+			bool a_fromSweep, const FHitResult& a_sweepResult);
 
 	UFUNCTION(BlueprintCallable)
-		void OnDetectionSphereOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
-			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+		void OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor,
+			UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex);
+
+	UFUNCTION(BlueprintCallable)
+		void Attack();
 
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector4 m_lifeBarColour = FVector4(0, 1, .5f, 1);
+		FVector4 m_lifeBarColour = FVector4(.5, .01, .5, 1);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UWidgetComponent* m_lifeBarComponent;
@@ -67,4 +70,5 @@ public:
 	TArray<ATile*> m_tilePath;
 
 	float m_fullHealth = 100.0f, m_curHealth = m_fullHealth;
+
 };

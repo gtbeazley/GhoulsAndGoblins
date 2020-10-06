@@ -202,9 +202,15 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\EnemyState.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\DamageSphere.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\EnemyState.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\DamageSphere.cpp">
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
     </ClCompile>
   </ItemGroup>

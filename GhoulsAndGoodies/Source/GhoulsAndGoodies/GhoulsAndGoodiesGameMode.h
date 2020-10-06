@@ -21,7 +21,7 @@ class AGhoulsAndGoodiesGameMode : public AGameModeBase
 public:
 	AGhoulsAndGoodiesGameMode();
 
-	virtual void Tick(float a_deltaTime);
+	virtual void Tick(float a_deltaTime) override;
 
 	virtual void BeginPlay() override;
 

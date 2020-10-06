@@ -15,7 +15,7 @@ AJimmy::AJimmy()
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_staticMeshObject(TEXT("SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'"));
 
-	m_mesh->SetSkeletalMesh(l_staticMeshObject.Object);
+	GetMesh()->SetSkeletalMesh(l_staticMeshObject.Object);
 }
 
 AJimmy::~AJimmy()

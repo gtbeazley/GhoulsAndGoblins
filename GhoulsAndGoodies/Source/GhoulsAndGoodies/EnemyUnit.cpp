@@ -44,9 +44,14 @@ AEnemyUnit::AEnemyUnit()
 
 	m_detectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("Detection Sphere"));
 	m_detectionSphere->SetupAttachment(GetMesh());
-	m_detectionSphere->SetRelativeScale3D(FVector(10, 10, 10));
+	m_detectionSphere->InitSphereRadius(200);
 	m_detectionSphere->OnComponentBeginOverlap.AddDynamic(this, &AEnemyUnit::OnDetectionSphereOverlapBegin);
 	m_detectionSphere->OnComponentEndOverlap.AddDynamic(this, &AEnemyUnit::OnDetectionSphereOverlapEnd);
+	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
+	m_detectionSphere->SetCollisionProfileName("Detect");
+	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
+	m_detectionSphere->bHiddenInGame = false;
+
 	m_curHealth = m_fullHealth;
 	
 	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
@@ -72,12 +77,17 @@ void AEnemyUnit::Tick(float DeltaTime)
 	else 	  
 		Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Attack;
 
+
 	UpdateLifeBar();
+	if (m_curHealth <= 0)
+	{
+		Despawn();
+	}
 }
 
 void AEnemyUnit::Despawn()
 {
-	SetLifeSpan(.01);
+	Destroy(true, true);
 }
 
 void AEnemyUnit::UpdateLifeBar()
@@ -93,20 +103,20 @@ void AEnemyUnit::UpdateLifeBar()
 	}
 }
 
-void AEnemyUnit::OnDetectionSphereOverlapBegin(UPrimitiveComponent* l_overlappedComp, AActor* l_otherActor, UPrimitiveComponent* l_otherComp, int32 l_otherBodyIndex, bool l_fromSweep, const FHitResult& l_sweepResult)
+void AEnemyUnit::OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex, bool a_fromSweep, const FHitResult& a_sweepResult)
 {
-	if (Cast<ADefendingUnit>(l_otherActor))
+	if (Cast<ADefendingUnit>(a_otherActor))
 	{
-		m_targetList.AddUnique(Cast<ADefendingUnit>(l_otherActor));
+		m_targetList.AddUnique(Cast<ADefendingUnit>(a_otherActor));
 		GetController()->StopMovement();
 	}
 }
 
-void AEnemyUnit::OnDetectionSphereOverlapEnd(UPrimitiveComponent* l_overlappedComp, AActor* l_otherActor, UPrimitiveComponent* l_otherComp, int32 l_otherBodyIndex)
+void AEnemyUnit::OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex)
 {
-	if (Cast<ADefendingUnit>(l_otherActor))
+	if (Cast<ADefendingUnit>(a_otherActor))
 	{
-		m_targetList.RemoveSingle(Cast<ADefendingUnit>(l_otherActor));
+		m_targetList.RemoveSingle(Cast<ADefendingUnit>(a_otherActor));
 	}
 }
 

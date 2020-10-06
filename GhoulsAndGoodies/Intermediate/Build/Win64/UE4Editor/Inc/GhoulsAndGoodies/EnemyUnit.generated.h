@@ -18,29 +18,37 @@ struct FHitResult;
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
+	DECLARE_FUNCTION(execAttack) \
 	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnDetectionSphereOverlapEnd(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex); \
+		P_THIS->Attack(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_overlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_otherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_a_otherBodyIndex); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDetectionSphereOverlapEnd(Z_Param_a_overlappedComp,Z_Param_a_otherActor,Z_Param_a_otherComp,Z_Param_a_otherBodyIndex); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execOnDetectionSphereOverlapBegin) \
 	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_l_overlappedComp); \
-		P_GET_OBJECT(AActor,Z_Param_l_otherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_l_otherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_l_otherBodyIndex); \
-		P_GET_UBOOL(Z_Param_l_fromSweep); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_l_sweepResult); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_overlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_otherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_a_otherBodyIndex); \
+		P_GET_UBOOL(Z_Param_a_fromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_a_sweepResult); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnDetectionSphereOverlapBegin(Z_Param_l_overlappedComp,Z_Param_l_otherActor,Z_Param_l_otherComp,Z_Param_l_otherBodyIndex,Z_Param_l_fromSweep,Z_Param_Out_l_sweepResult); \
+		P_THIS->OnDetectionSphereOverlapBegin(Z_Param_a_overlappedComp,Z_Param_a_otherActor,Z_Param_a_otherComp,Z_Param_a_otherBodyIndex,Z_Param_a_fromSweep,Z_Param_Out_a_sweepResult); \
 		P_NATIVE_END; \
 	} \
  \
@@ -63,29 +71,37 @@ struct FHitResult;
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
+	DECLARE_FUNCTION(execAttack) \
 	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnDetectionSphereOverlapEnd(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex); \
+		P_THIS->Attack(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_overlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_otherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_a_otherBodyIndex); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDetectionSphereOverlapEnd(Z_Param_a_overlappedComp,Z_Param_a_otherActor,Z_Param_a_otherComp,Z_Param_a_otherBodyIndex); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execOnDetectionSphereOverlapBegin) \
 	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_l_overlappedComp); \
-		P_GET_OBJECT(AActor,Z_Param_l_otherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_l_otherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_l_otherBodyIndex); \
-		P_GET_UBOOL(Z_Param_l_fromSweep); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_l_sweepResult); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_overlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_otherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_a_otherBodyIndex); \
+		P_GET_UBOOL(Z_Param_a_fromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_a_sweepResult); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnDetectionSphereOverlapBegin(Z_Param_l_overlappedComp,Z_Param_l_otherActor,Z_Param_l_otherComp,Z_Param_l_otherBodyIndex,Z_Param_l_fromSweep,Z_Param_Out_l_sweepResult); \
+		P_THIS->OnDetectionSphereOverlapBegin(Z_Param_a_overlappedComp,Z_Param_a_otherActor,Z_Param_a_otherComp,Z_Param_a_otherBodyIndex,Z_Param_a_fromSweep,Z_Param_Out_a_sweepResult); \
 		P_NATIVE_END; \
 	} \
  \

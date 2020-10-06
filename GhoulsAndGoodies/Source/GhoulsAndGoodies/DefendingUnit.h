@@ -3,10 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "GameFramework/Character.h"
 #include "DefendingUnit.generated.h"
 
 class USkeletalMeshComponent;
+class USphereComponent;
 class UWidgetComponent;
 class ATile;
 
@@ -23,11 +24,19 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void Despawn();
+
+	UFUNCTION(BlueprintCallable)
+		USkeletalMeshComponent* GetMesh();
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		USphereComponent* m_detectionSphere;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector4 m_lifeBarColour = FVector4(0, 1, .5f, 1);

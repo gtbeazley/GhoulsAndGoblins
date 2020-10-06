@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeMarvin() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMarvin, 1051281325);
+	IMPLEMENT_CLASS(AMarvin, 2282559832);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AMarvin>()
 	{
 		return AMarvin::StaticClass();

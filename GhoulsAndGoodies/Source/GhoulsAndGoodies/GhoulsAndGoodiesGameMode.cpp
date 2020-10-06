@@ -4,6 +4,7 @@
 
 
 #include "EnemySpawn.h"
+#include "EnemyUnit.h"
 #include "Base.h"
 #include "Garry.h"
 #include "GhoulsAndGoodiesPlayerController.h"
@@ -27,7 +28,7 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 
 	DefaultPawnClass = AGNGPawn::StaticClass();
 
-	SetActorTickEnabled(true);
+	PrimaryActorTick.bCanEverTick = true;
 
 	m_mainTileBoard = Cast<ATileBoard>(UGameplayStatics::GetActorOfClass(this, ATileBoard::StaticClass()));
 
@@ -64,6 +65,7 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 
 void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 {
+	Super::Tick(a_deltaTime);
 	if (m_gameState == STATE_Base)
 	{ 
 		for (ATile* l_tile : m_baseHighlightTiles)
@@ -76,6 +78,14 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 		if (m_tileInFocus)
 		{
 			m_tileInFocus->GetStaticMeshComponent()->SetMaterial(0, m_selectedTileMaterial);
+		}
+
+		if (m_gameState == STATE_Defend)
+		{
+			if (!IsValid(UGameplayStatics::GetActorOfClass(this, AEnemyUnit::StaticClass())))
+			{
+				m_gameState = STATE_Plan;
+			} 
 		}
 	}
 

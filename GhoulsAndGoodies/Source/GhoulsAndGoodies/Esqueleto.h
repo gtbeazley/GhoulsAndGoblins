@@ -16,4 +16,8 @@ class GHOULSANDGOODIES_API AEsqueleto : public AEnemyUnit
 public:
 	AEsqueleto();
 	virtual ~AEsqueleto();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_attackDamage = 10.0f;
+
 };

@@ -415,8 +415,10 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\LifeBar_W.h" />
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Marvin.cpp" />
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Marvin.h" />
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\DamageSphere.cpp" />
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\EnemyState.cpp" />
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Tiffany.cpp" />
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\DamageSphere.h" />
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\EnemyState.h" />
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Tiffany.h" />
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Tile.cpp" />
