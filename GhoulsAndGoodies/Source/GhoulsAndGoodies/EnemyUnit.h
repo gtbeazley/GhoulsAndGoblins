@@ -49,7 +49,7 @@ public:
 			UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex);
 
 	UFUNCTION(BlueprintCallable)
-		void Attack();
+		virtual void Attack();
 
 public:
 

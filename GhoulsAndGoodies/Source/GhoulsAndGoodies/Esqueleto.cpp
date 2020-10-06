@@ -22,3 +22,7 @@ AEsqueleto::AEsqueleto()
 AEsqueleto::~AEsqueleto()
 {
 }
+
+void AEsqueleto::Attack()
+{
+}

@@ -54,7 +54,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		{ "ModuleRelativePath", "EnemyUnit.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyUnit_Attack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyUnit, nullptr, "Attack", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyUnit_Attack_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemyUnit_Attack_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyUnit_Attack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyUnit, nullptr, "Attack", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyUnit_Attack_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemyUnit_Attack_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AEnemyUnit_Attack()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -290,7 +290,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GhoulsAndGoodies,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemyUnit_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AEnemyUnit_Attack, "Attack" }, // 320971317
+		{ &Z_Construct_UFunction_AEnemyUnit_Attack, "Attack" }, // 2372822233
 		{ &Z_Construct_UFunction_AEnemyUnit_Despawn, "Despawn" }, // 2741057594
 		{ &Z_Construct_UFunction_AEnemyUnit_OnDetectionSphereOverlapBegin, "OnDetectionSphereOverlapBegin" }, // 2245266770
 		{ &Z_Construct_UFunction_AEnemyUnit_OnDetectionSphereOverlapEnd, "OnDetectionSphereOverlapEnd" }, // 1073253531
@@ -368,7 +368,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyUnit, 1576653020);
+	IMPLEMENT_CLASS(AEnemyUnit, 676267703);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AEnemyUnit>()
 	{
 		return AEnemyUnit::StaticClass();

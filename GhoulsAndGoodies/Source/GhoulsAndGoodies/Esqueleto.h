@@ -14,8 +14,14 @@ class GHOULSANDGOODIES_API AEsqueleto : public AEnemyUnit
 {
 	GENERATED_BODY()
 public:
+	//Constructor
 	AEsqueleto();
+	//Destructor
 	virtual ~AEsqueleto();
+
+
+	virtual void Attack() override;
+public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_attackDamage = 10.0f;

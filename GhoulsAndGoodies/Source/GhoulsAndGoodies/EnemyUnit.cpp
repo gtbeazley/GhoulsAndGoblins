@@ -120,3 +120,7 @@ void AEnemyUnit::OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedCo
 	}
 }
 
+void AEnemyUnit::Attack()
+{
+}
+

@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeGrace() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGrace, 4231231122);
+	IMPLEMENT_CLASS(AGrace, 457090668);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AGrace>()
 	{
 		return AGrace::StaticClass();
