@@ -2043,3 +2043,146 @@ Please see Output Log for details.
 [2020.10.06-22.58.33:473][827]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Running_SkeletonCE83F08F440D26168A305C90958D6D1F.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Skeleton.uasset'
 [2020.10.06-22.58.34:779][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
 [2020.10.06-22.58.34:918][920]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/foliageTestingCD221EF64FF979399165DE8832034BC3.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/foliageTesting.umap'
+[2020.10.06-22.59.53:208][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-23.00.03:435][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-23.03.28:132][486]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Esqueleto_Exploding.fbx)
+[2020.10.06-23.03.28:146][486]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Esqueleto_Exploding.fbx
+[2020.10.06-23.03.28:178][486]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.06-23.03.33:048][486]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.06-23.03.33:104][486]LogFbx: Valid bind pose for Pose (skinCluster6) - Bones:SM_Hat
+[2020.10.06-23.03.33:105][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Hat : The relative matrices do not match
+[2020.10.06-23.03.33:105][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Maraca : The relative matrices do not match
+[2020.10.06-23.03.33:105][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Neck : The relative matrices do not match
+[2020.10.06-23.03.33:106][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Hand : The relative matrices do not match
+[2020.10.06-23.03.33:106][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Body : The relative matrices do not match
+[2020.10.06-23.03.33:107][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Poncho : The relative matrices do not match
+[2020.10.06-23.03.33:108][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster5) - Node Bones:SM_Head : The relative matrices do not match
+[2020.10.06-23.03.33:108][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Hat : The relative matrices do not match
+[2020.10.06-23.03.33:108][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Maraca : The relative matrices do not match
+[2020.10.06-23.03.33:108][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Neck : The relative matrices do not match
+[2020.10.06-23.03.33:109][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Hand : The relative matrices do not match
+[2020.10.06-23.03.33:109][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Body : The relative matrices do not match
+[2020.10.06-23.03.33:109][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Poncho : The relative matrices do not match
+[2020.10.06-23.03.33:109][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bones:SM_Head : The relative matrices do not match
+[2020.10.06-23.03.33:110][486]LogFbx: Valid bind pose for Pose (skinCluster3) - Bones:SM_Hat
+[2020.10.06-23.03.33:110][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Hat : The relative matrices do not match
+[2020.10.06-23.03.33:110][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Maraca : The relative matrices do not match
+[2020.10.06-23.03.33:111][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Neck : The relative matrices do not match
+[2020.10.06-23.03.33:111][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Hand : The relative matrices do not match
+[2020.10.06-23.03.33:111][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Body : The relative matrices do not match
+[2020.10.06-23.03.33:112][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Poncho : The relative matrices do not match
+[2020.10.06-23.03.33:112][486]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bones:SM_Head : The relative matrices do not match
+[2020.10.06-23.03.33:112][486]LogFbx: Valid bind pose for Pose (skinCluster10) - Bones:SM_Hat
+[2020.10.06-23.03.33:112][486]LogFbx: Valid bind pose for Pose (skinCluster7) - Bones:SM_Hat
+[2020.10.06-23.03.33:116][486]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.06-23.03.33:119][486]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.06-23.03.33:141][486]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Esqueleto_BaseColor': Can't find file.
+[2020.10.06-23.03.33:142][486]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Esqueleto_BaseColor': Can't find file.
+[2020.10.06-23.03.33:164][486]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2020.10.06-23.03.33:164][486]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.10.06-23.03.33:164][486]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.10.06-23.03.33:164][486]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.10.06-23.03.33:164][486]LogTexture: Display: Building textures: Esqueleto_BaseColor (AutoDXT, 1024X1024)
+[2020.10.06-23.03.33:246][486]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.06-23.03.33:273][486]LogFbx: Triangulating skeletal mesh Bones:SM_Hat
+[2020.10.06-23.03.33:298][486]LogFbx: Triangulating skeletal mesh Bones:SM_Maraca
+[2020.10.06-23.03.33:322][486]LogFbx: Triangulating skeletal mesh Bones:SM_Neck
+[2020.10.06-23.03.33:324][486]LogFbx: Triangulating skeletal mesh Bones:SM_Hand
+[2020.10.06-23.03.33:330][486]LogFbx: Triangulating skeletal mesh Bones:SM_Body
+[2020.10.06-23.03.33:356][486]LogFbx: Triangulating skeletal mesh Bones:SM_Poncho
+[2020.10.06-23.03.33:379][486]LogFbx: Triangulating skeletal mesh Bones:SM_Head
+[2020.10.06-23.03.33:418][486]LogFbx: Warning: Bones digested - 25  Depth of hierarchy - 8
+[2020.10.06-23.03.33:514][486]LogSkeletalMesh: Section 0: 1734 vertices, 24 active bones
+[2020.10.06-23.03.33:514][486]LogSkeletalMesh: Section 0: Material=0, 2628 triangles
+[2020.10.06-23.03.33:517][486]LogSkeletalMesh: Building Skeletal Mesh Anim_Esqueleto_Exploding...
+[2020.10.06-23.03.33:525][486]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding.Anim_Esqueleto_Exploding
+[2020.10.06-23.03.33:534][486]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Anim.Anim_Esqueleto_Anim
+[2020.10.06-23.03.33:534][486]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Anim.Anim_Esqueleto_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.10.06-23.03.33:544][486]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding_PhysicsAsset': Can't find file.
+[2020.10.06-23.03.33:544][486]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding_PhysicsAsset': Can't find file.
+[2020.10.06-23.03.33:557][486]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.10.06-23.03.33:561][486]LogFbx: SortedLinks :(0) Rig
+[2020.10.06-23.03.33:561][486]LogFbx: SortedLinks :(1) Root_jnt
+[2020.10.06-23.03.33:561][486]LogFbx: SortedLinks :(2) Cog_jnt
+[2020.10.06-23.03.33:561][486]LogFbx: SortedLinks :(3) Hip_L_jnt
+[2020.10.06-23.03.33:561][486]LogFbx: SortedLinks :(4) Knee_L_jnt
+[2020.10.06-23.03.33:561][486]LogFbx: SortedLinks :(5) Ankle_L_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(6) Ball_L_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(7) Toe_L_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(8) Hip_R_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(9) Knee_R_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(10) Ankle_R_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(11) Ball_R_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(12) Toe_R_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(13) Chest_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(14) Neck_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(15) Head_jnt
+[2020.10.06-23.03.33:562][486]LogFbx: SortedLinks :(16) Shoulder_L_jnt
+[2020.10.06-23.03.33:563][486]LogFbx: SortedLinks :(17) Elbow_L_jnt
+[2020.10.06-23.03.33:563][486]LogFbx: SortedLinks :(18) Hand_L_jnt
+[2020.10.06-23.03.33:563][486]LogFbx: SortedLinks :(19) Maraca_L_jnt
+[2020.10.06-23.03.33:563][486]LogFbx: SortedLinks :(20) Shoulder_R_jnt
+[2020.10.06-23.03.33:563][486]LogFbx: SortedLinks :(21) Elbow_R_jnt
+[2020.10.06-23.03.33:563][486]LogFbx: SortedLinks :(22) Hand_R_jnt
+[2020.10.06-23.03.33:563][486]LogFbx: SortedLinks :(23) Maraca_R_jnt
+[2020.10.06-23.03.33:563][486]LogFbx: SortedLinks :(24) Hat_jnt
+[2020.10.06-23.03.33:564][486]LogFbx: Parsing AnimStack Take 001
+[2020.10.06-23.03.33:565][486]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding_Anim': Can't find file.
+[2020.10.06-23.03.33:565][486]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding_Anim': Can't find file.
+[2020.10.06-23.03.35:067][486]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2020.10.06-23.03.35:133][486]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding_Anim.Anim_Esqueleto_Exploding_Anim
+[2020.10.06-23.03.35:133][486]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding_Anim.Anim_Esqueleto_Exploding_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.10.06-23.03.35:153][486]LogSkeletalMesh: Building Skeletal Mesh Anim_Esqueleto_Exploding...
+[2020.10.06-23.03.35:158][486]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding.Anim_Esqueleto_Exploding
+[2020.10.06-23.03.35:175][486]FBXImport: Warning: The following bones are missing from the bind pose:
+Hip_L_jnt  
+Knee_L_jnt  
+Ankle_L_jnt  
+Ball_L_jnt  
+Toe_L_jnt  
+Hip_R_jnt  
+Knee_R_jnt  
+Ankle_R_jnt  
+Ball_R_jnt  
+Toe_R_jnt  
+Elbow_L_jnt  
+Hand_L_jnt  
+Maraca_L_jnt  
+Elbow_R_jnt  
+Hand_R_jnt  
+Maraca_R_jnt  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2020.10.06-23.03.35:192][486]LogSkeletalMesh: Building Skeletal Mesh Anim_Esqueleto_Exploding...
+[2020.10.06-23.03.35:198][486]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding.Anim_Esqueleto_Exploding
+[2020.10.06-23.03.35:939][507]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2020.10.06-23.03.36:106][515]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2020.10.06-23.03.36:466][532]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.10.06-23.03.37:282][569]LogSlate: Window 'Message Log' being destroyed
+[2020.10.06-23.03.37:290][569]LogSlate: Window 'Message Log' being destroyed
+[2020.10.06-23.03.38:103][599]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.10.06-23.03.38:103][599]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.10.06-23.03.38:175][602]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.10.06-23.03.38:676][622]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.10.06-23.03.38:759][625]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.10.06-23.03.42:119][771]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.10.06-23.03.43:027][771]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.06-23.03.43:543][771]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/lambert1.lambert1
+[2020.10.06-23.03.43:669][771]LogSkeletalMesh: Building Skeletal Mesh Anim_Esqueleto_Exploding...
+[2020.10.06-23.03.43:672][771]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding.Anim_Esqueleto_Exploding
+[2020.10.06-23.03.43:811][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.10.06-23.03.44:647][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.10.06-23.03.45:426][811]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.06-23.03.45:507][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.10.06-23.03.47:583][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.10.06-23.03.48:460][912]LogSlate: Window 'Save Content' being destroyed
+[2020.10.06-23.03.48:541][912]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Esqueleto_Anim9661C410471268EE6607FBA347BC8F9F.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Anim.uasset'
+[2020.10.06-23.03.48:583][912]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Esqueleto_Exploding08D48D214E7499C4EB009AB3680BE562.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding.uasset'
+[2020.10.06-23.03.48:628][912]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Esqueleto_Exploding_AnimCC087A9A4C0BA09183EF188D3A0C82BF.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding_Anim.uasset'
+[2020.10.06-23.03.48:667][912]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Esqueleto_Exploding_Physics66DF829A423AE077EED4DA8A3A7FC090.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding_PhysicsAsset.uasset'
+[2020.10.06-23.03.48:695][912]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Esqueleto_Skeleton4FECB7F1489CFAEDDE469D848834389D.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Skeleton.uasset'
+[2020.10.06-23.03.48:759][912]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Esqueleto_BlendSpaceEE4204444D4BA980246B439B11829B3D.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Esqueleto_BlendSpace.uasset'
+[2020.10.06-23.03.49:831][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.10.06-23.03.49:975][985]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/foliageTesting3FCA4AFF488712A428D43E8D6EF12B11.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/foliageTesting.umap'
