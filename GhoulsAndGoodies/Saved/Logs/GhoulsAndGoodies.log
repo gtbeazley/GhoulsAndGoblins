@@ -709,3 +709,1032 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.06-22.32.29:576][451]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/POTION_RC8CA23B844AB91CD0583F79CABCCD88E.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/TEXTURES/GRACE/POTION_R.uasset'
 [2020.10.06-22.32.30:430][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
 [2020.10.06-22.32.30:575][510]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/TopDownExampleMap6AAFA25D4E7B2D23ECD373A996066D61.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2020.10.06-22.33.36:172][192]LogAssetEditorManager: Opening Asset editor for Material /Game/TopDownCPP/ASSETS/MATERIAL/M_Grace.M_Grace
+[2020.10.06-22.33.36:180][192]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.33.36:181][192]LogMaterial: Warning: /Engine/Transient.M_Grace (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.06-22.33.36:181][192]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.33.36:242][192]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.33.36:243][192]LogMaterial: Warning: /Engine/Transient.M_Grace (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.06-22.33.36:243][192]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.33.36:259][192]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.06-22.33.36:262][192]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.06-22.33.36:282][192]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.33.36:297][192]LogSlate: Took 0.007098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.06-22.33.46:504][810]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.33.46:505][810]LogMaterial: Warning: /Engine/Transient.M_Grace (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.06-22.33.46:505][810]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.33.47:205][858]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.33.47:245][859]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2020.10.06-22.33.47:245][859]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2020.10.06-22.33.47:245][859]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 30
+[2020.10.06-22.33.47:245][859]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2020.10.06-22.33.47:705][888]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2020.10.06-22.33.47:717][889]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2020.10.06-22.33.47:717][889]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2020.10.06-22.33.47:718][889]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2020.10.06-22.33.47:933][902]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2020.10.06-22.33.48:049][908]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+[2020.10.06-22.33.48:098][911]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2020.10.06-22.33.48:115][912]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2020.10.06-22.33.48:214][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2020.10.06-22.33.48:474][934]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2020.10.06-22.33.48:502][936]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 18
+[2020.10.06-22.33.48:567][942]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2020.10.06-22.33.48:632][947]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2020.10.06-22.33.48:706][953]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2020.10.06-22.33.48:741][956]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.10.06-22.33.48:813][963]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2020.10.06-22.33.48:851][966]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.33.48:902][970]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.33.48:927][970]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.06-22.33.48:938][970]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2020.10.06-22.33.48:948][970]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.06-22.33.49:002][971]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 35
+[2020.10.06-22.33.49:228][982]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 34
+[2020.10.06-22.33.49:291][986]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2020.10.06-22.33.49:291][986]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2020.10.06-22.33.49:291][986]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2020.10.06-22.33.49:576][  2]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.10.06-22.33.49:646][  6]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2020.10.06-22.33.49:646][  6]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2020.10.06-22.33.49:678][  8]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2020.10.06-22.33.49:818][ 16]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2020.10.06-22.33.49:924][ 20]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.10.06-22.33.49:925][ 20]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.10.06-22.33.50:181][ 39]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.10.06-22.33.50:196][ 40]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.10.06-22.33.50:287][ 47]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2020.10.06-22.33.50:327][ 50]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2020.10.06-22.33.50:424][ 58]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+[2020.10.06-22.33.50:448][ 60]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2020.10.06-22.33.50:515][ 66]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2020.10.06-22.33.50:588][ 71]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.10.06-22.33.50:588][ 71]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.33.50:619][ 71]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.06-22.33.50:664][ 73]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+[2020.10.06-22.33.50:679][ 74]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2020.10.06-22.33.50:962][ 90]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 34
+[2020.10.06-22.33.51:024][ 94]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2020.10.06-22.33.51:039][ 95]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 32
+[2020.10.06-22.33.51:096][ 99]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 31
+[2020.10.06-22.33.51:303][111]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.10.06-22.33.51:433][119]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.10.06-22.33.51:447][120]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2020.10.06-22.33.51:489][123]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2020.10.06-22.33.51:646][133]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2020.10.06-22.33.51:759][140]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.10.06-22.33.51:775][141]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2020.10.06-22.33.52:050][157]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2020.10.06-22.33.52:102][160]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2020.10.06-22.33.52:180][164]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2020.10.06-22.33.52:247][168]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2020.10.06-22.33.52:364][175]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.10.06-22.33.52:398][176]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2020.10.06-22.33.52:514][184]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2020.10.06-22.33.52:642][191]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2020.10.06-22.33.52:687][194]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.10.06-22.33.52:757][199]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2020.10.06-22.33.53:001][211]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2020.10.06-22.33.53:022][213]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.10.06-22.33.53:092][218]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.10.06-22.33.53:132][221]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.10.06-22.33.53:274][230]LogMaterialEditor: Applying material M_Grace
+[2020.10.06-22.33.53:845][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.33.53:845][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.10.06-22.33.53:845][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.10.06-22.33.53:845][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.06-22.33.53:845][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.10.06-22.33.53:845][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.10.06-22.33.53:846][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.33.53:846][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.33.53:846][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.10.06-22.33.53:872][230]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.33.53:922][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2020.10.06-22.33.53:948][230]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.33.53:983][230]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.33.54:042][230]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.10.06-22.33.54:059][230]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.06-22.33.56:302][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 66
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 65
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 64
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 63
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 62
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 61
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 59
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 58
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 57
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 56
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 55
+[2020.10.06-22.33.56:303][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 54
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 53
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 52
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 50
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 49
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 47
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 46
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 45
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 44
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 43
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 42
+[2020.10.06-22.33.56:304][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 41
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 40
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 38
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 34
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.10.06-22.33.56:305][230]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.10.06-22.33.56:308][230]TextureStreamingBuild: Display: Compiling optional shaders took 2.266 seconds.
+[2020.10.06-22.33.56:341][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.10.06-22.33.57:308][280]LogMaterialEditor: Saving and Compiling material M_Grace
+[2020.10.06-22.33.58:400][280]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.10.06-22.33.58:400][280]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.10.06-22.33.58:400][280]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.10.06-22.33.58:400][280]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.33.58:400][280]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.10.06-22.33.58:437][280]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/M_Grace96891FF146BD27E475E72FA174BC5D4C.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/MATERIAL/M_Grace.uasset'
+[2020.10.06-22.33.58:450][280]MaterialEditorStats: Base pass shader: 95 instructions
+[2020.10.06-22.33.58:450][280]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.33.58:450][280]MaterialEditorStats: Base pass vertex shader: 87 instructions
+[2020.10.06-22.33.58:450][280]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.06-22.33.58:451][280]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.06-22.33.58:451][280]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.34.13:309][281]LogAssetEditorManager: Opening Asset editor for Material /Game/TopDownCPP/ASSETS/MATERIAL/M_Buddy.M_Buddy
+[2020.10.06-22.34.13:313][281]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.34.13:376][281]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.34.13:395][281]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.34.13:395][281]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.34.13:395][281]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.34.13:395][281]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.34.13:739][292]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.10.06-22.34.13:739][292]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.10.06-22.34.13:766][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2020.10.06-22.34.13:770][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.10.06-22.34.13:925][299]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.34.14:046][304]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.34.14:055][304]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.34.14:055][304]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.10.06-22.34.14:584][326]MaterialEditorStats: Base pass shader: 92 instructions
+[2020.10.06-22.34.14:584][326]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.06-22.34.14:584][326]MaterialEditorStats: Texture samplers: 1/16
+[2020.10.06-22.34.18:937][627]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.34.18:947][627]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.34.18:948][627]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.34.18:948][627]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.34.18:948][627]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.34.18:948][627]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.06-22.34.18:972][627]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.06-22.34.19:288][643]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.10.06-22.34.19:325][645]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2020.10.06-22.34.19:340][646]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.10.06-22.34.19:355][647]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.34.19:534][657]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.10.06-22.34.19:603][661]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.10.06-22.34.19:651][664]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2020.10.06-22.34.19:668][665]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.10.06-22.34.19:796][673]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.34.20:035][685]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.34.20:155][690]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.34.20:219][695]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.10.06-22.34.20:633][724]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.34.20:670][724]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.34.20:670][724]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.34.20:670][724]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.34.20:670][724]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.34.20:670][724]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.06-22.34.21:024][741]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.10.06-22.34.21:038][742]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.10.06-22.34.21:051][743]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.34.21:078][745]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.34.21:257][755]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.10.06-22.34.21:428][761]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.10.06-22.34.21:463][761]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.06-22.34.21:536][766]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.10.06-22.34.21:673][774]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.34.21:995][791]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.34.22:082][797]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.10.06-22.34.22:108][799]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.06-22.34.22:508][831]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.34.22:520][831]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.34.22:520][831]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.34.22:520][831]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.34.22:520][831]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.34.22:520][831]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.06-22.34.22:542][831]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.06-22.34.22:551][831]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.06-22.34.22:864][845]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2020.10.06-22.34.22:893][847]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2020.10.06-22.34.22:893][847]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.10.06-22.34.22:908][848]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2020.10.06-22.34.23:066][857]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.10.06-22.34.23:202][864]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.10.06-22.34.23:221][865]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.10.06-22.34.23:238][866]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.10.06-22.34.23:367][873]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.10.06-22.34.23:613][888]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.10.06-22.34.23:742][895]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.10.06-22.34.23:759][896]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.10.06-22.34.23:785][897]MaterialEditorStats: Base pass shader: 95 instructions
+[2020.10.06-22.34.23:785][897]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.34.23:785][897]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.06-22.34.23:786][897]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.06-22.34.23:786][897]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.34.23:817][899]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.34.24:194][918]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.34.24:198][918]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.10.06-22.34.24:220][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.06-22.34.32:544][530]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.34.32:558][530]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.34.32:558][530]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.34.32:558][530]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.34.32:558][530]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.34.32:558][530]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.06-22.34.32:968][552]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.10.06-22.34.32:985][553]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.10.06-22.34.33:016][555]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.10.06-22.34.33:016][555]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.10.06-22.34.33:202][566]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.10.06-22.34.33:324][572]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.10.06-22.34.33:338][573]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.10.06-22.34.33:364][575]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.10.06-22.34.33:455][583]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.10.06-22.34.33:709][599]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.10.06-22.34.33:813][606]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.10.06-22.34.33:838][608]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.10.06-22.34.34:681][691]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.34.34:694][691]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.34.34:694][691]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.34.34:694][691]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.34.34:695][691]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.34.34:699][691]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.06-22.34.35:036][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.10.06-22.34.35:036][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.34.35:052][710]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.10.06-22.34.35:052][710]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.34.35:301][723]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.10.06-22.34.35:370][727]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.10.06-22.34.35:402][729]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.10.06-22.34.35:435][731]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.10.06-22.34.35:589][740]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.34.35:855][753]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.10.06-22.34.35:931][757]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.10.06-22.34.35:945][758]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.10.06-22.34.35:970][759]MaterialEditorStats: Base pass shader: 96 instructions
+[2020.10.06-22.34.35:970][759]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.34.35:970][759]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.06-22.34.35:970][759]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.06-22.34.35:970][759]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.34.37:392][893]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.34.37:409][893]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.06-22.34.37:417][893]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.34.37:417][893]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.34.37:418][893]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.34.37:418][893]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.34.37:802][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.10.06-22.34.37:815][917]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.10.06-22.34.37:815][917]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2020.10.06-22.34.37:830][918]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2020.10.06-22.34.38:005][928]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.10.06-22.34.38:108][934]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.10.06-22.34.38:124][935]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.10.06-22.34.38:140][936]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.10.06-22.34.38:282][945]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.10.06-22.34.38:567][960]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.10.06-22.34.38:679][967]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.10.06-22.34.38:756][971]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.10.06-22.34.38:757][971]MaterialEditorStats: Base pass shader: 97 instructions
+[2020.10.06-22.34.38:757][971]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.34.38:757][971]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.06-22.34.38:757][971]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.06-22.34.38:757][971]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.35.29:668][446]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.35.29:685][446]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.35.29:685][446]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.35.29:685][446]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.35.29:685][446]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.35.29:690][446]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.06-22.35.30:218][474]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.10.06-22.35.30:219][474]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.10.06-22.35.30:249][476]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.35.30:266][477]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.35.30:457][487]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.10.06-22.35.30:565][493]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.10.06-22.35.30:580][494]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2020.10.06-22.35.30:581][494]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.10.06-22.35.30:708][502]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.35.30:964][514]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.35.31:094][521]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.35.31:126][523]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.10.06-22.35.31:148][524]MaterialEditorStats: Base pass shader: 97 instructions
+[2020.10.06-22.35.31:149][524]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.35.31:149][524]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.06-22.35.31:149][524]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.06-22.35.31:149][524]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.35.32:195][622]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.35.32:215][623]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.35.32:216][623]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.35.32:216][623]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.35.32:216][623]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.35.32:562][641]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.10.06-22.35.32:577][642]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.10.06-22.35.32:594][643]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.10.06-22.35.32:647][646]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.10.06-22.35.32:837][656]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.10.06-22.35.32:941][662]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.10.06-22.35.32:955][663]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.10.06-22.35.32:955][663]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.10.06-22.35.34:155][776]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.35.34:171][776]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.06-22.35.34:179][776]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.35.34:179][776]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.35.34:179][776]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.35.34:179][776]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.35.34:528][797]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.10.06-22.35.34:542][798]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.10.06-22.35.34:542][798]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.35.34:558][799]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.35.34:782][812]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.10.06-22.35.34:884][818]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.10.06-22.35.34:897][819]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.10.06-22.35.34:930][821]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.10.06-22.35.35:057][829]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.35.35:322][843]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.10.06-22.35.35:453][851]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.35.35:490][853]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.10.06-22.35.35:512][854]MaterialEditorStats: Base pass shader: 97 instructions
+[2020.10.06-22.35.35:512][854]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.35.35:512][854]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.06-22.35.35:512][854]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.06-22.35.35:512][854]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.35.36:847][942]LogMaterialEditor: Applying material M_Buddy
+[2020.10.06-22.35.37:267][942]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.35.37:299][942]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.35.37:299][942]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.35.37:299][942]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.35.37:299][942]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.35.37:310][942]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.35.37:327][942]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.35.37:365][942]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.10.06-22.35.37:378][942]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.06-22.35.38:390][942]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.10.06-22.35.38:390][942]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.10.06-22.35.38:390][942]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2020.10.06-22.35.38:390][942]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2020.10.06-22.35.38:390][942]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2020.10.06-22.35.38:391][942]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2020.10.06-22.35.38:391][942]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.10.06-22.35.38:391][942]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2020.10.06-22.35.38:391][942]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2020.10.06-22.35.38:391][942]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.10.06-22.35.38:391][942]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2020.10.06-22.35.38:391][942]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.10.06-22.35.38:391][942]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.06-22.35.38:391][942]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.10.06-22.35.38:393][942]TextureStreamingBuild: Display: Compiling optional shaders took 1.028 seconds.
+[2020.10.06-22.35.38:423][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.10.06-22.35.38:637][955]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.35.39:008][976]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.06-22.35.39:402][  0]MaterialEditorStats: Base pass shader: 97 instructions
+[2020.10.06-22.35.39:402][  0]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.35.39:402][  0]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.06-22.35.39:403][  0]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.06-22.35.39:403][  0]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.35.39:585][ 14]LogMaterialEditor: Saving and Compiling material M_Buddy
+[2020.10.06-22.35.39:635][ 14]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/M_Buddy69CFC95E48DE073121543E9F9F562E97.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/MATERIAL/M_Buddy.uasset'
+[2020.10.06-22.35.55:391][998]LogTexture: Display: Building textures: Smidge_ORM (AutoDXT, 1024X1024)
+[2020.10.06-22.35.55:391][998]LogTexture: Display: Building textures: TexA_foliage (AutoDXT, 1024X1024)
+[2020.10.06-22.35.55:391][998]LogTexture: Display: Building textures: Smidge_BC (AutoDXT, 1024X1024)
+[2020.10.06-22.35.55:391][998]LogTexture: Display: Building textures: windLines (BGRA8, 622X622)
+[2020.10.06-22.35.55:391][998]LogTexture: Display: Building textures: sprite_sheet_02 (AutoDXT, 2400X2400)
+[2020.10.06-22.35.55:391][998]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/GARRY/GARRY_ANIM_IDLE_02_Anim.GARRY_ANIM_IDLE_02_Anim
+[2020.10.06-22.35.55:392][998]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/GARRY/GARRY_ANIM_IDLE_02_Anim.GARRY_ANIM_IDLE_02_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.10.06-22.35.55:394][998]LogStaticMesh: Building static mesh FM_pineTree...
+[2020.10.06-22.35.55:408][998]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/ASSETS/FM_pineTree.FM_pineTree
+[2020.10.06-22.35.55:411][998]LogStaticMesh: Building static mesh FM_fairyFloss...
+[2020.10.06-22.35.55:424][998]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/ASSETS/FM_fairyFloss.FM_fairyFloss
+[2020.10.06-22.35.55:426][998]LogStaticMesh: Building static mesh FM_grass...
+[2020.10.06-22.35.55:434][998]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/ASSETS/FM_grass.FM_grass
+[2020.10.06-22.35.55:436][998]LogStaticMesh: Building static mesh FM_mushroomPurple...
+[2020.10.06-22.35.55:444][998]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/ASSETS/FM_mushroomPurple.FM_mushroomPurple
+[2020.10.06-22.35.55:446][998]LogStaticMesh: Building static mesh FM_mushroomRed...
+[2020.10.06-22.35.55:454][998]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/ASSETS/FM_mushroomRed.FM_mushroomRed
+[2020.10.06-22.35.55:458][998]LogStaticMesh: Building static mesh SM_boneBroken...
+[2020.10.06-22.35.55:463][998]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/ASSETS/SM_boneBroken.SM_boneBroken
+[2020.10.06-22.35.55:465][998]LogStaticMesh: Building static mesh SM_boneWhole...
+[2020.10.06-22.35.55:473][998]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/ASSETS/SM_boneWhole.SM_boneWhole
+[2020.10.06-22.35.55:475][998]LogStaticMesh: Building static mesh SM_gravestone...
+[2020.10.06-22.35.55:480][998]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/ASSETS/SM_gravestone.SM_gravestone
+[2020.10.06-22.35.55:482][998]LogStaticMesh: Building static mesh SM_pumpkin...
+[2020.10.06-22.35.55:490][998]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/ASSETS/SM_pumpkin.SM_pumpkin
+[2020.10.06-22.35.55:491][998]LogStaticMesh: Building static mesh SM_SKYSPHERE...
+[2020.10.06-22.35.55:503][998]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/ASSETS/SM_SKYSPHERE.SM_SKYSPHERE
+[2020.10.06-22.35.55:506][998]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/TIFFANY/TIFFANY_IDLE_Anim.TIFFANY_IDLE_Anim
+[2020.10.06-22.35.55:506][998]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/TIFFANY/TIFFANY_IDLE_Anim.TIFFANY_IDLE_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.10.06-22.35.55:509][998]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Smidge_Anim_Idle_Anim.Smidge_Anim_Idle_Anim
+[2020.10.06-22.35.55:509][998]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Smidge_Anim_Idle_Anim.Smidge_Anim_Idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.10.06-22.35.55:528][998]LogMaterial: Display: Missing cached shader map for material MASTER_FOLIAGE, compiling. 
+[2020.10.06-22.35.55:573][998]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 67
+[2020.10.06-22.35.55:573][998]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 57
+[2020.10.06-22.35.55:574][998]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 47
+[2020.10.06-22.35.55:574][998]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 37
+[2020.10.06-22.35.55:574][998]LogMaterial: Display: Missing cached shader map for material M_Smidge, compiling. 
+[2020.10.06-22.35.55:593][998]LogSkeletalMesh: Building Skeletal Mesh Smidge_Anim_Idle...
+[2020.10.06-22.35.55:599][998]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Smidge_Anim_Idle.Smidge_Anim_Idle
+[2020.10.06-22.35.55:603][998]LogMaterial: Display: Missing cached shader map for material M_noMovement, compiling. 
+[2020.10.06-22.35.55:633][998]LogMaterial: Display: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2020.10.06-22.35.55:646][998]LogMaterial: Display: Missing cached shader map for material M_Smidge_animated, compiling. 
+[2020.10.06-22.35.55:682][998]LogAIModule: Creating AISystem for world foliageTesting
+[2020.10.06-22.35.55:700][998]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownCPP/Maps/foliageTesting.foliageTesting
+[2020.10.06-22.35.55:741][998]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2020.10.06-22.35.55:743][998]Cmd: MAP LOAD FILE="../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/foliageTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.06-22.35.55:744][998]LightingResults: New page: Lighting Build
+[2020.10.06-22.35.55:746][998]LoadErrors: New page: Loading map: foliageTesting.umap
+[2020.10.06-22.35.55:747][998]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.06-22.35.55:748][998]MapCheck: New page: Map Check
+[2020.10.06-22.35.55:748][998]LightingResults: New page: Lighting Build
+[2020.10.06-22.35.55:780][998]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2020.10.06-22.35.55:789][998]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.06-22.35.55:826][998]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.10.06-22.35.55:855][998]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.06-22.35.55:855][998]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.217ms to complete.
+[2020.10.06-22.35.55:855][998]LogFileHelpers: Loading map 'foliageTesting' took 0.114
+[2020.10.06-22.35.58:457][115]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 148
+[2020.10.06-22.35.58:661][123]LogAIModule: Creating AISystem for world yeetSeven
+[2020.10.06-22.35.58:681][123]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownCPP/Maps/yeetSeven.yeetSeven
+[2020.10.06-22.35.58:709][123]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.10.06-22.35.58:711][123]Cmd: MAP LOAD FILE="../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/yeetSeven.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.06-22.35.58:711][123]LightingResults: New page: Lighting Build
+[2020.10.06-22.35.58:712][123]LoadErrors: New page: Loading map: yeetSeven.umap
+[2020.10.06-22.35.58:713][123]LogWorld: UWorld::CleanupWorld for foliageTesting, bSessionEnded=true, bCleanupResources=true
+[2020.10.06-22.35.58:714][123]MapCheck: New page: Map Check
+[2020.10.06-22.35.58:714][123]LightingResults: New page: Lighting Build
+[2020.10.06-22.35.58:746][123]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.10.06-22.35.58:770][123]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.06-22.35.58:801][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.10.06-22.35.58:834][123]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.06-22.35.58:835][123]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.167ms to complete.
+[2020.10.06-22.35.58:835][123]LogFileHelpers: Loading map 'yeetSeven' took 0.126
+[2020.10.06-22.35.59:369][148]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 138
+[2020.10.06-22.35.59:385][149]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 128
+[2020.10.06-22.35.59:467][154]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 118
+[2020.10.06-22.36.02:432][314]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 108
+[2020.10.06-22.36.02:651][325]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 98
+[2020.10.06-22.36.02:993][345]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 88
+[2020.10.06-22.36.03:399][367]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 78
+[2020.10.06-22.36.05:648][488]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 68
+[2020.10.06-22.36.05:720][492]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 58
+[2020.10.06-22.36.06:166][513]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 48
+[2020.10.06-22.36.07:321][575]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 38
+[2020.10.06-22.36.07:362][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.36.07:557][585]LogAIModule: Creating AISystem for world foliageTesting
+[2020.10.06-22.36.07:564][585]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownCPP/Maps/foliageTesting.foliageTesting
+[2020.10.06-22.36.07:590][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.10.06-22.36.07:592][585]Cmd: MAP LOAD FILE="../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/foliageTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.06-22.36.07:592][585]LightingResults: New page: Lighting Build
+[2020.10.06-22.36.07:593][585]LoadErrors: New page: Loading map: foliageTesting.umap
+[2020.10.06-22.36.07:595][585]LogWorld: UWorld::CleanupWorld for yeetSeven, bSessionEnded=true, bCleanupResources=true
+[2020.10.06-22.36.07:595][585]MapCheck: New page: Map Check
+[2020.10.06-22.36.07:595][585]LightingResults: New page: Lighting Build
+[2020.10.06-22.36.07:624][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.10.06-22.36.07:629][585]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.06-22.36.07:661][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.10.06-22.36.07:688][585]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.06-22.36.07:688][585]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.18ms to complete.
+[2020.10.06-22.36.07:689][585]LogFileHelpers: Loading map 'foliageTesting' took 0.098
+[2020.10.06-22.36.08:265][611]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2020.10.06-22.36.09:097][652]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2020.10.06-22.36.09:229][655]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.10.06-22.36.10:430][714]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2020.10.06-22.36.10:487][717]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.10.06-22.36.10:932][738]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.10.06-22.36.11:063][746]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.10.06-22.36.11:156][751]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.10.06-22.36.11:368][762]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.10.06-22.36.22:601][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.36.41:630][496]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Anim_Grace_Floating_Anim)
+[2020.10.06-22.36.47:475][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.36.55:755][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.36.57:325][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.37.11:994][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.37.18:332][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.37.23:035][748]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/TopDownCPP/ASSETS/TEXTURES/GRACE/GRACE_BC.GRACE_BC
+[2020.10.06-22.39.38:329][610]Cmd: DELETE
+[2020.10.06-22.39.38:330][610]Cmd: ACTOR DELETE
+[2020.10.06-22.39.38:335][610]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2020.10.06-22.39.38:360][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.10.06-22.39.38:361][610]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2020.10.06-22.39.45:139][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.39.52:654][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.39.59:521][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.10.06-22.40.00:627][895]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.06-22.40.00:737][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.10.06-22.40.00:759][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.06-22.40.00:783][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.06-22.40.00:806][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.10.06-22.40.00:834][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.10.06-22.40.00:855][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.10.06-22.40.02:826][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.10.06-22.40.05:119][ 20]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.06-22.40.07:062][ 20]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.06-22.40.07:077][ 20]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/TEXTURES/GRACE/GRACE_BC.GRACE_BC
+[2020.10.06-22.40.07:213][ 20]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.07:214][ 20]LogMaterial: Warning: C:\Users\s191212\Desktop\GoodiesAndGhouls\GhoulsAndGoodies\Content\TopDownCPP\ASSETS\MATERIAL\M_Grace.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.06-22.40.07:214][ 20]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.40.07:214][ 20]LogMaterial: Warning: GetIndexedTexture returning NULL (0)
+[2020.10.06-22.40.07:218][ 20]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.07:218][ 20]LogMaterial: Warning: C:\Users\s191212\Desktop\GoodiesAndGhouls\GhoulsAndGoodies\Content\TopDownCPP\ASSETS\MATERIAL\M_Grace.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.06-22.40.07:218][ 20]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.40.07:222][ 20]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.07:222][ 20]LogMaterial: Warning: /Engine/Transient.M_Grace (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.06-22.40.07:223][ 20]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.40.07:349][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.10.06-22.40.07:372][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.10.06-22.40.07:395][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.10.06-22.40.17:340][ 61]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191212/Downloads/POTION_BC.tga)
+[2020.10.06-22.40.17:356][ 61]LogTexture: Display: Building textures: POTION_BC (AutoDXT, 1024X1024)
+[2020.10.06-22.40.20:332][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.10.06-22.40.21:299][268]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.06-22.40.21:367][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.10.06-22.40.25:838][330]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191212/Downloads/GRACE_BC (1).tga)
+[2020.10.06-22.40.25:895][330]LogTexture: Display: Building textures: GRACE_BC__1_ (AutoDXT, 2048X2048)
+[2020.10.06-22.40.31:239][624]LogAssetEditorManager: Opening Asset editor for Material /Game/TopDownCPP/ASSETS/MATERIAL/M_Grace.M_Grace
+[2020.10.06-22.40.31:243][624]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.31:244][624]LogMaterial: Warning: /Engine/Transient.M_Grace (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.06-22.40.31:244][624]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.40.31:287][624]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.31:288][624]LogMaterial: Warning: /Engine/Transient.M_Grace (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.06-22.40.31:288][624]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.40.31:293][624]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.31:294][624]LogMaterial: Warning: /Engine/Transient.M_Grace (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.06-22.40.31:294][624]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.40.31:311][624]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.06-22.40.31:341][624]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.40.37:064][924]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.37:100][925]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2020.10.06-22.40.37:100][925]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2020.10.06-22.40.37:100][925]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 30
+[2020.10.06-22.40.37:100][925]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2020.10.06-22.40.37:579][947]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2020.10.06-22.40.37:637][950]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2020.10.06-22.40.37:637][950]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2020.10.06-22.40.37:719][955]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.10.06-22.40.37:912][963]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2020.10.06-22.40.37:943][965]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.10.06-22.40.38:029][970]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.10.06-22.40.38:049][971]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2020.10.06-22.40.38:186][980]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2020.10.06-22.40.38:429][995]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.10.06-22.40.38:456][997]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2020.10.06-22.40.38:468][998]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2020.10.06-22.40.38:554][  5]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2020.10.06-22.40.38:580][  6]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.38:606][  6]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.06-22.40.38:633][  6]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.06-22.40.38:723][  8]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 36
+[2020.10.06-22.40.38:746][  8]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 35
+[2020.10.06-22.40.38:800][ 12]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2020.10.06-22.40.38:866][ 16]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+[2020.10.06-22.40.39:098][ 28]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2020.10.06-22.40.39:150][ 30]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 31
+[2020.10.06-22.40.39:225][ 34]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2020.10.06-22.40.39:259][ 36]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.10.06-22.40.39:439][ 45]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2020.10.06-22.40.39:440][ 45]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2020.10.06-22.40.39:548][ 53]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2020.10.06-22.40.39:573][ 55]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2020.10.06-22.40.39:705][ 66]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.10.06-22.40.39:978][ 84]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.10.06-22.40.39:989][ 85]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.10.06-22.40.40:037][ 89]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2020.10.06-22.40.40:089][ 92]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2020.10.06-22.40.40:237][101]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+[2020.10.06-22.40.40:287][105]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2020.10.06-22.40.40:314][107]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2020.10.06-22.40.40:364][111]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.10.06-22.40.40:499][120]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.10.06-22.40.40:546][123]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.10.06-22.40.40:731][135]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.10.06-22.40.40:789][139]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.10.06-22.40.40:829][142]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.10.06-22.40.40:844][143]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.10.06-22.40.41:022][155]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.10.06-22.40.41:053][156]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.10.06-22.40.41:099][160]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.10.06-22.40.41:112][161]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.06-22.40.41:271][172]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.10.06-22.40.41:286][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.40.41:485][185]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.40.41:562][190]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.40.41:591][192]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.10.06-22.40.41:937][216]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.41:955][216]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2020.10.06-22.40.41:969][216]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2020.10.06-22.40.41:969][216]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.06-22.40.41:979][216]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2020.10.06-22.40.41:996][217]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2020.10.06-22.40.42:329][233]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 32
+[2020.10.06-22.40.42:381][236]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 31
+[2020.10.06-22.40.42:427][238]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.10.06-22.40.42:443][239]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2020.10.06-22.40.42:631][248]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2020.10.06-22.40.42:760][255]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2020.10.06-22.40.42:779][256]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2020.10.06-22.40.42:779][256]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.10.06-22.40.42:948][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2020.10.06-22.40.43:304][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+[2020.10.06-22.40.43:306][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2020.10.06-22.40.43:433][289]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2020.10.06-22.40.43:447][290]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2020.10.06-22.40.43:496][293]LogMaterialEditor: Saving and Compiling material M_Grace
+[2020.10.06-22.40.44:123][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.10.06-22.40.44:123][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2020.10.06-22.40.44:123][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2020.10.06-22.40.44:123][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2020.10.06-22.40.44:123][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.10.06-22.40.44:123][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.10.06-22.40.44:155][293]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.44:201][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.10.06-22.40.44:201][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.40.44:201][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.40.44:201][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.10.06-22.40.44:222][293]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.44:253][293]LogMaterial: Display: Missing cached shader map for material M_Grace, compiling. 
+[2020.10.06-22.40.44:305][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.10.06-22.40.44:320][293]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.06-22.40.46:969][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 67
+[2020.10.06-22.40.46:969][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 66
+[2020.10.06-22.40.46:969][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 65
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 64
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 63
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 62
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 61
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 58
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 57
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 56
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 55
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 54
+[2020.10.06-22.40.46:970][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 53
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 52
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 50
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 49
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 48
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 47
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 46
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 45
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 44
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 43
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 42
+[2020.10.06-22.40.46:971][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 41
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 40
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 38
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 37
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 36
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2020.10.06-22.40.46:972][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.10.06-22.40.46:975][293]TextureStreamingBuild: Display: Compiling optional shaders took 2.669 seconds.
+[2020.10.06-22.40.47:005][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.10.06-22.40.48:859][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.10.06-22.40.48:859][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.10.06-22.40.48:859][293]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.10.06-22.40.48:859][293]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.10.06-22.40.48:860][293]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.06-22.40.48:913][293]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/M_Grace7714BE524612F1F338C5B9BF93BC2B8B.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/MATERIAL/M_Grace.uasset'
+[2020.10.06-22.40.48:937][293]MaterialEditorStats: Base pass shader: 95 instructions
+[2020.10.06-22.40.48:937][293]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.40.48:937][293]MaterialEditorStats: Base pass vertex shader: 87 instructions
+[2020.10.06-22.40.48:937][293]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.06-22.40.48:937][293]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.06-22.40.48:937][293]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.40.55:723][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.10.06-22.40.57:357][654]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.06-22.40.57:620][654]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.10.06-22.40.57:633][654]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/SM_Witch.SM_Witch
+[2020.10.06-22.40.57:897][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.10.06-22.40.57:920][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.10.06-22.40.57:942][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.06-22.41.10:579][244]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s191212\Desktop\Creeps and Candy\FBX\SM_Grace.fbx)
+[2020.10.06-22.41.10:590][244]LogFbx: Loading FBX Scene from C:\Users\s191212\Desktop\Creeps and Candy\FBX\SM_Grace.fbx
+[2020.10.06-22.41.10:610][244]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.06-22.41.19:298][244]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.06-22.41.29:650][421]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s191212\Desktop\Creeps and Candy\FBX\SM_Grace.fbx)
+[2020.10.06-22.41.29:661][421]LogFbx: Loading FBX Scene from C:\Users\s191212\Desktop\Creeps and Candy\FBX\SM_Grace.fbx
+[2020.10.06-22.41.29:679][421]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.06-22.42.00:344][421]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.06-22.42.00:399][421]FBXImport: Warning: Ignoring mesh SM_Head because it but no weights. 
+[2020.10.06-22.42.00:399][421]FBXImport: Warning: Ignoring mesh SM_Nose because it but no weights. 
+[2020.10.06-22.42.00:399][421]FBXImport: Warning: Ignoring mesh SM_Ear because it but no weights. 
+[2020.10.06-22.42.00:400][421]FBXImport: Warning: Ignoring mesh SM_Hair because it but no weights. 
+[2020.10.06-22.42.00:400][421]FBXImport: Warning: Ignoring mesh SM_Hat because it but no weights. 
+[2020.10.06-22.42.00:401][421]FBXImport: Warning: Ignoring mesh SM_Straw because it but no weights. 
+[2020.10.06-22.42.00:401][421]FBXImport: Warning: Ignoring mesh SM_Pole because it but no weights. 
+[2020.10.06-22.42.00:401][421]FBXImport: Warning: Ignoring mesh SM_Glass because it but no weights. 
+[2020.10.06-22.42.00:401][421]FBXImport: Warning: Ignoring mesh SM_Liquid because it but no weights. 
+[2020.10.06-22.42.00:401][421]FBXImport: Warning: Ignoring mesh SM_Body because it but no weights. 
+[2020.10.06-22.42.00:402][421]FBXImport: Warning: Ignoring mesh SM_Hand because it but no weights. 
+[2020.10.06-22.42.00:402][421]FBXImport: Warning: Ignoring mesh SM_Neck because it but no weights. 
+[2020.10.06-22.42.00:403][421]FBXImport: Error: Failed to find any bone hierarchy. Try disabling the "Import As Skeletal" option to import as a rigid mesh.  
+[2020.10.06-22.42.00:403][421]FBXImport: Error: Import failed. 
+[2020.10.06-22.42.03:508][421]LogSlate: Window 'Message' being destroyed
+[2020.10.06-22.42.03:516][421]LogAssetTools: Warning: Failed to import 'C:\Users\s191212\Desktop\Creeps and Candy\FBX\SM_Grace.fbx'. Failed to create asset '/Game/TopDownCPP/ASSETS/SM_Grace'.
+Please see Output Log for details.
+[2020.10.06-22.42.05:861][601]LogSlate: Window 'Message Log' being destroyed
+[2020.10.06-22.42.05:866][601]LogSlate: Window 'Message Log' being destroyed
+[2020.10.06-22.42.14:271][795]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/SM_Grace.fbx)
+[2020.10.06-22.42.14:283][795]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/SM_Grace.fbx
+[2020.10.06-22.42.14:303][795]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.06-22.42.25:814][795]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.06-22.42.25:862][795]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/GRACE_Base_Color': Can't find file.
+[2020.10.06-22.42.25:862][795]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/GRACE_Base_Color': Can't find file.
+[2020.10.06-22.42.25:921][795]LogTexture: Display: Building textures: GRACE_Base_Color (AutoDXT, 2048X2048)
+[2020.10.06-22.42.26:179][795]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.10.06-22.42.26:190][795]LogFbx: Display: Triangulating static mesh SM_Head
+[2020.10.06-22.42.26:228][795]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2020.10.06-22.42.26:228][795]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2020.10.06-22.42.26:228][795]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.10.06-22.42.26:228][795]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.10.06-22.42.26:228][795]LogFbx: Display: Triangulating static mesh SM_Nose
+[2020.10.06-22.42.26:235][795]LogFbx: Display: Triangulating static mesh SM_Ear
+[2020.10.06-22.42.26:257][795]LogFbx: Display: Triangulating static mesh SM_Hair
+[2020.10.06-22.42.26:287][795]LogFbx: Display: Triangulating static mesh SM_Hat
+[2020.10.06-22.42.26:307][795]LogFbx: Display: Triangulating static mesh SM_Straw
+[2020.10.06-22.42.26:328][795]LogFbx: Display: Triangulating static mesh SM_Pole
+[2020.10.06-22.42.26:344][795]LogFbx: Display: Triangulating static mesh SM_Glass
+[2020.10.06-22.42.26:369][795]LogFbx: Display: Triangulating static mesh SM_Liquid
+[2020.10.06-22.42.26:396][795]LogFbx: Display: Triangulating static mesh SM_Body
+[2020.10.06-22.42.26:476][795]LogFbx: Display: Triangulating static mesh SM_Hand
+[2020.10.06-22.42.26:482][795]LogFbx: Display: Triangulating static mesh SM_Neck
+[2020.10.06-22.42.26:498][795]LogStaticMesh: Building static mesh SM_Grace...
+[2020.10.06-22.42.26:588][795]LogStaticMesh: Built static mesh [0.09s] /Game/TopDownCPP/ASSETS/SM_Grace.SM_Grace
+[2020.10.06-22.42.32:439][ 78]LogActorFactory: Actor Factory created SM_Grace
+[2020.10.06-22.42.33:708][196]LogActorFactory: Actor Factory created SM_Grace
+[2020.10.06-22.42.40:729][721]Cmd: DELETE
+[2020.10.06-22.42.40:729][721]Cmd: ACTOR DELETE
+[2020.10.06-22.42.40:731][721]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.06-22.42.40:754][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.10.06-22.42.40:754][721]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2020.10.06-22.42.43:098][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.42.43:215][908]LogActorFactory: Actor Factory created SM_Grace
+[2020.10.06-22.42.47:215][257]LogActorFactory: Actor Factory created SM_Grace
+[2020.10.06-22.42.48:642][358]Cmd: DELETE
+[2020.10.06-22.42.48:642][358]Cmd: ACTOR DELETE
+[2020.10.06-22.42.48:644][358]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.06-22.42.48:670][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.10.06-22.42.48:670][358]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2020.10.06-22.42.51:227][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.42.51:408][549]LogActorFactory: Actor Factory created SM_Grace
+[2020.10.06-22.42.52:347][636]LogActorFactory: Actor Factory created SM_Grace
+[2020.10.06-22.42.55:546][884]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.10.06-22.43.06:547][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.43.13:577][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.43.30:452][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.43.37:391][784]LogActorFactory: Actor Factory created SM_Buddy
+[2020.10.06-22.43.38:150][843]LogActorFactory: Actor Factory created SM_Buddy
+[2020.10.06-22.43.54:102][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.44.22:405][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.44.35:103][196]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.44.35:128][197]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.44.35:128][197]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.44.35:128][197]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.44.35:128][197]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.44.35:614][228]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.10.06-22.44.35:614][228]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.10.06-22.44.35:629][229]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.06-22.44.35:629][229]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.10.06-22.44.35:838][243]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.44.35:931][249]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.44.35:947][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.10.06-22.44.35:964][251]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.06-22.45.02:234][ 45]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.02:244][ 45]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.45.02:244][ 45]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.45.02:244][ 45]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.45.02:244][ 45]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.45.02:934][ 81]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.10.06-22.45.02:994][ 83]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.10.06-22.45.03:112][ 89]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.06-22.45.03:181][ 93]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.10.06-22.45.03:377][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.10.06-22.45.03:414][104]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.10.06-22.45.03:545][110]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.45.03:583][111]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.10.06-22.45.04:005][130]LogMaterialEditor: Saving and Compiling material M_Buddy
+[2020.10.06-22.45.04:487][130]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.04:522][130]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.45.04:522][130]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.45.04:522][130]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.45.04:522][130]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.45.04:536][130]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.04:554][130]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.04:592][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.10.06-22.45.04:605][130]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.06-22.45.05:774][130]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.10.06-22.45.05:774][130]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.10.06-22.45.05:774][130]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2020.10.06-22.45.05:774][130]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2020.10.06-22.45.05:774][130]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.10.06-22.45.05:774][130]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2020.10.06-22.45.05:774][130]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.10.06-22.45.05:774][130]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.10.06-22.45.05:774][130]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.10.06-22.45.05:775][130]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.10.06-22.45.05:775][130]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.10.06-22.45.05:775][130]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.10.06-22.45.05:775][130]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.06-22.45.05:775][130]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.45.05:777][130]TextureStreamingBuild: Display: Compiling optional shaders took 1.185 seconds.
+[2020.10.06-22.45.05:804][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.10.06-22.45.06:765][130]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.45.06:765][130]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.06-22.45.06:812][130]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/M_Buddy3A9EA6594D6800670535EB847D27F135.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/MATERIAL/M_Buddy.uasset'
+[2020.10.06-22.45.06:831][130]MaterialEditorStats: Base pass shader: 95 instructions
+[2020.10.06-22.45.06:831][130]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.45.06:831][130]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.06-22.45.06:831][130]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.06-22.45.06:831][130]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.45.14:404][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.45.18:350][999]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.18:361][999]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.45.18:361][999]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.45.18:361][999]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.45.18:361][999]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.45.18:361][999]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.06-22.45.18:381][999]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.06-22.45.18:389][999]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.06-22.45.18:734][ 12]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2020.10.06-22.45.18:751][ 13]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.10.06-22.45.18:751][ 13]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.10.06-22.45.18:876][ 20]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2020.10.06-22.45.19:086][ 30]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.10.06-22.45.19:105][ 31]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2020.10.06-22.45.19:123][ 32]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.10.06-22.45.19:180][ 35]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.45.19:423][ 47]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.10.06-22.45.19:592][ 56]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.10.06-22.45.19:731][ 63]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2020.10.06-22.45.19:732][ 63]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.10.06-22.45.19:760][ 64]MaterialEditorStats: Base pass shader: 95 instructions
+[2020.10.06-22.45.19:760][ 64]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.45.19:760][ 64]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.06-22.45.19:760][ 64]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.06-22.45.19:760][ 64]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.45.19:993][ 75]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.10.06-22.45.20:169][ 84]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.10.06-22.45.20:192][ 85]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.10.06-22.45.20:213][ 86]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.10.06-22.45.21:809][217]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.21:824][217]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.06-22.45.21:832][217]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.45.21:833][217]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.45.21:833][217]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.45.21:833][217]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.45.22:219][237]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.45.22:285][240]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.45.22:302][241]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.45.22:302][241]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.45.22:498][252]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.10.06-22.45.22:605][258]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.10.06-22.45.22:638][260]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.06-22.45.22:675][262]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.10.06-22.45.22:798][269]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.45.23:122][284]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.10.06-22.45.23:220][289]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.10.06-22.45.23:341][296]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.10.06-22.45.23:363][297]MaterialEditorStats: Base pass shader: 97 instructions
+[2020.10.06-22.45.23:364][297]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.45.23:364][297]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.06-22.45.23:364][297]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.06-22.45.23:364][297]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.45.24:606][399]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.24:620][399]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.45.24:621][399]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.45.24:621][399]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.45.24:621][399]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.45.24:626][399]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.06-22.45.25:006][418]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.10.06-22.45.25:024][419]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.10.06-22.45.25:024][419]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2020.10.06-22.45.25:039][420]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.10.06-22.45.25:227][430]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.10.06-22.45.25:372][438]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.10.06-22.45.25:372][438]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.06-22.45.25:442][442]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.10.06-22.45.25:519][446]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.10.06-22.45.25:883][461]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.10.06-22.45.25:983][466]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.45.26:070][471]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.10.06-22.45.26:190][477]MaterialEditorStats: Base pass shader: 97 instructions
+[2020.10.06-22.45.26:191][477]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.45.26:191][477]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.06-22.45.26:191][477]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.06-22.45.26:191][477]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.45.32:098][980]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.32:114][980]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.45.32:114][980]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.45.32:114][980]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.45.32:114][980]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.45.32:118][980]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.06-22.45.32:525][999]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.10.06-22.45.32:525][999]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.10.06-22.45.32:542][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.10.06-22.45.32:591][  3]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.45.32:783][ 13]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.10.06-22.45.32:870][ 18]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.10.06-22.45.32:904][ 20]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.06-22.45.32:921][ 21]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.10.06-22.45.33:086][ 30]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.45.33:352][ 43]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.45.33:466][ 49]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.10.06-22.45.33:590][ 54]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.06-22.45.33:592][ 54]MaterialEditorStats: Base pass shader: 97 instructions
+[2020.10.06-22.45.33:592][ 54]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.45.33:593][ 54]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.06-22.45.33:593][ 54]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.06-22.45.33:593][ 54]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.45.35:359][192]LogMaterialEditor: Applying material M_Buddy
+[2020.10.06-22.45.35:775][192]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.35:805][192]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.06-22.45.35:805][192]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.06-22.45.35:805][192]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.10.06-22.45.35:805][192]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.06-22.45.35:823][192]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.35:840][192]LogMaterial: Display: Missing cached shader map for material M_Buddy, compiling. 
+[2020.10.06-22.45.35:884][192]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.10.06-22.45.35:900][192]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.06-22.45.37:025][192]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.10.06-22.45.37:026][192]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 22
+[2020.10.06-22.45.37:026][192]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2020.10.06-22.45.37:026][192]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2020.10.06-22.45.37:026][192]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2020.10.06-22.45.37:026][192]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2020.10.06-22.45.37:027][192]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2020.10.06-22.45.37:027][192]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.10.06-22.45.37:027][192]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2020.10.06-22.45.37:027][192]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.10.06-22.45.37:027][192]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2020.10.06-22.45.37:027][192]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.10.06-22.45.37:027][192]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2020.10.06-22.45.37:028][192]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.10.06-22.45.37:030][192]TextureStreamingBuild: Display: Compiling optional shaders took 1.145 seconds.
+[2020.10.06-22.45.37:068][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.10.06-22.45.37:315][204]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.10.06-22.45.37:806][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.10.06-22.45.38:034][242]LogMaterialEditor: Saving and Compiling material M_Buddy
+[2020.10.06-22.45.38:182][242]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/M_Buddy8B153DDE433CF66B2638778CD610323C.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/MATERIAL/M_Buddy.uasset'
+[2020.10.06-22.45.38:199][242]MaterialEditorStats: Base pass shader: 97 instructions
+[2020.10.06-22.45.38:199][242]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.06-22.45.38:200][242]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.06-22.45.38:200][242]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.06-22.45.38:200][242]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.06-22.46.08:739][775]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.10.06-22.46.08:788][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.10.06-22.46.08:953][775]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/foliageTesting_Auto1B5BD775F4771A99E566692B04786FDA3.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/Maps/foliageTesting_Auto1.umap'
+[2020.10.06-22.46.08:960][775]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/foliageTesting' took 0.196
+[2020.10.06-22.46.08:960][775]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.196
+[2020.10.06-22.46.08:962][775]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/TEXTURES/GRACE/GRACE_BC__1_] ([1] browsable assets)...
+[2020.10.06-22.46.08:968][775]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TopDownCPP/ASSETS/TEXTURES/GRACE/GRACE_BC__1_.GRACE_BC__1_]
+[2020.10.06-22.46.08:968][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/TEXTURES/GRACE/GRACE_BC__1_]
+[2020.10.06-22.46.08:986][775]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/GRACE_BC__1__Auto1ADD831FA478B0BD2135C6CB001BD163B.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/TEXTURES/GRACE/GRACE_BC__1__Auto1.uasset'
+[2020.10.06-22.46.08:988][775]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/SM_Grace] ([1] browsable assets)...
+[2020.10.06-22.46.08:998][775]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TopDownCPP/ASSETS/SM_Grace.SM_Grace]
+[2020.10.06-22.46.08:998][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/SM_Grace]
+[2020.10.06-22.46.09:027][775]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/SM_Grace_Auto1FAC1759548F516DE9B6655BE837965B4.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/SM_Grace_Auto1.uasset'
+[2020.10.06-22.46.09:029][775]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/lambert2] ([1] browsable assets)...
+[2020.10.06-22.46.09:039][775]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TopDownCPP/ASSETS/lambert2.lambert2]
+[2020.10.06-22.46.09:040][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/lambert2]
+[2020.10.06-22.46.09:056][775]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/lambert2_Auto132D4430E4C03DE43140A298451250059.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/lambert2_Auto1.uasset'
+[2020.10.06-22.46.09:058][775]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/GRACE_Base_Color] ([1] browsable assets)...
+[2020.10.06-22.46.09:067][775]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TopDownCPP/ASSETS/GRACE_Base_Color.GRACE_Base_Color]
+[2020.10.06-22.46.09:067][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/GRACE_Base_Color]
+[2020.10.06-22.46.09:086][775]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/GRACE_Base_Color_Auto1EBCD2B464C8A559C02390DA11466EF91.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/GRACE_Base_Color_Auto1.uasset'
+[2020.10.06-22.46.09:088][775]LogFileHelpers: Auto-saving content packages took 0.126
+[2020.10.06-22.46.41:779][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.46.42:555][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.10.06-22.46.43:651][560]LogSlate: Window 'Save Content' being destroyed
+[2020.10.06-22.46.43:853][560]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/GRACE_Base_ColorEF47ADBD49D3A938FCD00EBFD79C43D5.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/GRACE_Base_Color.uasset'
+[2020.10.06-22.46.43:860][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/ASSETS/lambert2" FILE="../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/lambert2.uasset" SILENT=true
+[2020.10.06-22.46.43:868][560]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/lambert26BA75A45439A0731A26EDDB32B4676B5.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/lambert2.uasset'
+[2020.10.06-22.46.43:875][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/ASSETS/SM_Grace" FILE="../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/SM_Grace.uasset" SILENT=true
+[2020.10.06-22.46.43:899][560]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/SM_Grace9CC0A08A48ACFDCAE7F247BE00F2DC28.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/SM_Grace.uasset'
+[2020.10.06-22.46.44:078][560]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/GRACE_BC__1_6161F38F49CC002F5103A4BC4D9A659C.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/TEXTURES/GRACE/GRACE_BC__1_.uasset'
+[2020.10.06-22.46.44:114][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.10.06-22.46.44:251][560]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/foliageTesting255F094041B6F5264AE861A14EF58D14.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/foliageTesting.umap'
+[2020.10.06-22.46.44:276][560]LogFileHelpers: Saving map 'foliageTesting' took 0.191
+[2020.10.06-22.46.44:850][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.10.06-22.46.45:024][599]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/foliageTesting6600AB36431FC06F03757C8709009FBC.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/foliageTesting.umap'
