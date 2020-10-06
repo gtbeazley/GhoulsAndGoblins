@@ -1738,3 +1738,308 @@ Please see Output Log for details.
 [2020.10.06-22.46.44:276][560]LogFileHelpers: Saving map 'foliageTesting' took 0.191
 [2020.10.06-22.46.44:850][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
 [2020.10.06-22.46.45:024][599]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/foliageTesting6600AB36431FC06F03757C8709009FBC.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/foliageTesting.umap'
+[2020.10.06-22.56.30:195][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-22.56.42:571][801]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Buddy_Running.fbx)
+[2020.10.06-22.56.42:584][801]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Buddy_Running.fbx
+[2020.10.06-22.56.42:632][801]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.06-22.57.09:424][801]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.06-22.57.09:495][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster1) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:495][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster2) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:495][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster3) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:496][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster4) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:496][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster5) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:497][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster6) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:498][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster7) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:498][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster8) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:498][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster9) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:499][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster10) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:499][801]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster11) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:504][801]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.06-22.57.09:511][801]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.06-22.57.09:532][801]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/SM_Buddy_BC': Can't find file.
+[2020.10.06-22.57.09:533][801]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/SM_Buddy_BC': Can't find file.
+[2020.10.06-22.57.09:551][801]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2020.10.06-22.57.09:551][801]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.10.06-22.57.09:551][801]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.10.06-22.57.09:551][801]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.10.06-22.57.09:552][801]LogTexture: Display: Building textures: SM_Buddy_BC (AutoDXT, 1024X1024)
+[2020.10.06-22.57.09:643][801]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.06-22.57.09:668][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.57.09:672][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Head
+[2020.10.06-22.57.09:749][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Ear
+[2020.10.06-22.57.09:767][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Nose
+[2020.10.06-22.57.09:785][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Body
+[2020.10.06-22.57.09:901][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Top_Claw
+[2020.10.06-22.57.09:940][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Middle_Claw
+[2020.10.06-22.57.09:973][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Bottom__Claw
+[2020.10.06-22.57.10:004][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_R_Palm
+[2020.10.06-22.57.10:019][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_L_Palm
+[2020.10.06-22.57.10:037][801]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Tail
+[2020.10.06-22.57.10:066][801]LogFbx: Warning: Bones digested - 58  Depth of hierarchy - 15
+[2020.10.06-22.57.10:311][801]LogSkeletalMesh: Section 0: 4153 vertices, 55 active bones
+[2020.10.06-22.57.10:312][801]LogSkeletalMesh: Section 0: Material=0, 7004 triangles
+[2020.10.06-22.57.10:317][801]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Running...
+[2020.10.06-22.57.10:329][801]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running.Anim_Buddy_Running
+[2020.10.06-22.57.10:335][801]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Skeleton': Can't find file.
+[2020.10.06-22.57.10:335][801]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Skeleton': Can't find file.
+[2020.10.06-22.57.10:339][801]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_PhysicsAsset': Can't find file.
+[2020.10.06-22.57.10:339][801]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_PhysicsAsset': Can't find file.
+[2020.10.06-22.57.10:354][801]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.10.06-22.57.10:366][801]LogFbx: SortedLinks :(0) Root_jnt
+[2020.10.06-22.57.10:366][801]LogFbx: SortedLinks :(1) Cog_jnt
+[2020.10.06-22.57.10:366][801]LogFbx: SortedLinks :(2) Lower_Back_jnt
+[2020.10.06-22.57.10:366][801]LogFbx: SortedLinks :(3) Back_jnt
+[2020.10.06-22.57.10:366][801]LogFbx: SortedLinks :(4) Middle_Back_jnt
+[2020.10.06-22.57.10:366][801]LogFbx: SortedLinks :(5) Chest_jnt
+[2020.10.06-22.57.10:367][801]LogFbx: SortedLinks :(6) Top_Chest_jnt
+[2020.10.06-22.57.10:367][801]LogFbx: SortedLinks :(7) Neck_jnt
+[2020.10.06-22.57.10:367][801]LogFbx: SortedLinks :(8) Head_jnt
+[2020.10.06-22.57.10:367][801]LogFbx: SortedLinks :(9) Nose_jnt
+[2020.10.06-22.57.10:367][801]LogFbx: SortedLinks :(10) R_Bottom_Ear_jnt
+[2020.10.06-22.57.10:367][801]LogFbx: SortedLinks :(11) R_Ear_jnt
+[2020.10.06-22.57.10:367][801]LogFbx: SortedLinks :(12) L_Bottom_Ear_jnt
+[2020.10.06-22.57.10:367][801]LogFbx: SortedLinks :(13) L_Ear_jnt
+[2020.10.06-22.57.10:367][801]LogFbx: SortedLinks :(14) L_Clavicle_jnt
+[2020.10.06-22.57.10:367][801]LogFbx: SortedLinks :(15) L_Shoulder_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(16) L_Elbow_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(17) L_Wrist_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(18) L_Palm_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(19) L_Top_Bottom_Claw_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(20) L_Top_Middle_Claw_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(21) L_Top_Top_Claw_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(22) L_Middle_Bottom_Claw_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(23) L__Middle_Middle_Claw_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(24) L_Middle_Top_Claw_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(25) L_Bottom_Bottom_Claw_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(26) L__Bottom_Middle_Claw_jnt
+[2020.10.06-22.57.10:368][801]LogFbx: SortedLinks :(27) L_Bottom_Top_Claw_jnt
+[2020.10.06-22.57.10:369][801]LogFbx: SortedLinks :(28) R_Clavicle_jnt
+[2020.10.06-22.57.10:369][801]LogFbx: SortedLinks :(29) R_Shoulder_jnt
+[2020.10.06-22.57.10:369][801]LogFbx: SortedLinks :(30) R_Elbow_jnt
+[2020.10.06-22.57.10:369][801]LogFbx: SortedLinks :(31) R_Wrist_jnt
+[2020.10.06-22.57.10:369][801]LogFbx: SortedLinks :(32) R_Palm_jnt
+[2020.10.06-22.57.10:369][801]LogFbx: SortedLinks :(33) R_Top_Bottom_Claw_jnt
+[2020.10.06-22.57.10:369][801]LogFbx: SortedLinks :(34) R_Top_Middle_Claw_jnt
+[2020.10.06-22.57.10:369][801]LogFbx: SortedLinks :(35) R_Top_Top_Claw_jnt
+[2020.10.06-22.57.10:369][801]LogFbx: SortedLinks :(36) R_Middle_Bottom_Claw_jnt
+[2020.10.06-22.57.10:370][801]LogFbx: SortedLinks :(37) R__Middle_Middle_Claw_jnt
+[2020.10.06-22.57.10:370][801]LogFbx: SortedLinks :(38) R_Middle_Top_Claw_jnt
+[2020.10.06-22.57.10:370][801]LogFbx: SortedLinks :(39) R_Bottom_Bottom_Claw_jnt
+[2020.10.06-22.57.10:370][801]LogFbx: SortedLinks :(40) R__Bottom_Middle_Claw_jnt
+[2020.10.06-22.57.10:370][801]LogFbx: SortedLinks :(41) R_Bottom_Top_Claw_jnt
+[2020.10.06-22.57.10:370][801]LogFbx: SortedLinks :(42) R_Hip_jnt
+[2020.10.06-22.57.10:370][801]LogFbx: SortedLinks :(43) R_Knee_jnt
+[2020.10.06-22.57.10:370][801]LogFbx: SortedLinks :(44) R_Ankle_jnt
+[2020.10.06-22.57.10:370][801]LogFbx: SortedLinks :(45) R_Ball_jnt
+[2020.10.06-22.57.10:370][801]LogFbx: SortedLinks :(46) R_Toe_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(47) L_Hip_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(48) L_Knee_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(49) L_Ankle_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(50) L_Ball_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(51) L_Toe_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(52) End_Tail_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(53) Bottom_Tail_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(54) Second_Bottom_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(55) Middle_Tail_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(56) Second_Top_jnt
+[2020.10.06-22.57.10:371][801]LogFbx: SortedLinks :(57) Top_Tail_jnt
+[2020.10.06-22.57.10:373][801]LogFbx: Parsing AnimStack Take 001
+[2020.10.06-22.57.10:374][801]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Anim': Can't find file.
+[2020.10.06-22.57.10:374][801]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Anim': Can't find file.
+[2020.10.06-22.57.11:408][801]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2020.10.06-22.57.12:108][801]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2020.10.06-22.57.12:248][801]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2020.10.06-22.57.12:418][801]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.10.06-22.57.12:565][801]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Anim.Anim_Buddy_Running_Anim
+[2020.10.06-22.57.12:565][801]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Anim.Anim_Buddy_Running_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.10.06-22.57.12:582][801]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Running...
+[2020.10.06-22.57.12:596][801]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running.Anim_Buddy_Running
+[2020.10.06-22.57.12:622][801]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2020.10.06-22.57.12:639][801]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Running...
+[2020.10.06-22.57.12:656][801]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running.Anim_Buddy_Running
+[2020.10.06-22.57.13:792][833]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.10.06-22.57.14:053][846]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.10.06-22.57.14:129][850]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.06-22.57.14:718][876]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.10.06-22.57.14:780][879]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.06-22.57.15:838][953]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.10.06-22.57.15:838][953]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/foliageTesting' took 0.026
+[2020.10.06-22.57.15:841][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running] ([1] browsable assets)...
+[2020.10.06-22.57.15:858][953]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running.Anim_Buddy_Running]
+[2020.10.06-22.57.15:858][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running]
+[2020.10.06-22.57.15:883][953]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Running_Auto26888C58548F406FC51DFA19DBA00E67C.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Auto2.uasset'
+[2020.10.06-22.57.15:885][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1] ([1] browsable assets)...
+[2020.10.06-22.57.15:894][953]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1.lambert1]
+[2020.10.06-22.57.15:894][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1]
+[2020.10.06-22.57.15:910][953]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/lambert1_Auto23EA7B48B44B998237996B48087D0124B.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1_Auto2.uasset'
+[2020.10.06-22.57.15:911][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/SM_Buddy_BC] ([1] browsable assets)...
+[2020.10.06-22.57.15:917][953]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/SM_Buddy_BC.SM_Buddy_BC]
+[2020.10.06-22.57.15:917][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/SM_Buddy_BC]
+[2020.10.06-22.57.15:929][953]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/SM_Buddy_BC_Auto22367646E438DFADA1701D8A14CBCB4A6.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/SM_Buddy_BC_Auto2.uasset'
+[2020.10.06-22.57.15:934][953]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Skeleton] ([1] browsable assets)...
+[2020.10.06-22.57.15:934][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Skeleton]
+[2020.10.06-22.57.15:942][953]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Running_Skeleton_Auto92A09E4C49E5FE2655A4A5B096B600F3.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Skeleton_Auto2.uasset'
+[2020.10.06-22.57.15:944][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_PhysicsAsset] ([1] browsable assets)...
+[2020.10.06-22.57.15:955][953]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_PhysicsAsset.Anim_Buddy_Running_PhysicsAsset]
+[2020.10.06-22.57.15:955][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_PhysicsAsset]
+[2020.10.06-22.57.15:981][953]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Running_PhysicsAsset_B7EAB0154BD21DD4953DFF8A95FA4E47.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_PhysicsAsset_Auto2.uasset'
+[2020.10.06-22.57.15:982][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Anim] ([1] browsable assets)...
+[2020.10.06-22.57.15:994][953]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Anim.Anim_Buddy_Running_Anim]
+[2020.10.06-22.57.15:994][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Anim]
+[2020.10.06-22.57.16:016][953]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Running_Anim_Auto27C22D3C64A7411C7CB96FD95DC8B99BD.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Anim_Auto2.uasset'
+[2020.10.06-22.57.16:017][953]LogFileHelpers: Auto-saving content packages took 0.176
+[2020.10.06-22.57.24:889][671]LogSlate: Window 'Message Log' being destroyed
+[2020.10.06-22.57.24:897][671]LogSlate: Window 'Message Log' being destroyed
+[2020.10.06-22.57.56:285][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.10.06-22.57.57:807][264]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.06-22.57.58:323][264]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1.lambert1
+[2020.10.06-22.57.58:456][264]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Running...
+[2020.10.06-22.57.58:463][264]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running.Anim_Buddy_Running
+[2020.10.06-22.57.58:603][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.10.06-22.58.00:243][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.10.06-22.58.01:419][349]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.06-22.58.01:502][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.10.06-22.58.10:530][425]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Buddy_Attacking.fbx)
+[2020.10.06-22.58.10:544][425]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Buddy_Attacking.fbx
+[2020.10.06-22.58.10:596][425]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.06-22.58.18:209][425]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.06-22.58.18:274][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster1) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:275][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster2) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:275][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster3) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:275][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster4) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:276][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster5) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:277][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster6) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:277][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster7) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:278][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster8) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:278][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster9) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:279][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster10) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:279][425]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster11) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:283][425]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.06-22.58.18:286][425]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.06-22.58.18:325][425]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2020.10.06-22.58.18:325][425]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.10.06-22.58.18:325][425]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.10.06-22.58.18:325][425]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.10.06-22.58.18:325][425]LogTexture: Display: Building textures: SM_Buddy_BC (AutoDXT, 1024X1024)
+[2020.10.06-22.58.18:412][425]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.06-22.58.18:439][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.06-22.58.18:442][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Head
+[2020.10.06-22.58.18:522][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Ear
+[2020.10.06-22.58.18:536][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Nose
+[2020.10.06-22.58.18:549][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Body
+[2020.10.06-22.58.18:654][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Top_Claw
+[2020.10.06-22.58.18:689][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Middle_Claw
+[2020.10.06-22.58.18:728][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Bottom__Claw
+[2020.10.06-22.58.18:766][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_R_Palm
+[2020.10.06-22.58.18:788][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_L_Palm
+[2020.10.06-22.58.18:805][425]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Tail
+[2020.10.06-22.58.18:840][425]LogFbx: Warning: Bones digested - 58  Depth of hierarchy - 15
+[2020.10.06-22.58.19:069][425]LogSkeletalMesh: Section 0: 4153 vertices, 55 active bones
+[2020.10.06-22.58.19:070][425]LogSkeletalMesh: Section 0: Material=0, 7004 triangles
+[2020.10.06-22.58.19:075][425]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Attacking...
+[2020.10.06-22.58.19:090][425]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking.Anim_Buddy_Attacking
+[2020.10.06-22.58.19:096][425]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking_PhysicsAsset': Can't find file.
+[2020.10.06-22.58.19:096][425]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking_PhysicsAsset': Can't find file.
+[2020.10.06-22.58.19:107][425]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.10.06-22.58.19:125][425]LogFbx: SortedLinks :(0) Root_jnt
+[2020.10.06-22.58.19:125][425]LogFbx: SortedLinks :(1) Cog_jnt
+[2020.10.06-22.58.19:125][425]LogFbx: SortedLinks :(2) Lower_Back_jnt
+[2020.10.06-22.58.19:125][425]LogFbx: SortedLinks :(3) Back_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(4) Middle_Back_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(5) Chest_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(6) Top_Chest_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(7) Neck_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(8) Head_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(9) Nose_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(10) R_Bottom_Ear_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(11) R_Ear_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(12) L_Bottom_Ear_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(13) L_Ear_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(14) L_Clavicle_jnt
+[2020.10.06-22.58.19:126][425]LogFbx: SortedLinks :(15) L_Shoulder_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(16) L_Elbow_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(17) L_Wrist_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(18) L_Palm_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(19) L_Top_Bottom_Claw_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(20) L_Top_Middle_Claw_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(21) L_Top_Top_Claw_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(22) L_Middle_Bottom_Claw_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(23) L__Middle_Middle_Claw_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(24) L_Middle_Top_Claw_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(25) L_Bottom_Bottom_Claw_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(26) L__Bottom_Middle_Claw_jnt
+[2020.10.06-22.58.19:127][425]LogFbx: SortedLinks :(27) L_Bottom_Top_Claw_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(28) R_Clavicle_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(29) R_Shoulder_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(30) R_Elbow_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(31) R_Wrist_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(32) R_Palm_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(33) R_Top_Bottom_Claw_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(34) R_Top_Middle_Claw_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(35) R_Top_Top_Claw_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(36) R_Middle_Bottom_Claw_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(37) R__Middle_Middle_Claw_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(38) R_Middle_Top_Claw_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(39) R_Bottom_Bottom_Claw_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(40) R__Bottom_Middle_Claw_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(41) R_Bottom_Top_Claw_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(42) R_Hip_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(43) R_Knee_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(44) R_Ankle_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(45) R_Ball_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(46) R_Toe_jnt
+[2020.10.06-22.58.19:128][425]LogFbx: SortedLinks :(47) L_Hip_jnt
+[2020.10.06-22.58.19:129][425]LogFbx: SortedLinks :(48) L_Knee_jnt
+[2020.10.06-22.58.19:129][425]LogFbx: SortedLinks :(49) L_Ankle_jnt
+[2020.10.06-22.58.19:129][425]LogFbx: SortedLinks :(50) L_Ball_jnt
+[2020.10.06-22.58.19:129][425]LogFbx: SortedLinks :(51) L_Toe_jnt
+[2020.10.06-22.58.19:129][425]LogFbx: SortedLinks :(52) End_Tail_jnt
+[2020.10.06-22.58.19:129][425]LogFbx: SortedLinks :(53) Bottom_Tail_jnt
+[2020.10.06-22.58.19:129][425]LogFbx: SortedLinks :(54) Second_Bottom_jnt
+[2020.10.06-22.58.19:129][425]LogFbx: SortedLinks :(55) Middle_Tail_jnt
+[2020.10.06-22.58.19:129][425]LogFbx: SortedLinks :(56) Second_Top_jnt
+[2020.10.06-22.58.19:129][425]LogFbx: SortedLinks :(57) Top_Tail_jnt
+[2020.10.06-22.58.19:131][425]LogFbx: Parsing AnimStack Take 001
+[2020.10.06-22.58.19:132][425]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking_Anim': Can't find file.
+[2020.10.06-22.58.19:132][425]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking_Anim': Can't find file.
+[2020.10.06-22.58.20:007][425]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2020.10.06-22.58.20:595][425]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2020.10.06-22.58.20:792][425]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2020.10.06-22.58.20:920][425]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.10.06-22.58.21:709][425]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking_Anim.Anim_Buddy_Attacking_Anim
+[2020.10.06-22.58.21:710][425]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking_Anim.Anim_Buddy_Attacking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.10.06-22.58.21:726][425]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Attacking...
+[2020.10.06-22.58.21:741][425]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking.Anim_Buddy_Attacking
+[2020.10.06-22.58.21:762][425]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2020.10.06-22.58.21:777][425]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Attacking...
+[2020.10.06-22.58.21:792][425]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking.Anim_Buddy_Attacking
+[2020.10.06-22.58.21:909][427]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.10.06-22.58.22:440][444]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.10.06-22.58.22:465][445]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.10.06-22.58.22:754][458]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.06-22.58.23:022][471]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.10.06-22.58.23:551][509]LogSlate: Window 'Message Log' being destroyed
+[2020.10.06-22.58.23:557][509]LogSlate: Window 'Message Log' being destroyed
+[2020.10.06-22.58.27:807][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.10.06-22.58.28:632][713]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.06-22.58.29:330][713]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1.lambert1
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/SM_Buddy_BC.SM_Buddy_BC
+[2020.10.06-22.58.29:476][713]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.06-22.58.29:477][713]LogMaterial: Warning: /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1.lambert1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.06-22.58.29:477][713]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.06-22.58.29:478][713]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Attacking...
+[2020.10.06-22.58.29:485][713]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking.Anim_Buddy_Attacking
+[2020.10.06-22.58.29:729][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.10.06-22.58.32:012][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.06-22.58.33:223][827]LogSlate: Window 'Save Content' being destroyed
+[2020.10.06-22.58.33:293][827]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Attacking4E96B0F74DFD79B755E44B96B34A79DC.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking.uasset'
+[2020.10.06-22.58.33:330][827]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Attacking_Anim76981B8F4BD0455F936F89B8EC45EB05.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking_Anim.uasset'
+[2020.10.06-22.58.33:376][827]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Attacking_PhysicsAsse53524AE144462FEA46774AA35A557CD2.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking_PhysicsAsset.uasset'
+[2020.10.06-22.58.33:419][827]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Running9CE881434C42745AF526AFA3BB1A4BCC.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running.uasset'
+[2020.10.06-22.58.33:436][827]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Running_Anim85C144F54A4B731FD9D359B64169923D.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Anim.uasset'
+[2020.10.06-22.58.33:458][827]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Running_PhysicsAsset77E1FB6247E8E932991348BB7B9E4CE0.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_PhysicsAsset.uasset'
+[2020.10.06-22.58.33:473][827]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Running_SkeletonCE83F08F440D26168A305C90958D6D1F.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running_Skeleton.uasset'
+[2020.10.06-22.58.34:779][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.10.06-22.58.34:918][920]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/foliageTestingCD221EF64FF979399165DE8832034BC3.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/foliageTesting.umap'
