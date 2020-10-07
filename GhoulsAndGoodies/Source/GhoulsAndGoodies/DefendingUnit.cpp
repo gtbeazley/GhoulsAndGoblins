@@ -33,7 +33,7 @@ ADefendingUnit::ADefendingUnit()
 
 	m_mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
 	GetMesh()->SetupAttachment(RootComponent);
-	GetMesh()->SetRelativeRotation(FRotator(0, -90, 0));
+	GetMesh()->SetRelativeRotation(FRotator(0, 0, 0));
 	GetMesh()->SetRelativeLocation(FVector(0, -88, 0));
 	
 

@@ -49,6 +49,9 @@ void AGarry::Tick(float a_deltaTime)
 		//Set target vector to enemy unit position
 		m_facingTarget = m_detectedEnemies[0]->GetActorLocation();
 		 
+		//Face the facing target
+		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
+		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw, GetActorRotation().Roll));
 	}
 	else 
 	{
@@ -56,9 +59,6 @@ void AGarry::Tick(float a_deltaTime)
 		m_attackTimer = 0;
 	}
 	
-	//Face the facing target
-	FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
-	GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw, GetActorRotation().Roll));
 }
 
 void AGarry::OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex, bool a_fromSweep, const FHitResult& a_sweepResult)

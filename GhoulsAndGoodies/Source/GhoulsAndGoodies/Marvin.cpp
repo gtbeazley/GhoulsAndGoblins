@@ -2,9 +2,11 @@
 #include "Marvin.h"
 
 #include "ConstructorHelpers.h"
+#include "DefendingUnit.h"
 
 #include "Animation/AnimBlueprint.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Kismet/KismetMathLibrary.h"
 
 AMarvin::AMarvin()
 { 
@@ -18,4 +20,44 @@ AMarvin::AMarvin()
 
 AMarvin::~AMarvin()
 {
+}
+
+void AMarvin::Tick(float a_deltaTime)
+{
+	Super::Tick(a_deltaTime);
+	//Attack and timer logic
+	if (m_targetList.Num() > 0)
+	{
+		if (m_attackTimer > 0)
+		{
+			//Countdown the timer
+			m_attackTimer -= a_deltaTime;
+		}
+		else
+		{
+			//Restart timer and Attack
+			m_attackTimer = m_attackInterval;
+			Attack();
+		}
+
+		//Set target vector to enemy unit position
+		m_facingTarget = m_targetList[0]->GetActorLocation();
+
+		//Face the facing target
+		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
+		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw, GetActorRotation().Roll));
+	}
+	else
+	{
+		//If no enemy units are left reeset the timer
+		m_attackTimer = 0;
+	}
+}
+
+void AMarvin::Attack()
+{
+	if (m_targetList.Num() >= 0)
+	{
+		m_targetList[0]->m_curHealth -= m_attackDamage;
+	}
 }

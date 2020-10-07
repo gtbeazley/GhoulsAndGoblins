@@ -103,13 +103,13 @@ void ATile::SetupDefUnit()
 	case ETileDefenceType::DEF_Base:
 		break;
 	case ETileDefenceType::DEF_Tiffany:
-		l_spawnedObject = GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), FRotator());
+		l_spawnedObject = GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), FRotator(0, 0, 0));
 		break;
 	case ETileDefenceType::DEF_Jimmy:
-		l_spawnedObject = GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), FRotator());
+		l_spawnedObject = GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), FRotator(0, 0, 0));
 		break;
 	case ETileDefenceType::DEF_Garry:
-		l_spawnedObject = GetWorld()->SpawnActor<AGarry>(GetActorLocation(), FRotator());
+		l_spawnedObject = GetWorld()->SpawnActor<AGarry>(GetActorLocation(), FRotator(0, 0, 0));
 
 		break;
 	}

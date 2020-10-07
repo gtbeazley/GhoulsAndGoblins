@@ -82,7 +82,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 
 		if (m_gameState == STATE_Defend)
 		{
-			if (!IsValid(UGameplayStatics::GetActorOfClass(this, AEnemyUnit::StaticClass())))
+			if ((m_enemyCount * m_wave) + 1 <= m_enemiesDestroyed)
 			{
 				m_gameState = STATE_Plan;
 			} 
@@ -115,6 +115,7 @@ void AGhoulsAndGoodiesGameMode::BeginPlay()
 
 void AGhoulsAndGoodiesGameMode::NextWave()
 {
+	m_enemiesDestroyed = 0;
 	m_wave++;
 	m_candyCorn -= m_potentialCut;
 	m_potentialCut = 0;
@@ -148,7 +149,9 @@ void AGhoulsAndGoodiesGameMode::NextWave()
 		} 
 
 	}
-	m_enemySpawns[UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1)]->Spawn((TEnumAsByte<EEnemyUnitType>)UKismetMathLibrary::RandomIntegerInRange(0, 2));
+	for(int i = 0; i < ((m_enemyCount * m_wave) + 1) * 60; i++ )
+		if(i % 60 == 0)
+			m_enemySpawns[UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1)]->Spawn((TEnumAsByte<EEnemyUnitType>)UKismetMathLibrary::RandomIntegerInRange(0, 2));
 
 	m_gameState = EGNGGameState::STATE_Defend;
 }
@@ -337,7 +340,8 @@ void AGhoulsAndGoodiesGameMode::SpawnBase()
 	}
 
 
-	GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator());
+	ABase* l_spawnedBase = GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator(0, 0, 0));
+	l_spawnedBase->m_owningTile = m_baseLockTiles[0];
 
 }
 

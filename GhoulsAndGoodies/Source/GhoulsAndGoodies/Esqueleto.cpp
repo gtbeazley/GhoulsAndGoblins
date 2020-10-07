@@ -4,9 +4,12 @@
 #include "Esqueleto.h"
 
 #include"ConstructorHelpers.h"
+#include "DefendingUnit.h"
+#include "GhoulsAndGoodiesGameMode.h"
 
 #include "Animation/AnimBlueprint.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 AEsqueleto::AEsqueleto()
 { 
@@ -25,4 +28,18 @@ AEsqueleto::~AEsqueleto()
 
 void AEsqueleto::Attack()
 {
+	//Play animation
+
+	for (ADefendingUnit* l_target : m_targetList)
+	{
+		l_target->m_curHealth -= m_attackDamage;
+	}
+	
+	Cast<AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this))->m_enemiesDestroyed++;
+	Destroy(true, true);
+}
+
+void AEsqueleto::Despawn()
+{
+	Attack();
 }

@@ -21,9 +21,11 @@ public:
 
 
 	virtual void Attack() override;
+
+	virtual void Despawn() override;
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackDamage = 10.0f;
+		float m_attackDamage = 60.0f;
 
 };

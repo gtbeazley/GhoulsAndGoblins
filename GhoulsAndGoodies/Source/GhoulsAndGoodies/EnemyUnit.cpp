@@ -7,6 +7,7 @@
 #include "EnemyAIController.h"
 #include "EnemyState.h"
 #include "DefendingUnit.h"
+#include "GhoulsAndGoodiesGameMode.h"
 #include "LifeBar_W.h"
 #include "tile.h"
 #include "UserWidget.h"
@@ -77,6 +78,10 @@ void AEnemyUnit::Tick(float DeltaTime)
 	else 	  
 		Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Attack;
 
+	if (Cast<AEnemyAIController>(GetController())->m_state == ENEMYSTATE_Attack)
+	{
+		Attack();
+	}
 
 	UpdateLifeBar();
 	if (m_curHealth <= 0)
@@ -87,6 +92,7 @@ void AEnemyUnit::Tick(float DeltaTime)
 
 void AEnemyUnit::Despawn()
 {
+	Cast<AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this))->m_enemiesDestroyed++;
 	Destroy(true, true);
 }
 

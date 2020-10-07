@@ -13,8 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GHOULSANDGOODIES_Marvin_generated_h
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_Marvin_h_15_RPC_WRAPPERS
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_Marvin_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_Marvin_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execTick) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_a_deltaTime); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Tick(Z_Param_a_deltaTime); \
+		P_NATIVE_END; \
+	}
+
+
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_Marvin_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTick) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_a_deltaTime); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Tick(Z_Param_a_deltaTime); \
+		P_NATIVE_END; \
+	}
+
+
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_Marvin_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMarvin(); \

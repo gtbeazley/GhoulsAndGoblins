@@ -59,6 +59,12 @@ public:
 	TEnumAsByte<EGNGGameState> m_gameState = EGNGGameState::STATE_Base;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int m_enemyCount = 1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int m_enemiesDestroyed = 0;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_potentialCut = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

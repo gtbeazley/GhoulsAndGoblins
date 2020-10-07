@@ -1,0 +1,1215 @@
+﻿Log file open, 10/07/20 10:45:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GhoulsAndGoodies
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.398074
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 770
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.06-23.45.21:789][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.06-23.45.21:789][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.06-23.45.21:789][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.06-23.45.21:789][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.06-23.45.21:789][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:0]]
+[2020.10.06-23.45.21:789][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.06-23.45.21:789][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.06-23.45.21:789][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.06-23.45.21:789][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.06-23.45.21:789][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.06-23.45.21:789][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.06-23.45.21:789][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.06-23.45.21:804][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.06-23.45.21:804][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.06-23.45.21:804][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.06-23.45.21:820][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.06-23.45.21:820][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.06-23.45.21:820][  0]LogHAL: Display: Platform has ~ 32 GB [34241372160 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.06-23.45.21:820][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.06-23.45.21:820][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.06-23.45.21:820][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.06-23.45.21:828][  0]LogInit: Computer: SYD-19EF44
+[2020.10.06-23.45.21:828][  0]LogInit: User: s181813
+[2020.10.06-23.45.21:828][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.06-23.45.21:828][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.06-23.45.21:828][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.10.06-23.45.21:828][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.06-23.45.21:828][  0]LogMemory: Process Physical Memory: 101.98 MB used, 101.98 MB peak
+[2020.10.06-23.45.21:828][  0]LogMemory: Process Virtual Memory: 99.05 MB used, 99.05 MB peak
+[2020.10.06-23.45.21:828][  0]LogMemory: Physical Memory: 11390.41 MB used,  21264.71 MB free, 32655.12 MB total
+[2020.10.06-23.45.21:828][  0]LogMemory: Virtual Memory: 4666.87 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2020.10.06-23.45.21:837][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.06-23.45.22:017][  0]LogInit: Using OS detected language (en-US).
+[2020.10.06-23.45.22:017][  0]LogInit: Using OS detected locale (en-AU).
+[2020.10.06-23.45.22:018][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.06-23.45.22:213][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.06-23.45.22:282][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.06-23.45.22:282][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.06-23.45.22:424][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.06-23.45.22:424][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.06-23.45.22:509][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2020.10.06-23.45.22:509][  0]LogD3D11RHI:       2007/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.10.06-23.45.22:524][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.10.06-23.45.22:524][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.06-23.45.22:529][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.06-23.45.22:529][  0]LogD3D11RHI:       0/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.06-23.45.22:529][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.06-23.45.22:536][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.06-23.45.22:536][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.06-23.45.22:536][  0]LogWindows: EnumDisplayDevices:
+[2020.10.06-23.45.22:536][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2020.10.06-23.45.22:537][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
+[2020.10.06-23.45.22:537][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2020.10.06-23.45.22:538][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2020.10.06-23.45.22:538][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.10.06-23.45.22:539][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.10.06-23.45.22:539][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.10.06-23.45.22:539][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.10.06-23.45.22:539][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2020.10.06-23.45.22:539][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2020.10.06-23.45.22:539][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2020.10.06-23.45.22:540][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2020.10.06-23.45.22:587][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.06-23.45.22:604][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.06-23.45.22:842][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.10.06-23.45.22:854][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.10.06-23.45.22:864][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.10.06-23.45.22:875][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.10.06-23.45.22:886][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.10.06-23.45.22:897][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.10.06-23.45.22:908][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.06-23.45.22:918][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.10.06-23.45.22:924][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.10.06-23.45.22:960][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.10.06-23.45.22:961][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.10.06-23.45.22:961][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.10.06-23.45.22:961][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.10.06-23.45.22:961][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.10.06-23.45.22:961][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.10.06-23.45.22:961][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.10.06-23.45.22:961][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.10.06-23.45.22:961][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.10.06-23.45.22:961][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.06-23.45.22:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.10.06-23.45.22:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.10.06-23.45.22:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.10.06-23.45.22:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.10.06-23.45.22:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.06-23.45.22:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.10.06-23.45.22:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.10.06-23.45.22:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.10.06-23.45.22:965][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.10.06-23.45.22:989][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.10.06-23.45.22:989][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.10.06-23.45.23:006][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.10.06-23.45.23:006][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.10.06-23.45.23:015][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.10.06-23.45.23:024][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.06-23.45.23:032][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.10.06-23.45.23:041][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.10.06-23.45.23:067][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.10.06-23.45.23:067][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.10.06-23.45.23:068][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.06-23.45.23:086][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.06-23.45.23:169][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Intermediate/Shaders/WorkingDirectory/14196/).
+[2020.10.06-23.45.23:169][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s181813/AppData/Local/Temp/UnrealShaderWorkingDir/ADFF99954B15F6B5A8361E9B228D5CCF/'.
+[2020.10.06-23.45.23:172][  0]LogXGEController: Cleaning working directory: C:/Users/s181813/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.06-23.45.23:172][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.06-23.45.23:172][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.06-23.45.23:172][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.06-23.45.23:789][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.06-23.45.23:841][  0]LogDerivedDataCache: Loaded boot cache 0.05s 93MB C:/Users/s181813/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.10.06-23.45.23:841][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s181813/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.10.06-23.45.23:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.06-23.45.23:842][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.06-23.45.23:842][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.06-23.45.23:842][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.06-23.45.23:853][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.06-23.45.23:853][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.06-23.45.23:853][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.06-23.45.23:856][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s181813/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.06-23.45.23:856][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.06-23.45.23:856][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.06-23.45.23:880][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.10.06-23.45.23:883][  0]LogSlate: Using FreeType 2.6.0
+[2020.10.06-23.45.23:884][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.06-23.45.23:940][  0]LogAssetRegistry: FAssetRegistry took 0.0046 seconds to start up
+[2020.10.06-23.45.24:186][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.06-23.45.24:337][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.06-23.45.24:337][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.06-23.45.24:337][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.06-23.45.24:337][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.06-23.45.24:337][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.06-23.45.24:347][  0]LogNetVersion: GhoulsAndGoodies 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1842056771)
+[2020.10.06-23.45.24:716][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.049522 seconds
+[2020.10.06-23.45.24:723][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.10.06-23.45.24:724][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.10.06-23.45.24:724][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.06-23.45.25:616][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.06-23.45.25:621][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.06-23.45.25:790][  0]LogScript: Warning: Script Msg: No world was found for object (/Script/GhoulsAndGoodies.Default__GhoulsAndGoodiesGameMode) passed in to UEngine::GetWorldFromContextObject().
+[2020.10.06-23.45.26:015][  0]SourceControl: Source control is disabled
+[2020.10.06-23.45.26:016][  0]SourceControl: Source control is disabled
+[2020.10.06-23.45.26:018][  0]SourceControl: Source control is disabled
+[2020.10.06-23.45.26:021][  0]SourceControl: Source control is disabled
+[2020.10.06-23.45.26:157][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.06-23.45.26:302][  0]LogOcInput: OculusInput pre-init called
+[2020.10.06-23.45.26:311][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.06-23.45.26:311][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.06-23.45.26:393][  0]LogEngine: Initializing Engine...
+[2020.10.06-23.45.26:394][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.06-23.45.26:395][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.06-23.45.26:593][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.06-23.45.26:608][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.06-23.45.26:629][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.06-23.45.26:678][  0]LogInit: FAudioDevice initialized.
+[2020.10.06-23.45.26:678][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.06-23.45.26:771][  0]LogDerivedDataCache: Saved boot cache 0.09s 79MB C:/Users/s181813/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.10.06-23.45.26:776][  0]LogInit: Texture streaming: Enabled
+[2020.10.06-23.45.26:802][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.06-23.45.26:802][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={083BF16A-479D-0EEB-289F-17857172AF9A}
+[2020.10.06-23.45.26:802][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.06-23.45.26:804][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.06-23.45.26:864][  0]LogInit: Transaction tracking system initialized
+[2020.10.06-23.45.26:905][  0]BlueprintLog: New page: Editor Load
+[2020.10.06-23.45.27:016][  0]LocalizationService: Localization service is disabled
+[2020.10.06-23.45.27:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/' took 0.01s
+[2020.10.06-23.45.27:273][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.06-23.45.27:273][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.06-23.45.27:496][  0]SourceControl: Source control is disabled
+[2020.10.06-23.45.27:497][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.06-23.45.27:497][  0]LightingResults: New page: Lighting Build
+[2020.10.06-23.45.27:500][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.06-23.45.27:501][  0]MapCheck: New page: Map Check
+[2020.10.06-23.45.27:501][  0]LightingResults: New page: Lighting Build
+[2020.10.06-23.45.27:526][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.10.06-23.45.27:638][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.06-23.45.27:643][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.06-23.45.27:675][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.10.06-23.45.27:675][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.06-23.45.27:676][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.211ms to complete.
+[2020.10.06-23.45.27:676][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.179
+[2020.10.06-23.45.28:753][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.10.06-23.45.28:790][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.06-23.45.28:798][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.06-23.45.28:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.06-23.45.28:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.06-23.45.28:831][  0]LogCollectionManager: Loaded 0 collections in 0.001660 seconds
+[2020.10.06-23.45.28:842][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Saved/Collections/' took 0.00s
+[2020.10.06-23.45.28:842][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/Developers/s181813/Collections/' took 0.00s
+[2020.10.06-23.45.28:842][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/GhoulsAndGoblins/GhoulsAndGoodies/Content/Collections/' took 0.00s
+[2020.10.06-23.45.28:842][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.10.06-23.45.28:852][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2887 classes and 685 folders.
+[2020.10.06-23.45.28:858][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.06-23.45.28:887][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.06-23.45.28:899][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.06-23.45.28:904][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.06-23.45.28:912][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.06-23.45.28:980][  0]LogRenderer: Reallocating scene render targets to support 964x612 Format 10 NumSamples 1 (Frame:1).
+[2020.10.06-23.45.29:144][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.06-23.45.29:144][  0]LogLoad: (Engine Initialization) Total time: 8.70 seconds
+[2020.10.06-23.45.29:144][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.06-23.45.29:256][  0]LogAssetRegistry: Asset discovery search completed in 5.3190 seconds
+[2020.10.06-23.45.29:260][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2020.10.06-23.45.29:260][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000161 seconds (updated 0 objects)
+[2020.10.06-23.45.29:261][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.06-23.45.29:279][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.06-23.45.30:839][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-23.45.30:973][190]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.06-23.45.30:983][190]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.10.06-23.45.30:983][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.06-23.45.30:984][190]PIE: New page: PIE session: TopDownExampleMap (7 Oct 2020 9:45:30 pm)
+[2020.10.06-23.45.30:986][190]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.06-23.45.30:989][190]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.10.06-23.45.31:002][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012841s)
+[2020.10.06-23.45.31:003][190]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.10.06-23.45.31:004][190]LogPlayLevel: PIE: World Init took: (0.001632s)
+[2020.10.06-23.45.31:004][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.015271s)
+[2020.10.06-23.45.31:027][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.10.06-23.45.31:032][190]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.06-23.45.31:048][190]LogInit: FAudioDevice initialized.
+[2020.10.06-23.45.31:063][190]LogLoad: Game class is 'GhoulsAndGoodiesGameMode'
+[2020.10.06-23.45.31:065][190]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2020.10.07-10.45.31
+[2020.10.06-23.45.31:066][190]LogWorld: Bringing up level for play took: 0.000908
+[2020.10.06-23.45.31:066][190]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.10.06-23.45.31:073][190]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.10.06-23.45.31:074][190]LogActor: Warning: GNGPawn /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GNGPawn_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.10.06-23.45.31:086][190]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.159
+[2020.10.06-23.45.31:087][190]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.10.06-23.45.31:088][190]LogTemp: Current Game State: -1198245120
+[2020.10.06-23.45.31:132][191]LogTemp: Current Game State: 100352
+[2020.10.06-23.45.31:159][192]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:167][193]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:176][194]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:184][195]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:192][196]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:201][197]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:209][198]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:218][199]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:226][200]LogTemp: Current Game State: 1122500608
+[2020.10.06-23.45.31:234][201]LogTemp: Current Game State: 1122500608
+[2020.10.06-23.45.31:242][202]LogTemp: Current Game State: 1122500608
+[2020.10.06-23.45.31:251][203]LogTemp: Current Game State: 1122500608
+[2020.10.06-23.45.31:259][204]LogTemp: Current Game State: 1122500608
+[2020.10.06-23.45.31:268][205]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:276][206]LogTemp: Current Game State: -190040576
+[2020.10.06-23.45.31:284][207]LogTemp: Current Game State: -190040576
+[2020.10.06-23.45.31:292][208]LogTemp: Current Game State: -190040576
+[2020.10.06-23.45.31:301][209]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:309][210]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:317][211]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:326][212]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:334][213]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:342][214]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:351][215]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:359][216]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:368][217]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:376][218]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:384][219]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:393][220]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:401][221]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:409][222]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:417][223]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:426][224]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:434][225]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:442][226]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:451][227]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:459][228]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:468][229]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:476][230]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:484][231]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:492][232]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:501][233]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:509][234]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:517][235]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:526][236]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:534][237]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:542][238]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:551][239]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:559][240]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:568][241]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:576][242]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:584][243]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:593][244]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:601][245]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:609][246]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:618][247]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:626][248]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:634][249]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:643][250]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:651][251]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:659][252]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:668][253]LogTemp: Current Game State: 2560
+[2020.10.06-23.45.31:676][254]LogTemp: Current Game State: 2560
+[2020.10.06-23.45.31:684][255]LogTemp: Current Game State: 256
+[2020.10.06-23.45.31:692][256]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:701][257]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:709][258]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:717][259]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:726][260]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:734][261]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:743][262]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:751][263]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:759][264]LogTemp: Current Game State: 256
+[2020.10.06-23.45.31:767][265]LogTemp: Current Game State: 2560
+[2020.10.06-23.45.31:776][266]LogTemp: Current Game State: 2560
+[2020.10.06-23.45.31:784][267]LogTemp: Current Game State: 2560
+[2020.10.06-23.45.31:793][268]LogTemp: Current Game State: 2560
+[2020.10.06-23.45.31:801][269]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:809][270]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:818][271]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:826][272]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:834][273]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:843][274]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:851][275]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:859][276]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:867][277]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:876][278]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:884][279]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:892][280]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:901][281]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:909][282]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:918][283]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:926][284]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:934][285]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:943][286]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:951][287]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:959][288]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:968][289]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:976][290]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:984][291]LogTemp: Current Game State: 0
+[2020.10.06-23.45.31:993][292]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:001][293]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:009][294]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:018][295]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:026][296]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:034][297]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:043][298]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:051][299]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:059][300]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:068][301]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:076][302]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:084][303]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:093][304]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:101][305]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:109][306]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:118][307]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:126][308]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:135][309]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:143][310]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:151][311]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:159][312]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:168][313]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:176][314]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:184][315]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:193][316]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:200][317]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:209][318]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:217][319]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:225][320]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:234][321]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:242][322]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:251][323]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:259][324]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:267][325]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:276][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.06-23.45.32:276][326]LogTemp: Current Game State: 181810432
+[2020.10.06-23.45.32:284][327]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:292][328]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:301][329]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:309][330]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:317][331]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:326][332]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:334][333]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:342][334]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:351][335]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:359][336]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:367][337]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:376][338]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:384][339]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:392][340]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:401][341]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:409][342]LogTemp: Current Game State: 0
+[2020.10.06-23.45.32:419][343]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:426][344]LogTemp: Current Game State: 22529
+[2020.10.06-23.45.32:434][345]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:443][346]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:451][347]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:459][348]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:468][349]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:476][350]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:484][351]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:493][352]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:501][353]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:509][354]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:518][355]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:526][356]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:534][357]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:543][358]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:551][359]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:560][360]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:568][361]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:576][362]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:584][363]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:593][364]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:601][365]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:609][366]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:618][367]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:626][368]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:634][369]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:643][370]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:651][371]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:659][372]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:668][373]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:676][374]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:685][375]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:693][376]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:701][377]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:710][378]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:718][379]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:726][380]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:735][381]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:743][382]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:751][383]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:760][384]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:768][385]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:777][386]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:785][387]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:793][388]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:801][389]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:810][390]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:818][391]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:826][392]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:835][393]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:843][394]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:851][395]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:860][396]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:868][397]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:876][398]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:885][399]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:893][400]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:901][401]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:910][402]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:918][403]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:926][404]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:935][405]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:943][406]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:952][407]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:960][408]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:968][409]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:977][410]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:985][411]LogTemp: Current Game State: 1
+[2020.10.06-23.45.32:993][412]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:001][413]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:010][414]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:018][415]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:026][416]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:035][417]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:043][418]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:052][419]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:060][420]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:068][421]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:077][422]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:085][423]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:093][424]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:102][425]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:110][426]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:118][427]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:127][428]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:135][429]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:143][430]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:152][431]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:160][432]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:168][433]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:176][434]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:185][435]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:193][436]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:201][437]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:210][438]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:218][439]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:226][440]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:235][441]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:243][442]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:251][443]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:260][444]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:268][445]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:276][446]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:285][447]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:293][448]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:301][449]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:310][450]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:318][451]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:326][452]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:335][453]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:343][454]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:351][455]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:360][456]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:368][457]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:376][458]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:385][459]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:393][460]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:401][461]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:410][462]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:418][463]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:426][464]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:435][465]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:443][466]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:451][467]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:460][468]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:468][469]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:476][470]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:485][471]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:493][472]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:501][473]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:510][474]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:518][475]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:526][476]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:535][477]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:543][478]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:551][479]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:560][480]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:568][481]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:576][482]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:585][483]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:593][484]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:601][485]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:610][486]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:618][487]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:626][488]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:635][489]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:643][490]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:651][491]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:660][492]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:668][493]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:676][494]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:685][495]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:693][496]LogTemp: Current Game State: 531515393
+[2020.10.06-23.45.33:701][497]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:710][498]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:718][499]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:726][500]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:735][501]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:743][502]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:751][503]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:760][504]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:768][505]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:776][506]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:785][507]LogTemp: Current Game State: 1
+[2020.10.06-23.45.33:796][508]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:804][509]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:812][510]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:821][511]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:830][512]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:838][513]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:846][514]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:854][515]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:863][516]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:871][517]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:879][518]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:888][519]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:896][520]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:904][521]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:913][522]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:921][523]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:929][524]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:938][525]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:946][526]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:954][527]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:963][528]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:971][529]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:979][530]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:988][531]LogTemp: Current Game State: 2
+[2020.10.06-23.45.33:996][532]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:005][533]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:013][534]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:021][535]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:030][536]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:038][537]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:046][538]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:055][539]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:063][540]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:071][541]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:080][542]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:088][543]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:096][544]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:105][545]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:113][546]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:121][547]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:130][548]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:138][549]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:146][550]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:155][551]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:163][552]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:171][553]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:180][554]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:188][555]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:197][556]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:205][557]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:213][558]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:221][559]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:230][560]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:238][561]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:247][562]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:255][563]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:263][564]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:272][565]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:280][566]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:288][567]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:297][568]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:305][569]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:313][570]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:322][571]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:330][572]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:338][573]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:347][574]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:355][575]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:362][576]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:371][577]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:379][578]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:387][579]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:396][580]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:404][581]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:413][582]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:421][583]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:429][584]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:437][585]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:446][586]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:454][587]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:463][588]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:471][589]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:479][590]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:488][591]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:496][592]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:504][593]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:513][594]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:521][595]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:529][596]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:537][597]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:546][598]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:554][599]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:563][600]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:571][601]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:579][602]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:588][603]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:596][604]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:605][605]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:613][606]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:621][607]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:629][608]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:638][609]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:646][610]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:654][611]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:663][612]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:671][613]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:679][614]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:688][615]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:696][616]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:704][617]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:713][618]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:721][619]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:729][620]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:738][621]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:746][622]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:754][623]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:763][624]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:771][625]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:779][626]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:788][627]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:796][628]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:804][629]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:813][630]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:821][631]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:829][632]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:838][633]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:846][634]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:854][635]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:863][636]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:871][637]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:879][638]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:888][639]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:896][640]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:904][641]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:913][642]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:921][643]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:929][644]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:938][645]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:946][646]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:954][647]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:963][648]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:971][649]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:979][650]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:988][651]LogTemp: Current Game State: 2
+[2020.10.06-23.45.34:996][652]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:004][653]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:013][654]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:021][655]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:029][656]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:038][657]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:046][658]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:054][659]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:063][660]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:071][661]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:080][662]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:088][663]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:096][664]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:105][665]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:113][666]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:121][667]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:130][668]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:138][669]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:146][670]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:155][671]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:163][672]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:171][673]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:179][674]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:188][675]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:196][676]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:205][677]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:213][678]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:221][679]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:230][680]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:238][681]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:246][682]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:255][683]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:263][684]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:271][685]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:280][686]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:288][687]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:297][688]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:305][689]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:313][690]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:321][691]LogTemp: Current Game State: 2562
+[2020.10.06-23.45.35:333][692]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:339][693]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:348][694]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:356][695]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:364][696]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:373][697]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:381][698]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:389][699]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:397][700]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:406][701]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:414][702]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:422][703]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:431][704]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:439][705]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:448][706]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:456][707]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:464][708]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:472][709]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:481][710]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:489][711]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:498][712]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:506][713]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:514][714]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:523][715]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:531][716]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:539][717]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:548][718]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:557][719]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:567][720]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:575][721]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:584][722]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:593][723]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:607][724]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:614][725]LogTemp: Current Game State: 1301369858
+[2020.10.06-23.45.35:622][726]LogTemp: Current Game State: 1301369858
+[2020.10.06-23.45.35:631][727]LogTemp: Current Game State: 2562
+[2020.10.06-23.45.35:640][728]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:648][729]LogTemp: Current Game State: 2562
+[2020.10.06-23.45.35:656][730]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:666][731]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:673][732]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:681][733]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:689][734]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:698][735]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:706][736]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:715][737]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:723][738]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:731][739]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:740][740]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:748][741]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:756][742]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:765][743]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:773][744]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:781][745]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:790][746]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:798][747]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:807][748]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:815][749]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:823][750]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:832][751]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:840][752]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:849][753]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:857][754]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:866][755]LogTemp: Current Game State: 2
+[2020.10.06-23.45.35:874][756]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:882][757]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:890][758]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:898][759]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:907][760]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:915][761]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:923][762]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:931][763]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:939][764]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:948][765]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:956][766]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:964][767]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:973][768]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:981][769]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.35:989][770]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.35:998][771]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.36:006][772]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.36:014][773]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.36:022][774]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.36:031][775]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.36:039][776]LogTemp: Current Game State: 1122500610
+[2020.10.06-23.45.36:048][777]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.36:056][778]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.36:065][779]LogTemp: Current Game State: 2
+[2020.10.06-23.45.36:073][780]LogTemp: Current Game State: 2
+[2020.10.06-23.45.36:081][781]LogTemp: Current Game State: 2
+[2020.10.06-23.45.36:089][782]LogTemp: Current Game State: 2
+[2020.10.06-23.45.36:098][783]LogTemp: Current Game State: 2
+[2020.10.06-23.45.36:106][784]LogTemp: Current Game State: 2
+[2020.10.06-23.45.36:114][785]LogTemp: Current Game State: 2
+[2020.10.06-23.45.36:123][786]LogTemp: Current Game State: 2
+[2020.10.06-23.45.36:131][787]LogTemp: Current Game State: 2
+[2020.10.06-23.45.36:141][788]LogTemp: Current Game State: 2
+[2020.10.06-23.45.36:148][789]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.36:156][790]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:164][791]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:172][792]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:181][793]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.36:189][794]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:198][795]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.36:206][796]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:215][797]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.36:223][798]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:231][799]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.36:239][800]LogTemp: Current Game State: -190040574
+[2020.10.06-23.45.36:248][801]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:256][802]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:265][803]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:273][804]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:281][805]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:290][806]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:298][807]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:306][808]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:315][809]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:323][810]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:331][811]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:339][812]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:348][813]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:356][814]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:365][815]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:373][816]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:381][817]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:389][818]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:398][819]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:406][820]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:414][821]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:423][822]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:431][823]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:439][824]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:448][825]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:456][826]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:465][827]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:473][828]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:481][829]LogTemp: Current Game State: 1125974018
+[2020.10.06-23.45.36:490][830]LogTemp: Current Game State: 1125974018

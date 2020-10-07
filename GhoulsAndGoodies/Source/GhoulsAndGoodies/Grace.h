@@ -20,6 +20,22 @@ public:
 	//Destructor
 	virtual ~AGrace();
 
+	virtual void Tick(float a_deltaTime) override;
+
+	//Attack function overriden
+	virtual void Attack() override;
+
 public:
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_attackDamage = 20;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_attackTimer = 0;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_attackInterval = 2;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector m_facingTarget = { 0, 0, 0 };
 };
