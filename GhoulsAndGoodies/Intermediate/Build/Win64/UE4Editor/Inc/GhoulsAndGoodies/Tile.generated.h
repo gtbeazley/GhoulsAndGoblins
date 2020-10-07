@@ -219,7 +219,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATile); \
 
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_Tile_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__m_defenceUnit() { return STRUCT_OFFSET(ATile, m_defenceUnit); } \
 	FORCEINLINE static uint32 __PPO__m_mesh() { return STRUCT_OFFSET(ATile, m_mesh); }
 
 

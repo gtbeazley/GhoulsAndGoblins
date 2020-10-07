@@ -51,7 +51,7 @@ AEnemyUnit::AEnemyUnit()
 	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
 	m_detectionSphere->SetCollisionProfileName("Detect");
 	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
-	m_detectionSphere->bHiddenInGame = false;
+	//m_detectionSphere->bHiddenInGame = false;
 
 	m_curHealth = m_fullHealth;
 	
@@ -78,10 +78,6 @@ void AEnemyUnit::Tick(float DeltaTime)
 	else 	  
 		Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Attack;
 
-	if (Cast<AEnemyAIController>(GetController())->m_state == ENEMYSTATE_Attack)
-	{
-		Attack();
-	}
 
 	UpdateLifeBar();
 	if (m_curHealth <= 0)

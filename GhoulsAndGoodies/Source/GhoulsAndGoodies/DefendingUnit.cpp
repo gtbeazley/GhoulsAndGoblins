@@ -29,7 +29,7 @@ ADefendingUnit::ADefendingUnit()
 	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
 	m_detectionSphere->SetCollisionProfileName("Detect");
 	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
-	m_detectionSphere->bHiddenInGame = false;
+	//m_detectionSphere->bHiddenInGame = false;
 
 	m_mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
 	GetMesh()->SetupAttachment(RootComponent);
@@ -92,7 +92,7 @@ void ADefendingUnit::Tick(float DeltaTime)
 
 void ADefendingUnit::Despawn()
 {
-	SetLifeSpan(.01f);
+	Destroy(true, true);
 }
 
 USkeletalMeshComponent* ADefendingUnit::GetMesh()

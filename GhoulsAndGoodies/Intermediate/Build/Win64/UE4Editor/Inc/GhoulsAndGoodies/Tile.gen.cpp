@@ -374,13 +374,13 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 #endif
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_m_defType;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_mesh_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_mesh;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_defenceUnit_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_defenceUnit;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_mesh_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_mesh;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_unhighlightedMaterial_MetaData[];
 #endif
@@ -461,6 +461,15 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ATile_Statics::NewProp_m_defType = { "m_defType", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATile, m_defType), Z_Construct_UEnum_GhoulsAndGoodies_ETileDefenceType, METADATA_PARAMS(Z_Construct_UClass_ATile_Statics::NewProp_m_defType_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATile_Statics::NewProp_m_defType_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATile_Statics::NewProp_m_defenceUnit_MetaData[] = {
+		{ "Category", "Tile" },
+		{ "Comment", "//Reference to the defence unit that this tile owns\n" },
+		{ "ModuleRelativePath", "Tile.h" },
+		{ "ToolTip", "Reference to the defence unit that this tile owns" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATile_Statics::NewProp_m_defenceUnit = { "m_defenceUnit", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATile, m_defenceUnit), Z_Construct_UClass_ADefendingUnit_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATile_Statics::NewProp_m_defenceUnit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATile_Statics::NewProp_m_defenceUnit_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATile_Statics::NewProp_m_mesh_MetaData[] = {
 		{ "Category", "Tile" },
 		{ "Comment", "//Static mesh of the tile\n" },
@@ -470,15 +479,6 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATile_Statics::NewProp_m_mesh = { "m_mesh", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATile, m_mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATile_Statics::NewProp_m_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATile_Statics::NewProp_m_mesh_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATile_Statics::NewProp_m_defenceUnit_MetaData[] = {
-		{ "Category", "Tile" },
-		{ "Comment", "//Reference to the defence unit that this tile owns\n" },
-		{ "ModuleRelativePath", "Tile.h" },
-		{ "ToolTip", "Reference to the defence unit that this tile owns" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATile_Statics::NewProp_m_defenceUnit = { "m_defenceUnit", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATile, m_defenceUnit), Z_Construct_UClass_ADefendingUnit_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATile_Statics::NewProp_m_defenceUnit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATile_Statics::NewProp_m_defenceUnit_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATile_Statics::NewProp_m_unhighlightedMaterial_MetaData[] = {
 		{ "Category", "Tile" },
@@ -504,8 +504,8 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_neighbours_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_lastDefType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_defType,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_defenceUnit,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_unhighlightedMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATile_Statics::NewProp_m_highlightedMaterial,
 	};
@@ -536,7 +536,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATile, 3477252299);
+	IMPLEMENT_CLASS(ATile, 2400408497);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ATile>()
 	{
 		return ATile::StaticClass();

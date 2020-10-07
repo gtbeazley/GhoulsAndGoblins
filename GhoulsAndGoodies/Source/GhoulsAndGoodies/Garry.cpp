@@ -31,6 +31,7 @@ AGarry::~AGarry()
 
 void AGarry::Tick(float a_deltaTime)
 {
+	Super::Tick(a_deltaTime);
 	//Attack and timer logic
 	if (m_detectedEnemies.Num() > 0)
 	{

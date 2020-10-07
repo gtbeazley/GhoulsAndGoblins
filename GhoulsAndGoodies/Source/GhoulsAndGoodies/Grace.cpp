@@ -5,6 +5,7 @@
 
 #include "ConstructorHelpers.h"
 #include "DefendingUnit.h"
+#include "EnemyAIController.h"
 
 #include "Animation/AnimBlueprint.h"
 #include "Components/SkeletalMeshComponent.h"
@@ -27,32 +28,35 @@ AGrace::~AGrace()
 void AGrace::Tick(float a_deltaTime)
 {
 	Super::Tick(a_deltaTime);
-	//Attack and timer logic
-	if (m_targetList.Num() > 0)
-	{
-		if (m_attackTimer > 0)
+	if (Cast<AEnemyAIController>(GetController()))
+	if (Cast<AEnemyAIController>(GetController())->m_state == ENEMYSTATE_Attack)
+	{//Attack and timer logic
+		if (m_targetList.Num() > 0)
 		{
-			//Countdown the timer
-			m_attackTimer -= a_deltaTime;
+			if (m_attackTimer > 0)
+			{
+				//Countdown the timer
+				m_attackTimer -= a_deltaTime;
+			}
+			else
+			{
+				//Restart timer and Attack
+				m_attackTimer = m_attackInterval;
+				Attack();
+			}
+
+			//Set target vector to enemy unit position
+			m_facingTarget = m_targetList[0]->GetActorLocation();
+
+			//Face the facing target
+			FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
+			GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw, GetActorRotation().Roll));
 		}
 		else
 		{
-			//Restart timer and Attack
-			m_attackTimer = m_attackInterval;
-			Attack();
+			//If no enemy units are left reeset the timer
+			m_attackTimer = 0;
 		}
-
-		//Set target vector to enemy unit position
-		m_facingTarget = m_targetList[0]->GetActorLocation();
-
-		//Face the facing target
-		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
-		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw, GetActorRotation().Roll));
-	}
-	else
-	{
-		//If no enemy units are left reeset the timer
-		m_attackTimer = 0;
 	}
 }
 

@@ -47,8 +47,10 @@ public:
 	UPROPERTY(EditAnywhere)
 		USkeletalMeshComponent* m_mesh;
 
-	float m_fullHealth = 100.0f, 
-		m_curHealth = 100.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_fullHealth = 100.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_curHealth = 100.0f;
 
 	ATile* m_owningTile;
 };

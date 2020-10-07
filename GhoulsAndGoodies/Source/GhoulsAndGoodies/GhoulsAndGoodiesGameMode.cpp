@@ -82,7 +82,23 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 
 		if (m_gameState == STATE_Defend)
 		{
-			if ((m_enemyCount * m_wave) + 1 <= m_enemiesDestroyed)
+			AActor* m_base = UGameplayStatics::GetActorOfClass(this, ABase::StaticClass());
+			if (!IsValid(m_base))
+			{
+				m_wave--;
+				m_gameState = STATE_Base;
+				for (ATile* l_tile : m_baseLockTiles)
+				{
+					l_tile->SetDefenceUnitType(DEF_None);
+				}
+				TArray<AActor*> l_outActors;
+				UGameplayStatics::GetAllActorsOfClass(this, AEnemyUnit::StaticClass(), l_outActors);     
+				for (AActor* l_outActor : l_outActors)
+				{
+					l_outActor->Destroy(true, true);
+				}
+			}
+			else if (Cast<ABase>(m_base)->m_curHealth > 0 && (m_enemyCount * m_wave) + 1 <= m_enemiesDestroyed)
 			{
 				m_gameState = STATE_Plan;
 			} 
@@ -342,6 +358,7 @@ void AGhoulsAndGoodiesGameMode::SpawnBase()
 
 	ABase* l_spawnedBase = GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator(0, 0, 0));
 	l_spawnedBase->m_owningTile = m_baseLockTiles[0];
+	m_baseLockTiles[0]->m_defenceUnit = l_spawnedBase;
 
 }
 

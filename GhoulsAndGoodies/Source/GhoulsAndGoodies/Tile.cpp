@@ -97,19 +97,19 @@ void ATile::Tick(float DeltaTime)
 void ATile::SetupDefUnit()
 {
 	FAttachmentTransformRules* l_fATR = new FAttachmentTransformRules(EAttachmentRule::KeepWorld, EAttachmentRule::KeepRelative, EAttachmentRule::KeepWorld, false);
-	AActor* l_spawnedObject = nullptr;
+	ADefendingUnit* l_spawnedObject = nullptr;
 	switch (m_defType)
 	{
 	case ETileDefenceType::DEF_Base:
 		break;
 	case ETileDefenceType::DEF_Tiffany:
-		l_spawnedObject = GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), FRotator(0, 0, 0));
+		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), FRotator(0, 0, 0)));
 		break;
 	case ETileDefenceType::DEF_Jimmy:
-		l_spawnedObject = GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), FRotator(0, 0, 0));
+		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), FRotator(0, 0, 0)));
 		break;
 	case ETileDefenceType::DEF_Garry:
-		l_spawnedObject = GetWorld()->SpawnActor<AGarry>(GetActorLocation(), FRotator(0, 0, 0));
+		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), FRotator(0, 0, 0)));
 
 		break;
 	}
@@ -117,8 +117,10 @@ void ATile::SetupDefUnit()
 	if (l_spawnedObject)
 	{
 
+		m_plannedToDeploy = false;
 		l_spawnedObject->AttachToActor(this, *l_fATR);
-		m_defenceUnit = Cast<ADefendingUnit>(l_spawnedObject);
+		l_spawnedObject->m_owningTile = this;
+		m_defenceUnit = l_spawnedObject;
 	}
 }
 

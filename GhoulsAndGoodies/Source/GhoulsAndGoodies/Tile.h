@@ -70,9 +70,6 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	//Reference to the defence unit that this tile owns
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		class ADefendingUnit* m_defenceUnit;
 
 	//Static mesh of the tile
 	UPROPERTY(EditAnywhere)
@@ -80,6 +77,10 @@ protected:
 
 
 public:
+	//Reference to the defence unit that this tile owns
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class ADefendingUnit* m_defenceUnit;
+
 	//Type to determine which unit to spawn and whether to add to the path
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TEnumAsByte<ETileDefenceType> m_defType = ETileDefenceType::DEF_None;
