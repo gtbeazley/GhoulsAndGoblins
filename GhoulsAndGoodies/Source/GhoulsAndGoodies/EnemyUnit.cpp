@@ -54,6 +54,7 @@ AEnemyUnit::AEnemyUnit()
 	//m_detectionSphere->bHiddenInGame = false;
 
 	m_curHealth = m_fullHealth;
+
 	
 	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
 	AIControllerClass = AEnemyAIController::StaticClass();

@@ -13,6 +13,7 @@ class USkeletalMeshComponent;
 class UWidgetComponent;
 class USphereComponent;
 class ULifeBar_W;
+class UAnimSequence;
 
 UCLASS()
 class GHOULSANDGOODIES_API AEnemyUnit : public ACharacter
@@ -52,6 +53,8 @@ public:
 		virtual void Attack();
 
 public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimSequence* m_attackAnim;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector4 m_lifeBarColour = FVector4(.5, .01, .5, 1);

@@ -8,6 +8,7 @@
 #include "EnemyAIController.h"
 
 #include "Animation/AnimBlueprint.h"
+#include "Animation/AnimSequence.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 
@@ -19,6 +20,9 @@ AGrace::AGrace()
 	GetMesh()->SetSkeletalMesh(l_skeletalMeshObject.Object);
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 	GetMesh()->SetAnimClass(l_animBlueprint.Object->GeneratedClass);
+
+	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_animFinder(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/Grace/Anim_Grace_Throwing_Anim.Anim_Grace_Throwing_Anim'"));
+	m_attackAnim = l_animFinder.Object;
 }
 
 AGrace::~AGrace()
@@ -50,7 +54,7 @@ void AGrace::Tick(float a_deltaTime)
 
 			//Face the facing target
 			FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
-			GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw, GetActorRotation().Roll));
+			GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw -90, GetActorRotation().Roll));
 		}
 		else
 		{
@@ -64,6 +68,7 @@ void AGrace::Attack()
 {
 	if (m_targetList.Num() >= 0)
 	{
+		GetMesh()->PlayAnimation(m_attackAnim, false);
 		m_targetList[0]->m_curHealth -= m_attackDamage;
 	}
 }

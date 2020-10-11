@@ -19,6 +19,8 @@ ABase::ABase()
 	m_baseMesh->SetStaticMesh(l_baseMeshObject.Object);
 	m_baseMesh->SetRelativeScale3D(FVector(.5, .5, .5));
 
+	m_lifeBarComponent->SetRelativeLocation(FVector(0, 0, 400.0f));
+
 	m_fullHealth = 100;
 
 	m_curHealth = m_fullHealth;
