@@ -50,7 +50,7 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 	static ConstructorHelpers::FObjectFinder<UMaterial> l_baseTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Purple.Purple'"));
 	m_baseTileMaterial = l_baseTileMaterial.Object;
 
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_normalTileMaterial(TEXT("Material'/Game/Geometry/Meshes/CubeMaterial.CubeMaterial'"));
+	static ConstructorHelpers::FObjectFinder<UMaterial> l_normalTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/M_ground.M_ground'"));
 	m_normalTileMaterial = l_normalTileMaterial.Object;
 
 	static ConstructorHelpers::FObjectFinder<UMaterial> l_selectedTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Blue.Blue'"));
