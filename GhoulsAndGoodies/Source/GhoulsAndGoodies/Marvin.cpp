@@ -6,6 +6,7 @@
 #include "EnemyAIController.h"
 
 #include "Animation/AnimBlueprint.h"
+#include "Animation/AnimSequence.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 
@@ -17,6 +18,9 @@ AMarvin::AMarvin()
 	GetMesh()->SetSkeletalMesh(l_skeletalMeshObject.Object);
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 	GetMesh()->SetAnimClass(l_AnimClass.Object->GeneratedClass);
+
+	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_animFinder(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Attack_Anim.Anim_Marvin_Attack_Anim'"));
+	m_attackAnim = l_animFinder.Object;
 }
 
 AMarvin::~AMarvin()
@@ -63,5 +67,7 @@ void AMarvin::Attack()
 	if (m_targetList.Num() >= 0)
 	{
 		m_targetList[0]->m_curHealth -= m_attackDamage;
+		GetMesh()->PlayAnimation(m_attackAnim, false);
 	}
+
 }
