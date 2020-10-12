@@ -5,6 +5,7 @@
 #include "ConstructorHelpers.h"
 #include "EnemyUnit.h"
 
+#include "Animation/AnimBlueprint.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SphereComponent.h"
 #include "Kismet/GameplayStatics.h"
@@ -15,8 +16,13 @@ AGarry::AGarry()
 	m_fullHealth = 200.0f;
 	m_curHealth = m_fullHealth;
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_meshAsset (TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/GARRY/GARRY_ANIM_IDLE_02.GARRY_ANIM_IDLE_02'"));
+	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Garry_AnimBP.Garry_AnimBP'"));
 
 	m_mesh->SetSkeletalMesh(l_meshAsset.Object);
+
+
+	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+	GetMesh()->SetAnimClass(l_animBlueprint.Object->GeneratedClass);
 
 	m_detectionSphere->OnComponentBeginOverlap.AddDynamic(this, &AGarry::OnDetectionSphereOverlapBegin);
 	m_detectionSphere->OnComponentEndOverlap.AddDynamic(this, &AGarry::OnDetectionSphereOverlapEnd);
@@ -44,7 +50,7 @@ void AGarry::Tick(float a_deltaTime)
 		{
 			//Restart timer and Attack
 			m_attackTimer = m_attackInterval;
-			Attack(m_detectedEnemies[0]);
+			Attack();
 		}
 		
 		//Set target vector to enemy unit position
@@ -79,7 +85,18 @@ void AGarry::OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, 
 	}
 }
 
-void AGarry::Attack(AEnemyUnit* m_enemyToAttack)
+void AGarry::Attack()
 {
-	m_enemyToAttack->m_curHealth -= m_attackDamage;
+	if (m_detectedEnemies.Num() > 0)
+	{ 
+		//Face the facing target
+		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
+		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw + 90, GetActorRotation().Roll));
+	}
+		//Play attack animation
+}
+
+void AGarry::DealDamage()
+{
+	m_detectedEnemies[0]->m_curHealth -= m_attackDamage;
 }

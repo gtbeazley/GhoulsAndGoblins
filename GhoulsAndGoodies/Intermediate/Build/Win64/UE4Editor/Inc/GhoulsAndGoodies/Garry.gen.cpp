@@ -18,13 +18,13 @@ void EmptyLinkFunctionForGeneratedCodeGarry() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ADefendingUnit();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGarry_Attack();
-	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_AEnemyUnit_NoRegister();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGarry_OnDetectionSphereOverlapBegin();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGarry_OnDetectionSphereOverlapEnd();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_AEnemyUnit_NoRegister();
 // End Cross Module References
 	void AGarry::StaticRegisterNativesAGarry()
 	{
@@ -38,27 +38,17 @@ void EmptyLinkFunctionForGeneratedCodeGarry() {}
 	}
 	struct Z_Construct_UFunction_AGarry_Attack_Statics
 	{
-		struct Garry_eventAttack_Parms
-		{
-			AEnemyUnit* m_enemyToAttack;
-		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_enemyToAttack;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AGarry_Attack_Statics::NewProp_m_enemyToAttack = { "m_enemyToAttack", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Garry_eventAttack_Parms, m_enemyToAttack), Z_Construct_UClass_AEnemyUnit_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGarry_Attack_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGarry_Attack_Statics::NewProp_m_enemyToAttack,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGarry_Attack_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Garry.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGarry_Attack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGarry, nullptr, "Attack", nullptr, nullptr, sizeof(Garry_eventAttack_Parms), Z_Construct_UFunction_AGarry_Attack_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AGarry_Attack_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGarry_Attack_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGarry_Attack_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGarry_Attack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGarry, nullptr, "Attack", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGarry_Attack_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGarry_Attack_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AGarry_Attack()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -250,7 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeGarry() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GhoulsAndGoodies,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGarry_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AGarry_Attack, "Attack" }, // 3107664264
+		{ &Z_Construct_UFunction_AGarry_Attack, "Attack" }, // 51153844
 		{ &Z_Construct_UFunction_AGarry_OnDetectionSphereOverlapBegin, "OnDetectionSphereOverlapBegin" }, // 3850468891
 		{ &Z_Construct_UFunction_AGarry_OnDetectionSphereOverlapEnd, "OnDetectionSphereOverlapEnd" }, // 4035295053
 	};
@@ -332,7 +322,7 @@ void EmptyLinkFunctionForGeneratedCodeGarry() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGarry, 3009918264);
+	IMPLEMENT_CLASS(AGarry, 3948571504);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AGarry>()
 	{
 		return AGarry::StaticClass();

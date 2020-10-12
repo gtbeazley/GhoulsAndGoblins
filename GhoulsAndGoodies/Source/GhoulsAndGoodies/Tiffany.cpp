@@ -4,6 +4,7 @@
 #include "Tiffany.h"
 
 #include "ConstructorHelpers.h"
+#include "EnemyUnit.h"
 
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SphereComponent.h"
@@ -27,11 +28,36 @@ ATiffany::~ATiffany()
 	
 }
 
+void ATiffany::Tick(float a_deltaTime)
+{
+	Super::Tick(a_deltaTime);
+
+
+}
+
+
+void ATiffany::Attack() {
+	//Play Animation
+}
+
+void ATiffany::DealDamage() {
+
+}
+
 void ATiffany::OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex, bool a_fromSweep, const FHitResult& a_sweepResult)
 {
+	if (Cast<AEnemyUnit>(a_otherActor))
+	{
+		m_detectedEnemies.AddUnique(Cast<AEnemyUnit>(a_otherActor));
+
+	}
 }
 
 void ATiffany::OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex)
 {
+	if (Cast<AEnemyUnit>(a_otherActor))
+	{
+		m_detectedEnemies.Remove(Cast<AEnemyUnit>(a_otherActor));
+	}
 }
 

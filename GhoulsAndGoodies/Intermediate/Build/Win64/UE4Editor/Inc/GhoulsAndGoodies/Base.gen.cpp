@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase, 2382757366);
+	IMPLEMENT_CLASS(ABase, 3238585731);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ABase>()
 	{
 		return ABase::StaticClass();

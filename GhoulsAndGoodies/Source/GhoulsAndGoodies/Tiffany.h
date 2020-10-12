@@ -17,7 +17,9 @@ class GHOULSANDGOODIES_API ATiffany : public ADefendingUnit
 	GENERATED_BODY()
 public:
 	ATiffany();
-	~ATiffany(); 
+	~ATiffany();
+
+	virtual void Tick(float a_deltaTime);
 
 	UFUNCTION(BlueprintCallable)
 		void OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp,
@@ -28,6 +30,10 @@ public:
 		void OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor,
 			UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex);
 
+	UFUNCTION(BlueprintCallable)
+		void Attack();
+
+		virtual void DealDamage() override;
 public: 
 
 

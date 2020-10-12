@@ -18,7 +18,7 @@ void UDealDamage_AnimNotify::Notify(USkeletalMeshComponent* MeshComp, UAnimSeque
 
 	if (l_defUnit)
 	{
-		//l_defUnit->DealDamage();
+		l_defUnit->DealDamage();
 	}
 	else if (l_enemyUnit)
 	{
