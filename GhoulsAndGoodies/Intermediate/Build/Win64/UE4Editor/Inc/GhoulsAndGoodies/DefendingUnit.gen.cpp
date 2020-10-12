@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ADefendingUnit();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ADefendingUnit_DealDamage();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ADefendingUnit_Despawn();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ADefendingUnit_GetMesh();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
@@ -27,9 +29,55 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 	{
 		UClass* Class = ADefendingUnit::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "DealDamage", &ADefendingUnit::execDealDamage },
+			{ "Despawn", &ADefendingUnit::execDespawn },
 			{ "GetMesh", &ADefendingUnit::execGetMesh },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ADefendingUnit_DealDamage_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ADefendingUnit_DealDamage_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "DefendingUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADefendingUnit_DealDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADefendingUnit, nullptr, "DealDamage", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADefendingUnit_DealDamage_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ADefendingUnit_DealDamage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ADefendingUnit_DealDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ADefendingUnit_DealDamage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ADefendingUnit_Despawn_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ADefendingUnit_Despawn_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "DefendingUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADefendingUnit_Despawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADefendingUnit, nullptr, "Despawn", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADefendingUnit_Despawn_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ADefendingUnit_Despawn_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ADefendingUnit_Despawn()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ADefendingUnit_Despawn_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ADefendingUnit_GetMesh_Statics
 	{
@@ -115,6 +163,8 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GhoulsAndGoodies,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ADefendingUnit_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ADefendingUnit_DealDamage, "DealDamage" }, // 2724591250
+		{ &Z_Construct_UFunction_ADefendingUnit_Despawn, "Despawn" }, // 1268386680
 		{ &Z_Construct_UFunction_ADefendingUnit_GetMesh, "GetMesh" }, // 2538256725
 	};
 #if WITH_METADATA
@@ -203,7 +253,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADefendingUnit, 886479114);
+	IMPLEMENT_CLASS(ADefendingUnit, 3581431637);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ADefendingUnit>()
 	{
 		return ADefendingUnit::StaticClass();

@@ -18,6 +18,14 @@ struct FHitResult;
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_Tiffany_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execAttack) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Attack(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_overlappedComp); \
@@ -46,6 +54,14 @@ struct FHitResult;
 
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_Tiffany_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAttack) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Attack(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
 	{ \

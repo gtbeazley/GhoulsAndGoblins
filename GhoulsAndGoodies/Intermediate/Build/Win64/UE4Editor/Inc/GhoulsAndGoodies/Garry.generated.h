@@ -8,7 +8,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AEnemyUnit;
 class UPrimitiveComponent;
 class AActor;
 struct FHitResult;
@@ -21,10 +20,9 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
-		P_GET_OBJECT(AEnemyUnit,Z_Param_m_enemyToAttack); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Attack(Z_Param_m_enemyToAttack); \
+		P_THIS->Attack(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -59,10 +57,9 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
-		P_GET_OBJECT(AEnemyUnit,Z_Param_m_enemyToAttack); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Attack(Z_Param_m_enemyToAttack); \
+		P_THIS->Attack(); \
 		P_NATIVE_END; \
 	} \
  \

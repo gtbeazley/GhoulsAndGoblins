@@ -22,6 +22,22 @@ class USkeletalMeshComponent;
 		P_NATIVE_BEGIN; \
 		*(USkeletalMeshComponent**)Z_Param__Result=P_THIS->GetMesh(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDealDamage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DealDamage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDespawn) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Despawn(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -32,6 +48,22 @@ class USkeletalMeshComponent;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(USkeletalMeshComponent**)Z_Param__Result=P_THIS->GetMesh(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDealDamage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DealDamage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDespawn) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Despawn(); \
 		P_NATIVE_END; \
 	}
 
