@@ -23,6 +23,8 @@ public:
 		virtual void Tick(float a_deltaTime) override;
 
 		virtual void Attack() override; 
+
+		virtual void DealDamage() override;
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_attackTimer = 0;

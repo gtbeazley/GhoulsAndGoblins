@@ -18,6 +18,14 @@ struct FHitResult;
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_21_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execDealDamage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DealDamage(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
 		P_FINISH; \
@@ -70,6 +78,14 @@ struct FHitResult;
 
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemyUnit_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDealDamage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DealDamage(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execAttack) \
 	{ \

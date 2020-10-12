@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_Attack();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_DealDamage();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_Despawn();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_OnDetectionSphereOverlapBegin();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
@@ -36,6 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		UClass* Class = AEnemyUnit::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Attack", &AEnemyUnit::execAttack },
+			{ "DealDamage", &AEnemyUnit::execDealDamage },
 			{ "Despawn", &AEnemyUnit::execDespawn },
 			{ "OnDetectionSphereOverlapBegin", &AEnemyUnit::execOnDetectionSphereOverlapBegin },
 			{ "OnDetectionSphereOverlapEnd", &AEnemyUnit::execOnDetectionSphereOverlapEnd },
@@ -62,6 +64,28 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyUnit_Attack_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemyUnit_DealDamage_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyUnit_DealDamage_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyUnit_DealDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyUnit, nullptr, "DealDamage", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyUnit_DealDamage_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemyUnit_DealDamage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyUnit_DealDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyUnit_DealDamage_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -296,6 +320,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemyUnit_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AEnemyUnit_Attack, "Attack" }, // 2372822233
+		{ &Z_Construct_UFunction_AEnemyUnit_DealDamage, "DealDamage" }, // 842072679
 		{ &Z_Construct_UFunction_AEnemyUnit_Despawn, "Despawn" }, // 2741057594
 		{ &Z_Construct_UFunction_AEnemyUnit_OnDetectionSphereOverlapBegin, "OnDetectionSphereOverlapBegin" }, // 2245266770
 		{ &Z_Construct_UFunction_AEnemyUnit_OnDetectionSphereOverlapEnd, "OnDetectionSphereOverlapEnd" }, // 1073253531
@@ -381,7 +406,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyUnit, 4003802776);
+	IMPLEMENT_CLASS(AEnemyUnit, 1600576575);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AEnemyUnit>()
 	{
 		return AEnemyUnit::StaticClass();

@@ -69,6 +69,11 @@ void AGrace::Attack()
 	if (m_targetList.Num() >= 0)
 	{
 		GetMesh()->PlayAnimation(m_attackAnim, false);
-		m_targetList[0]->m_curHealth -= m_attackDamage;
 	}
+}
+
+void AGrace::DealDamage()
+{
+	if (m_targetList.Num() >= 0)
+		m_targetList[0]->m_curHealth -= m_attackDamage;
 }

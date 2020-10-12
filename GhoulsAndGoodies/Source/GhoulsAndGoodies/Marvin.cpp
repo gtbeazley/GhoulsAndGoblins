@@ -66,8 +66,15 @@ void AMarvin::Attack()
 {
 	if (m_targetList.Num() >= 0)
 	{
-		m_targetList[0]->m_curHealth -= m_attackDamage;
 		GetMesh()->PlayAnimation(m_attackAnim, false);
 	}
 
+}
+
+void AMarvin::DealDamage()
+{
+	if (m_targetList.Num() >= 0)
+	{
+		m_targetList[0]->m_curHealth -= m_attackDamage;
+	}
 }

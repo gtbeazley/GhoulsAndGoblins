@@ -23,6 +23,8 @@ public:
 	virtual void Attack() override;
 
 	virtual void Despawn() override;
+
+	virtual void DealDamage() override;
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

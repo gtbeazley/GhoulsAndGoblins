@@ -33,20 +33,21 @@ void AEsqueleto::Attack()
 {
 	//Play animation
 	GetMesh()->PlayAnimation(m_attackAnim, false);
-
-	for (ADefendingUnit* l_target : m_targetList)
-	{
-
-		l_target->m_curHealth -= m_attackDamage;
-	}
-	
-
-
-	//Cast<AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this))->m_enemiesDestroyed++;
-	//Destroy(true, true);
+	 
 }
 
 void AEsqueleto::Despawn()
 {
 	Attack();
+}
+
+void AEsqueleto::DealDamage()
+{ 
+	for (ADefendingUnit* l_target : m_targetList)
+	{
+
+		l_target->m_curHealth -= m_attackDamage;
+	}
+	Cast<AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this))->m_enemiesDestroyed++;
+	Destroy(true, true);
 }

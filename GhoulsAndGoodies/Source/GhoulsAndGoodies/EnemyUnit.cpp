@@ -127,3 +127,7 @@ void AEnemyUnit::Attack()
 {
 }
 
+void AEnemyUnit::DealDamage()
+{
+}
+

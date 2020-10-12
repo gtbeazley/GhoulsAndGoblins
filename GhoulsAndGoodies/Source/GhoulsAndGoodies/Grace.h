@@ -25,6 +25,8 @@ public:
 	//Attack function overriden
 	virtual void Attack() override;
 
+	virtual void DealDamage() override;
+
 public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

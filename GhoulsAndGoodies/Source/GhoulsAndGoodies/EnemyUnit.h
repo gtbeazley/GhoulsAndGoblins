@@ -52,6 +52,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 		virtual void Attack();
 
+	UFUNCTION(BlueprintCallable)
+		virtual void DealDamage();
+
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimSequence* m_attackAnim;
