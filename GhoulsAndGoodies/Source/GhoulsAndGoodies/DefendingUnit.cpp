@@ -95,6 +95,10 @@ void ADefendingUnit::Despawn()
 	Destroy(true, true);
 }
 
+void ADefendingUnit::DealDamage()
+{
+}
+
 USkeletalMeshComponent* ADefendingUnit::GetMesh()
 {
 	return m_mesh;

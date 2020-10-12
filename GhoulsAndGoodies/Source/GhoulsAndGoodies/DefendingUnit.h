@@ -29,7 +29,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+
+	UFUNCTION(BlueprintCallable)
 	virtual void Despawn();
+
+	UFUNCTION(BlueprintCallable)
+	virtual void DealDamage();
 
 	UFUNCTION(BlueprintCallable)
 		USkeletalMeshComponent* GetMesh();

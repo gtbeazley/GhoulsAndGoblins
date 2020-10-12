@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeTiffany() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ATiffany();
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ADefendingUnit();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ATiffany_Attack();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ATiffany_OnDetectionSphereOverlapBegin();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -28,10 +29,33 @@ void EmptyLinkFunctionForGeneratedCodeTiffany() {}
 	{
 		UClass* Class = ATiffany::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "Attack", &ATiffany::execAttack },
 			{ "OnDetectionSphereOverlapBegin", &ATiffany::execOnDetectionSphereOverlapBegin },
 			{ "OnDetectionSphereOverlapEnd", &ATiffany::execOnDetectionSphereOverlapEnd },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ATiffany_Attack_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATiffany_Attack_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Tiffany.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATiffany_Attack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATiffany, nullptr, "Attack", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATiffany_Attack_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATiffany_Attack_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATiffany_Attack()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATiffany_Attack_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ATiffany_OnDetectionSphereOverlapBegin_Statics
 	{
@@ -199,6 +223,7 @@ void EmptyLinkFunctionForGeneratedCodeTiffany() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GhoulsAndGoodies,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATiffany_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATiffany_Attack, "Attack" }, // 614300188
 		{ &Z_Construct_UFunction_ATiffany_OnDetectionSphereOverlapBegin, "OnDetectionSphereOverlapBegin" }, // 485493352
 		{ &Z_Construct_UFunction_ATiffany_OnDetectionSphereOverlapEnd, "OnDetectionSphereOverlapEnd" }, // 4115010619
 	};
@@ -248,7 +273,7 @@ void EmptyLinkFunctionForGeneratedCodeTiffany() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATiffany, 2096985529);
+	IMPLEMENT_CLASS(ATiffany, 318395843);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ATiffany>()
 	{
 		return ATiffany::StaticClass();

@@ -34,7 +34,9 @@ public:
 			UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex);
 
 	UFUNCTION(BlueprintCallable)
-		void Attack(AEnemyUnit* m_enemyToAttack);
+		void Attack();
+
+		virtual void DealDamage() override;
 
 public:
 

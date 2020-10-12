@@ -52,7 +52,7 @@ void AMarvin::Tick(float a_deltaTime)
 
 			//Face the facing target
 			FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
-			GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw, GetActorRotation().Roll));
+			GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw - 90, GetActorRotation().Roll));
 		}
 		else
 		{
@@ -66,6 +66,13 @@ void AMarvin::Attack()
 {
 	if (m_targetList.Num() >= 0)
 	{
+		//Set target vector to enemy unit position
+		m_facingTarget = m_targetList[0]->GetActorLocation();
+
+		//Face the facing target
+		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
+		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw - 90.0f, GetActorRotation().Roll));
+
 		GetMesh()->PlayAnimation(m_attackAnim, false);
 	}
 
