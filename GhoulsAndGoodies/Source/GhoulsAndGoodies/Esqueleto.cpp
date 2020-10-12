@@ -8,6 +8,7 @@
 #include "GhoulsAndGoodiesGameMode.h"
 
 #include "Animation/AnimBlueprint.h"
+#include "Animation/AnimSequence.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -20,6 +21,8 @@ AEsqueleto::AEsqueleto()
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 	GetMesh()->SetAnimClass(l_AnimClass.Object->GeneratedClass);
 	
+	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_animFinder(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding_Anim.Anim_Esqueleto_Exploding_Anim'"));
+	m_attackAnim = l_animFinder.Object;
 }
 
 AEsqueleto::~AEsqueleto()
@@ -29,14 +32,18 @@ AEsqueleto::~AEsqueleto()
 void AEsqueleto::Attack()
 {
 	//Play animation
+	GetMesh()->PlayAnimation(m_attackAnim, false);
 
 	for (ADefendingUnit* l_target : m_targetList)
 	{
+
 		l_target->m_curHealth -= m_attackDamage;
 	}
 	
-	Cast<AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this))->m_enemiesDestroyed++;
-	Destroy(true, true);
+
+
+	//Cast<AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this))->m_enemiesDestroyed++;
+	//Destroy(true, true);
 }
 
 void AEsqueleto::Despawn()
