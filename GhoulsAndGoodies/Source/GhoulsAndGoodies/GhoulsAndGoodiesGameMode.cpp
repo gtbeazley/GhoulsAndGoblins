@@ -182,6 +182,7 @@ void AGhoulsAndGoodiesGameMode::SetTileInFocus(ATile* a_tile)
 	{
 		if (m_tileInFocus == a_tile)
 		{
+			if(m_tileInFocus)
 			m_tileInFocus->SetupTileMaterial();
 			m_tileInFocus = nullptr;
 		}

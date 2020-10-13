@@ -158,29 +158,7 @@ void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
 
 	m_defType = a_defType;
 
-	switch (m_lastDefType)
-	{
-	case ETileDefenceType::DEF_Tiffany: 
-		if(m_plannedToDeploy)
-		m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_TiffanyFullCost;
-		else
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_TiffanyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
-
-		break;
-	case ETileDefenceType::DEF_Jimmy:
-		if (m_plannedToDeploy)
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_JimmyFullCost;
-		else
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_JimmyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
-		break;
-	case ETileDefenceType::DEF_Garry:
-		if (m_plannedToDeploy)
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_GarryFullCost;
-		else
-			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_GarryFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
-		break;
-
-	}
+	
 	switch (a_defType)
 	{
 	case ETileDefenceType::DEF_Tiffany:
@@ -260,26 +238,28 @@ void ATile::DespawnUnit()
 
 void ATile::SellUnit()
 {
+	if (m_lastDefType == ETileDefenceType::DEF_None)
+		return;
 	if(!m_plannedToDeploy)
 	DespawnUnit();
 	switch (m_lastDefType)
 	{
 	case ETileDefenceType::DEF_Tiffany:
 		if (m_plannedToDeploy)
-			m_gNGGameMode->m_candyCorn += m_gNGGameMode->m_TiffanyFullCost;
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_TiffanyFullCost;
 		else
 			m_gNGGameMode->m_candyCorn += m_gNGGameMode->m_TiffanyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
 
 		break;
 	case ETileDefenceType::DEF_Jimmy:
 		if (m_plannedToDeploy)
-			m_gNGGameMode->m_candyCorn += m_gNGGameMode->m_JimmyFullCost;
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_JimmyFullCost;
 		else
 			m_gNGGameMode->m_candyCorn += m_gNGGameMode->m_JimmyFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
 		break;
 	case ETileDefenceType::DEF_Garry:
 		if (m_plannedToDeploy)
-			m_gNGGameMode->m_candyCorn += m_gNGGameMode->m_GarryFullCost;
+			m_gNGGameMode->m_potentialCut -= m_gNGGameMode->m_GarryFullCost;
 		else
 			m_gNGGameMode->m_candyCorn += m_gNGGameMode->m_GarryFullCost * m_gNGGameMode->m_afterWaveCostMultiplier;
 		break;
