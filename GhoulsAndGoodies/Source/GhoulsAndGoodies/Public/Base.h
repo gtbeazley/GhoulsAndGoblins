@@ -20,7 +20,5 @@ public:
 	virtual ~ABase();
 
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UStaticMeshComponent* m_baseMesh;
 	
 };
