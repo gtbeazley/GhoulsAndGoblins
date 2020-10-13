@@ -6,8 +6,10 @@
 #include "ConstructorHelpers.h"
 #include "EnemyUnit.h"
 
+
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SphereComponent.h"
+#include "Kismet/KismetMathLibrary.h"
 
 ATiffany::ATiffany()
 { 
@@ -21,6 +23,8 @@ ATiffany::ATiffany()
 	m_detectionSphere->OnComponentBeginOverlap.AddDynamic(this, &ATiffany::OnDetectionSphereOverlapBegin);
 	m_detectionSphere->OnComponentEndOverlap.AddDynamic(this, &ATiffany::OnDetectionSphereOverlapEnd);
 
+	
+
 }
 
 ATiffany::~ATiffany()
@@ -31,6 +35,33 @@ ATiffany::~ATiffany()
 void ATiffany::Tick(float a_deltaTime)
 {
 	Super::Tick(a_deltaTime);
+	//Attack and timer logic
+	if (m_detectedEnemies.Num() > 0)
+	{
+		if (m_attackTimer > 0)
+		{
+			//Countdown the timer
+			m_attackTimer -= a_deltaTime;
+		}
+		else
+		{
+			//Restart timer and Attack
+			m_attackTimer = m_attackInterval;
+			Attack();
+		}
+
+		//Set target vector to enemy unit position
+		m_facingTarget = m_detectedEnemies[0]->GetActorLocation();
+
+		//Face the facing target
+		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
+		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw, GetActorRotation().Roll));
+	}
+	else
+	{
+		//If no enemy units are left reeset the timer
+		m_attackTimer = 0;
+	}
 
 
 }
@@ -38,6 +69,14 @@ void ATiffany::Tick(float a_deltaTime)
 
 void ATiffany::Attack() {
 	//Play Animation
+	if (m_detectedEnemies.Num() > 0)
+	{
+		//Face the facing target
+		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
+		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw + 90, GetActorRotation().Roll));
+	}
+	//Play attack animation
+	m_detectedEnemies[0]->m_curHealth -= m_attackDamage;
 }
 
 void ATiffany::DealDamage() {

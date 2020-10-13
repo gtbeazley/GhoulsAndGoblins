@@ -94,6 +94,7 @@ void AGarry::Attack()
 		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw + 90, GetActorRotation().Roll));
 	}
 		//Play attack animation
+	m_detectedEnemies[0]->m_curHealth -= m_attackDamage;
 }
 
 void AGarry::DealDamage()

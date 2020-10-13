@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GhoulsAndGoodies.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8068AB42-5BA8-4808-9078-66204EE4BEB5}</UniqueIdentifier>
+      <UniqueIdentifier>{132FDA1C-5B68-4668-87C7-F8DC2BA26E1C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GhoulsAndGoodies.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D612B486-E554-4BD5-9238-DF8B8D770CC2}</UniqueIdentifier>
+      <UniqueIdentifier>{8655CF57-3CAB-4193-8726-B6E41486F0B8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GhoulsAndGoodies">
-      <UniqueIdentifier>{668BF0D5-9363-4A7C-9D3A-2D5045CCD6AF}</UniqueIdentifier>
+      <UniqueIdentifier>{AE76048C-356E-475F-9BE0-323E9BED4E3B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\AICharacter.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
@@ -186,7 +186,7 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
     <Filter Include="Source\GhoulsAndGoodies\Private">
-      <UniqueIdentifier>{0124D15B-3962-4EF4-9E66-2AA5E224037F}</UniqueIdentifier>
+      <UniqueIdentifier>{6E6CFE1E-E49E-4F6F-8842-9D16A49467A3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Base.cpp">
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
@@ -201,7 +201,7 @@
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GhoulsAndGoodies\Public">
-      <UniqueIdentifier>{9C8B5E44-BA2B-4221-8C3E-99CCC26F93EB}</UniqueIdentifier>
+      <UniqueIdentifier>{DA9D32A3-BFB9-478F-98E0-5D3783B64795}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Base.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>

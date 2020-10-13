@@ -39,4 +39,16 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<AEnemyUnit*> m_detectedEnemies;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_attackDamage = 10.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_attackTimer = 0;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_attackInterval = 2;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector m_facingTarget = FVector(0, 0, 0);
 };
