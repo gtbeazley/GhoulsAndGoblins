@@ -86,6 +86,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 			if (!IsValid(m_base))
 			{
 				m_wave--;
+				m_candyCorn += 40;
 				m_gameState = STATE_Base;
 				for (ATile* l_tile : m_baseLockTiles)
 				{
@@ -100,6 +101,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 			}
 			else if (Cast<ABase>(m_base)->m_curHealth > 0 && (m_enemyCount * m_wave) + 1 <= m_enemiesDestroyed)
 			{
+				m_candyCorn += 50;//Dumbass
 				m_gameState = STATE_Plan;
 			} 
 		}

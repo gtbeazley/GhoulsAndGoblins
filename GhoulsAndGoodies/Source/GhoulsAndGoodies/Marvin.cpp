@@ -64,7 +64,7 @@ void AMarvin::Tick(float a_deltaTime)
 
 void AMarvin::Attack()
 {
-	if (m_targetList.Num() >= 0)
+	if (m_targetList.Num() > 0)
 	{
 		//Set target vector to enemy unit position
 		m_facingTarget = m_targetList[0]->GetActorLocation();
@@ -80,7 +80,7 @@ void AMarvin::Attack()
 
 void AMarvin::DealDamage()
 {
-	if (m_targetList.Num() >= 0)
+	if (m_targetList.Num() > 0)
 	{
 		m_targetList[0]->m_curHealth -= m_attackDamage;
 	}

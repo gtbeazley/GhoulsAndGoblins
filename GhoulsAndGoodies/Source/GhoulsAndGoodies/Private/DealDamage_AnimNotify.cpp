@@ -13,8 +13,8 @@ void UDealDamage_AnimNotify::Notify(USkeletalMeshComponent* MeshComp, UAnimSeque
 	ADefendingUnit* l_defUnit = Cast<ADefendingUnit>(MeshComp->GetOwner());
 	AEnemyUnit* l_enemyUnit = Cast<AEnemyUnit>(MeshComp->GetOwner());
 
-	if (GEngine)
-		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Red, FString::Printf(TEXT("Deal Damage Called")));
+	//if (GEngine)
+	//	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Red, FString::Printf(TEXT("Deal Damage Called")));
 
 	if (l_defUnit)
 	{

@@ -1,2 +1,0 @@
-C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4\Development\GhoulsAndGoodies\Definitions.GhoulsAndGoodies.h
-C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodies.h

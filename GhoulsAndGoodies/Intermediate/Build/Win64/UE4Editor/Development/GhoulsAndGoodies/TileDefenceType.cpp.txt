@@ -1,3 +1,0 @@
-C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\Definitions.GhoulsAndGoodies.h
-C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\TileDefenceType.h
-C:\Users\s181813\Documents\GitHub\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\TileDefenceType.generated.h
