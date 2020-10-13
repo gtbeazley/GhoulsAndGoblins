@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeBase() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ABase();
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ADefendingUnit();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ABase::StaticRegisterNativesABase()
 	{
@@ -32,11 +31,6 @@ void EmptyLinkFunctionForGeneratedCodeBase() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_baseMesh_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_baseMesh;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -51,17 +45,6 @@ void EmptyLinkFunctionForGeneratedCodeBase() {}
 		{ "ModuleRelativePath", "Public/Base.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Statics::NewProp_m_baseMesh_MetaData[] = {
-		{ "Category", "Base" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/Base.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Statics::NewProp_m_baseMesh = { "m_baseMesh", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase, m_baseMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase_Statics::NewProp_m_baseMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase_Statics::NewProp_m_baseMesh_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABase_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Statics::NewProp_m_baseMesh,
-	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABase>::IsAbstract,
 	};
@@ -71,11 +54,11 @@ void EmptyLinkFunctionForGeneratedCodeBase() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		Z_Construct_UClass_ABase_Statics::PropPointers,
+		nullptr,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_ABase_Statics::PropPointers),
+		0,
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_ABase_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ABase_Statics::Class_MetaDataParams))
@@ -89,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase, 3238585731);
+	IMPLEMENT_CLASS(ABase, 1174344150);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ABase>()
 	{
 		return ABase::StaticClass();

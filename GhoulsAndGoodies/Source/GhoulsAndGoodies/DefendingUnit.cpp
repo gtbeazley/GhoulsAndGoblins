@@ -32,6 +32,7 @@ ADefendingUnit::ADefendingUnit()
 	//m_detectionSphere->bHiddenInGame = false;
 
 	m_mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
+	m_mesh->SetGenerateOverlapEvents(true);
 	GetMesh()->SetupAttachment(RootComponent);
 	GetMesh()->SetRelativeRotation(FRotator(0, 0, 0));
 	GetMesh()->SetRelativeLocation(FVector(0, -88, 0));
