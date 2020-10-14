@@ -2,6 +2,10 @@
 	"BuildId": "8386587",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"GhoulsAndGoodies": "UE4Editor-GhoulsAndGoodies-8814.dll"
+=======
+		"GhoulsAndGoodies": "UE4Editor-GhoulsAndGoodies.dll"
+>>>>>>> ad23207061ce6d43c4170f179cb79eac6b1f7809
 	}
 }
