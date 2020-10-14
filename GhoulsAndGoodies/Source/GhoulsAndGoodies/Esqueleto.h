@@ -28,6 +28,6 @@ public:
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackDamage = 60.0f;
+		float m_attackDamage = 70.0f;
 
 };

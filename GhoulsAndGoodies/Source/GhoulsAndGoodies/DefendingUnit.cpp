@@ -25,7 +25,7 @@ ADefendingUnit::ADefendingUnit()
 	
 	m_detectionSphere = CreateDefaultSubobject<USphereComponent>("Detection Sphere");
 	SetRootComponent(m_detectionSphere);
-	m_detectionSphere->InitSphereRadius(300);
+	m_detectionSphere->InitSphereRadius(600);
 	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
 	m_detectionSphere->SetCollisionProfileName("Detect");
 	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);

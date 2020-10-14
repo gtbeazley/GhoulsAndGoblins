@@ -12,7 +12,7 @@
 
 ABase::ABase()
 {
-	m_fullHealth = 100;
+	m_fullHealth = 400;
 	m_curHealth = m_fullHealth;
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_skeletalMesh (TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Candy_Base/Candy_Base_Idle_Anim.Candy_Base_Idle_Anim'"));
 	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Base_AnimBP.Base_AnimBP'"));
