@@ -234,6 +234,8 @@ void ATile::DespawnUnit()
 {
 	m_defType = ETileDefenceType::DEF_None;
 	m_defenceUnit->Despawn();
+	SetupTileMaterial();
+
 }
 
 void ATile::SellUnit()
