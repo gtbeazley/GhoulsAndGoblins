@@ -47,7 +47,7 @@ public:
 		float m_attackDamage = 10.0f;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		float m_attackInterval = 2.0f;
+		float m_attackInterval = 3.0f;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float m_attackTimer = 0.0f;

@@ -26,7 +26,7 @@ AGarry::AGarry()
 
 	m_detectionSphere->OnComponentBeginOverlap.AddDynamic(this, &AGarry::OnDetectionSphereOverlapBegin);
 	m_detectionSphere->OnComponentEndOverlap.AddDynamic(this, &AGarry::OnDetectionSphereOverlapEnd);
-	//m_detectionSphere->bHiddenInGame = false;
+	m_detectionSphere->bHiddenInGame = false;
 
 }
 
