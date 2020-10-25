@@ -697,3 +697,110 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.25-23.07.14:861][660]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Death_PhysicsAsset84F15B75440A14A26F5953B9315B51D5.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death_PhysicsAsset.uasset'
 [2020.10.25-23.07.15:885][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
 [2020.10.25-23.07.16:001][773]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenuE14A604C41D44F93C9057996655466D6.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
+[2020.10.25-23.26.31:776][ 83]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Marvin_Death.fbx)
+[2020.10.25-23.26.31:791][ 83]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Marvin_Death.fbx
+[2020.10.25-23.26.31:818][ 83]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.25-23.26.46:679][ 83]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.25-23.26.46:730][ 83]LogFbx: Valid bind pose for Pose (skinCluster1) - SM_Neck
+[2020.10.25-23.26.46:730][ 83]LogFbx: Valid bind pose for Pose (skinCluster2) - SM_Neck
+[2020.10.25-23.26.46:730][ 83]LogFbx: Valid bind pose for Pose (skinCluster3) - SM_Neck
+[2020.10.25-23.26.46:731][ 83]LogFbx: Valid bind pose for Pose (skinCluster4) - SM_Neck
+[2020.10.25-23.26.46:731][ 83]LogFbx: Valid bind pose for Pose (skinCluster5) - SM_Neck
+[2020.10.25-23.26.46:731][ 83]LogFbx: Valid bind pose for Pose (skinCluster6) - SM_Neck
+[2020.10.25-23.26.46:731][ 83]LogFbx: Valid bind pose for Pose (skinCluster7) - SM_Neck
+[2020.10.25-23.26.46:731][ 83]LogFbx: Valid bind pose for Pose (skinCluster8) - SM_Neck
+[2020.10.25-23.26.46:733][ 83]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/lambert2.lambert2 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.25-23.26.46:737][ 83]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.10.25-23.26.46:758][ 83]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2020.10.25-23.26.46:758][ 83]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.10.25-23.26.46:758][ 83]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.10.25-23.26.46:758][ 83]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.10.25-23.26.46:758][ 83]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.10.25-23.26.46:774][ 83]LogFbx: Triangulating skeletal mesh SM_Neck
+[2020.10.25-23.26.46:775][ 83]LogFbx: Triangulating skeletal mesh SM_Hand
+[2020.10.25-23.26.46:780][ 83]LogFbx: Triangulating skeletal mesh SM_Body
+[2020.10.25-23.26.46:817][ 83]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.25-23.26.46:820][ 83]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.25-23.26.46:847][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/SM_Mummy_lambert1_BaseColor': Can't find file.
+[2020.10.25-23.26.46:847][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/SM_Mummy_lambert1_BaseColor': Can't find file.
+[2020.10.25-23.26.46:864][ 83]LogTexture: Display: Building textures: SM_Mummy_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2020.10.25-23.26.46:953][ 83]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.25-23.26.46:972][ 83]LogFbx: Triangulating skeletal mesh SM_Head
+[2020.10.25-23.26.46:990][ 83]LogFbx: Triangulating skeletal mesh SM_Cane
+[2020.10.25-23.26.47:028][ 83]LogFbx: Triangulating skeletal mesh Bandage_04
+[2020.10.25-23.26.47:029][ 83]LogFbx: Triangulating skeletal mesh Bandage_03
+[2020.10.25-23.26.47:029][ 83]LogFbx: Triangulating skeletal mesh Bandage_02
+[2020.10.25-23.26.47:035][ 83]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 8
+[2020.10.25-23.26.47:098][ 83]LogSkeletalMesh: Section 0: 562 vertices, 19 active bones
+[2020.10.25-23.26.47:098][ 83]LogSkeletalMesh: Section 1: 801 vertices, 12 active bones
+[2020.10.25-23.26.47:098][ 83]LogSkeletalMesh: Section 0: Material=0, 751 triangles
+[2020.10.25-23.26.47:098][ 83]LogSkeletalMesh: Section 1: Material=1, 1234 triangles
+[2020.10.25-23.26.47:101][ 83]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Death...
+[2020.10.25-23.26.47:106][ 83]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.Anim_Marvin_Death
+[2020.10.25-23.26.47:109][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_PhysicsAsset': Can't find file.
+[2020.10.25-23.26.47:109][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_PhysicsAsset': Can't find file.
+[2020.10.25-23.26.47:121][ 83]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(0) Rig
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(1) Root_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(2) Cog_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(3) Hip_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(4) Knee_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(5) Ankle_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(6) Ball_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(7) Toe_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(8) Hip_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(9) Knee_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(10) Ankle_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(11) Ball_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(12) Toe_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(13) Chest_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(14) Neck_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(15) Head_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(16) Shoulder_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(17) Elbow_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(18) Hand_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(19) Shoulder_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(20) Elbow_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(21) Hand_R_jnt
+[2020.10.25-23.26.47:126][ 83]LogFbx: Parsing AnimStack Take 001
+[2020.10.25-23.26.47:126][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim': Can't find file.
+[2020.10.25-23.26.47:126][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim': Can't find file.
+[2020.10.25-23.26.48:256][ 83]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim.Anim_Marvin_Death_Anim
+[2020.10.25-23.26.48:256][ 83]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim.Anim_Marvin_Death_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.10.25-23.26.48:267][ 83]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Death...
+[2020.10.25-23.26.48:272][ 83]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.Anim_Marvin_Death
+[2020.10.25-23.26.48:289][ 83]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Death...
+[2020.10.25-23.26.48:292][ 83]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.Anim_Marvin_Death
+[2020.10.25-23.26.48:384][ 86]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 66
+[2020.10.25-23.26.48:996][119]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 56
+[2020.10.25-23.26.49:108][127]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 46
+[2020.10.25-23.26.49:476][154]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2020.10.25-23.26.51:153][287]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2020.10.25-23.26.51:741][333]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.10.25-23.26.51:886][341]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.10.25-23.26.51:933][341]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2020.10.25-23.26.52:274][341]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.10.25-23.26.52:833][341]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.10.25-23.26.52:850][341]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.10.25-23.26.53:040][341]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.25-23.26.53:078][341]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.10.25-23.26.53:219][341]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.25-23.26.53:219][341]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.25-23.26.53:797][341]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/lambert1.lambert1
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/lambert2.lambert2
+[2020.10.25-23.26.53:912][341]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Death...
+[2020.10.25-23.26.53:914][341]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.Anim_Marvin_Death
+[2020.10.25-23.26.53:916][341]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Death...
+[2020.10.25-23.26.53:917][341]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.Anim_Marvin_Death
+[2020.10.25-23.26.54:135][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.10.25-23.26.55:640][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.10.25-23.26.56:511][488]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.25-23.26.56:589][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.10.25-23.26.58:340][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.10.25-23.27.05:907][665]LogSlate: Window 'Save Content' being destroyed
+[2020.10.25-23.27.05:976][665]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Marvin_Death7047B44B40A52CFA4469668B0AE1B12B.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.uasset'
+[2020.10.25-23.27.06:016][665]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Marvin_Death_Anim3AFAC54048AEC5F24236B993B304CE06.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim.uasset'
+[2020.10.25-23.27.06:053][665]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Marvin_Death_PhysicsAssetBC11CD574906CAC69BA97CAC83D4DE3A.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_PhysicsAsset.uasset'
+[2020.10.25-23.27.07:387][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.10.25-23.27.07:498][816]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu3B78FAD443F69525713B0FAC3C230696.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
