@@ -16,13 +16,13 @@ AGarry::AGarry()
 	m_fullHealth = 200.0f;
 	m_curHealth = m_fullHealth;
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_meshAsset (TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/GARRY/GARRY_ANIM_IDLE_02.GARRY_ANIM_IDLE_02'"));
-	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Garry_AnimBP.Garry_AnimBP'"));
+	static ConstructorHelpers::FObjectFinder<UClass> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Garry_AnimBP.Garry_AnimBP_C'"));
 
 	m_mesh->SetSkeletalMesh(l_meshAsset.Object);
 
 
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	GetMesh()->SetAnimClass(l_animBlueprint.Object->GeneratedClass);
+	GetMesh()->SetAnimClass(l_animBlueprint.Object);
 
 	m_detectionSphere->OnComponentBeginOverlap.AddDynamic(this, &AGarry::OnDetectionSphereOverlapBegin);
 	m_detectionSphere->OnComponentEndOverlap.AddDynamic(this, &AGarry::OnDetectionSphereOverlapEnd);

@@ -15,11 +15,11 @@
 AGrace::AGrace()
 {
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_skeletalMeshObject(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Grace/Anim_Grace_Floating.Anim_Grace_Floating'"));
-	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Grace_AnimBP.Grace_AnimBP'"));
+	static ConstructorHelpers::FObjectFinder<UClass> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Grace_AnimBP.Grace_AnimBP_C'"));
 
 	GetMesh()->SetSkeletalMesh(l_skeletalMeshObject.Object);
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	GetMesh()->SetAnimClass(l_animBlueprint.Object->GeneratedClass);
+	GetMesh()->SetAnimClass(l_animBlueprint.Object);
 
 	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_animFinder(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/Grace/Anim_Grace_Throwing_Anim.Anim_Grace_Throwing_Anim'"));
 	m_attackAnim = l_animFinder.Object;

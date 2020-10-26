@@ -15,11 +15,11 @@
 AEsqueleto::AEsqueleto()
 { 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_skeletalMeshObject(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto.Anim_Esqueleto'"));
-	const ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_AnimClass(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Esqueleto_AnimBP.Esqueleto_AnimBP'"));
+	const ConstructorHelpers::FObjectFinder<UClass> l_AnimClass(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Esqueleto_AnimBP.Esqueleto_AnimBP_C'"));
 
 	GetMesh()->SetSkeletalMesh(l_skeletalMeshObject.Object);
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	GetMesh()->SetAnimClass(l_AnimClass.Object->GeneratedClass);
+	GetMesh()->SetAnimClass(l_AnimClass.Object);
 	
 	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_animFinder(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto_Exploding_Anim.Anim_Esqueleto_Exploding_Anim'"));
 	m_attackAnim = l_animFinder.Object;

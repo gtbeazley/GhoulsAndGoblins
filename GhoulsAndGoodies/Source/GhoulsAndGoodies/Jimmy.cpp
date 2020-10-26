@@ -14,11 +14,11 @@ AJimmy::AJimmy()
 	m_curHealth = m_fullHealth;
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_staticMeshObject(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/JIMMY/JIMMY_ANIM_IDLE.JIMMY_ANIM_IDLE'"));
-	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Jimmy_AnimBP.Jimmy_AnimBP'"));
+	static ConstructorHelpers::FObjectFinder<UClass> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Jimmy_AnimBP.Jimmy_AnimBP_C'"));
 
 	GetMesh()->SetSkeletalMesh(l_staticMeshObject.Object);
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	GetMesh()->SetAnimClass(l_animBlueprint.Object->GeneratedClass);
+	GetMesh()->SetAnimClass(l_animBlueprint.Object);
 }
 
 AJimmy::~AJimmy()
