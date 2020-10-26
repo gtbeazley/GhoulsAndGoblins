@@ -1,0 +1,806 @@
+﻿Log file open, 10/26/20 10:02:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GhoulsAndGoodies
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.549176
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 770
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.25-23.02.15:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.25-23.02.15:084][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.25-23.02.15:085][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.25-23.02.15:085][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.25-23.02.15:085][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.10.25-23.02.15:085][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.25-23.02.15:085][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.25-23.02.15:085][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.25-23.02.15:085][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.25-23.02.15:085][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.25-23.02.15:085][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.25-23.02.15:085][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.25-23.02.15:085][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.25-23.02.15:093][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.25-23.02.15:093][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.25-23.02.15:094][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.25-23.02.15:095][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.25-23.02.15:095][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.25-23.02.15:105][  0]LogHAL: Display: Platform has ~ 32 GB [34241368064 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.25-23.02.15:105][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.25-23.02.15:105][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.25-23.02.15:105][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Scalability.ini]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.25-23.02.15:106][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.25-23.02.15:112][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.25-23.02.15:112][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.25-23.02.15:112][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Config/Windows/Engine.ini]
+[2020.10.25-23.02.15:113][  0]LogInit: Computer: SYD-1720C2
+[2020.10.25-23.02.15:113][  0]LogInit: User: s191212
+[2020.10.25-23.02.15:113][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.25-23.02.15:113][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.25-23.02.15:114][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.10.25-23.02.15:114][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.25-23.02.15:114][  0]LogMemory: Process Physical Memory: 100.66 MB used, 100.66 MB peak
+[2020.10.25-23.02.15:114][  0]LogMemory: Process Virtual Memory: 88.56 MB used, 88.56 MB peak
+[2020.10.25-23.02.15:114][  0]LogMemory: Physical Memory: 6854.09 MB used,  25801.02 MB free, 32655.11 MB total
+[2020.10.25-23.02.15:114][  0]LogMemory: Virtual Memory: 4656.43 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.10.25-23.02.15:119][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.25-23.02.15:304][  0]LogInit: Using OS detected language (en-US).
+[2020.10.25-23.02.15:304][  0]LogInit: Using OS detected locale (en-AU).
+[2020.10.25-23.02.15:306][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.25-23.02.15:753][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.25-23.02.15:869][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.25-23.02.15:869][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.25-23.02.18:106][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.25-23.02.18:106][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.25-23.02.18:181][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2020.10.25-23.02.18:181][  0]LogD3D11RHI:       2007/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.10.25-23.02.18:220][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.10.25-23.02.18:220][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.25-23.02.18:222][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.25-23.02.18:222][  0]LogD3D11RHI:       0/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.25-23.02.18:222][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.25-23.02.18:230][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.25-23.02.18:230][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.25-23.02.18:230][  0]LogWindows: EnumDisplayDevices:
+[2020.10.25-23.02.18:230][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:0 D:1)
+[2020.10.25-23.02.18:230][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2020.10.25-23.02.18:230][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2020.10.25-23.02.18:231][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2020.10.25-23.02.18:231][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.10.25-23.02.18:231][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.10.25-23.02.18:231][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.10.25-23.02.18:231][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.10.25-23.02.18:231][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2020.10.25-23.02.18:231][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2020.10.25-23.02.18:231][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2020.10.25-23.02.18:231][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2020.10.25-23.02.18:277][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.25-23.02.18:298][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.25-23.02.18:750][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.10.25-23.02.18:759][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.10.25-23.02.18:769][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.10.25-23.02.18:778][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.10.25-23.02.18:794][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.10.25-23.02.18:804][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.10.25-23.02.18:814][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.25-23.02.18:824][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.10.25-23.02.18:830][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.25-23.02.18:872][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.10.25-23.02.18:873][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.10.25-23.02.18:873][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.10.25-23.02.18:873][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.10.25-23.02.18:873][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.25-23.02.18:873][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.10.25-23.02.18:873][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.10.25-23.02.18:873][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.10.25-23.02.18:876][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.10.25-23.02.18:906][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.10.25-23.02.18:906][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.10.25-23.02.18:920][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.10.25-23.02.18:920][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.10.25-23.02.18:929][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.10.25-23.02.18:937][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.25-23.02.18:945][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.10.25-23.02.18:963][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.10.25-23.02.18:996][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.10.25-23.02.18:996][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.10.25-23.02.18:996][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.25-23.02.19:010][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.25-23.02.19:121][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Intermediate/Shaders/WorkingDirectory/5864/).
+[2020.10.25-23.02.19:121][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s191212/AppData/Local/Temp/UnrealShaderWorkingDir/7AB9E2DF49234F6B3009EF9C610211A2/'.
+[2020.10.25-23.02.19:124][  0]LogXGEController: Cleaning working directory: C:/Users/s191212/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.25-23.02.19:124][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.25-23.02.19:124][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.25-23.02.19:124][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.25-23.02.21:603][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.25-23.02.21:799][  0]LogDerivedDataCache: Loaded boot cache 0.20s 77MB C:/Users/s191212/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.10.25-23.02.21:799][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s191212/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.10.25-23.02.21:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.25-23.02.21:799][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.25-23.02.21:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.25-23.02.21:799][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.25-23.02.21:830][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.25-23.02.21:830][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.25-23.02.21:830][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.25-23.02.21:833][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s191212/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.25-23.02.21:833][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.25-23.02.21:833][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.25-23.02.21:870][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.10.25-23.02.21:875][  0]LogSlate: Using FreeType 2.6.0
+[2020.10.25-23.02.21:900][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.25-23.02.22:034][  0]LogAssetRegistry: FAssetRegistry took 0.0050 seconds to start up
+[2020.10.25-23.02.22:415][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.25-23.02.22:741][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.25-23.02.22:741][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.25-23.02.22:741][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.25-23.02.22:741][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.25-23.02.22:741][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.25-23.02.22:795][  0]LogNetVersion: GhoulsAndGoodies 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1842056771)
+[2020.10.25-23.02.24:058][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.062456 seconds
+[2020.10.25-23.02.24:067][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.10.25-23.02.24:068][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.10.25-23.02.24:068][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.25-23.02.26:226][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.25-23.02.26:233][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.25-23.02.26:503][  0]LogScript: Warning: Script Msg: No world was found for object (/Script/GhoulsAndGoodies.Default__GhoulsAndGoodiesGameMode) passed in to UEngine::GetWorldFromContextObject().
+[2020.10.25-23.02.26:797][  0]LogTexture: Display: Building textures: TexA_grassBase (AutoDXT, 1000X1000)
+[2020.10.25-23.02.26:797][  0]SourceControl: Source control is disabled
+[2020.10.25-23.02.26:798][  0]SourceControl: Source control is disabled
+[2020.10.25-23.02.26:806][  0]SourceControl: Source control is disabled
+[2020.10.25-23.02.26:809][  0]SourceControl: Source control is disabled
+[2020.10.25-23.02.26:997][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.25-23.02.27:152][  0]LogOcInput: OculusInput pre-init called
+[2020.10.25-23.02.27:165][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.25-23.02.27:165][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.25-23.02.27:320][  0]LogEngine: Initializing Engine...
+[2020.10.25-23.02.27:322][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.25-23.02.27:325][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.10.25-23.02.27:754][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.25-23.02.27:790][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.25-23.02.27:810][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.25-23.02.27:886][  0]LogInit: FAudioDevice initialized.
+[2020.10.25-23.02.27:886][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.25-23.02.27:979][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/s191212/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.10.25-23.02.27:985][  0]LogInit: Texture streaming: Enabled
+[2020.10.25-23.02.28:011][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.25-23.02.28:011][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.25-23.02.28:012][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.25-23.02.28:089][  0]LogInit: Transaction tracking system initialized
+[2020.10.25-23.02.28:148][  0]BlueprintLog: New page: Editor Load
+[2020.10.25-23.02.28:292][  0]LocalizationService: Localization service is disabled
+[2020.10.25-23.02.29:026][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/' took 0.01s
+[2020.10.25-23.02.29:026][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.25-23.02.29:026][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.25-23.02.29:184][  0]LogLinker: Warning: Failed to load '/Engine/BasicShapes/Cube': Can't find file.
+[2020.10.25-23.02.29:184][  0]LogLinker: Warning: Failed to load '/Engine/BasicShapes/Cube': Can't find file.
+[2020.10.25-23.02.29:185][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2020.10.25-23.02.29:448][  0]SourceControl: Source control is disabled
+[2020.10.25-23.02.29:449][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.25-23.02.29:450][  0]LightingResults: New page: Lighting Build
+[2020.10.25-23.02.29:456][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.25-23.02.29:458][  0]MapCheck: New page: Map Check
+[2020.10.25-23.02.29:458][  0]LightingResults: New page: Lighting Build
+[2020.10.25-23.02.29:488][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.10.25-23.02.29:543][  0]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.25-23.02.29:551][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.25-23.02.29:577][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.10.25-23.02.29:577][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.25-23.02.29:578][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.435ms to complete.
+[2020.10.25-23.02.29:578][  0]LogFileHelpers: Loading map 'MainMenu' took 0.129
+[2020.10.25-23.02.29:770][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.25-23.02.29:777][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.25-23.02.29:783][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.25-23.02.29:791][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.25-23.02.29:807][  0]LogCollectionManager: Loaded 0 collections in 0.001587 seconds
+[2020.10.25-23.02.29:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Collections/' took 0.00s
+[2020.10.25-23.02.29:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/Developers/s191212/Collections/' took 0.00s
+[2020.10.25-23.02.29:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/Collections/' took 0.00s
+[2020.10.25-23.02.29:824][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.10.25-23.02.29:834][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2887 classes and 683 folders.
+[2020.10.25-23.02.29:844][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.25-23.02.30:201][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.25-23.02.30:212][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.10.25-23.02.30:282][  0]LogSlate: Took 0.007599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.25-23.02.30:291][  0]LogSlate: Took 0.006743 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.25-23.02.30:304][  0]LogSlate: Took 0.008313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.25-23.02.30:457][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 10 NumSamples 1 (Frame:1).
+[2020.10.25-23.02.30:577][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.25-23.02.30:577][  0]LogLoad: (Engine Initialization) Total time: 21.00 seconds
+[2020.10.25-23.02.30:577][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.25-23.02.30:651][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.25-23.02.30:704][  0]LogSlate: Took 0.006936 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.25-23.02.31:229][ 11]LogAssetRegistry: Asset discovery search completed in 9.1962 seconds
+[2020.10.25-23.02.31:233][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000016 seconds (found 0 objects)
+[2020.10.25-23.02.31:233][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2020.10.25-23.02.34:849][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.25-23.03.30:581][998]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={94D5974B-40EB-6DD7-C8BA-CAB91E9F410F}
+[2020.10.25-23.05.59:229][976]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.25-23.05.59:249][976]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Buddy_Death.fbx)
+[2020.10.25-23.05.59:281][976]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Buddy_Death.fbx
+[2020.10.25-23.05.59:336][976]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.25-23.06.50:394][976]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.25-23.06.50:504][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster1) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:504][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster2) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:504][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster3) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:504][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster4) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:505][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster5) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:505][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster6) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:505][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster7) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:506][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster8) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:506][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster9) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:506][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster10) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:506][976]LogFbx: Valid bind pose for Pose (Buddy_Skinning:skinCluster11) - Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:637][976]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.25-23.06.50:640][976]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.25-23.06.50:681][976]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2020.10.25-23.06.50:681][976]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.10.25-23.06.50:681][976]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.10.25-23.06.50:681][976]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.10.25-23.06.50:681][976]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/SM_Buddy_BC': Can't find file.
+[2020.10.25-23.06.50:682][976]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/SM_Buddy_BC': Can't find file.
+[2020.10.25-23.06.50:703][976]LogTexture: Display: Building textures: SM_Buddy_BC (AutoDXT, 1024X1024)
+[2020.10.25-23.06.50:790][976]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.25-23.06.50:808][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Neck
+[2020.10.25-23.06.50:811][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Head
+[2020.10.25-23.06.50:872][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Ear
+[2020.10.25-23.06.50:884][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Nose
+[2020.10.25-23.06.50:897][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Body
+[2020.10.25-23.06.50:986][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Top_Claw
+[2020.10.25-23.06.51:018][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Middle_Claw
+[2020.10.25-23.06.51:053][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Bottom__Claw
+[2020.10.25-23.06.51:086][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_R_Palm
+[2020.10.25-23.06.51:104][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_L_Palm
+[2020.10.25-23.06.51:120][976]LogFbx: Triangulating skeletal mesh Buddy_Skinning:Buddy_Rig:Buddy_Model:SM_Tail
+[2020.10.25-23.06.51:147][976]LogFbx: Warning: Bones digested - 58  Depth of hierarchy - 15
+[2020.10.25-23.06.51:359][976]LogSkeletalMesh: Section 0: 4153 vertices, 54 active bones
+[2020.10.25-23.06.51:359][976]LogSkeletalMesh: Section 0: Material=0, 7004 triangles
+[2020.10.25-23.06.51:364][976]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Death...
+[2020.10.25-23.06.51:376][976]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death.Anim_Buddy_Death
+[2020.10.25-23.06.51:379][976]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death_PhysicsAsset': Can't find file.
+[2020.10.25-23.06.51:379][976]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death_PhysicsAsset': Can't find file.
+[2020.10.25-23.06.51:393][976]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(0) Root_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(1) Cog_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(2) Lower_Back_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(3) Back_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(4) Middle_Back_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(5) Chest_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(6) Top_Chest_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(7) Neck_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(8) Head_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(9) Nose_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(10) R_Bottom_Ear_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(11) R_Ear_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(12) L_Bottom_Ear_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(13) L_Ear_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(14) L_Clavicle_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(15) L_Shoulder_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(16) L_Elbow_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(17) L_Wrist_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(18) L_Palm_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(19) L_Top_Bottom_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(20) L_Top_Middle_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(21) L_Top_Top_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(22) L_Middle_Bottom_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(23) L__Middle_Middle_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(24) L_Middle_Top_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(25) L_Bottom_Bottom_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(26) L__Bottom_Middle_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(27) L_Bottom_Top_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(28) R_Clavicle_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(29) R_Shoulder_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(30) R_Elbow_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(31) R_Wrist_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(32) R_Palm_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(33) R_Top_Bottom_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(34) R_Top_Middle_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(35) R_Top_Top_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(36) R_Middle_Bottom_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(37) R__Middle_Middle_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(38) R_Middle_Top_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(39) R_Bottom_Bottom_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(40) R__Bottom_Middle_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(41) R_Bottom_Top_Claw_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(42) R_Hip_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(43) R_Knee_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(44) R_Ankle_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(45) R_Ball_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(46) R_Toe_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(47) L_Hip_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(48) L_Knee_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(49) L_Ankle_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(50) L_Ball_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(51) L_Toe_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(52) End_Tail_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(53) Bottom_Tail_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(54) Second_Bottom_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(55) Middle_Tail_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(56) Second_Top_jnt
+[2020.10.25-23.06.51:400][976]LogFbx: SortedLinks :(57) Top_Tail_jnt
+[2020.10.25-23.06.51:402][976]LogFbx: Parsing AnimStack Take 001
+[2020.10.25-23.06.51:403][976]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death_Anim': Can't find file.
+[2020.10.25-23.06.51:403][976]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death_Anim': Can't find file.
+[2020.10.25-23.06.52:428][976]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2020.10.25-23.06.52:996][976]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2020.10.25-23.06.53:087][976]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2020.10.25-23.06.53:250][976]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.10.25-23.06.54:077][976]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.10.25-23.06.54:353][976]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.10.25-23.06.54:353][976]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.10.25-23.06.54:621][976]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death_Anim.Anim_Buddy_Death_Anim
+[2020.10.25-23.06.54:622][976]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death_Anim.Anim_Buddy_Death_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.10.25-23.06.54:640][976]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.10.25-23.06.54:640][976]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Death...
+[2020.10.25-23.06.54:655][976]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death.Anim_Buddy_Death
+[2020.10.25-23.06.54:672][976]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.10.25-23.06.54:674][976]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2020.10.25-23.06.54:690][976]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Death...
+[2020.10.25-23.06.54:707][976]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death.Anim_Buddy_Death
+[2020.10.25-23.07.00:174][586]LogSlate: Window 'Message Log' being destroyed
+[2020.10.25-23.07.00:181][586]LogSlate: Window 'Message Log' being destroyed
+[2020.10.25-23.07.06:863][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.10.25-23.07.08:269][346]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.25-23.07.08:854][346]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1.lambert1
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/SM_Buddy_BC.SM_Buddy_BC
+[2020.10.25-23.07.09:285][346]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.25-23.07.09:285][346]LogMaterial: Warning: /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/lambert1.lambert1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.25-23.07.09:285][346]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.25-23.07.09:286][346]LogSkeletalMesh: Building Skeletal Mesh Anim_Buddy_Death...
+[2020.10.25-23.07.09:293][346]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death.Anim_Buddy_Death
+[2020.10.25-23.07.09:519][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.10.25-23.07.13:219][660]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.10.25-23.07.14:704][660]LogSlate: Window 'Save Content' being destroyed
+[2020.10.25-23.07.14:778][660]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Death6E3F0B80463286177EAAD4B60D5CB021.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death.uasset'
+[2020.10.25-23.07.14:815][660]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Death_Anim83D7F799449AF3E9CA05C19F878A7BD4.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death_Anim.uasset'
+[2020.10.25-23.07.14:861][660]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Buddy_Death_PhysicsAsset84F15B75440A14A26F5953B9315B51D5.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death_PhysicsAsset.uasset'
+[2020.10.25-23.07.15:885][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.10.25-23.07.16:001][773]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenuE14A604C41D44F93C9057996655466D6.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
+[2020.10.25-23.26.31:776][ 83]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Marvin_Death.fbx)
+[2020.10.25-23.26.31:791][ 83]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Marvin_Death.fbx
+[2020.10.25-23.26.31:818][ 83]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.25-23.26.46:679][ 83]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.25-23.26.46:730][ 83]LogFbx: Valid bind pose for Pose (skinCluster1) - SM_Neck
+[2020.10.25-23.26.46:730][ 83]LogFbx: Valid bind pose for Pose (skinCluster2) - SM_Neck
+[2020.10.25-23.26.46:730][ 83]LogFbx: Valid bind pose for Pose (skinCluster3) - SM_Neck
+[2020.10.25-23.26.46:731][ 83]LogFbx: Valid bind pose for Pose (skinCluster4) - SM_Neck
+[2020.10.25-23.26.46:731][ 83]LogFbx: Valid bind pose for Pose (skinCluster5) - SM_Neck
+[2020.10.25-23.26.46:731][ 83]LogFbx: Valid bind pose for Pose (skinCluster6) - SM_Neck
+[2020.10.25-23.26.46:731][ 83]LogFbx: Valid bind pose for Pose (skinCluster7) - SM_Neck
+[2020.10.25-23.26.46:731][ 83]LogFbx: Valid bind pose for Pose (skinCluster8) - SM_Neck
+[2020.10.25-23.26.46:733][ 83]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/lambert2.lambert2 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.25-23.26.46:737][ 83]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.10.25-23.26.46:758][ 83]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2020.10.25-23.26.46:758][ 83]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.10.25-23.26.46:758][ 83]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.10.25-23.26.46:758][ 83]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.10.25-23.26.46:758][ 83]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.10.25-23.26.46:774][ 83]LogFbx: Triangulating skeletal mesh SM_Neck
+[2020.10.25-23.26.46:775][ 83]LogFbx: Triangulating skeletal mesh SM_Hand
+[2020.10.25-23.26.46:780][ 83]LogFbx: Triangulating skeletal mesh SM_Body
+[2020.10.25-23.26.46:817][ 83]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.25-23.26.46:820][ 83]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.25-23.26.46:847][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/SM_Mummy_lambert1_BaseColor': Can't find file.
+[2020.10.25-23.26.46:847][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/SM_Mummy_lambert1_BaseColor': Can't find file.
+[2020.10.25-23.26.46:864][ 83]LogTexture: Display: Building textures: SM_Mummy_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2020.10.25-23.26.46:953][ 83]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.10.25-23.26.46:972][ 83]LogFbx: Triangulating skeletal mesh SM_Head
+[2020.10.25-23.26.46:990][ 83]LogFbx: Triangulating skeletal mesh SM_Cane
+[2020.10.25-23.26.47:028][ 83]LogFbx: Triangulating skeletal mesh Bandage_04
+[2020.10.25-23.26.47:029][ 83]LogFbx: Triangulating skeletal mesh Bandage_03
+[2020.10.25-23.26.47:029][ 83]LogFbx: Triangulating skeletal mesh Bandage_02
+[2020.10.25-23.26.47:035][ 83]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 8
+[2020.10.25-23.26.47:098][ 83]LogSkeletalMesh: Section 0: 562 vertices, 19 active bones
+[2020.10.25-23.26.47:098][ 83]LogSkeletalMesh: Section 1: 801 vertices, 12 active bones
+[2020.10.25-23.26.47:098][ 83]LogSkeletalMesh: Section 0: Material=0, 751 triangles
+[2020.10.25-23.26.47:098][ 83]LogSkeletalMesh: Section 1: Material=1, 1234 triangles
+[2020.10.25-23.26.47:101][ 83]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Death...
+[2020.10.25-23.26.47:106][ 83]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.Anim_Marvin_Death
+[2020.10.25-23.26.47:109][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_PhysicsAsset': Can't find file.
+[2020.10.25-23.26.47:109][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_PhysicsAsset': Can't find file.
+[2020.10.25-23.26.47:121][ 83]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(0) Rig
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(1) Root_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(2) Cog_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(3) Hip_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(4) Knee_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(5) Ankle_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(6) Ball_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(7) Toe_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(8) Hip_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(9) Knee_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(10) Ankle_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(11) Ball_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(12) Toe_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(13) Chest_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(14) Neck_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(15) Head_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(16) Shoulder_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(17) Elbow_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(18) Hand_L_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(19) Shoulder_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(20) Elbow_R_jnt
+[2020.10.25-23.26.47:125][ 83]LogFbx: SortedLinks :(21) Hand_R_jnt
+[2020.10.25-23.26.47:126][ 83]LogFbx: Parsing AnimStack Take 001
+[2020.10.25-23.26.47:126][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim': Can't find file.
+[2020.10.25-23.26.47:126][ 83]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim': Can't find file.
+[2020.10.25-23.26.48:256][ 83]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim.Anim_Marvin_Death_Anim
+[2020.10.25-23.26.48:256][ 83]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim.Anim_Marvin_Death_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.10.25-23.26.48:267][ 83]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Death...
+[2020.10.25-23.26.48:272][ 83]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.Anim_Marvin_Death
+[2020.10.25-23.26.48:289][ 83]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Death...
+[2020.10.25-23.26.48:292][ 83]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.Anim_Marvin_Death
+[2020.10.25-23.26.48:384][ 86]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 66
+[2020.10.25-23.26.48:996][119]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 56
+[2020.10.25-23.26.49:108][127]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 46
+[2020.10.25-23.26.49:476][154]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2020.10.25-23.26.51:153][287]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2020.10.25-23.26.51:741][333]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.10.25-23.26.51:886][341]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.10.25-23.26.51:933][341]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2020.10.25-23.26.52:274][341]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.10.25-23.26.52:833][341]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.10.25-23.26.52:850][341]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.10.25-23.26.53:040][341]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.25-23.26.53:078][341]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.10.25-23.26.53:219][341]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.25-23.26.53:219][341]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.25-23.26.53:797][341]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/lambert1.lambert1
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/lambert2.lambert2
+[2020.10.25-23.26.53:912][341]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Death...
+[2020.10.25-23.26.53:914][341]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.Anim_Marvin_Death
+[2020.10.25-23.26.53:916][341]LogSkeletalMesh: Building Skeletal Mesh Anim_Marvin_Death...
+[2020.10.25-23.26.53:917][341]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.Anim_Marvin_Death
+[2020.10.25-23.26.54:135][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.10.25-23.26.55:640][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.10.25-23.26.56:511][488]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.25-23.26.56:589][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.10.25-23.26.58:340][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.10.25-23.27.05:907][665]LogSlate: Window 'Save Content' being destroyed
+[2020.10.25-23.27.05:976][665]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Marvin_Death7047B44B40A52CFA4469668B0AE1B12B.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death.uasset'
+[2020.10.25-23.27.06:016][665]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Marvin_Death_Anim3AFAC54048AEC5F24236B993B304CE06.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim.uasset'
+[2020.10.25-23.27.06:053][665]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Marvin_Death_PhysicsAssetBC11CD574906CAC69BA97CAC83D4DE3A.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_PhysicsAsset.uasset'
+[2020.10.25-23.27.07:387][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.10.25-23.27.07:498][816]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu3B78FAD443F69525713B0FAC3C230696.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
