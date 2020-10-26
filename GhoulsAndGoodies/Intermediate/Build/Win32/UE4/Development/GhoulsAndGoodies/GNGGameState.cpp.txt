@@ -1,0 +1,3 @@
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win32\UE4\Development\GhoulsAndGoodies\Definitions.GhoulsAndGoodies.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGGameState.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win32\UE4\Inc\GhoulsAndGoodies\GNGGameState.generated.h

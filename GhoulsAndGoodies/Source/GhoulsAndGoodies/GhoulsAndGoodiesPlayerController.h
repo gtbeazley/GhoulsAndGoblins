@@ -20,6 +20,8 @@ protected:
 
 	// Begin PlayerController interface
 	virtual void PlayerTick(float DeltaTime) override;
+	void CustomTickPlayerInput(float a_deltaTime, const bool a_deltaTimeIsZero);
+	virtual void CustomPlayerTick(float deltaTime);
 	virtual void SetupInputComponent() override;
 	// End PlayerController interface
 

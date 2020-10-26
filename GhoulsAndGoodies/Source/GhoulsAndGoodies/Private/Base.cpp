@@ -28,7 +28,7 @@ ABase::ABase()
 
 
 	m_lifeBarComponent->SetRelativeLocation(FVector(0, 0, 600.0f));
-	m_detectionSphere->bHiddenInGame = false;
+	//m_detectionSphere->bHiddenInGame = false;
 
 
 }

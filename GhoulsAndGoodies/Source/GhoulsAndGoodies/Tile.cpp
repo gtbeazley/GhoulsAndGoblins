@@ -35,7 +35,7 @@ ATile::ATile()
 	m_mesh->OnBeginCursorOver.AddDynamic(this, & ATile::MeshOnBeginHover);
 	m_mesh->OnEndCursorOver.AddDynamic(this, & ATile::MeshOnEndHover);
 
-
+	m_mesh->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Block);
 
 }
 

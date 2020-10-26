@@ -20,6 +20,10 @@ class GHOULSANDGOODIES_API AGNGPlayerController : public APlayerController
 
 	virtual void BeginPlay();
 
+	virtual void PlayerTick(float a_deltaTime) override;
+	void CustomTickPlayerInput(float a_deltaTime, const bool a_deltaTimeIsZero);
+	virtual void CustomPlayerTick(float deltaTime);
+
 	FInputModeGameAndUI m_inputGameandUIMode;
 
 	FName m_camName = "GNGViewTarget";
