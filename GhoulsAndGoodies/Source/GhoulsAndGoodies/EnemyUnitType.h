@@ -14,6 +14,7 @@ enum EEnemyUnitType
 {
     ATT_Marvin UMETA(DisplayName = "Marvin"),
     ATT_Grace UMETA(DisplayName = "Grace"),
-    ATT_Esqueleto UMETA(DisplayName = "Esqueleto")
+    ATT_Esqueleto UMETA(DisplayName = "Esqueleto"),
+    ATT_Buddy UMETA(DisplayName = "Buddy")
 
 };

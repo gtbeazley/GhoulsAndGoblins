@@ -30,11 +30,11 @@ public:
 		float m_attackTimer = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackInterval = 5;
+		float m_attackInterval = 1;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector m_facingTarget = { 0, 0, 0 };
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackDamage = 20;
+		float m_attackDamage = 10;
 };

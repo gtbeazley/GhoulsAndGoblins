@@ -12,9 +12,7 @@
 #include "Kismet/KismetMathLibrary.h"
 
 ATiffany::ATiffany()
-{ 
-
-	m_detectionSphere = CreateDefaultSubobject<USphereComponent>("DetectionSphere");
+{  
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_meshAsset(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/TIFFANY/TIFFANY_IDLE.TIFFANY_IDLE'"));
 
@@ -68,7 +66,7 @@ void ATiffany::Tick(float a_deltaTime)
 
 
 void ATiffany::Attack() {
-	//Play Animation
+	//FaceTarget
 	if (m_detectedEnemies.Num() > 0)
 	{
 		//Face the facing target
@@ -80,6 +78,7 @@ void ATiffany::Attack() {
 }
 
 void ATiffany::DealDamage() {
+	m_detectedEnemies[0]->m_curHealth -= m_attackDamage;
 
 }
 

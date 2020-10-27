@@ -8,6 +8,7 @@
 #include "GhoulsAndGoodiesGameMode.h"
 #include "Jimmy.h"
 #include "Garry.h"
+#include "Smidge.h"
 #include "Tiffany.h"
 
 #include "Materials/Material.h"
@@ -112,6 +113,10 @@ void ATile::SetupDefUnit()
 		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), FRotator(0, 0, 0)));
 
 		break;
+	case ETileDefenceType::DEF_Smidge:
+		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ASmidge>(GetActorLocation(), FRotator(0, 0, 0)));
+
+		break;
 	}
 
 	if (l_spawnedObject)
@@ -149,6 +154,10 @@ void ATile::SetupTileMaterial()
 		m_unhighlightedMaterial = m_gNGGameMode->m_garryTileMaterial;
 		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 		break;
+	case ETileDefenceType::DEF_Smidge:
+		m_unhighlightedMaterial = m_gNGGameMode->m_selectedTileMaterial;
+		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+		break;
 	}
 	m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 }
@@ -171,6 +180,10 @@ void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
 		break;
 	case ETileDefenceType::DEF_Garry:
 		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_GarryFullCost;
+		m_plannedToDeploy = true;
+		break;
+	case ETileDefenceType::DEF_Smidge:		
+		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_SmidgeFullCost;
 		m_plannedToDeploy = true;
 		break;
 	}
@@ -239,6 +252,7 @@ void ATile::DespawnUnit()
 {
 	m_defType = ETileDefenceType::DEF_None;
 	m_defenceUnit->Despawn();
+	SetupTileMaterial();
 }
 
 void ATile::SellUnit()
