@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{44DE1E3F-9FDD-4D2A-AA36-66BB0BAB0284}</ProjectGuid>
+    <ProjectGuid>{66B34EFE-3B8F-4615-B504-587C250FD049}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>GhoulsAndGoodies</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

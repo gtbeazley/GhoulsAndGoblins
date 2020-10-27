@@ -75,6 +75,35 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 	}
 	else
 	{ 
+		int l_costThreshold = 0;
+		switch(m_selectedUnitType)
+		{
+		default:
+			l_costThreshold = 0;
+			break;
+		case DEF_Garry:
+			l_costThreshold = m_GarryFullCost;
+			break;
+		case DEF_Jimmy:
+			l_costThreshold = m_JimmyFullCost;
+
+			break;
+		case DEF_Tiffany:
+			l_costThreshold = m_TiffanyFullCost;
+
+			break;
+		case DEF_Smidge:
+			l_costThreshold = m_SmidgeFullCost;
+			break;
+
+		}
+
+		if (m_candyCorn - l_costThreshold < 0)
+		{
+			m_selectedUnitType = DEF_None;
+		}
+
+
 		if (m_tileInFocus)
 		{
 			m_tileInFocus->GetStaticMeshComponent()->SetMaterial(0, m_selectedTileMaterial);
@@ -101,7 +130,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 			}
 			else if (Cast<ABase>(m_base)->m_curHealth > 0 && (m_enemyCount * m_wave) + 1 <= m_enemiesDestroyed)
 			{
-				m_candyCorn += 50;//Dumbass
+				m_candyCorn += 50;
 				m_gameState = STATE_Plan;
 			} 
 		}
@@ -135,8 +164,6 @@ void AGhoulsAndGoodiesGameMode::NextWave()
 {
 	m_enemiesDestroyed = 0;
 	m_wave++;
-	m_candyCorn -= m_potentialCut;
-	m_potentialCut = 0;
 	if (m_mainTileBoard != nullptr)
 	{
 		if (m_mainTileBoard->m_tileList.Num() > 0)

@@ -162,15 +162,15 @@ void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
 	switch (a_defType)
 	{
 	case ETileDefenceType::DEF_Tiffany:
-		m_gNGGameMode->m_potentialCut += m_gNGGameMode->m_TiffanyFullCost;
+		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_TiffanyFullCost;
 		m_plannedToDeploy = true;
 		break;
 	case ETileDefenceType::DEF_Jimmy:
-		m_gNGGameMode->m_potentialCut += m_gNGGameMode->m_JimmyFullCost;
+		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_JimmyFullCost;
 		m_plannedToDeploy = true;
 		break;
 	case ETileDefenceType::DEF_Garry:
-		m_gNGGameMode->m_potentialCut += m_gNGGameMode->m_GarryFullCost;
+		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_GarryFullCost;
 		m_plannedToDeploy = true;
 		break;
 	}
@@ -184,48 +184,53 @@ void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 		m_gNGGameMode->HighlightTile(this);
 		//m_mesh->SetMaterial(0, m_highlightedMaterial);
 	}
-	else {
-		m_mesh->SetMaterial(0, m_highlightedMaterial); 
+	else 
+	switch (m_gNGGameMode->m_selectedUnitType)
+	{
+	case DEF_None:
+		break;
+	case DEF_Garry:
+		m_mesh->SetMaterial(0, m_highlightedMaterial);
+
+		break;
+	case DEF_Jimmy:
+		m_mesh->SetMaterial(0, m_highlightedMaterial);
+
+		break;
+	case DEF_Tiffany:
+		m_mesh->SetMaterial(0, m_highlightedMaterial);
+
+		break;
+	case DEF_Smidge:
+		m_mesh->SetMaterial(0, m_highlightedMaterial);
+
+		break;
+	default:
+		break;
 	}
 }
 
 void ATile::MeshOnEndHover(UPrimitiveComponent* a_primCom)
-{ 
-	if (m_gNGGameMode->m_gameState == STATE_Base)
-	{
-		//for (ATile* l_tile : m_gNGGameMode->m_baseHighlightTiles)
-		//{
-		//	l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_unhighlightedMaterial);
-		//}
-		//m_gNGGameMode->m_baseHighlightTiles.Empty();
-	}
-	else {	
+{
+	if(m_gNGGameMode->m_gameState != STATE_Base)
 		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
-
-	}
 }
 
 void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)
 {
+
+
 	if (m_gNGGameMode->m_gameState == STATE_Base)
 	{
 		m_gNGGameMode->UpdateLockTiles();
 	}
 	else
 	{
-		if (m_defType == ETileDefenceType::DEF_None)
+		if (m_defType == DEF_None)
 		{
-			m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
-			m_unhighlightedMaterial = m_gNGGameMode->m_selectedTileMaterial;
-			m_mesh->SetMaterial(0, m_unhighlightedMaterial);
+			SetDefenceUnitType(m_gNGGameMode->m_selectedUnitType);
+			SetupDefUnit();
 		}
-		else
-		{
-			m_unhighlightedMaterial = m_gNGGameMode->m_selectedTileMaterial;
-			m_mesh->SetMaterial(0, m_unhighlightedMaterial);
-
-		}
-		m_gNGGameMode->SetTileInFocus(this);
 	}
 	
 }

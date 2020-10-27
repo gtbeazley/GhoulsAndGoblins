@@ -30,7 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeTileDefenceType() {}
 		return ETileDefenceType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETileDefenceType(ETileDefenceType_StaticEnum, TEXT("/Script/GhoulsAndGoodies"), TEXT("ETileDefenceType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_GhoulsAndGoodies_ETileDefenceType_Hash() { return 1655930710U; }
+	uint32 Get_Z_Construct_UEnum_GhoulsAndGoodies_ETileDefenceType_Hash() { return 244501827U; }
 	UEnum* Z_Construct_UEnum_GhoulsAndGoodies_ETileDefenceType()
 	{
 #if WITH_HOT_RELOAD
@@ -47,6 +47,7 @@ void EmptyLinkFunctionForGeneratedCodeTileDefenceType() {}
 				{ "DEF_Tiffany", (int64)DEF_Tiffany },
 				{ "DEF_Jimmy", (int64)DEF_Jimmy },
 				{ "DEF_Garry", (int64)DEF_Garry },
+				{ "DEF_Smidge", (int64)DEF_Smidge },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
@@ -59,6 +60,8 @@ void EmptyLinkFunctionForGeneratedCodeTileDefenceType() {}
 				{ "DEF_Jimmy.Name", "DEF_Jimmy" },
 				{ "DEF_None.DisplayName", "None" },
 				{ "DEF_None.Name", "DEF_None" },
+				{ "DEF_Smidge.DisplayName", "Smidge" },
+				{ "DEF_Smidge.Name", "DEF_Smidge" },
 				{ "DEF_Tiffany.DisplayName", "Tiffany" },
 				{ "DEF_Tiffany.Name", "DEF_Tiffany" },
 				{ "ModuleRelativePath", "TileDefenceType.h" },

@@ -80,6 +80,9 @@ public:
 		int m_TiffanyFullCost = 10;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int m_SmidgeFullCost = 10;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_afterWaveCostMultiplier = .5;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
