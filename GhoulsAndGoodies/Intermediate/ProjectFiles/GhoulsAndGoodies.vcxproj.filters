@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GhoulsAndGoodies.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{30A3137B-5FE9-4132-833C-A0FD44C7BF1C}</UniqueIdentifier>
+      <UniqueIdentifier>{8D35F26E-BDC6-4370-B5B6-FA7D6E37D3D7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GhoulsAndGoodies.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8B52A5D3-C870-4344-9DFE-6A1B19A8A055}</UniqueIdentifier>
+      <UniqueIdentifier>{13C8ACFC-A119-4F6A-9A0F-B9FE7B0A4D03}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GhoulsAndGoodies">
-      <UniqueIdentifier>{EFBADA5B-00C8-4144-AA71-3CD7C539679A}</UniqueIdentifier>
+      <UniqueIdentifier>{1A08BEE3-6048-4271-96A6-D948A5CD46C2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\DefendingUnit.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
@@ -180,7 +180,7 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
     <Filter Include="Source\GhoulsAndGoodies\Private">
-      <UniqueIdentifier>{E2CFAE14-CA29-4E16-A98C-6DB7F9ECD739}</UniqueIdentifier>
+      <UniqueIdentifier>{668E8E37-0FA1-46F8-A6D1-7674015757AE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Base.cpp">
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
@@ -195,7 +195,7 @@
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GhoulsAndGoodies\Public">
-      <UniqueIdentifier>{AF6711C5-E0FB-4503-A22A-BD454762B4E7}</UniqueIdentifier>
+      <UniqueIdentifier>{4CF6CD82-34CC-43EA-B9D3-85899C7E4FAE}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Base.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
