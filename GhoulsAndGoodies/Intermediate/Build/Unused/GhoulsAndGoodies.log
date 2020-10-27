@@ -1,13 +1,102 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls).
+  Creating makefile for GhoulsAndGoodiesEditor (game project files are newer)
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\Engine.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\Engine.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> cc541c16838b88fe6c1d3dce2cbd449ed8e09647' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\Engine.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\Engine.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\Engine.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> cc541c16838b88fe6c1d3dce2cbd449ed8e09647' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\Engine.ini
   Parsing headers for GhoulsAndGoodiesEditor
     Running UnrealHeaderTool "C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\GhoulsAndGoodies.uproject" "C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\GhoulsAndGoodiesEditor\Development\GhoulsAndGoodiesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GhoulsAndGoodiesEditor in 5.7128072 seconds
+  Reflection code generated for GhoulsAndGoodiesEditor in 16.88877 seconds
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> cc541c16838b88fe6c1d3dce2cbd449ed8e09647' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> cc541c16838b88fe6c1d3dce2cbd449ed8e09647' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> cc541c16838b88fe6c1d3dce2cbd449ed8e09647' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> cc541c16838b88fe6c1d3dce2cbd449ed8e09647' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> cc541c16838b88fe6c1d3dce2cbd449ed8e09647' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> cc541c16838b88fe6c1d3dce2cbd449ed8e09647' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> cc541c16838b88fe6c1d3dce2cbd449ed8e09647' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> cc541c16838b88fe6c1d3dce2cbd449ed8e09647' in UnrealBuildTool.ConfigFileSection of C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Saved\Config\Windows\EditorPerProjectUserSettings.ini
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-GhoulsAndGoodies.lib
+  Building 60 actions with 8 processes...
+    [1/60] SharedPCH.Engine.cpp
+    [2/60] EnemyUnitType.cpp
+    [3/60] EnemyState.cpp
+    [4/60] EnemySpawn.cpp
+    [5/60] GhoulsAndGoodies.cpp
+    [6/60] TileDefenceType.cpp
+    [7/60] Esqueleto.cpp
+    [8/60] Garry.cpp
+    [9/60] GhoulsAndGoodiesCharacter.cpp
+    [10/60] GhoulsAndGoodiesPlayerController.cpp
+    [11/60] EnemyAIController.cpp
+    [12/60] Tiffany.cpp
+    [13/60] Tile.cpp
+    [14/60] GNGSaveGame.cpp
+    [15/60] Jimmy.cpp
+    [16/60] Marvin.cpp
+    [17/60] GNGGameState.cpp
+    [18/60] GNGPlayerController.cpp
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.cpp(47): warning C4458: declaration of 'm_camTraversal' hides class member
+    C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.h(32): note: see declaration of 'AGNGPlayerController::m_camTraversal'
+    [19/60] GNGGameInstance.cpp
+    [20/60] GNGPawn.cpp
+    [21/60] GhoulsAndGoodiesGameMode.cpp
+    [22/60] DefendingUnit.cpp
+    [23/60] DamageSphere.cpp
+    [24/60] EnemyUnit.cpp
+    [25/60] GNGGameInstance.gen.cpp
+    [26/60] TileBoard.cpp
+    [27/60] EnemySpawn.gen.cpp
+    [28/60] Grace.cpp
+    [29/60] EnemyState.gen.cpp
+    [30/60] EnemyAIController.gen.cpp
+    [31/60] EnemyUnitType.gen.cpp
+    [32/60] EnemyUnit.gen.cpp
+    [33/60] LifeBar_W.cpp
+    [34/60] GhoulsAndGoodies.init.gen.cpp
+    [35/60] Garry.gen.cpp
+    [36/60] Esqueleto.gen.cpp
+    [37/60] GhoulsAndGoodiesPlayerController.gen.cpp
+    [38/60] GhoulsAndGoodiesCharacter.gen.cpp
+    [39/60] GhoulsAndGoodiesGameMode.gen.cpp
+    [40/60] DamageSphere.gen.cpp
+    [41/60] GNGGameState.gen.cpp
+    [42/60] DefendingUnit.gen.cpp
+    [43/60] GNGPlayerController.gen.cpp
+    [44/60] GNGSaveGame.gen.cpp
+    [45/60] Grace.gen.cpp
+    [46/60] Jimmy.gen.cpp
+    [47/60] Base.cpp
+    [48/60] TileBoard.gen.cpp
+    [49/60] Tile.gen.cpp
+    [50/60] Tiffany.gen.cpp
+    [51/60] Marvin.gen.cpp
+    [52/60] TileDefenceType.gen.cpp
+    [53/60] DealDamage_AnimNotify.gen.cpp
+    [54/60] GNGPawn.gen.cpp
+    [55/60] Base.gen.cpp
+    [56/60] LifeBar_W.gen.cpp
+    [57/60] DealDamage_AnimNotify.cpp
+    [58/60] UE4Editor-GhoulsAndGoodies.lib
        Creating library C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.lib and object C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.exp
-    [2/3] UE4Editor-GhoulsAndGoodies.dll
+    [59/60] UE4Editor-GhoulsAndGoodies.dll
        Creating library C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.suppressed.lib and object C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.suppressed.exp
-    [3/3] GhoulsAndGoodiesEditor.target
-  Total time in Parallel executor: 0.90 seconds
-  Total execution time: 7.31 seconds
+    [60/60] GhoulsAndGoodiesEditor.target
+EXEC : warning : Unable to read 'C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Binaries\Win64\UE4Editor.modules'; ignoring.
+  Total time in Parallel executor: 34.36 seconds
+  Total execution time: 60.27 seconds
