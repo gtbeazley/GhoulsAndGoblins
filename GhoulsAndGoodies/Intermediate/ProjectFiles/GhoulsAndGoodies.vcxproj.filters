@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GhoulsAndGoodies.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{75050FA1-A09D-4F6F-98F4-8B7BDC04C164}</UniqueIdentifier>
+      <UniqueIdentifier>{6A8621A6-86B8-4B0E-BC89-B862492AC8B0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GhoulsAndGoodies.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D0371F57-D337-4B74-AE18-6FB74D6E8D86}</UniqueIdentifier>
+      <UniqueIdentifier>{DBC1C421-1A97-4615-8DBB-7A2DCAB53B43}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GhoulsAndGoodies">
-      <UniqueIdentifier>{E04B9720-0F51-4522-97A2-17DEE2D16EFD}</UniqueIdentifier>
+      <UniqueIdentifier>{99FD2A88-D424-4DBC-918D-450D96C65D35}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\DefendingUnit.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
@@ -180,7 +180,7 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
     <Filter Include="Source\GhoulsAndGoodies\Private">
-      <UniqueIdentifier>{F64DE1C1-C87D-4383-9AFF-3C0B484C61E0}</UniqueIdentifier>
+      <UniqueIdentifier>{0D23498E-FEB4-4F8C-9524-DFF13B2EBBC4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Base.cpp">
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
@@ -195,7 +195,7 @@
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GhoulsAndGoodies\Public">
-      <UniqueIdentifier>{E7EF3FDD-32CE-4540-8A01-D7D298F2CBDD}</UniqueIdentifier>
+      <UniqueIdentifier>{E0266FA4-3097-4A2D-AE57-095AA5B62F7D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Base.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
@@ -209,5 +209,21 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\EnemyState.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Buddy.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Smidge.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Buddy.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Smidge.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
