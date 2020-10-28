@@ -192,47 +192,71 @@ void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
 
 void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 {
+	FAttachmentTransformRules* l_fATR = new FAttachmentTransformRules(EAttachmentRule::KeepWorld, EAttachmentRule::KeepRelative, EAttachmentRule::KeepWorld, false);
 	if (m_gNGGameMode->m_gameState == STATE_Base)
 	{
 		m_gNGGameMode->HighlightTile(this);
 		//m_mesh->SetMaterial(0, m_highlightedMaterial);
 	}
-	else 
-	switch (m_gNGGameMode->m_selectedUnitType)
+	else
 	{
-	case DEF_None:
-		break;
-	case DEF_Garry:
-		m_mesh->SetMaterial(0, m_highlightedMaterial);
+		ADefendingUnit* l_spawnedObject = nullptr;
+		switch (m_gNGGameMode->m_selectedUnitType)
+		{
+		case DEF_None:
+			break;
+		case DEF_Garry:
+			if(!m_defenceUnit)
+			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), FRotator(0, 0, 0)));
+			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
-		break;
-	case DEF_Jimmy:
-		m_mesh->SetMaterial(0, m_highlightedMaterial);
+			break;
+		case DEF_Jimmy:
+			if (!m_defenceUnit)
+			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), FRotator(0, 0, 0)));
+			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
-		break;
-	case DEF_Tiffany:
-		m_mesh->SetMaterial(0, m_highlightedMaterial);
+			break;
+		case DEF_Tiffany:
+			if (!m_defenceUnit)
+			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), FRotator(0, 0, 0)));
+			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
-		break;
-	case DEF_Smidge:
-		m_mesh->SetMaterial(0, m_highlightedMaterial);
+			break;
+		case DEF_Smidge:
+			if (!m_defenceUnit)
+			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ASmidge>(GetActorLocation(), FRotator(0, 0, 0)));
+			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
-		break;
-	default:
-		break;
+			break;
+		default:
+			break;
+		}
+		if (l_spawnedObject)
+		{
+			l_spawnedObject->AttachToActor(this, *l_fATR);
+			m_fakeSpawn = l_spawnedObject;
+		}
 	}
 }
 
 void ATile::MeshOnEndHover(UPrimitiveComponent* a_primCom)
 {
-	if(m_gNGGameMode->m_gameState != STATE_Base)
+	if (m_gNGGameMode->m_gameState != STATE_Base)
+	{
 		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
+
+	}
+	if (m_fakeSpawn)
+		m_fakeSpawn->Destroy();
 }
 
 void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)
 {
 
 
+	if (m_fakeSpawn)
+		m_fakeSpawn->Destroy();
 	if (m_gNGGameMode->m_gameState == STATE_Base)
 	{
 		m_gNGGameMode->UpdateLockTiles();

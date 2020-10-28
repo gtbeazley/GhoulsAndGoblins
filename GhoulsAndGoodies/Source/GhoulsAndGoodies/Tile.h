@@ -81,6 +81,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class ADefendingUnit* m_defenceUnit;
 
+	//Reference to the defence unit that this tile owns
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		 ADefendingUnit* m_fakeSpawn;
+
+
 	//Type to determine which unit to spawn and whether to add to the path
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TEnumAsByte<ETileDefenceType> m_defType = ETileDefenceType::DEF_None;
