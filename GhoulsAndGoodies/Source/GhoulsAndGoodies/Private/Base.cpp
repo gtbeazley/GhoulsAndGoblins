@@ -9,6 +9,8 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/WidgetComponent.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "Kismet/GameplayStatics.h"
 
 ABase::ABase()
 {
@@ -35,5 +37,13 @@ ABase::ABase()
 
 ABase::~ABase()
 {
+
+}
+
+void ABase::Tick(float a_deltaTime)
+{
+	Super::Tick(a_deltaTime);
+	FRotator l_facingRotation = UKismetMathLibrary::FindLookAtRotation(m_lifeBarComponent->GetComponentLocation(), UGameplayStatics::GetPlayerCameraManager(this, 0)->GetCameraLocation());
+	m_mesh->SetWorldRotation(FRotator(GetActorRotation().Pitch, l_facingRotation.Yaw-90, GetActorRotation().Roll));
 
 }
