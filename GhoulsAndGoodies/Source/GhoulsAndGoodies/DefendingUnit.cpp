@@ -35,7 +35,7 @@ ADefendingUnit::ADefendingUnit()
 	m_mesh->SetGenerateOverlapEvents(true);
 	GetMesh()->SetupAttachment(RootComponent);
 	GetMesh()->SetRelativeRotation(FRotator(0, 0, 0));
-	GetMesh()->SetRelativeLocation(FVector(0, -88, 0));
+	GetMesh()->SetRelativeLocation(FVector(0, 0, 0));
 	
 
 	m_curHealth = m_fullHealth;
