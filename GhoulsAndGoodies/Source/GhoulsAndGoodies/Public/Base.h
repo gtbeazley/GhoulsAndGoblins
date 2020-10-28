@@ -19,6 +19,7 @@ public:
 	ABase();
 	virtual ~ABase();
 
-public:
-	
+	virtual void Tick(float a_deltaTime) override;
+
+
 };
