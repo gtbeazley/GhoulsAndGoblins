@@ -72,19 +72,19 @@ void ATile::Tick(float DeltaTime)
 				m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
 				break;
 			case ETileDefenceType::DEF_Base:
-				m_unhighlightedMaterial = m_gNGGameMode->m_baseTileMaterial;
+				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 				break;
 			case ETileDefenceType::DEF_Tiffany:
-				m_unhighlightedMaterial = m_gNGGameMode->m_tiffanyTileMaterial;
+				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 				break;
 			case ETileDefenceType::DEF_Jimmy:
-				m_unhighlightedMaterial = m_gNGGameMode->m_jimmyTileMaterial;
+				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 				break;
 			case ETileDefenceType::DEF_Garry:
-				m_unhighlightedMaterial = m_gNGGameMode->m_garryTileMaterial;
+				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 				break;
 			}
@@ -139,23 +139,23 @@ void ATile::SetupTileMaterial()
 		m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
 		break;
 	case ETileDefenceType::DEF_Base:
-		m_unhighlightedMaterial = m_gNGGameMode->m_baseTileMaterial;
+		m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 		break;
 	case ETileDefenceType::DEF_Tiffany:
-		m_unhighlightedMaterial = m_gNGGameMode->m_tiffanyTileMaterial;
+		m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 		break;
 	case ETileDefenceType::DEF_Jimmy:
-		m_unhighlightedMaterial = m_gNGGameMode->m_jimmyTileMaterial;
+		m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 		break;
 	case ETileDefenceType::DEF_Garry:
-		m_unhighlightedMaterial = m_gNGGameMode->m_garryTileMaterial;
+		m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 		break;
 	case ETileDefenceType::DEF_Smidge:
-		m_unhighlightedMaterial = m_gNGGameMode->m_selectedTileMaterial;
+		m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 		break;
 	}
