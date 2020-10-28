@@ -36,7 +36,7 @@ ADefendingUnit::ADefendingUnit()
 	GetMesh()->SetupAttachment(RootComponent);
 	GetMesh()->SetRelativeRotation(FRotator(0, 0, 0));
 	GetMesh()->SetRelativeLocation(FVector(0, 0, 0));
-	GetMesh()->SetWorldScale3D(FVector(1.5, 1.5, 1.5));
+	GetMesh()->SetWorldScale3D(FVector(2, 2, 2));
 	
 
 	m_curHealth = m_fullHealth;
