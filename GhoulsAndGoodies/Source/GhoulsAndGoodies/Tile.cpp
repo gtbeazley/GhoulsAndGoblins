@@ -4,6 +4,7 @@
 #include "Tile.h"
 #include "ConstructorHelpers.h"
 
+#include "Base.h"
 #include "DefendingUnit.h"
 #include "GhoulsAndGoodiesGameMode.h"
 #include "Jimmy.h"
@@ -206,26 +207,26 @@ void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 		case DEF_None:
 			break;
 		case DEF_Garry:
-			if(!m_defenceUnit)
+			if(m_defType == DEF_None)
 			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), FRotator(0, 0, 0)));
 			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
-		case DEF_Jimmy:
-			if (!m_defenceUnit)
+		case DEF_Jimmy:			
+			if (m_defType == DEF_None) 
 			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), FRotator(0, 0, 0)));
 			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
 		case DEF_Tiffany:
-			if (!m_defenceUnit)
-			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), FRotator(0, 0, 0)));
+			if (m_defType == DEF_None)
+				l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), FRotator(0, 0, 0)));
 			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
 		case DEF_Smidge:
-			if (!m_defenceUnit)
-			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ASmidge>(GetActorLocation(), FRotator(0, 0, 0)));
+			if (m_defType == DEF_None)
+				l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ASmidge>(GetActorLocation(), FRotator(0, 0, 0)));
 			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
@@ -244,6 +245,8 @@ void ATile::MeshOnEndHover(UPrimitiveComponent* a_primCom)
 {
 	if (m_gNGGameMode->m_gameState != STATE_Base)
 	{
+		if (m_gNGGameMode->m_fakeBase)
+			m_gNGGameMode->m_fakeBase->Destroy();
 		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 
 	}
@@ -259,6 +262,8 @@ void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)
 		m_fakeSpawn->Destroy();
 	if (m_gNGGameMode->m_gameState == STATE_Base)
 	{
+		if (m_gNGGameMode->m_fakeBase)
+			m_gNGGameMode->m_fakeBase->Destroy();
 		m_gNGGameMode->UpdateLockTiles();
 	}
 	else
