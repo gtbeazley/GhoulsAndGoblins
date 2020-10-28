@@ -3,11 +3,13 @@
 
 #include "EnemySpawn.h"
 
-#include "Marvin.h"
-#include "Grace.h"
+#include "Buddy.h"
 #include "Esqueleto.h"
-#include "Engine/World.h"
+#include "Grace.h"
+#include "Marvin.h"
+
 #include "Components/SceneComponent.h"
+#include "Engine/World.h"
 
 // Sets default values
 AEnemySpawn::AEnemySpawn()
@@ -40,6 +42,9 @@ void AEnemySpawn::Spawn(TEnumAsByte<EEnemyUnitType> a_enemyType)
 		break;
 	case ATT_Esqueleto:
 		l_spawnedObject = GetWorld()->SpawnActor<AEsqueleto>(GetActorLocation(), GetActorRotation());
+		break;
+	case ATT_Buddy:
+		l_spawnedObject = GetWorld()->SpawnActor<ABuddy>(GetActorLocation(), GetActorRotation());
 		break;
 	}
 }

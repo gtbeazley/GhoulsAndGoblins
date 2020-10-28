@@ -47,6 +47,9 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 	static ConstructorHelpers::FObjectFinder<UMaterial> l_tifannyTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Yellow.Yellow'"));
 	m_tiffanyTileMaterial = l_tifannyTileMaterial.Object;
 
+	static ConstructorHelpers::FObjectFinder<UMaterial> l_smidgeTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Blue.Blue'"));
+	m_smidgeTileMaterial = l_smidgeTileMaterial.Object;
+
 	static ConstructorHelpers::FObjectFinder<UMaterial> l_baseTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Purple.Purple'"));
 	m_baseTileMaterial = l_baseTileMaterial.Object;
 
@@ -196,7 +199,7 @@ void AGhoulsAndGoodiesGameMode::NextWave()
 	}
 	for(int i = 0; i < ((m_enemyCount * m_wave) + 1) * 60; i++ )
 		if(i % 60 == 0)
-			m_enemySpawns[UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1)]->Spawn((TEnumAsByte<EEnemyUnitType>)UKismetMathLibrary::RandomIntegerInRange(0, 2));
+			m_enemySpawns[UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1)]->Spawn((TEnumAsByte<EEnemyUnitType>)UKismetMathLibrary::RandomIntegerInRange(0, 3));
 
 	m_gameState = EGNGGameState::STATE_Defend;
 }

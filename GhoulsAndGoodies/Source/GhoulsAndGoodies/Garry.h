@@ -22,7 +22,7 @@ public:
 	AGarry();
 	~AGarry();
 
-	virtual void Tick(float a_deltaTime);
+	virtual void Tick(float a_deltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
 		void OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp,
@@ -44,7 +44,7 @@ public:
 		TArray<AEnemyUnit*> m_detectedEnemies;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackDamage = 10.0f;
+		float m_attackDamage = 20.0f;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float m_attackInterval = 3.0f;

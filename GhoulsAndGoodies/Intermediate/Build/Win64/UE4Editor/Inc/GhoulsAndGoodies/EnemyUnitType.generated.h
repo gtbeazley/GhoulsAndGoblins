@@ -20,5 +20,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FOREACH_ENUM_EENEMYUNITTYPE(op) \
 	op(ATT_Marvin) \
 	op(ATT_Grace) \
-	op(ATT_Esqueleto) 
+	op(ATT_Esqueleto) \
+	op(ATT_Buddy) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

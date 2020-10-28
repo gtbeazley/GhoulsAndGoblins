@@ -30,7 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnitType() {}
 		return EEnemyUnitType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EEnemyUnitType(EEnemyUnitType_StaticEnum, TEXT("/Script/GhoulsAndGoodies"), TEXT("EEnemyUnitType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_GhoulsAndGoodies_EEnemyUnitType_Hash() { return 3986190319U; }
+	uint32 Get_Z_Construct_UEnum_GhoulsAndGoodies_EEnemyUnitType_Hash() { return 65870878U; }
 	UEnum* Z_Construct_UEnum_GhoulsAndGoodies_EEnemyUnitType()
 	{
 #if WITH_HOT_RELOAD
@@ -45,9 +45,13 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnitType() {}
 				{ "ATT_Marvin", (int64)ATT_Marvin },
 				{ "ATT_Grace", (int64)ATT_Grace },
 				{ "ATT_Esqueleto", (int64)ATT_Esqueleto },
+				{ "ATT_Buddy", (int64)ATT_Buddy },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "ATT_Buddy.Comment", "/**\n * \n */" },
+				{ "ATT_Buddy.DisplayName", "Buddy" },
+				{ "ATT_Buddy.Name", "ATT_Buddy" },
 				{ "ATT_Esqueleto.Comment", "/**\n * \n */" },
 				{ "ATT_Esqueleto.DisplayName", "Esqueleto" },
 				{ "ATT_Esqueleto.Name", "ATT_Esqueleto" },
