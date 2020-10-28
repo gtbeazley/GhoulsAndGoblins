@@ -6,6 +6,8 @@
 #include "DefendingUnit.h"
 #include "Smidge.generated.h"
 
+class AEnemyUnit;
+
 /**
  * 
  */
@@ -24,7 +26,7 @@ public:
 	virtual void BeginPlay() override;
 
 	//Called frame 
-	virtual void Tick(float a_deltaTime);
+	virtual void Tick(float a_deltaTime) override;
 
 	//Called when anything but detection enters the sphere
 	UFUNCTION(BlueprintCallable)
@@ -37,4 +39,26 @@ public:
 		void OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor,
 			UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex);
 
+	//Calls play animation in time intervals
+	UFUNCTION(BlueprintCallable)
+		void Attack();
+
+	//Called durin animation notify to deal damage to target enemy
+	virtual void DealDamage() override;
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<AEnemyUnit*> m_detectedEnemies;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_attackDamage = 10.0f;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float m_attackInterval = 3.0f;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float m_attackTimer = 0.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector m_facingTarget = FVector(0, 0, 0);
 };

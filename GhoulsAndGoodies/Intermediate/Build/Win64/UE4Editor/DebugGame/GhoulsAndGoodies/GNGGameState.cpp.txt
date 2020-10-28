@@ -1,0 +1,3 @@
+C:\Users\s191266\Desktop\Goodies and Ghouls Repo\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\DebugGame\GhoulsAndGoodies\Definitions.GhoulsAndGoodies.h
+C:\Users\s191266\Desktop\Goodies and Ghouls Repo\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGGameState.h
+C:\Users\s191266\Desktop\Goodies and Ghouls Repo\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GNGGameState.generated.h

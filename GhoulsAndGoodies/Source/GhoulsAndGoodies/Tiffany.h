@@ -19,7 +19,7 @@ public:
 	ATiffany();
 	~ATiffany();
 
-	virtual void Tick(float a_deltaTime);
+	virtual void Tick(float a_deltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
 		void OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp,
@@ -47,7 +47,7 @@ public:
 		float m_attackTimer = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackInterval = 2;
+		float m_attackInterval = .5;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector m_facingTarget = FVector(0, 0, 0);

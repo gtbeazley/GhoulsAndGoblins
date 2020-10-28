@@ -71,16 +71,16 @@ public:
 		int m_potentialCut = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int m_JimmyFullCost = 10;
+		int m_JimmyFullCost = 15;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int m_GarryFullCost = 10;
+		int m_GarryFullCost = 20;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_TiffanyFullCost = 10;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int m_SmidgeFullCost = 10;
+		int m_SmidgeFullCost = 5;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_afterWaveCostMultiplier = .5;
@@ -125,6 +125,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UMaterial* m_tiffanyTileMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMaterial* m_smidgeTileMaterial;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UMaterial* m_baseTileMaterial;
