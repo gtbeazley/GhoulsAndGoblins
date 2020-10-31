@@ -435,6 +435,8 @@ void AGhoulsAndGoodiesGameMode::SpawnBase()
 	ABase* l_spawnedBase = GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator(0, 0, 0));
 	l_spawnedBase->m_owningTile = m_baseLockTiles[0];
 	m_baseLockTiles[0]->m_defenceUnit = l_spawnedBase;
+	l_spawnedBase->PlaySpawnAnim();
+
 
 }
 

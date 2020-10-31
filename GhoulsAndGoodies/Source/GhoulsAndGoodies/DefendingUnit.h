@@ -38,6 +38,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		USkeletalMeshComponent* GetMesh();
+
+	UFUNCTION(BlueprintCallable)
+		virtual void PlaySpawnAnim();
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -56,6 +59,9 @@ public:
 		float m_fullHealth = 100.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_curHealth = 100.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UAnimSequence* m_spawnAnim;
 
 	ATile* m_owningTile;
 };

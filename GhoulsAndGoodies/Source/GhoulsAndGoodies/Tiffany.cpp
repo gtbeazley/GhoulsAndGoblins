@@ -15,6 +15,8 @@ ATiffany::ATiffany()
 {  
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_meshAsset(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/TIFFANY/TIFFANY_IDLE.TIFFANY_IDLE'"));
+	//static ConstructorHelpers::FObjectFinder<UAnimSequence> l_spawnAnim(TEXT(""));
+
 
 	GetMesh()->SetSkeletalMesh(l_meshAsset.Object);
 

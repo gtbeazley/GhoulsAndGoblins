@@ -8,7 +8,7 @@
 #include "LifeBar_W.h"
 #include "UserWidget.h"
 
-
+#include "Animation/AnimSequence.h"
 #include "Components/SkeletalMeshComponent.h"
 #include"Components/SphereComponent.h"
 #include "Components/WidgetComponent.h"
@@ -104,5 +104,11 @@ void ADefendingUnit::DealDamage()
 USkeletalMeshComponent* ADefendingUnit::GetMesh()
 {
 	return m_mesh;
+}
+
+void ADefendingUnit::PlaySpawnAnim()
+{
+	if (m_spawnAnim && m_mesh)
+		m_mesh->PlayAnimation(m_spawnAnim, false);
 }
 
