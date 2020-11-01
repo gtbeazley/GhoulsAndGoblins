@@ -12,7 +12,6 @@ class AEnemySpawn;
 class ATileBoard;
 class ATile;
 class UMaterial;
-class ABase;
 
 UCLASS(minimalapi)
 class AGhoulsAndGoodiesGameMode : public AGameModeBase
@@ -144,12 +143,6 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UMaterial* m_baseUnselectedMaterial; 
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		ABase* m_fakeBase = nullptr;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		ABase* m_lockBase = nullptr;
 };
 
 

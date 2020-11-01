@@ -4,7 +4,6 @@
 #include "Tile.h"
 #include "ConstructorHelpers.h"
 
-#include "Base.h"
 #include "DefendingUnit.h"
 #include "GhoulsAndGoodiesGameMode.h"
 #include "Jimmy.h"
@@ -15,7 +14,6 @@
 #include "Materials/Material.h"
 #include "GameFramework/GameModeBase.h"
 #include "Kismet/GameplayStatics.h"
-#include "Kismet/KismetMathLibrary.h"
 #include "Components/StaticMeshComponent.h"
 
 // Sets default values
@@ -101,24 +99,22 @@ void ATile::SetupDefUnit()
 {
 	FAttachmentTransformRules* l_fATR = new FAttachmentTransformRules(EAttachmentRule::KeepWorld, EAttachmentRule::KeepRelative, EAttachmentRule::KeepWorld, false);
 	ADefendingUnit* l_spawnedObject = nullptr;
-	FRotator l_facingRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), UGameplayStatics::GetPlayerCameraManager(this, 0)->GetCameraLocation());
-	FRotator l_spawnRotation = FRotator(GetActorRotation().Pitch, l_facingRotation.Yaw - 90, GetActorRotation().Roll);
 	switch (m_defType)
 	{
 	case ETileDefenceType::DEF_Base:
 		break;
 	case ETileDefenceType::DEF_Tiffany:
-		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), l_spawnRotation));
+		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), FRotator(0, 0, 0)));
 		break;
 	case ETileDefenceType::DEF_Jimmy:
-		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), l_spawnRotation));
+		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), FRotator(0, 0, 0)));
 		break;
 	case ETileDefenceType::DEF_Garry:
-		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), l_spawnRotation));
+		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), FRotator(0, 0, 0)));
 
 		break;
 	case ETileDefenceType::DEF_Smidge:
-		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ASmidge>(GetActorLocation(), l_spawnRotation));
+		l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ASmidge>(GetActorLocation(), FRotator(0, 0, 0)));
 
 		break;
 	}
@@ -130,7 +126,6 @@ void ATile::SetupDefUnit()
 		l_spawnedObject->AttachToActor(this, *l_fATR);
 		l_spawnedObject->m_owningTile = this;
 		m_defenceUnit = l_spawnedObject;
-		l_spawnedObject->PlaySpawnAnim();
 	}
 }
 
@@ -206,33 +201,31 @@ void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 	else
 	{
 		ADefendingUnit* l_spawnedObject = nullptr;
-		FRotator l_facingRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), UGameplayStatics::GetPlayerCameraManager(this, 0)->GetCameraLocation());
-		FRotator l_spawnRotation = FRotator(GetActorRotation().Pitch, l_facingRotation.Yaw - 90, GetActorRotation().Roll);
 		switch (m_gNGGameMode->m_selectedUnitType)
 		{
 		case DEF_None:
 			break;
 		case DEF_Garry:
-			if(m_defType == DEF_None)
-			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), l_spawnRotation));
+			if(!m_defenceUnit)
+			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), FRotator(0, 0, 0)));
 			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
-		case DEF_Jimmy:			
-			if (m_defType == DEF_None) 
-			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), l_spawnRotation));
+		case DEF_Jimmy:
+			if (!m_defenceUnit)
+			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), FRotator(0, 0, 0)));
 			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
 		case DEF_Tiffany:
-			if (m_defType == DEF_None)
-				l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), l_spawnRotation));
+			if (!m_defenceUnit)
+			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), FRotator(0, 0, 0)));
 			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
 		case DEF_Smidge:
-			if (m_defType == DEF_None)
-				l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ASmidge>(GetActorLocation(), l_spawnRotation));
+			if (!m_defenceUnit)
+			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ASmidge>(GetActorLocation(), FRotator(0, 0, 0)));
 			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
@@ -251,8 +244,6 @@ void ATile::MeshOnEndHover(UPrimitiveComponent* a_primCom)
 {
 	if (m_gNGGameMode->m_gameState != STATE_Base)
 	{
-		if (m_gNGGameMode->m_fakeBase)
-			m_gNGGameMode->m_fakeBase->Destroy();
 		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 
 	}
@@ -268,8 +259,6 @@ void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)
 		m_fakeSpawn->Destroy();
 	if (m_gNGGameMode->m_gameState == STATE_Base)
 	{
-		if (m_gNGGameMode->m_fakeBase)
-			m_gNGGameMode->m_fakeBase->Destroy();
 		m_gNGGameMode->UpdateLockTiles();
 	}
 	else

@@ -8,7 +8,7 @@
 #include "LifeBar_W.h"
 #include "UserWidget.h"
 
-#include "Animation/AnimSequence.h"
+
 #include "Components/SkeletalMeshComponent.h"
 #include"Components/SphereComponent.h"
 #include "Components/WidgetComponent.h"
@@ -36,7 +36,6 @@ ADefendingUnit::ADefendingUnit()
 	GetMesh()->SetupAttachment(RootComponent);
 	GetMesh()->SetRelativeRotation(FRotator(0, 0, 0));
 	GetMesh()->SetRelativeLocation(FVector(0, 0, 0));
-	GetMesh()->SetWorldScale3D(FVector(2, 2, 2));
 	
 
 	m_curHealth = m_fullHealth;
@@ -106,9 +105,14 @@ USkeletalMeshComponent* ADefendingUnit::GetMesh()
 	return m_mesh;
 }
 
+<<<<<<< HEAD
 void ADefendingUnit::PlaySpawnAnim()
 {
 	if (m_spawnAnim && m_mesh)
+	{
 		m_mesh->PlayAnimation(m_spawnAnim, false);
+	}
 }
 
+=======
+>>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6

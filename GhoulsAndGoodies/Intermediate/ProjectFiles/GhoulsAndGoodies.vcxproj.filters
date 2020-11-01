@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\GhoulsAndGoodies.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{878C02DB-A5BB-4067-BEBA-38FFF83CB10B}</UniqueIdentifier>
+<<<<<<< HEAD
+      <UniqueIdentifier>{2CF024E8-BCFE-4125-AA92-63437050FE62}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{6A8621A6-86B8-4B0E-BC89-B862492AC8B0}</UniqueIdentifier>
+>>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
     </Filter>
     <None Include="..\..\Source\GhoulsAndGoodies.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +16,11 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1D4E2C91-2B5A-4ACA-B6E9-40ECE49658B4}</UniqueIdentifier>
+<<<<<<< HEAD
+      <UniqueIdentifier>{C683D46A-809B-449B-9A53-D0C17A034418}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{DBC1C421-1A97-4615-8DBB-7A2DCAB53B43}</UniqueIdentifier>
+>>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +38,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GhoulsAndGoodies">
-      <UniqueIdentifier>{BFD9B8B9-B905-4996-8864-CB2CACA2F582}</UniqueIdentifier>
+<<<<<<< HEAD
+      <UniqueIdentifier>{C1A4BC61-B244-435B-8BF1-CE95554AF58B}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{99FD2A88-D424-4DBC-918D-450D96C65D35}</UniqueIdentifier>
+>>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\DefendingUnit.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
@@ -180,12 +192,13 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
     <Filter Include="Source\GhoulsAndGoodies\Private">
-      <UniqueIdentifier>{35F190CA-ED0F-4A86-9743-FBFF66AD1F81}</UniqueIdentifier>
+<<<<<<< HEAD
+      <UniqueIdentifier>{A80D3EA8-9009-4DEE-8DE2-611C00B4FE03}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{0D23498E-FEB4-4F8C-9524-DFF13B2EBBC4}</UniqueIdentifier>
+>>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Base.cpp">
-      <Filter>Source\GhoulsAndGoodies\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Buddy.cpp">
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\DamageSphere.cpp">
@@ -197,16 +210,14 @@
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\EnemyState.cpp">
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Smidge.cpp">
-      <Filter>Source\GhoulsAndGoodies\Private</Filter>
-    </ClCompile>
     <Filter Include="Source\GhoulsAndGoodies\Public">
-      <UniqueIdentifier>{C1EB4E1B-8073-4D17-82D6-0B6348A97500}</UniqueIdentifier>
+<<<<<<< HEAD
+      <UniqueIdentifier>{52E460D3-9783-4637-9055-17179425A412}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{E0266FA4-3097-4A2D-AE57-095AA5B62F7D}</UniqueIdentifier>
+>>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
     </Filter>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Base.h">
-      <Filter>Source\GhoulsAndGoodies\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Buddy.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\DamageSphere.h">
@@ -218,8 +229,30 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\EnemyState.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Buddy.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Smidge.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+<<<<<<< HEAD
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Spawned_AnimNotify.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Spawned_AnimNotify.cpp">
+=======
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Buddy.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Smidge.cpp">
+>>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

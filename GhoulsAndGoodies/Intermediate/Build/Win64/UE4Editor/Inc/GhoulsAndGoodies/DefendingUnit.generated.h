@@ -16,14 +16,6 @@ class USkeletalMeshComponent;
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_DefendingUnit_h_17_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execPlaySpawnAnim) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->PlaySpawnAnim(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execGetMesh) \
 	{ \
 		P_FINISH; \
@@ -50,14 +42,6 @@ class USkeletalMeshComponent;
 
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_DefendingUnit_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execPlaySpawnAnim) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->PlaySpawnAnim(); \
-		P_NATIVE_END; \
-	} \
  \
 	DECLARE_FUNCTION(execGetMesh) \
 	{ \

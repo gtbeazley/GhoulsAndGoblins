@@ -334,43 +334,6 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 					}
 				}
 			}
-
-			if (m_fakeBase)
-				m_fakeBase->Destroy();
-
-			FVector l_locationOfLock0 = m_baseHighlightTiles[0]->GetActorLocation(),
-				l_locationOfLock1 = m_baseHighlightTiles[1]->GetActorLocation(),
-				l_locationOfLock2 = m_baseHighlightTiles[2]->GetActorLocation(),
-				l_locationOfLock3 = m_baseHighlightTiles[3]->GetActorLocation();
-
-			float l_distanceToLock1 = FVector::Distance(l_locationOfLock0, l_locationOfLock1),
-				l_distanceToLock2 = FVector::Distance(l_locationOfLock0, l_locationOfLock2),
-				l_distanceToLock3 = FVector::Distance(l_locationOfLock0, l_locationOfLock3);
-
-			FVector l_middleLocation = l_locationOfLock0;
-
-
-			if (l_distanceToLock1 == l_distanceToLock2)
-			{
-				//l_distanceToLock3
-				FVector DirTimesHalfLength = (l_locationOfLock3 - l_locationOfLock0) / 2;
-				l_middleLocation += DirTimesHalfLength;
-			}
-			else if (l_distanceToLock2 == l_distanceToLock3)
-			{
-				//l_distanceToLock1
-				FVector DirTimesHalfLength = (l_locationOfLock1 - l_locationOfLock0) / 2;
-				l_middleLocation += DirTimesHalfLength;
-
-			}
-			else if (l_distanceToLock1 == l_distanceToLock3)
-			{
-				//l_distanceToLock2
-				FVector DirTimesHalfLength = (l_locationOfLock3 - l_locationOfLock0) / 2;
-				l_middleLocation += DirTimesHalfLength;
-			}
-
-			m_fakeBase = GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator(0, 0, 0));
 		}
 
 		m_baseLastTileIndex = l_iter;
@@ -381,12 +344,6 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 
 void AGhoulsAndGoodiesGameMode::SpawnBase()
 {
-	
-	if (m_fakeBase)
-		m_fakeBase->Destroy();
-	if (m_lockBase)
-		m_lockBase->Destroy();
-
 	FVector l_locationOfLock0 = m_baseLockTiles[0]->GetActorLocation(),
 		l_locationOfLock1 = m_baseLockTiles[1]->GetActorLocation(),
 		l_locationOfLock2 = m_baseLockTiles[2]->GetActorLocation(),
@@ -435,8 +392,6 @@ void AGhoulsAndGoodiesGameMode::SpawnBase()
 	ABase* l_spawnedBase = GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator(0, 0, 0));
 	l_spawnedBase->m_owningTile = m_baseLockTiles[0];
 	m_baseLockTiles[0]->m_defenceUnit = l_spawnedBase;
-	l_spawnedBase->PlaySpawnAnim();
-
 
 }
 
@@ -454,44 +409,6 @@ void AGhoulsAndGoodiesGameMode::UpdateLockTiles()
 		l_tile->m_unhighlightedMaterial = m_baseSelectedMaterial;
 		l_tile->GetStaticMeshComponent()->SetMaterial(0, m_baseSelectedMaterial);
 	}
-
-	if (m_lockBase)
-		m_lockBase->Destroy();
-
-	FVector l_locationOfLock0 = m_baseLockTiles[0]->GetActorLocation(),
-		l_locationOfLock1 = m_baseLockTiles[1]->GetActorLocation(),
-		l_locationOfLock2 = m_baseLockTiles[2]->GetActorLocation(),
-		l_locationOfLock3 = m_baseLockTiles[3]->GetActorLocation();
-
-	float l_distanceToLock1 = FVector::Distance(l_locationOfLock0, l_locationOfLock1),
-		l_distanceToLock2 = FVector::Distance(l_locationOfLock0, l_locationOfLock2),
-		l_distanceToLock3 = FVector::Distance(l_locationOfLock0, l_locationOfLock3);
-
-	FVector l_middleLocation = l_locationOfLock0;
-
-
-	if (l_distanceToLock1 == l_distanceToLock2)
-	{
-		//l_distanceToLock3
-		FVector DirTimesHalfLength = (l_locationOfLock3 - l_locationOfLock0) / 2;
-		l_middleLocation += DirTimesHalfLength;
-	}
-	else if (l_distanceToLock2 == l_distanceToLock3)
-	{
-		//l_distanceToLock1
-		FVector DirTimesHalfLength = (l_locationOfLock1 - l_locationOfLock0) / 2;
-		l_middleLocation += DirTimesHalfLength;
-
-	}
-	else if (l_distanceToLock1 == l_distanceToLock3)
-	{
-		//l_distanceToLock2
-		FVector DirTimesHalfLength = (l_locationOfLock3 - l_locationOfLock0) / 2;
-		l_middleLocation += DirTimesHalfLength;
-	}
-
-	m_lockBase = GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator(0, 0, 0));
-
 }
 
 
