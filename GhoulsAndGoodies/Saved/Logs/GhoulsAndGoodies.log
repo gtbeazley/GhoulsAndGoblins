@@ -1837,3 +1837,188 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2020.11.02-03.30.14:580][839]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Tiffany_Spawn_PhysicsAssetB1DF735045366C0FCE9857A2F770B435.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/TIFFANY/Anim_Tiffany_Spawn_PhysicsAsset.uasset'
 [2020.11.02-03.30.15:596][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
 [2020.11.02-03.30.15:844][946]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenuD2733964486979E1B4EC51A2BCFF9C40.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
+[2020.11.02-03.31.11:999][629]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Smidge_Death.fbx)
+[2020.11.02-03.31.12:010][629]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Smidge_Death.fbx
+[2020.11.02-03.31.12:035][629]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.02-03.31.15:175][629]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.02-03.31.15:207][629]LogFbx: Valid bind pose for Pose (skinCluster1) - SMIDGE
+[2020.11.02-03.31.15:207][629]LogFbx: Valid bind pose for Pose (skinCluster2) - SMIDGE
+[2020.11.02-03.31.15:207][629]LogFbx: Valid bind pose for Pose (skinCluster3) - SMIDGE
+[2020.11.02-03.31.15:207][629]LogFbx: Valid bind pose for Pose (skinCluster4) - SMIDGE
+[2020.11.02-03.31.15:207][629]LogFbx: Valid bind pose for Pose (skinCluster5) - SMIDGE
+[2020.11.02-03.31.15:207][629]LogFbx: Valid bind pose for Pose (skinCluster6) - SMIDGE
+[2020.11.02-03.31.15:207][629]LogFbx: Valid bind pose for Pose (skinCluster7) - SMIDGE
+[2020.11.02-03.31.15:207][629]LogFbx: Valid bind pose for Pose (skinCluster8) - SMIDGE
+[2020.11.02-03.31.15:207][629]LogFbx: Valid bind pose for Pose (skinCluster9) - SMIDGE
+[2020.11.02-03.31.15:207][629]LogFbx: Valid bind pose for Pose (skinCluster10) - SMIDGE
+[2020.11.02-03.31.15:209][629]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/lambert2.lambert2 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.11.02-03.31.15:213][629]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.11.02-03.31.15:249][629]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Smidge_BC': Can't find file.
+[2020.11.02-03.31.15:250][629]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Smidge_BC': Can't find file.
+[2020.11.02-03.31.15:269][629]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2020.11.02-03.31.15:269][629]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
+[2020.11.02-03.31.15:269][629]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+[2020.11.02-03.31.15:269][629]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.11.02-03.31.15:269][629]LogTexture: Display: Building textures: Smidge_BC (AutoDXT, 1024X1024)
+[2020.11.02-03.31.15:350][629]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.11.02-03.31.15:389][629]LogFbx: Triangulating skeletal mesh SMIDGE
+[2020.11.02-03.31.15:465][629]LogFbx: Triangulating skeletal mesh CC_1
+[2020.11.02-03.31.15:492][629]LogFbx: Triangulating skeletal mesh CC_2
+[2020.11.02-03.31.15:519][629]LogFbx: Triangulating skeletal mesh CC_3
+[2020.11.02-03.31.15:543][629]LogFbx: Triangulating skeletal mesh HAIR
+[2020.11.02-03.31.15:609][629]LogFbx: Triangulating skeletal mesh LEG_R
+[2020.11.02-03.31.15:613][629]LogFbx: Triangulating skeletal mesh LEG_L
+[2020.11.02-03.31.15:618][629]LogFbx: Triangulating skeletal mesh ARM_R
+[2020.11.02-03.31.15:623][629]LogFbx: Triangulating skeletal mesh ARM_L
+[2020.11.02-03.31.15:632][629]LogFbx: Warning: Bones digested - 18  Depth of hierarchy - 6
+[2020.11.02-03.31.15:767][629]LogSkeletalMesh: Section 0: 2927 vertices, 16 active bones
+[2020.11.02-03.31.15:767][629]LogSkeletalMesh: Section 0: Material=0, 5190 triangles
+[2020.11.02-03.31.15:769][629]LogSkeletalMesh: Building Skeletal Mesh Anim_Smidge_Death...
+[2020.11.02-03.31.15:776][629]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death.Anim_Smidge_Death
+[2020.11.02-03.31.15:779][629]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death_PhysicsAsset': Can't find file.
+[2020.11.02-03.31.15:779][629]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death_PhysicsAsset': Can't find file.
+[2020.11.02-03.31.15:790][629]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-03.31.15:791][629]LogFbx: SortedLinks :(0) JNT_COG
+[2020.11.02-03.31.15:791][629]LogFbx: SortedLinks :(1) JNT_MID
+[2020.11.02-03.31.15:791][629]LogFbx: SortedLinks :(2) JNT_HEAD
+[2020.11.02-03.31.15:791][629]LogFbx: SortedLinks :(3) JNT_CONE
+[2020.11.02-03.31.15:791][629]LogFbx: SortedLinks :(4) JNT_HAIR
+[2020.11.02-03.31.15:791][629]LogFbx: SortedLinks :(5) JNT_HAIR_MID
+[2020.11.02-03.31.15:791][629]LogFbx: SortedLinks :(6) JNT_HAIR_TIP
+[2020.11.02-03.31.15:791][629]LogFbx: SortedLinks :(7) JNT_ARM_R
+[2020.11.02-03.31.15:791][629]LogFbx: SortedLinks :(8) JNT_HAND_R
+[2020.11.02-03.31.15:791][629]LogFbx: SortedLinks :(9) JNT_LEG_R
+[2020.11.02-03.31.15:792][629]LogFbx: SortedLinks :(10) JNT_FOOT_R
+[2020.11.02-03.31.15:792][629]LogFbx: SortedLinks :(11) JNT_ARM_L
+[2020.11.02-03.31.15:792][629]LogFbx: SortedLinks :(12) JNT_HAND_L
+[2020.11.02-03.31.15:792][629]LogFbx: SortedLinks :(13) JNT_LEG_L
+[2020.11.02-03.31.15:792][629]LogFbx: SortedLinks :(14) JNT_FOOT_L
+[2020.11.02-03.31.15:792][629]LogFbx: SortedLinks :(15) JNT_CC_1
+[2020.11.02-03.31.15:792][629]LogFbx: SortedLinks :(16) JNT_CC_2
+[2020.11.02-03.31.15:792][629]LogFbx: SortedLinks :(17) JNT_CC_3
+[2020.11.02-03.31.15:792][629]LogFbx: Parsing AnimStack Take 001
+[2020.11.02-03.31.15:793][629]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death_Anim': Can't find file.
+[2020.11.02-03.31.15:793][629]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death_Anim': Can't find file.
+[2020.11.02-03.31.15:899][629]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death_Anim.Anim_Smidge_Death_Anim
+[2020.11.02-03.31.15:899][629]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death_Anim.Anim_Smidge_Death_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.11.02-03.31.15:903][629]LogSkeletalMesh: Building Skeletal Mesh Anim_Smidge_Death...
+[2020.11.02-03.31.15:914][629]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death.Anim_Smidge_Death
+[2020.11.02-03.31.15:927][629]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2020.11.02-03.31.15:945][629]LogSkeletalMesh: Building Skeletal Mesh Anim_Smidge_Death...
+[2020.11.02-03.31.15:955][629]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death.Anim_Smidge_Death
+[2020.11.02-03.31.17:293][716]LogSlate: Window 'Message Log' being destroyed
+[2020.11.02-03.31.17:299][716]LogSlate: Window 'Message Log' being destroyed
+[2020.11.02-03.31.18:876][815]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 60
+[2020.11.02-03.31.18:896][816]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 50
+[2020.11.02-03.31.19:684][871]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 40
+[2020.11.02-03.31.20:855][951]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2020.11.02-03.31.20:971][956]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.11.02-03.31.21:808][956]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2020.11.02-03.31.21:878][956]LogSlate: Window 'Delete Assets' being destroyed
+[2020.11.02-03.31.22:395][956]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.11.02-03.31.22:396][956]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/lambert2.lambert2
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Smidge_BC.Smidge_BC
+[2020.11.02-03.31.22:603][956]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.11.02-03.31.22:604][956]LogMaterial: Warning: /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/lambert2.lambert2 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.11.02-03.31.22:604][956]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.11.02-03.31.22:604][956]LogMaterial: Warning: GetIndexedTexture returning NULL (0)
+[2020.11.02-03.31.22:605][956]LogSkeletalMesh: Building Skeletal Mesh Anim_Smidge_Death...
+[2020.11.02-03.31.22:613][956]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death.Anim_Smidge_Death
+[2020.11.02-03.31.22:999][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.11.02-03.31.29:895][137]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Smidge_Attack.fbx)
+[2020.11.02-03.31.29:914][137]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Anim_Smidge_Attack.fbx
+[2020.11.02-03.31.29:948][137]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.02-03.31.35:333][137]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.02-03.31.35:363][137]LogFbx: Valid bind pose for Pose (skinCluster1) - SMIDGE
+[2020.11.02-03.31.35:363][137]LogFbx: Valid bind pose for Pose (skinCluster2) - SMIDGE
+[2020.11.02-03.31.35:363][137]LogFbx: Valid bind pose for Pose (skinCluster3) - SMIDGE
+[2020.11.02-03.31.35:363][137]LogFbx: Valid bind pose for Pose (skinCluster4) - SMIDGE
+[2020.11.02-03.31.35:363][137]LogFbx: Valid bind pose for Pose (skinCluster5) - SMIDGE
+[2020.11.02-03.31.35:363][137]LogFbx: Valid bind pose for Pose (skinCluster6) - SMIDGE
+[2020.11.02-03.31.35:363][137]LogFbx: Valid bind pose for Pose (skinCluster7) - SMIDGE
+[2020.11.02-03.31.35:363][137]LogFbx: Valid bind pose for Pose (skinCluster8) - SMIDGE
+[2020.11.02-03.31.35:363][137]LogFbx: Valid bind pose for Pose (skinCluster9) - SMIDGE
+[2020.11.02-03.31.35:363][137]LogFbx: Valid bind pose for Pose (skinCluster10) - SMIDGE
+[2020.11.02-03.31.35:366][137]LogMaterial: Display: Material /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/lambert2.lambert2 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.11.02-03.31.35:369][137]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.11.02-03.31.35:401][137]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2020.11.02-03.31.35:401][137]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
+[2020.11.02-03.31.35:401][137]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+[2020.11.02-03.31.35:401][137]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.11.02-03.31.35:419][137]LogTexture: Display: Building textures: Smidge_BC (AutoDXT, 1024X1024)
+[2020.11.02-03.31.35:506][137]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.11.02-03.31.35:546][137]LogFbx: Triangulating skeletal mesh SMIDGE
+[2020.11.02-03.31.35:636][137]LogFbx: Triangulating skeletal mesh CC_1
+[2020.11.02-03.31.35:669][137]LogFbx: Triangulating skeletal mesh CC_2
+[2020.11.02-03.31.35:707][137]LogFbx: Triangulating skeletal mesh CC_3
+[2020.11.02-03.31.35:739][137]LogFbx: Triangulating skeletal mesh HAIR
+[2020.11.02-03.31.35:823][137]LogFbx: Triangulating skeletal mesh LEG_R
+[2020.11.02-03.31.35:827][137]LogFbx: Triangulating skeletal mesh LEG_L
+[2020.11.02-03.31.35:837][137]LogFbx: Triangulating skeletal mesh ARM_R
+[2020.11.02-03.31.35:843][137]LogFbx: Triangulating skeletal mesh ARM_L
+[2020.11.02-03.31.35:858][137]LogFbx: Warning: Bones digested - 18  Depth of hierarchy - 6
+[2020.11.02-03.31.36:011][137]LogSkeletalMesh: Section 0: 2927 vertices, 16 active bones
+[2020.11.02-03.31.36:011][137]LogSkeletalMesh: Section 0: Material=0, 5190 triangles
+[2020.11.02-03.31.36:014][137]LogSkeletalMesh: Building Skeletal Mesh Anim_Smidge_Attack...
+[2020.11.02-03.31.36:020][137]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack.Anim_Smidge_Attack
+[2020.11.02-03.31.36:023][137]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack_PhysicsAsset': Can't find file.
+[2020.11.02-03.31.36:023][137]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack_PhysicsAsset': Can't find file.
+[2020.11.02-03.31.36:034][137]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(0) JNT_COG
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(1) JNT_MID
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(2) JNT_HEAD
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(3) JNT_CONE
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(4) JNT_HAIR
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(5) JNT_HAIR_MID
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(6) JNT_HAIR_TIP
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(7) JNT_ARM_R
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(8) JNT_HAND_R
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(9) JNT_LEG_R
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(10) JNT_FOOT_R
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(11) JNT_ARM_L
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(12) JNT_HAND_L
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(13) JNT_LEG_L
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(14) JNT_FOOT_L
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(15) JNT_CC_1
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(16) JNT_CC_2
+[2020.11.02-03.31.36:036][137]LogFbx: SortedLinks :(17) JNT_CC_3
+[2020.11.02-03.31.36:037][137]LogFbx: Parsing AnimStack Take 001
+[2020.11.02-03.31.36:037][137]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack_Anim': Can't find file.
+[2020.11.02-03.31.36:037][137]LogLinker: Failed to load '/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack_Anim': Can't find file.
+[2020.11.02-03.31.36:125][137]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack_Anim.Anim_Smidge_Attack_Anim
+[2020.11.02-03.31.36:125][137]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack_Anim.Anim_Smidge_Attack_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.11.02-03.31.36:129][137]LogSkeletalMesh: Building Skeletal Mesh Anim_Smidge_Attack...
+[2020.11.02-03.31.36:139][137]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack.Anim_Smidge_Attack
+[2020.11.02-03.31.36:149][137]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2020.11.02-03.31.36:166][137]LogSkeletalMesh: Building Skeletal Mesh Anim_Smidge_Attack...
+[2020.11.02-03.31.36:176][137]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack.Anim_Smidge_Attack
+[2020.11.02-03.31.37:760][240]LogSlate: Window 'Message Log' being destroyed
+[2020.11.02-03.31.37:766][240]LogSlate: Window 'Message Log' being destroyed
+[2020.11.02-03.31.38:486][296]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2020.11.02-03.31.38:655][307]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 50
+[2020.11.02-03.31.39:402][355]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 40
+[2020.11.02-03.31.40:419][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.11.02-03.31.40:475][422]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2020.11.02-03.31.41:259][422]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2020.11.02-03.31.41:295][422]LogSlate: Window 'Delete Assets' being destroyed
+[2020.11.02-03.31.42:369][422]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.11.02-03.31.42:369][422]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/lambert2.lambert2
+	Asset Name: /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Smidge_BC.Smidge_BC
+[2020.11.02-03.31.42:550][422]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.11.02-03.31.42:551][422]LogMaterial: Warning: /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/lambert2.lambert2 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.11.02-03.31.42:551][422]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.11.02-03.31.42:551][422]LogSkeletalMesh: Building Skeletal Mesh Anim_Smidge_Attack...
+[2020.11.02-03.31.42:565][422]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack.Anim_Smidge_Attack
+[2020.11.02-03.31.42:934][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.11.02-03.31.47:273][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.11.02-03.31.48:142][784]LogSlate: Window 'Save Content' being destroyed
+[2020.11.02-03.31.48:218][784]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Smidge_Attack8FE63CDE490D88AB17D379AF48DA6FFD.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack.uasset'
+[2020.11.02-03.31.48:251][784]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Smidge_Attack_AnimD06C270A4ED4E45D915BFCB6DF4934F2.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack_Anim.uasset'
+[2020.11.02-03.31.48:289][784]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Smidge_Attack_PhysicsAsset3B9E93ED4E77C5220C64CBA9F2671316.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Attack_PhysicsAsset.uasset'
+[2020.11.02-03.31.48:325][784]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Smidge_DeathB2A372E64678FDCE14110FA43144F8CE.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death.uasset'
+[2020.11.02-03.31.48:357][784]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Smidge_Death_Anim9D8963F5426B82CE6E29A3A4EED678F5.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death_Anim.uasset'
+[2020.11.02-03.31.48:393][784]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Smidge_Death_PhysicsAssetC17D50E84CE4E4499DBC45B4CB4FAEF0.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death_PhysicsAsset.uasset'
+[2020.11.02-03.31.50:104][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.11.02-03.31.50:337][973]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenuF9EC71E04842B919DCC54A8ADC5CE3E5.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
