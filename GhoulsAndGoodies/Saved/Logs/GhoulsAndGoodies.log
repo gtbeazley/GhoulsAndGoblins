@@ -2187,3 +2187,14 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2020.11.02-03.34.25:979][737]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Mound_T_Mound_BaseColorBF104F47490E396F3279FB94FFA7FE78.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/TEXTURES/Mound_T_Mound_BaseColor.uasset'
 [2020.11.02-03.34.26:962][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
 [2020.11.02-03.34.27:234][804]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu6277D0344716C1BA13F3C7A3116AE72D.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
+[2020.11.02-03.35.13:112][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-03.36.23:774][189]LogEditorFactories: Performing atomic reimport of [C:/Users/s191212/Desktop/Creeps and Candy/Textures/Mound_T_Mound_BaseColor.tga]
+[2020.11.02-03.36.23:782][189]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/s191212/Desktop/Creeps and Candy/Textures/Mound_T_Mound_BaseColor.tga)
+[2020.11.02-03.36.23:797][189]LogTexture: Display: Building textures: Mound_T_Mound_BaseColor (AutoDXT, 1024X1024)
+[2020.11.02-03.36.23:838][189]LogEditorFactories: -- imported successfully
+[2020.11.02-03.36.31:850][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-03.36.31:913][729]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.11.02-03.36.32:756][729]LogSlate: Window 'Save Content' being destroyed
+[2020.11.02-03.36.32:847][729]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Mound_T_Mound_BaseColor0BB827B74D6BEED77A7BC1BD94484F1F.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/TEXTURES/Mound_T_Mound_BaseColor.uasset'
+[2020.11.02-03.36.34:298][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.11.02-03.36.34:541][824]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu200F6A544E587587EA10F5B37088CAA5.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
