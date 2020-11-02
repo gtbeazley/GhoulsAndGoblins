@@ -245,7 +245,7 @@ void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 			//m_mesh->SetMaterial(0, m_highlightedMaterial);
 			m_fakeSpawn = l_spawnedObject;
 		}
-		else
+		if(m_defType != DEF_None)
 			m_mesh->SetMaterial(0, m_highlightedMaterial);
 	}
 }
@@ -257,11 +257,11 @@ void ATile::MeshOnEndHover(UPrimitiveComponent* a_primCom)
 		if (m_gNGGameMode->m_fakeBase)
 			m_gNGGameMode->m_fakeBase->Destroy();
 		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
+	m_mesh->SetRenderCustomDepth(false);
 
 	}
 	if (m_fakeSpawn)
 		m_fakeSpawn->Destroy();
-	m_mesh->SetRenderCustomDepth(false);
 
 }
 
