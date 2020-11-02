@@ -4,11 +4,7 @@
     <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
     <Filter Include="Config">
 <<<<<<< HEAD
-<<<<<<< HEAD
       <UniqueIdentifier>{EA519B0B-B99A-434A-8E5A-AA2DC7F048A5}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{7E109974-6D20-470E-85A1-9CDC371C0932}</UniqueIdentifier>
->>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
 =======
       <UniqueIdentifier>{7E109974-6D20-470E-85A1-9CDC371C0932}</UniqueIdentifier>
 >>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
@@ -19,11 +15,7 @@
     <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
     <Filter Include="Private">
 <<<<<<< HEAD
-<<<<<<< HEAD
       <UniqueIdentifier>{F648B5BD-074F-49BF-9216-610375E2BC33}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{A6CB8D04-FAA4-4986-88E5-A837EEC0E764}</UniqueIdentifier>
->>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
 =======
       <UniqueIdentifier>{A6CB8D04-FAA4-4986-88E5-A837EEC0E764}</UniqueIdentifier>
 >>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
@@ -138,11 +130,7 @@
     </ClInclude>
     <Filter Include="Private\Specifiers">
 <<<<<<< HEAD
-<<<<<<< HEAD
       <UniqueIdentifier>{1E1E73A9-2733-404B-B3BF-33011AC9287D}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{EE2424C6-9F22-4880-80EB-D4911960AB01}</UniqueIdentifier>
->>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
 =======
       <UniqueIdentifier>{EE2424C6-9F22-4880-80EB-D4911960AB01}</UniqueIdentifier>
 >>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
@@ -182,11 +170,7 @@
     </ClInclude>
     <Filter Include="Public">
 <<<<<<< HEAD
-<<<<<<< HEAD
       <UniqueIdentifier>{A82C2FDB-DDC2-4323-A5F3-38D52A56A729}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{205B7072-5F26-4081-A3EF-9B11E90B7CC7}</UniqueIdentifier>
->>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
 =======
       <UniqueIdentifier>{205B7072-5F26-4081-A3EF-9B11E90B7CC7}</UniqueIdentifier>
 >>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
@@ -196,11 +180,7 @@
     </ClInclude>
     <Filter Include="Resources">
 <<<<<<< HEAD
-<<<<<<< HEAD
       <UniqueIdentifier>{17E4E419-355B-40C5-AE55-F53C4ADA87BA}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{9F5CB217-72F8-4404-AC8F-4C73A01443C3}</UniqueIdentifier>
->>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
 =======
       <UniqueIdentifier>{9F5CB217-72F8-4404-AC8F-4C73A01443C3}</UniqueIdentifier>
 >>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
@@ -210,11 +190,7 @@
     </Manifest>
     <Filter Include="Resources\UHTDebugging">
 <<<<<<< HEAD
-<<<<<<< HEAD
       <UniqueIdentifier>{AB66F9F5-C827-4A75-ABDC-4E1B4C6A9572}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{A1B11BA0-7F5E-47E2-AD91-BEEA1168254D}</UniqueIdentifier>
->>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
 =======
       <UniqueIdentifier>{A1B11BA0-7F5E-47E2-AD91-BEEA1168254D}</UniqueIdentifier>
 >>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
