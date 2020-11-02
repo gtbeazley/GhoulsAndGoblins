@@ -21,6 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ADefendingUnit_Despawn();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ADefendingUnit_GetMesh();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ADefendingUnit_PlaySpawnAnim();
+	ENGINE_API UClass* Z_Construct_UClass_UAnimSequence_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector4();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
@@ -32,6 +34,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 			{ "DealDamage", &ADefendingUnit::execDealDamage },
 			{ "Despawn", &ADefendingUnit::execDespawn },
 			{ "GetMesh", &ADefendingUnit::execGetMesh },
+			{ "PlaySpawnAnim", &ADefendingUnit::execPlaySpawnAnim },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -119,6 +122,28 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ADefendingUnit_PlaySpawnAnim_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ADefendingUnit_PlaySpawnAnim_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "DefendingUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADefendingUnit_PlaySpawnAnim_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADefendingUnit, nullptr, "PlaySpawnAnim", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADefendingUnit_PlaySpawnAnim_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ADefendingUnit_PlaySpawnAnim_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ADefendingUnit_PlaySpawnAnim()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ADefendingUnit_PlaySpawnAnim_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ADefendingUnit_NoRegister()
 	{
 		return ADefendingUnit::StaticClass();
@@ -130,6 +155,10 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_spawnAnim_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_spawnAnim;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_curHealth_MetaData[];
 #endif
@@ -166,6 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		{ &Z_Construct_UFunction_ADefendingUnit_DealDamage, "DealDamage" }, // 2724591250
 		{ &Z_Construct_UFunction_ADefendingUnit_Despawn, "Despawn" }, // 1268386680
 		{ &Z_Construct_UFunction_ADefendingUnit_GetMesh, "GetMesh" }, // 2538256725
+		{ &Z_Construct_UFunction_ADefendingUnit_PlaySpawnAnim, "PlaySpawnAnim" }, // 442055048
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADefendingUnit_Statics::Class_MetaDataParams[] = {
@@ -173,6 +203,13 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		{ "ModuleRelativePath", "DefendingUnit.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_spawnAnim_MetaData[] = {
+		{ "Category", "DefendingUnit" },
+		{ "ModuleRelativePath", "DefendingUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_spawnAnim = { "m_spawnAnim", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADefendingUnit, m_spawnAnim), Z_Construct_UClass_UAnimSequence_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_spawnAnim_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_spawnAnim_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_curHealth_MetaData[] = {
 		{ "Category", "DefendingUnit" },
@@ -219,6 +256,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_detectionSphere = { "m_detectionSphere", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADefendingUnit, m_detectionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_detectionSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_detectionSphere_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADefendingUnit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_spawnAnim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_curHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_fullHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_mesh,
@@ -253,7 +291,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADefendingUnit, 3581431637);
+	IMPLEMENT_CLASS(ADefendingUnit, 283263708);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ADefendingUnit>()
 	{
 		return ADefendingUnit::StaticClass();

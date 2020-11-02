@@ -322,7 +322,7 @@ void EmptyLinkFunctionForGeneratedCodeGarry() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGarry, 3948571504);
+	IMPLEMENT_CLASS(AGarry, 512678727);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AGarry>()
 	{
 		return AGarry::StaticClass();

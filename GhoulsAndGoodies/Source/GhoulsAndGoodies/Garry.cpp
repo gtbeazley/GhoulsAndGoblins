@@ -6,6 +6,7 @@
 #include "EnemyUnit.h"
 
 #include "Animation/AnimBlueprint.h"
+#include "Animation/AnimSequence.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SphereComponent.h"
 #include "Kismet/GameplayStatics.h"
@@ -17,6 +18,9 @@ AGarry::AGarry()
 	m_curHealth = m_fullHealth;
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_meshAsset (TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/GARRY/GARRY_ANIM_IDLE_02.GARRY_ANIM_IDLE_02'"));
 	static ConstructorHelpers::FObjectFinder<UClass> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Garry_AnimBP.Garry_AnimBP_C'"));
+	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_spawnAnim(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/GARRY/GARRY_ANIM_SPAWN_Anim.GARRY_ANIM_SPAWN_Anim'"));
+
+	m_spawnAnim = l_spawnAnim.Object;
 
 	m_mesh->SetSkeletalMesh(l_meshAsset.Object);
 

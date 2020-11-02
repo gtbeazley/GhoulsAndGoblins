@@ -328,7 +328,7 @@ void EmptyLinkFunctionForGeneratedCodeSmidge() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASmidge, 3485506293);
+	IMPLEMENT_CLASS(ASmidge, 2731463628);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ASmidge>()
 	{
 		return ASmidge::StaticClass();

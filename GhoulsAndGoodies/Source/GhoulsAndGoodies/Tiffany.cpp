@@ -6,7 +6,7 @@
 #include "ConstructorHelpers.h"
 #include "EnemyUnit.h"
 
-#include "Animation/AnimBlueprint.h"
+
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SphereComponent.h"
 #include "Kismet/KismetMathLibrary.h"
@@ -15,17 +15,10 @@ ATiffany::ATiffany()
 {  
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_meshAsset(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/TIFFANY/TIFFANY_IDLE.TIFFANY_IDLE'"));
-<<<<<<< HEAD
-	static ConstructorHelpers::FObjectFinder<UClass> l_animClass(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Tiffany_AnimBP.Tiffany_AnimBP_C'"));
 	//static ConstructorHelpers::FObjectFinder<UAnimSequence> l_spawnAnim(TEXT(""));
 
-=======
->>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
 
 	GetMesh()->SetSkeletalMesh(l_meshAsset.Object);
-
-	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	GetMesh()->SetAnimClass(l_animClass.Object);
 
 	m_detectionSphere->OnComponentBeginOverlap.AddDynamic(this, &ATiffany::OnDetectionSphereOverlapBegin);
 	m_detectionSphere->OnComponentEndOverlap.AddDynamic(this, &ATiffany::OnDetectionSphereOverlapEnd);

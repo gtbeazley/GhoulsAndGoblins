@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\Definitions.GhoulsAndGoodies.h
-C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodies.h
-=======
-C:\Users\s191266\Desktop\Goodies and Ghouls Repo\GhoulsAndGoblins\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\Definitions.GhoulsAndGoodies.h
-C:\Users\s191266\Desktop\Goodies and Ghouls Repo\GhoulsAndGoblins\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodies.h
->>>>>>> 64eae1e4564b48e289d92ef3dfb472bc382672d6
+C:\Users\User\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\Definitions.GhoulsAndGoodies.h
+C:\Users\User\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodies.h
