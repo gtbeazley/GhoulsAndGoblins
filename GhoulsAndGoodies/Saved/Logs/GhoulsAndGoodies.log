@@ -2409,3 +2409,753 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.02-23.11.10:468][291]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenuF47453F949FAA633A22B088F802528AF.tmp' to '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
 [2020.11.02-23.11.10:668][291]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu_BuiltDataA64CBD4F4DF70D8D7D7E2FA394F1FAA2.tmp' to '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu_BuiltData.uasset'
 [2020.11.02-23.11.11:976][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.13.52:925][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.14.40:104][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Candy_03)
+[2020.11.02-23.14.41:469][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (groundPlane)
+[2020.11.02-23.14.43:749][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree_5)
+[2020.11.02-23.14.44:253][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree_2)
+[2020.11.02-23.14.47:703][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.16.39:228][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.17.40:339][486]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.17.42:153][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree_01)
+[2020.11.02-23.17.45:543][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.18.01:574][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_chupachupRed)
+[2020.11.02-23.18.13:100][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.18.14:109][243]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.11.02-23.18.25:649][532]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.18.27:808][770]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.11.02-23.18.29:418][947]MapCheck: New page: Map Check
+[2020.11.02-23.18.29:428][947]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.18.29:433][947]LightingResults: New page: Lighting Build - 3 Nov 2020 9:18:29 pm
+[2020.11.02-23.18.29:441][947]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.02-23.18.29:443][947]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.02-23.18.29:443][947]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.02-23.18.29:444][947]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.02-23.18.29:444][947]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11708
+[2020.11.02-23.18.33:952][947]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.11.02-23.18.33:953][947]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.02-23.18.33:953][947]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.02-23.18.33:953][947]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.02-23.18.33:953][947]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.02-23.18.33:953][947]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.02-23.18.34:044][947]LogEditorBuildUtils: Build time 0:04
+[2020.11.02-23.18.34:088][948]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.11.02-23.18.36:637][ 91]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.18.36:637][ 91]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.18.36:707][ 95]LightingResults: Warning: SM_Mound Object has overlapping UVs.
+[2020.11.02-23.18.36:707][ 95]LightingResults: SM_Mound Lightmap UV are overlapping by 6.5%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.18.36:765][ 98]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.18.36:765][ 98]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.18.36:822][101]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.18.36:822][101]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.18.37:584][141]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.18.37:584][141]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.18.37:871][164]Job is a success!
+[2020.11.02-23.18.37:904][165]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.18.37:936][165]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2020.11.02-23.18.37:936][165]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.02-23.18.37:936][165]LogVolumetricLightmapImport:      BrickData 150x5x5 = 0.1Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2020.11.02-23.18.37:936][165]LogVolumetricLightmapImport:      Bricks at Level
+[2020.11.02-23.18.37:936][165]LogVolumetricLightmapImport:          0: 3.3% covering 100.0% of volume
+[2020.11.02-23.18.37:936][165]LogVolumetricLightmapImport:          1: 13.3% covering 6.3% of volume
+[2020.11.02-23.18.37:936][165]LogVolumetricLightmapImport:          2: 83.3% covering 0.6% of volume
+[2020.11.02-23.18.39:009][165]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2020.11.02-23.18.39:009][165]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.11.02-23.18.39:009][165]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.11.02-23.18.39:009][165]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2020.11.02-23.18.39:009][165]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2020.11.02-23.18.39:009][165]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2020.11.02-23.18.39:080][165]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X256)
+[2020.11.02-23.18.39:100][165]Lightmass on SYD-1C8521: 4.55 sec total, 208 ms importing, 41 ms setup, 584 ms photons, 3.68 sec processing, 0 ms extra exporting [127/127 mappings]. Threads: 25.7 sec total, 12.8 sec processing.
+[2020.11.02-23.18.39:103][165]LogStaticLightingSystem: MainMenu_BuiltData storing lightmap data for 77 meshes in 3 LightmapResourceClusters (25.7 Meshes per cluster).
+[2020.11.02-23.18.39:136][165]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.11.02-23.18.39:139][165]LogStaticLightingSystem: Illumination: 9.68 sec (963 ms encoding lightmaps, 64 ms encoding shadowmaps)
+[2020.11.02-23.18.39:139][165]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.11.02-23.18.39:139][165]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2020.11.02-23.18.39:958][165]DumpUnbuiltLightIteractions
+[2020.11.02-23.18.39:958][165]Lights with unbuilt interactions: 0
+[2020.11.02-23.18.39:958][165]
+[2020.11.02-23.18.39:958][165]Primitives with unbuilt interactions: 0
+[2020.11.02-23.18.40:018][166]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.02-23.18.40:019][166]MapCheck: New page: MainMenu - 3 Nov 2020 9:18:40 pm
+[2020.11.02-23.18.40:020][166]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.231ms to complete.
+[2020.11.02-23.18.49:253][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.18.49:349][104]LogSlate: Window 'Message Log' being destroyed
+[2020.11.02-23.18.49:356][104]LogSlate: Window 'Message Log' being destroyed
+[2020.11.02-23.19.27:416][388]Cmd: SELECT NONE
+[2020.11.02-23.19.34:005][175]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.19.41:334][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.20.07:139][875]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.20.07:775][949]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.20.09:655][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree_01)
+[2020.11.02-23.20.12:098][409]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.11.02-23.20.13:268][531]MapCheck: New page: Map Check
+[2020.11.02-23.20.13:281][531]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.20.13:288][531]LightingResults: New page: Lighting Build - 3 Nov 2020 9:20:13 pm
+[2020.11.02-23.20.13:297][531]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.02-23.20.13:299][531]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.02-23.20.13:299][531]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.02-23.20.13:300][531]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.02-23.20.13:300][531]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11708
+[2020.11.02-23.20.17:809][531]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.11.02-23.20.17:809][531]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.02-23.20.17:809][531]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.02-23.20.17:809][531]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.02-23.20.17:809][531]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.02-23.20.17:809][531]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.02-23.20.17:901][531]LogEditorBuildUtils: Build time 0:04
+[2020.11.02-23.20.17:943][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.11.02-23.20.20:466][665]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.20.20:466][665]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.20.20:527][668]LightingResults: Warning: SM_Mound Object has overlapping UVs.
+[2020.11.02-23.20.20:527][668]LightingResults: SM_Mound Lightmap UV are overlapping by 6.5%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.20.20:584][671]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.20.20:584][671]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.20.20:641][674]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.20.20:641][674]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.20.21:381][710]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.20.21:381][710]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.20.21:609][725]Job is a success!
+[2020.11.02-23.20.21:638][726]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.20.21:666][726]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2020.11.02-23.20.21:666][726]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.02-23.20.21:666][726]LogVolumetricLightmapImport:      BrickData 140x5x5 = 0.1Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2020.11.02-23.20.21:666][726]LogVolumetricLightmapImport:      Bricks at Level
+[2020.11.02-23.20.21:666][726]LogVolumetricLightmapImport:          0: 3.6% covering 100.0% of volume
+[2020.11.02-23.20.21:666][726]LogVolumetricLightmapImport:          1: 14.3% covering 6.3% of volume
+[2020.11.02-23.20.21:666][726]LogVolumetricLightmapImport:          2: 82.1% covering 0.6% of volume
+[2020.11.02-23.20.22:773][726]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2020.11.02-23.20.22:773][726]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.11.02-23.20.22:773][726]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.11.02-23.20.22:773][726]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.11.02-23.20.22:773][726]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2020.11.02-23.20.22:773][726]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.11.02-23.20.22:843][726]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X256)
+[2020.11.02-23.20.22:860][726]Lightmass on SYD-1C8521: 4.46 sec total, 190 ms importing, 44 ms setup, 577 ms photons, 3.61 sec processing, 0 ms extra exporting [127/127 mappings]. Threads: 25.3 sec total, 12.6 sec processing.
+[2020.11.02-23.20.22:863][726]LogStaticLightingSystem: MainMenu_BuiltData storing lightmap data for 77 meshes in 3 LightmapResourceClusters (25.7 Meshes per cluster).
+[2020.11.02-23.20.22:892][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.11.02-23.20.22:896][726]LogStaticLightingSystem: Illumination: 9.59 sec (999 ms encoding lightmaps, 62 ms encoding shadowmaps)
+[2020.11.02-23.20.22:896][726]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.11.02-23.20.22:896][726]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2020.11.02-23.20.23:817][726]DumpUnbuiltLightIteractions
+[2020.11.02-23.20.23:817][726]Lights with unbuilt interactions: 0
+[2020.11.02-23.20.23:817][726]
+[2020.11.02-23.20.23:817][726]Primitives with unbuilt interactions: 0
+[2020.11.02-23.20.23:880][727]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.02-23.20.23:880][727]MapCheck: New page: MainMenu - 3 Nov 2020 9:20:23 pm
+[2020.11.02-23.20.23:881][727]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.864ms to complete.
+[2020.11.02-23.20.30:901][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.20.31:171][447]LogSlate: Window 'Message Log' being destroyed
+[2020.11.02-23.20.31:178][447]LogSlate: Window 'Message Log' being destroyed
+[2020.11.02-23.20.32:951][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.20.39:133][303]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.20.41:755][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.20.42:085][604]LogActorFactory: Actor Factory created Gravestone_03
+[2020.11.02-23.20.46:471][ 91]LogActorFactory: Actor Factory created Gravestone_03
+[2020.11.02-23.20.48:310][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.20.48:888][346]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.11.02-23.20.51:779][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.20.53:694][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gravestone_03)
+[2020.11.02-23.21.07:969][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.21.08:362][321]LogActorFactory: Actor Factory created Gravestone_02
+[2020.11.02-23.21.10:316][537]LogActorFactory: Actor Factory created Gravestone_02
+[2020.11.02-23.21.25:034][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.21.25:220][ 26]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/TopDownCPP/ASSETS/Gravestone_02.Gravestone_02
+[2020.11.02-23.21.28:575][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.21.41:581][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.21.43:897][277]LogSlate: Window 'Gravestone_02' being destroyed
+[2020.11.02-23.21.43:902][277]LogSlate: Window 'Gravestone_02' being destroyed
+[2020.11.02-23.21.43:902][277]LogCascade: Quitting Cascade. FXSystem=0x0000021633CE8C40
+[2020.11.02-23.21.43:930][277]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.21.43:962][277]LogCascade: Quitting Cascade. FXSystem=0x0000021668C79C00
+[2020.11.02-23.21.43:972][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2020.11.02-23.21.43:972][277]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.21.44:004][277]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.21.44:101][277]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.21.44:123][277]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.21.58:469][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gravestone_03)
+[2020.11.02-23.21.59:655][ 65]Cmd: DELETE
+[2020.11.02-23.21.59:655][ 65]Cmd: ACTOR DELETE
+[2020.11.02-23.21.59:657][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-23.21.59:684][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.11.02-23.21.59:684][ 65]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2020.11.02-23.22.01:371][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gravestone_02)
+[2020.11.02-23.22.02:344][376]Cmd: DELETE
+[2020.11.02-23.22.02:344][376]Cmd: ACTOR DELETE
+[2020.11.02-23.22.02:347][376]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-23.22.02:371][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.11.02-23.22.02:371][376]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2020.11.02-23.22.27:227][344]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.22.27:262][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.11.02-23.22.27:406][344]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu_Auto59612735D4E9326259342688152DE1EF1.tmp' to '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Autosaves/Game/TopDownCPP/Maps/MainMenu_Auto5.umap'
+[2020.11.02-23.22.27:408][344]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/MainMenu' took 0.167
+[2020.11.02-23.22.27:409][344]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.167
+[2020.11.02-23.22.40:373][893]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.22.46:437][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.22.50:843][130]Cmd: TRANSACTION UNDO
+[2020.11.02-23.22.50:843][130]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.22.51:100][156]Cmd: TRANSACTION UNDO
+[2020.11.02-23.22.51:100][156]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.22.58:702][ 59]Cmd: TRANSACTION UNDO
+[2020.11.02-23.22.58:703][ 59]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.22.58:970][ 86]Cmd: TRANSACTION UNDO
+[2020.11.02-23.22.58:970][ 86]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.22.59:437][135]Cmd: TRANSACTION UNDO
+[2020.11.02-23.22.59:437][135]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.22.59:835][181]Cmd: TRANSACTION UNDO
+[2020.11.02-23.22.59:835][181]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.23.00:496][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.23.12:901][425]Cmd: TRANSACTION UNDO
+[2020.11.02-23.23.12:901][425]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.23.14:747][563]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.11.02-23.23.16:319][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.23.20:785][196]Cmd: TRANSACTION UNDO
+[2020.11.02-23.23.20:785][196]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.23.21:854][308]Cmd: TRANSACTION UNDO
+[2020.11.02-23.23.21:854][308]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.23.24:138][578]Cmd: TRANSACTION UNDO
+[2020.11.02-23.23.24:138][578]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.23.25:672][758]Cmd: TRANSACTION UNDO
+[2020.11.02-23.23.25:672][758]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.23.26:753][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.23.39:688][425]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.23.42:336][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.23.49:558][602]Cmd: TRANSACTION UNDO
+[2020.11.02-23.23.49:559][602]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.23.57:646][551]Cmd: TRANSACTION UNDO
+[2020.11.02-23.23.57:646][551]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.23.58:433][630]Cmd: TRANSACTION UNDO
+[2020.11.02-23.23.58:433][630]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.23.59:295][730]Cmd: TRANSACTION UNDO
+[2020.11.02-23.23.59:295][730]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.00:015][813]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.00:015][813]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.00:783][901]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.00:783][901]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.02:233][ 71]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.02:233][ 71]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.05:175][419]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.05:175][419]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.05:463][450]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.05:463][450]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.06:516][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.24.16:216][730]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.24.18:448][995]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.18:448][995]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.18:691][ 16]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.18:691][ 16]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.18:900][ 31]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.18:900][ 31]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.19:112][ 52]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.19:112][ 52]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.19:292][ 70]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.19:292][ 70]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.19:489][ 90]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.19:489][ 90]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.19:662][107]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.19:662][107]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.20:002][144]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.20:002][144]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.20:250][170]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.20:250][170]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.20:489][196]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.20:489][196]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.20:907][243]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.20:907][243]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.21:345][292]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.21:345][292]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.21:791][342]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.21:791][342]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.33:386][707]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.33:386][707]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.37:149][133]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.37:149][133]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.38:202][242]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.38:202][242]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.39:323][373]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.39:323][373]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.40:521][513]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.40:521][513]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.42:133][665]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.11.02-23.24.43:673][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.24.50:257][524]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.50:258][524]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.52:214][742]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.52:214][742]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.52:405][761]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.52:405][761]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.52:816][806]Cmd: TRANSACTION UNDO
+[2020.11.02-23.24.52:816][806]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.24.56:695][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.25.00:269][650]Cmd: TRANSACTION UNDO
+[2020.11.02-23.25.00:269][650]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.25.02:891][947]Cmd: TRANSACTION UNDO
+[2020.11.02-23.25.02:891][947]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.25.05:524][257]Cmd: TRANSACTION UNDO
+[2020.11.02-23.25.05:524][257]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.25.05:712][276]Cmd: TRANSACTION UNDO
+[2020.11.02-23.25.05:712][276]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.25.06:271][339]Cmd: TRANSACTION UNDO
+[2020.11.02-23.25.06:271][339]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.25.06:886][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.25.15:806][470]Cmd: TRANSACTION UNDO
+[2020.11.02-23.25.15:806][470]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.25.16:173][503]Cmd: TRANSACTION UNDO
+[2020.11.02-23.25.16:173][503]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.25.17:661][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.25.25:609][492]Cmd: TRANSACTION UNDO
+[2020.11.02-23.25.25:609][492]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.25.25:826][511]Cmd: TRANSACTION UNDO
+[2020.11.02-23.25.25:826][511]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.25.28:563][827]Cmd: TRANSACTION UNDO
+[2020.11.02-23.25.28:563][827]LogEditorTransaction: Undo Foliage Editing
+[2020.11.02-23.25.32:103][246]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.25.38:008][948]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.11.02-23.25.38:709][ 31]MapCheck: New page: Map Check
+[2020.11.02-23.25.38:720][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.25.38:725][ 31]LightingResults: New page: Lighting Build - 3 Nov 2020 9:25:38 pm
+[2020.11.02-23.25.38:733][ 31]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.02-23.25.38:735][ 31]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.02-23.25.38:735][ 31]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.02-23.25.38:736][ 31]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.02-23.25.38:736][ 31]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11708
+[2020.11.02-23.25.43:243][ 31]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.11.02-23.25.43:244][ 31]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.02-23.25.43:244][ 31]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.02-23.25.43:244][ 31]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.02-23.25.43:244][ 31]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.02-23.25.43:244][ 31]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.02-23.25.43:333][ 31]LogEditorBuildUtils: Build time 0:04
+[2020.11.02-23.25.43:377][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.11.02-23.25.45:766][193]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.25.45:766][193]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.25.45:803][195]LightingResults: Warning: SM_Mound Object has overlapping UVs.
+[2020.11.02-23.25.45:803][195]LightingResults: SM_Mound Lightmap UV are overlapping by 6.5%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.25.45:893][201]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.25.45:893][201]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.25.45:918][203]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.25.45:918][203]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.25.46:426][244]LightingResults: Warning: Grave_Dirt Object has overlapping UVs.
+[2020.11.02-23.25.46:442][245]LightingResults: Grave_Dirt Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.02-23.25.47:636][344]Job is a success!
+[2020.11.02-23.25.47:662][345]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.11.02-23.25.47:691][345]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2020.11.02-23.25.47:691][345]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.02-23.25.47:691][345]LogVolumetricLightmapImport:      BrickData 145x5x5 = 0.1Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2020.11.02-23.25.47:691][345]LogVolumetricLightmapImport:      Bricks at Level
+[2020.11.02-23.25.47:691][345]LogVolumetricLightmapImport:          0: 3.4% covering 100.0% of volume
+[2020.11.02-23.25.47:691][345]LogVolumetricLightmapImport:          1: 13.8% covering 6.3% of volume
+[2020.11.02-23.25.47:691][345]LogVolumetricLightmapImport:          2: 82.8% covering 0.6% of volume
+[2020.11.02-23.25.49:029][345]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2020.11.02-23.25.49:029][345]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.11.02-23.25.49:029][345]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.11.02-23.25.49:029][345]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2020.11.02-23.25.49:029][345]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2020.11.02-23.25.49:029][345]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2020.11.02-23.25.49:030][345]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2020.11.02-23.25.49:030][345]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2020.11.02-23.25.49:030][345]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2020.11.02-23.25.49:157][345]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X512)
+[2020.11.02-23.25.49:169][345]Lightmass on SYD-1C8521: 5.34 sec total, 187 ms importing, 45 ms setup, 647 ms photons, 4.43 sec processing, 0 ms extra exporting [155/155 mappings]. Threads: 31.0 sec total, 15.9 sec processing.
+[2020.11.02-23.25.49:179][345]LogStaticLightingSystem: MainMenu_BuiltData storing lightmap data for 77 meshes in 5 LightmapResourceClusters (15.4 Meshes per cluster).
+[2020.11.02-23.25.49:210][345]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.11.02-23.25.49:214][345]LogStaticLightingSystem: Illumination: 10.4 sec (1.19 sec encoding lightmaps, 120 ms encoding shadowmaps)
+[2020.11.02-23.25.49:214][345]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2020.11.02-23.25.49:214][345]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 1 textures
+[2020.11.02-23.25.49:250][345]DumpUnbuiltLightIteractions
+[2020.11.02-23.25.49:250][345]Lights with unbuilt interactions: 0
+[2020.11.02-23.25.49:250][345]
+[2020.11.02-23.25.49:250][345]Primitives with unbuilt interactions: 0
+[2020.11.02-23.25.49:292][346]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.02-23.25.49:292][346]MapCheck: New page: MainMenu - 3 Nov 2020 9:25:49 pm
+[2020.11.02-23.25.49:293][346]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.824ms to complete.
+[2020.11.02-23.25.53:519][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.25.53:612][854]LogSlate: Window 'Message Log' being destroyed
+[2020.11.02-23.25.53:619][854]LogSlate: Window 'Message Log' being destroyed
+[2020.11.02-23.25.54:536][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.25.54:654][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.11.02-23.25.54:791][972]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu36BE2F964A3220FE742857B0089DCF76.tmp' to '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
+[2020.11.02-23.25.55:048][972]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu_BuiltDataC02BC7C54EEB95256E919D85F456C856.tmp' to '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu_BuiltData.uasset'
+[2020.11.02-23.25.55:953][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.25.56:082][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.11.02-23.25.56:962][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.11.02-23.25.57:861][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.11.02-23.25.57:996][233]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu3A81522741440323114F4682A95605A8.tmp' to '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
+[2020.11.02-23.25.58:246][233]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu_BuiltData5C107B224E809250DB85F4B3086D136F.tmp' to '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu_BuiltData.uasset'
+[2020.11.02-23.26.03:553][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.26.03:679][876]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.11.02-23.26.03:814][876]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu2BAEEB8C431933B47F6E26B38236FD27.tmp' to '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
+[2020.11.02-23.26.04:060][876]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu_BuiltData1276E0784277DE865871B3B54606538D.tmp' to '../../../../../../Users/s191246/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu_BuiltData.uasset'
+[2020.11.02-23.26.04:530][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-23.26.04:688][946]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.11.02-23.26.04:745][946]LogSlate: Window 'GhoulsAndGoodies - Unreal Editor' being destroyed
+[2020.11.02-23.26.04:853][947]Cmd: QUIT_EDITOR
+[2020.11.02-23.26.04:904][947]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.02-23.26.04:925][947]LogExit: Preparing to exit.
+[2020.11.02-23.26.05:390][947]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:390][947]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:390][947]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:390][947]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:390][947]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:390][947]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:391][947]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:391][947]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:391][947]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:391][947]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:391][947]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:391][947]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:394][947]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:414][947]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-23.26.05:414][947]LogExit: Editor shut down
+[2020.11.02-23.26.05:414][947]LogExit: Transaction tracking system shut down
+[2020.11.02-23.26.05:421][947]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.02-23.26.05:648][947]LogExit: Object subsystem successfully closed.
+[2020.11.02-23.26.05:670][947]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.11.02-23.26.05:699][947]LogModuleManager: Shutting down and abandoning module TextureEditor (680)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (678)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module DistCurveEditor (676)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module Cascade (674)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (672)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (670)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module SceneOutliner (668)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module AddContentDialog (666)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module WidgetCarousel (665)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module EditorWidgets (662)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module CollectionManager (660)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module StatsViewer (658)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (656)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module FoliageEdit (654)
+[2020.11.02-23.26.05:700][947]LogModuleManager: Shutting down and abandoning module LandscapeEditor (652)
+[2020.11.02-23.26.05:701][947]LogModuleManager: Shutting down and abandoning module MeshPaintMode (650)
+[2020.11.02-23.26.05:701][947]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (648)
+[2020.11.02-23.26.05:701][947]LogModuleManager: Shutting down and abandoning module ActorPickerMode (646)
+[2020.11.02-23.26.05:701][947]LogModuleManager: Shutting down and abandoning module GeometryMode (644)
+[2020.11.02-23.26.05:701][947]LogModuleManager: Shutting down and abandoning module TextureAlignMode (642)
+[2020.11.02-23.26.05:701][947]LogModuleManager: Shutting down and abandoning module BspMode (640)
+[2020.11.02-23.26.05:701][947]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (638)
+[2020.11.02-23.26.05:702][947]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (636)
+[2020.11.02-23.26.05:702][947]LogModuleManager: Shutting down and abandoning module AutomationWorker (634)
+[2020.11.02-23.26.05:702][947]LogModuleManager: Shutting down and abandoning module OculusMR (632)
+[2020.11.02-23.26.05:702][947]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (630)
+[2020.11.02-23.26.05:702][947]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (628)
+[2020.11.02-23.26.05:702][947]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (626)
+[2020.11.02-23.26.05:703][947]LogModuleManager: Shutting down and abandoning module PlacementMode (625)
+[2020.11.02-23.26.05:703][947]LogModuleManager: Shutting down and abandoning module MaterialEditor (624)
+[2020.11.02-23.26.05:703][947]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (620)
+[2020.11.02-23.26.05:703][947]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (618)
+[2020.11.02-23.26.05:703][947]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (616)
+[2020.11.02-23.26.05:703][947]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (614)
+[2020.11.02-23.26.05:703][947]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (612)
+[2020.11.02-23.26.05:703][947]LogModuleManager: Shutting down and abandoning module WebMMedia (610)
+[2020.11.02-23.26.05:703][947]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (608)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (606)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module SequenceRecorder (605)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (602)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (600)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (598)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (596)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (594)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (592)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (590)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (588)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (586)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (584)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (582)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module CharacterAI (580)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module SmartSnapping (578)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module SessionServices (576)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module MeshPaint (574)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module ViewportSnapping (572)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module ViewportInteraction (570)
+[2020.11.02-23.26.05:704][947]LogModuleManager: Shutting down and abandoning module ClothPainter (568)
+[2020.11.02-23.26.05:706][947]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (567)
+[2020.11.02-23.26.05:707][947]LogModuleManager: Shutting down and abandoning module LogVisualizer (564)
+[2020.11.02-23.26.05:707][947]LogModuleManager: Shutting down and abandoning module IntroTutorials (562)
+[2020.11.02-23.26.05:707][947]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (561)
+[2020.11.02-23.26.05:707][947]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (558)
+[2020.11.02-23.26.05:707][947]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (556)
+[2020.11.02-23.26.05:707][947]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (554)
+[2020.11.02-23.26.05:707][947]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (552)
+[2020.11.02-23.26.05:707][947]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (551)
+[2020.11.02-23.26.06:504][947]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (548)
+[2020.11.02-23.26.06:504][947]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (546)
+[2020.11.02-23.26.06:504][947]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (544)
+[2020.11.02-23.26.06:504][947]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (542)
+[2020.11.02-23.26.06:504][947]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (540)
+[2020.11.02-23.26.06:504][947]LogModuleManager: Shutting down and abandoning module InputBindingEditor (538)
+[2020.11.02-23.26.06:504][947]LogModuleManager: Shutting down and abandoning module MergeActors (536)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (534)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module LocalizationService (533)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module HardwareTargeting (530)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (528)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module UndoHistory (526)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module XmlParser (524)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module Blutility (522)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (520)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (519)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (516)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module SettingsEditor (514)
+[2020.11.02-23.26.06:508][947]LogModuleManager: Shutting down and abandoning module ProjectLauncher (512)
+[2020.11.02-23.26.06:509][947]LogModuleManager: Shutting down and abandoning module SessionFrontend (510)
+[2020.11.02-23.26.06:509][947]LogModuleManager: Shutting down and abandoning module ProfilerClient (508)
+[2020.11.02-23.26.06:509][947]LogModuleManager: Shutting down and abandoning module DeviceManager (506)
+[2020.11.02-23.26.06:509][947]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (505)
+[2020.11.02-23.26.06:562][947]LogModuleManager: Shutting down and abandoning module AutomationController (502)
+[2020.11.02-23.26.06:562][947]LogModuleManager: Shutting down and abandoning module AutomationWindow (500)
+[2020.11.02-23.26.06:562][947]LogModuleManager: Shutting down and abandoning module Layers (498)
+[2020.11.02-23.26.06:563][947]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (496)
+[2020.11.02-23.26.06:563][947]LogModuleManager: Shutting down and abandoning module DetailCustomizations (494)
+[2020.11.02-23.26.06:563][947]LogModuleManager: Shutting down and abandoning module PackagesDialog (492)
+[2020.11.02-23.26.06:564][947]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (490)
+[2020.11.02-23.26.06:564][947]LogModuleManager: Shutting down and abandoning module Persona (488)
+[2020.11.02-23.26.06:566][947]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (487)
+[2020.11.02-23.26.06:566][947]LogModuleManager: Shutting down and abandoning module AnimGraph (485)
+[2020.11.02-23.26.06:566][947]LogModuleManager: Shutting down and abandoning module Kismet (482)
+[2020.11.02-23.26.06:566][947]LogModuleManager: Shutting down and abandoning module KismetWidgets (481)
+[2020.11.02-23.26.06:566][947]LogModuleManager: Shutting down and abandoning module GraphEditor (478)
+[2020.11.02-23.26.06:566][947]LogModuleManager: Shutting down and abandoning module StructViewer (476)
+[2020.11.02-23.26.06:566][947]LogModuleManager: Shutting down and abandoning module ClassViewer (474)
+[2020.11.02-23.26.06:566][947]LogModuleManager: Shutting down and abandoning module Toolbox (472)
+[2020.11.02-23.26.06:566][947]LogModuleManager: Shutting down and abandoning module ModuleUI (470)
+[2020.11.02-23.26.06:567][947]LogModuleManager: Shutting down and abandoning module MovieSceneTools (468)
+[2020.11.02-23.26.06:567][947]LogModuleManager: Shutting down and abandoning module OutputLog (466)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module GammaUI (464)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module Documentation (462)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module LiveCoding (460)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module LevelSequence (458)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (456)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module MovieScene (454)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (452)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module LauncherPlatform (450)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module AnalyticsET (448)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module PortalServices (446)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module PortalRpc (444)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module MessagingRpc (442)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module AIModule (440)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module GameplayDebugger (439)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module AITestSuite (437)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module NavigationSystem (435)
+[2020.11.02-23.26.06:568][947]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (432)
+[2020.11.02-23.26.06:571][947]LogModuleManager: Shutting down and abandoning module ProfilerService (430)
+[2020.11.02-23.26.06:577][947]LogModuleManager: Shutting down and abandoning module TaskGraph (428)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module ScreenshotTools (426)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module SteamVRController (424)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (422)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (420)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module OculusEditor (418)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module OculusInput (416)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (414)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module EditableMesh (412)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (410)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module CableComponent (408)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module AudioCapture (406)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (404)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (402)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module AppleImageUtils (400)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module AndroidPermission (398)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (396)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (394)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module ImgMedia (390)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (388)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (386)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (384)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module HTML5Networking (382)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (380)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (378)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module BackChannel (376)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (374)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module AutomationUtils (372)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module AlembicImporter (370)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module AlembicLibrary (369)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module GeometryCache (368)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (367)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module VariantManagerContent (362)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (360)
+[2020.11.02-23.26.06:578][947]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (358)
+[2020.11.02-23.26.06:579][947]LogModuleManager: Shutting down and abandoning module PluginBrowser (356)
+[2020.11.02-23.26.06:579][947]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (354)
+[2020.11.02-23.26.06:579][947]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (352)
+[2020.11.02-23.26.06:579][947]LogModuleManager: Shutting down and abandoning module CurveEditorTools (350)
+[2020.11.02-23.26.06:579][947]LogModuleManager: Shutting down and abandoning module CurveEditor (349)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (346)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module CryptoKeys (344)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (342)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (340)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module UObjectPlugin (338)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (336)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (334)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module GitSourceControl (332)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module SourceControl (331)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (328)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (326)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (324)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (322)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (320)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (318)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (316)
+[2020.11.02-23.26.06:580][947]LogModuleManager: Shutting down and abandoning module Paper2DEditor (314)
+[2020.11.02-23.26.06:581][947]LogModuleManager: Shutting down and abandoning module GhoulsAndGoodies (312)
+[2020.11.02-23.26.06:581][947]LogModuleManager: Shutting down and abandoning module SignificanceManager (310)
+[2020.11.02-23.26.06:581][947]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (308)
+[2020.11.02-23.26.06:581][947]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (306)
+[2020.11.02-23.26.06:581][947]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (302)
+[2020.11.02-23.26.06:581][947]LogModuleManager: Shutting down and abandoning module ActorSequence (300)
+[2020.11.02-23.26.06:581][947]LogModuleManager: Shutting down and abandoning module UdpMessaging (298)
+[2020.11.02-23.26.06:682][947]LogModuleManager: Shutting down and abandoning module TcpMessaging (296)
+[2020.11.02-23.26.06:782][947]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (294)
+[2020.11.02-23.26.06:782][947]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (292)
+[2020.11.02-23.26.06:782][947]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (290)
+[2020.11.02-23.26.06:782][947]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (288)
+[2020.11.02-23.26.06:782][947]LogModuleManager: Shutting down and abandoning module MagicLeapController (286)
+[2020.11.02-23.26.06:782][947]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.11.02-23.26.06:782][947]LogModuleManager: Shutting down and abandoning module MagicLeapAR (284)
+[2020.11.02-23.26.06:782][947]LogModuleManager: Shutting down and abandoning module AugmentedReality (283)
+[2020.11.02-23.26.06:782][947]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (280)
+[2020.11.02-23.26.06:784][947]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (278)
+[2020.11.02-23.26.06:784][947]LogModuleManager: Shutting down and abandoning module FacialAnimation (276)
+[2020.11.02-23.26.06:784][947]LogModuleManager: Shutting down and abandoning module DataValidation (274)
+[2020.11.02-23.26.06:785][947]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (272)
+[2020.11.02-23.26.06:786][947]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2020.11.02-23.26.06:786][947]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2020.11.02-23.26.06:786][947]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (268)
+[2020.11.02-23.26.06:786][947]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2020.11.02-23.26.06:786][947]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2020.11.02-23.26.06:787][947]LogModuleManager: Shutting down and abandoning module ContentBrowser (261)
+[2020.11.02-23.26.06:788][947]LogModuleManager: Shutting down and abandoning module TreeMap (259)
+[2020.11.02-23.26.06:788][947]LogModuleManager: Shutting down and abandoning module AnimationSharing (256)
+[2020.11.02-23.26.06:788][947]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
+[2020.11.02-23.26.06:788][947]LogModuleManager: Shutting down and abandoning module Paper2D (252)
+[2020.11.02-23.26.06:788][947]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (250)
+[2020.11.02-23.26.06:788][947]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (248)
+[2020.11.02-23.26.06:788][947]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (246)
+[2020.11.02-23.26.06:788][947]LogModuleManager: Shutting down and abandoning module PacketHandler (244)
+[2020.11.02-23.26.06:788][947]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (242)
+[2020.11.02-23.26.06:788][947]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (240)
+[2020.11.02-23.26.06:789][947]LogModuleManager: Shutting down and abandoning module MediaAssets (238)
+[2020.11.02-23.26.06:789][947]LogModuleManager: Shutting down and abandoning module Overlay (236)
+[2020.11.02-23.26.06:789][947]LogModuleManager: Shutting down and abandoning module OverlayEditor (235)
+[2020.11.02-23.26.06:789][947]LogModuleManager: Shutting down and abandoning module VREditor (232)
+[2020.11.02-23.26.06:789][947]LogModuleManager: Shutting down and abandoning module StringTableEditor (230)
+[2020.11.02-23.26.06:790][947]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (228)
+[2020.11.02-23.26.06:790][947]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (226)
+[2020.11.02-23.26.06:790][947]LogModuleManager: Shutting down and abandoning module FunctionalTesting (224)
+[2020.11.02-23.26.06:790][947]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (222)
+[2020.11.02-23.26.06:790][947]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (221)
+[2020.11.02-23.26.06:790][947]LogModuleManager: Shutting down and abandoning module UMG (218)
+[2020.11.02-23.26.06:790][947]LogModuleManager: Shutting down and abandoning module UMGEditor (217)
+[2020.11.02-23.26.06:790][947]LogModuleManager: Shutting down and abandoning module Sequencer (216)
+[2020.11.02-23.26.06:792][947]LogModuleManager: Shutting down and abandoning module MessageLog (213)
+[2020.11.02-23.26.06:792][947]LogModuleManager: Shutting down and abandoning module SlateReflector (208)
+[2020.11.02-23.26.06:792][947]LogModuleManager: Shutting down and abandoning module Slate (206)
+[2020.11.02-23.26.06:792][947]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (204)
+[2020.11.02-23.26.06:792][947]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module UnrealEd (200)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module Core (188)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module KismetCompiler (186)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module MeshUtilities (184)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (183)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (182)
+[2020.11.02-23.26.06:793][947]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (181)
+[2020.11.02-23.26.06:794][947]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (179)
+[2020.11.02-23.26.06:794][947]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (177)
+[2020.11.02-23.26.06:794][947]LogModuleManager: Shutting down and abandoning module MaterialBaking (173)
+[2020.11.02-23.26.06:795][947]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (168)
+[2020.11.02-23.26.06:795][947]LogModuleManager: Shutting down and abandoning module DerivedDataCache (166)
+[2020.11.02-23.26.06:796][947]LogDerivedDataCache: Shutdown
+[2020.11.02-23.26.06:796][947]LogModuleManager: Shutting down and abandoning module XGEController (164)
+[2020.11.02-23.26.06:796][947]LogXGEController: Cleaning working directory: C:/Users/s191246/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.02-23.26.06:796][947]LogModuleManager: Shutting down and abandoning module TargetPlatform (162)
+[2020.11.02-23.26.06:796][947]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (161)
+[2020.11.02-23.26.06:796][947]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (159)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (157)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (155)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (153)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (151)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (149)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (147)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (145)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (143)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module ImageWrapper (142)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (139)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (137)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (135)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (133)
+[2020.11.02-23.26.06:797][947]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (131)
+[2020.11.02-23.26.06:798][947]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (129)
+[2020.11.02-23.26.06:798][947]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (127)
+[2020.11.02-23.26.06:798][947]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.11.02-23.26.06:798][947]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (123)
+[2020.11.02-23.26.06:798][947]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (121)
+[2020.11.02-23.26.06:799][947]LogModuleManager: Shutting down and abandoning module Messaging (119)
+[2020.11.02-23.26.06:799][947]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (117)
+[2020.11.02-23.26.06:800][947]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (115)
+[2020.11.02-23.26.06:800][947]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (113)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (111)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (109)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (107)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (105)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (103)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (101)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (99)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (97)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (95)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module InputCore (92)
+[2020.11.02-23.26.06:805][947]LogModuleManager: Shutting down and abandoning module Settings (90)
+[2020.11.02-23.26.06:806][947]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2020.11.02-23.26.06:806][947]LogModuleManager: Shutting down and abandoning module PhysXCooking (86)
+[2020.11.02-23.26.06:806][947]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (84)
+[2020.11.02-23.26.06:806][947]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (83)
+[2020.11.02-23.26.06:806][947]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2020.11.02-23.26.06:806][947]LogHMD: Freeing OpenVRDLLHandle.
+[2020.11.02-23.26.06:806][947]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2020.11.02-23.26.06:806][947]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2020.11.02-23.26.06:806][947]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2020.11.02-23.26.06:806][947]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2020.11.02-23.26.06:806][947]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2020.11.02-23.26.06:807][947]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2020.11.02-23.26.06:807][947]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2020.11.02-23.26.06:814][947]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2020.11.02-23.26.06:814][947]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.11.02-23.26.06:814][947]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC6E66405-4B51-92D9-840D-66B4ED96AF83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=5a585ebf422f1d668f2fd2800f34e364%7C%7C6df50d38-ffa9-4cdb-ac55-23931b618e54&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.11.02-23.26.06:822][947]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2020.11.02-23.26.06:823][947]LogModuleManager: Shutting down and abandoning module WmfMedia (54)
+[2020.11.02-23.26.06:825][947]LogModuleManager: Shutting down and abandoning module Media (53)
+[2020.11.02-23.26.06:826][947]LogModuleManager: Shutting down and abandoning module MagicLeap (50)
+[2020.11.02-23.26.06:826][947]LogModuleManager: Shutting down and abandoning module DatasmithContent (48)
+[2020.11.02-23.26.06:826][947]LogModuleManager: Shutting down and abandoning module AISupportModule (46)
+[2020.11.02-23.26.06:826][947]LogModuleManager: Shutting down and abandoning module DesktopPlatform (44)
+[2020.11.02-23.26.06:826][947]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2020.11.02-23.26.06:826][947]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.11.02-23.26.06:826][947]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.11.02-23.26.06:827][947]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.11.02-23.26.06:827][947]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.11.02-23.26.06:827][947]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.11.02-23.26.06:827][947]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.11.02-23.26.06:827][947]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.11.02-23.26.06:827][947]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.11.02-23.26.06:828][947]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.11.02-23.26.06:829][947]LogD3D11RHI: Shutdown
+[2020.11.02-23.26.06:829][947]LogD3D11RHI: CleanupD3DDevice
+[2020.11.02-23.26.06:830][947]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.11.02-23.26.06:830][947]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.11.02-23.26.06:830][947]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.11.02-23.26.07:016][947]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.11.02-23.26.07:024][947]LogExit: Exiting.
+[2020.11.02-23.26.07:044][947]Log file closed, 11/03/20 10:26:07
