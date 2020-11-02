@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{E9E7CE17-7293-4C60-8D2A-6ED4EED11625}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{AC3134A7-DCD5-4A0B-829F-07942EAC7F62}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\CodeGenerator.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\GeneratedCodeVersion.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\IScriptGeneratorPluginInterface.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\NativeClassExporter.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\SimplifiedParsingClassInfo.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\UnderlyingEnumType.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderTool.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolGlobals.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolMain.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealTypeDefinitionInfo.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Private\Specifiers">
+      <UniqueIdentifier>{38BA6FAC-7BEF-40AC-B15C-EC1CD035AA18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def">
+      <Filter>Private\Specifiers</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.h">
+      <Filter>Private\Specifiers</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.def">
+      <Filter>Private\Specifiers</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.h">
+      <Filter>Private\Specifiers</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.def">
+      <Filter>Private\Specifiers</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.h">
+      <Filter>Private\Specifiers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\SpecifierArrays.cpp">
+      <Filter>Private\Specifiers</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.def">
+      <Filter>Private\Specifiers</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.h">
+      <Filter>Private\Specifiers</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.def">
+      <Filter>Private\Specifiers</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.h">
+      <Filter>Private\Specifiers</Filter>
+    </ClInclude>
+    <Filter Include="Public">
+      <UniqueIdentifier>{1DCCC79F-4985-4224-B6BA-83AAC7E43ED3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{AAC22A31-4A98-45AA-83BD-AB992C18EC8B}</UniqueIdentifier>
+    </Filter>
+    <Manifest Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest">
+      <Filter>Resources</Filter>
+    </Manifest>
+    <Filter Include="Resources\UHTDebugging">
+      <UniqueIdentifier>{E1A9CEE8-04B5-4E8F-8527-667A475B3394}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\StructOnlyHeader.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestDeprecatedObject.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterface.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterfaceObject.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObject.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObjectSerializers.h">
+      <Filter>Resources\UHTDebugging</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
