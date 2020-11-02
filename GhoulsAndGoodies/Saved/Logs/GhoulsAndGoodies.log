@@ -2022,3 +2022,168 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2020.11.02-03.31.48:393][784]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Anim_Smidge_Death_PhysicsAssetC17D50E84CE4E4499DBC45B4CB4FAEF0.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death_PhysicsAsset.uasset'
 [2020.11.02-03.31.50:104][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
 [2020.11.02-03.31.50:337][973]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenuF9EC71E04842B919DCC54A8ADC5CE3E5.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
+[2020.11.02-03.32.57:281][283]LogAssetEditorManager: Opening Asset editor for Material /Game/TopDownCPP/ASSETS/MATERIAL/M_Mound.M_Mound
+[2020.11.02-03.32.57:287][283]LogMaterial: Display: Missing cached shader map for material M_Mound, compiling. 
+[2020.11.02-03.32.57:636][283]LogMaterial: Display: Missing cached shader map for material M_Mound, compiling. 
+[2020.11.02-03.32.57:699][283]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2020.11.02-03.32.57:700][283]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2020.11.02-03.32.57:700][283]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.11.02-03.32.57:700][283]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2020.11.02-03.32.57:700][283]LogSlate: Took 0.009342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.02-03.32.58:133][296]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2020.11.02-03.32.58:139][296]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2020.11.02-03.32.58:140][296]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2020.11.02-03.32.58:140][296]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.11.02-03.32.58:352][306]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.11.02-03.32.58:434][311]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.11.02-03.32.58:481][314]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.11.02-03.32.58:499][315]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.11.02-03.32.58:619][323]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.11.02-03.32.58:899][335]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.11.02-03.32.59:093][344]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.11.02-03.32.59:180][348]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.11.02-03.32.59:266][352]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.11.02-03.32.59:466][361]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.11.02-03.32.59:543][364]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.11.02-03.32.59:859][376]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.11.02-03.32.59:859][376]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.11.02-03.33.00:317][399]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.11.02-03.33.00:317][399]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.11.02-03.33.00:317][399]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.02-03.33.00:317][399]MaterialEditorStats: Texture samplers: 3/16
+[2020.11.02-03.33.16:479][ 57]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/Textures/Mound_T_Mound_BaseColor.tga)
+[2020.11.02-03.33.16:501][ 57]LogTexture: Display: Building textures: Mound_T_Mound_BaseColor (AutoDXT, 1024X1024)
+[2020.11.02-03.33.18:482][261]LogMaterial: Display: Missing cached shader map for material M_Mound, compiling. 
+[2020.11.02-03.33.18:498][261]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.11.02-03.33.18:507][261]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2020.11.02-03.33.18:507][261]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2020.11.02-03.33.18:507][261]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.11.02-03.33.18:507][261]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2020.11.02-03.33.18:512][261]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.11.02-03.33.18:806][277]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2020.11.02-03.33.18:843][281]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2020.11.02-03.33.18:843][281]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.11.02-03.33.18:843][281]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2020.11.02-03.33.19:019][292]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2020.11.02-03.33.19:128][299]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2020.11.02-03.33.19:146][300]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.11.02-03.33.19:178][302]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.11.02-03.33.19:290][310]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2020.11.02-03.33.19:571][326]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.11.02-03.33.19:775][339]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.11.02-03.33.19:837][343]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.11.02-03.33.19:896][347]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.11.02-03.33.20:131][362]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.11.02-03.33.20:180][365]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.02-03.33.20:422][381]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.11.02-03.33.20:493][385]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.11.02-03.33.20:519][388]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.11.02-03.33.20:635][398]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.11.02-03.33.20:816][410]LogMaterial: Display: Missing cached shader map for material M_Mound, compiling. 
+[2020.11.02-03.33.20:836][410]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.11.02-03.33.20:845][410]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.11.02-03.33.20:909][413]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2020.11.02-03.33.20:936][414]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2020.11.02-03.33.21:036][420]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2020.11.02-03.33.21:203][430]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.11.02-03.33.21:250][433]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2020.11.02-03.33.21:250][433]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2020.11.02-03.33.21:337][439]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.11.02-03.33.21:527][451]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2020.11.02-03.33.21:555][453]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2020.11.02-03.33.21:567][454]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.11.02-03.33.21:620][458]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.11.02-03.33.21:686][464]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.11.02-03.33.21:817][473]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2020.11.02-03.33.22:034][487]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.11.02-03.33.22:160][495]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2020.11.02-03.33.22:227][499]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.11.02-03.33.22:444][514]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.11.02-03.33.22:545][520]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.11.02-03.33.22:665][528]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.11.02-03.33.22:832][539]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2020.11.02-03.33.22:885][543]LogMaterialEditor: Saving and Compiling material M_Mound
+[2020.11.02-03.33.24:701][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.11.02-03.33.24:701][543]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.11.02-03.33.24:701][543]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.11.02-03.33.24:701][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.11.02-03.33.24:701][543]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.11.02-03.33.24:719][543]LogMaterial: Display: Missing cached shader map for material M_Mound, compiling. 
+[2020.11.02-03.33.24:776][543]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2020.11.02-03.33.24:777][543]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2020.11.02-03.33.24:777][543]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.11.02-03.33.24:777][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2020.11.02-03.33.24:798][543]LogMaterial: Display: Missing cached shader map for material M_Mound, compiling. 
+[2020.11.02-03.33.24:824][543]LogMaterial: Display: Missing cached shader map for material M_Mound, compiling. 
+[2020.11.02-03.33.24:870][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.11.02-03.33.24:886][543]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 41
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 40
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 39
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 38
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 37
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 35
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2020.11.02-03.33.26:680][543]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2020.11.02-03.33.26:681][543]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2020.11.02-03.33.26:681][543]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2020.11.02-03.33.26:681][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2020.11.02-03.33.26:681][543]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2020.11.02-03.33.26:681][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 22
+[2020.11.02-03.33.26:681][543]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2020.11.02-03.33.26:681][543]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2020.11.02-03.33.26:683][543]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.11.02-03.33.26:683][543]TextureStreamingBuild: Display: Compiling optional shaders took 1.812 seconds.
+[2020.11.02-03.33.26:712][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.11.02-03.33.28:439][543]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.11.02-03.33.28:439][543]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.11.02-03.33.28:439][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.11.02-03.33.28:439][543]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.02-03.33.28:480][543]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/M_Mound56F53C494DE5A3BE6393D0AD8083F7E9.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/MATERIAL/M_Mound.uasset'
+[2020.11.02-03.33.28:503][543]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.11.02-03.33.28:503][543]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.11.02-03.33.28:503][543]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.11.02-03.33.28:503][543]MaterialEditorStats: Texture samplers: 4/16
+[2020.11.02-03.33.28:503][543]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.02-03.33.28:503][543]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.11.02-03.33.44:854][908]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Mound.fbx)
+[2020.11.02-03.33.44:865][908]LogFbx: Loading FBX Scene from ../../../../../../Users/s191212/Desktop/Creeps and Candy/FBX/Mound.fbx
+[2020.11.02-03.33.44:884][908]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.02-03.33.52:133][908]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.02-03.33.52:190][908]LogMaterial: Display: Missing cached shader map for material PM3D_Sphere3D1, compiling. 
+[2020.11.02-03.33.52:217][908]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2020.11.02-03.33.52:217][908]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2020.11.02-03.33.52:217][908]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.11.02-03.33.52:217][908]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.11.02-03.33.52:217][908]LogFbx: Display: Triangulating static mesh SM_Mound
+[2020.11.02-03.33.53:290][908]LogStaticMesh: Building static mesh Mound...
+[2020.11.02-03.33.53:676][908]LogStaticMesh: Built static mesh [0.39s] /Game/TopDownCPP/ASSETS/Mound.Mound
+[2020.11.02-03.33.56:068][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.11.02-03.33.57:041][ 44]LogSlate: Window 'Delete Assets' being destroyed
+[2020.11.02-03.33.57:218][ 44]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownCPP/ASSETS/PM3D_Sphere3D1.PM3D_Sphere3D1
+[2020.11.02-03.33.57:525][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.11.02-03.34.07:472][780]LogMetaData: Removing '/Game/TopDownCPP/ASSETS/SM_Mound.SM_Mound' ref from Metadata '/Game/TopDownCPP/ASSETS/Mound.PackageMetaData'
+[2020.11.02-03.34.07:508][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/ASSETS/SM_Mound" FILE="../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/SM_Mound.uasset" SILENT=true
+[2020.11.02-03.34.07:565][780]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/SM_MoundE37024D443284E5D2AAA3BA6E4431E02.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/SM_Mound.uasset'
+[2020.11.02-03.34.07:684][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.11.02-03.34.07:713][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.11.02-03.34.07:733][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.11.02-03.34.09:657][906]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/TopDownCPP/ASSETS/SM_Mound.SM_Mound
+[2020.11.02-03.34.09:908][906]LogRenderer: Reallocating scene render targets to support 1252x892 Format 10 NumSamples 1 (Frame:1).
+[2020.11.02-03.34.09:908][906]LogSlate: Took 0.006618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.02-03.34.12:824][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.02-03.34.22:757][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/ASSETS/SM_Mound" FILE="../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/SM_Mound.uasset" SILENT=true
+[2020.11.02-03.34.22:830][621]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/SM_Mound1A8C72144F224EA6F79BAF9B3A7227B8.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/SM_Mound.uasset'
+[2020.11.02-03.34.24:960][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.11.02-03.34.25:891][737]LogSlate: Window 'Save Content' being destroyed
+[2020.11.02-03.34.25:979][737]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/Mound_T_Mound_BaseColorBF104F47490E396F3279FB94FFA7FE78.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/ASSETS/TEXTURES/Mound_T_Mound_BaseColor.uasset'
+[2020.11.02-03.34.26:962][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.11.02-03.34.27:234][804]LogSavePackage: Moving '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Saved/MainMenu6277D0344716C1BA13F3C7A3116AE72D.tmp' to '../../../../../../Users/s191212/Desktop/GoodiesAndGhouls/GhoulsAndGoodies/Content/TopDownCPP/Maps/MainMenu.umap'
