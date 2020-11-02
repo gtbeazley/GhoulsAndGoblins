@@ -10,11 +10,11 @@
 #include "GameFramework/PlayerInput.h"
 #include "Engine/LocalPlayer.h"
 #include "Engine/World.h"
-
+/*
 DECLARE_CYCLE_STAT(TEXT("PC Tick Actor"), STAT_PC_TickActor, STATGROUP_PlayerController);
 DECLARE_CYCLE_STAT(TEXT("  PC Tick Input"), STAT_PC_TickInput, STATGROUP_PlayerController);
 DECLARE_CYCLE_STAT(TEXT("    PC Build Input Stack"), STAT_PC_BuildInputStack, STATGROUP_PlayerController);
-DECLARE_CYCLE_STAT(TEXT("    PC Process Input Stack"), STAT_PC_ProcessInputStack, STATGROUP_PlayerController);
+DECLARE_CYCLE_STAT(TEXT("    PC Process Input Stack"), STAT_PC_ProcessInputStack, STATGROUP_PlayerController);*/
 
 AGhoulsAndGoodiesPlayerController::AGhoulsAndGoodiesPlayerController()
 {
@@ -37,7 +37,7 @@ void AGhoulsAndGoodiesPlayerController::PlayerTick(float DeltaTime)
 
 void AGhoulsAndGoodiesPlayerController::CustomTickPlayerInput(float a_deltaTime, const bool a_gamePaused)
 {
-	SCOPE_CYCLE_COUNTER(STAT_PC_TickInput);
+	/*SCOPE_CYCLE_COUNTER(STAT_PC_TickInput);
 
 	check(PlayerInput);
 	PlayerInput->Tick(a_deltaTime);
@@ -76,7 +76,7 @@ void AGhoulsAndGoodiesPlayerController::CustomTickPlayerInput(float a_deltaTime,
 				const ETouchIndex::Type FingerIndex = ETouchIndex::Type(TouchIndexInt);
 
 				FHitResult HitResult;
-				const bool bHit = GetHitResultUnderFinger(FingerIndex, CurrentClickTraceChannel, true, /*out*/ HitResult);
+				const bool bHit = GetHitResultUnderFinger(FingerIndex, CurrentClickTraceChannel, true,  HitResult);
 
 				UPrimitiveComponent* PreviousComponent = CurrentTouchablePrimitives[TouchIndexInt].Get();
 				UPrimitiveComponent* CurrentComponent = (bHit ? HitResult.Component.Get() : NULL);
@@ -89,7 +89,7 @@ void AGhoulsAndGoodiesPlayerController::CustomTickPlayerInput(float a_deltaTime,
 	}
 
 	ProcessPlayerInput(a_deltaTime, a_gamePaused);
-	ProcessForceFeedbackAndHaptics(a_deltaTime, a_gamePaused);
+	ProcessForceFeedbackAndHaptics(a_deltaTime, a_gamePaused);*/
 }
 
 void AGhoulsAndGoodiesPlayerController::CustomPlayerTick(float a_deltaTime)

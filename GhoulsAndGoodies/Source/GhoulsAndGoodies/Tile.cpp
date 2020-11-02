@@ -16,6 +16,7 @@
 #include "GameFramework/GameModeBase.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
 
 // Sets default values
@@ -215,25 +216,21 @@ void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 		case DEF_Garry:
 			if(m_defType == DEF_None)
 			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), l_spawnRotation));
-			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
 		case DEF_Jimmy:			
 			if (m_defType == DEF_None) 
 			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), l_spawnRotation));
-			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
 		case DEF_Tiffany:
 			if (m_defType == DEF_None)
 				l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ATiffany>(GetActorLocation(), l_spawnRotation));
-			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
 		case DEF_Smidge:
 			if (m_defType == DEF_None)
 				l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<ASmidge>(GetActorLocation(), l_spawnRotation));
-			m_mesh->SetMaterial(0, m_highlightedMaterial);
 
 			break;
 		default:
@@ -242,8 +239,14 @@ void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 		if (l_spawnedObject)
 		{
 			l_spawnedObject->AttachToActor(this, *l_fATR);
+			l_spawnedObject->GetMesh()->SetAnimationMode(EAnimationMode::AnimationSingleNode);
+			l_spawnedObject->GetMesh()->SetRenderCustomDepth(true);
+			m_mesh->SetRenderCustomDepth(true);
+			//m_mesh->SetMaterial(0, m_highlightedMaterial);
 			m_fakeSpawn = l_spawnedObject;
 		}
+		else
+			m_mesh->SetMaterial(0, m_highlightedMaterial);
 	}
 }
 
@@ -258,6 +261,8 @@ void ATile::MeshOnEndHover(UPrimitiveComponent* a_primCom)
 	}
 	if (m_fakeSpawn)
 		m_fakeSpawn->Destroy();
+	m_mesh->SetRenderCustomDepth(false);
+
 }
 
 void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)
