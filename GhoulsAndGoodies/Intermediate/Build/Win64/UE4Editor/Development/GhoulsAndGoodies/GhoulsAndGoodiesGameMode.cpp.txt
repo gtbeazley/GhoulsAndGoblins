@@ -1,9 +1,28 @@
+<<<<<<< HEAD
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\Definitions.GhoulsAndGoodies.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodiesGameMode.h
+=======
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\Definitions.GhoulsAndGoodies.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodiesGameMode.h
+>>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+<<<<<<< HEAD
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\TileDefenceType.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\TileDefenceType.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGGameState.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GNGGameState.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GhoulsAndGoodiesGameMode.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\EnemySpawn.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\EnemyUnitType.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/UserDefinedEnum.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\UserDefinedEnum.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\EnemyUnitType.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\EnemySpawn.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\EnemyUnit.h
+=======
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\TileDefenceType.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\TileDefenceType.generated.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGGameState.h
@@ -16,10 +35,29 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\EnemyUnitType.generated.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\EnemySpawn.generated.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\EnemyUnit.h
+>>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+<<<<<<< HEAD
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\Public\EnemyState.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\EnemyState.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\EnemyUnit.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\Public\Base.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\DefendingUnit.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\DefendingUnit.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\Base.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\Garry.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\Garry.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodiesPlayerController.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GhoulsAndGoodiesPlayerController.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodiesCharacter.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GhoulsAndGoodiesCharacter.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGGameInstance.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GNGGameInstance.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPawn.h
+=======
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\Public\EnemyState.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\EnemyState.generated.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\EnemyUnit.generated.h
@@ -36,10 +74,24 @@ C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGGameInstance.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GNGGameInstance.generated.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPawn.h
+>>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraActor.generated.h
+<<<<<<< HEAD
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GNGPawn.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GNGPlayerController.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGSaveGame.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/SaveGame.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SaveGame.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GNGSaveGame.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\TileBoard.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\TileBoard.generated.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\Tile.h
+C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\Tile.generated.h
+=======
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GNGPawn.generated.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\GNGPlayerController.generated.h
@@ -51,6 +103,7 @@ C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\Ghoul
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\TileBoard.generated.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\Tile.h
 C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Inc\GhoulsAndGoodies\Tile.generated.h
+>>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h

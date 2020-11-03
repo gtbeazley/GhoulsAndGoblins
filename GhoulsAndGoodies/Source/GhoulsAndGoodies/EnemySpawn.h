@@ -8,6 +8,7 @@
 #include "EnemySpawn.generated.h"
 
 class USceneComponent;
+class USpotLightComponent;
 
 UCLASS()
 class GHOULSANDGOODIES_API AEnemySpawn : public AActor
@@ -21,8 +22,19 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	//Called when to spawn an enemy unit
+	//The type that is spawned will be determined by a_enemyType
 	UFUNCTION(BlueprintCallable)
 		void Spawn(TEnumAsByte<EEnemyUnitType> a_enemyType);
+
+	//Queues an enemy to be spawned
+	UFUNCTION(BlueprintCallable)
+		void QueueSpawn(TEnumAsByte<EEnemyUnitType> a_enemyType);
+
+	//Called when needed to change the lighting 
+	//a_turnOn determines whether to turn it on or not
+	UFUNCTION(BlueprintCallable)
+		void TurnLightOn(bool a_turnOn);
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -31,5 +43,27 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USceneComponent* m_spawn;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UStaticMeshComponent* m_pumpkinStaticMesh;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		USpotLightComponent* m_spotLight;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FLinearColor m_lightColor;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FLinearColor m_onColor = FLinearColor(1, 0, 0);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FLinearColor m_offColor = FLinearColor(0, 0, 0, 0);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_spawnTimer = 0.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_spawnInterval = 1.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray< TEnumAsByte<EEnemyUnitType>> m_spawnQueue;
 };

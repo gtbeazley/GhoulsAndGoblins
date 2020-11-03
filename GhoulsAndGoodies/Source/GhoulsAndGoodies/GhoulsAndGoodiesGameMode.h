@@ -46,6 +46,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void LoadGame();
+
+	UFUNCTION(BlueprintCallable)
+		void DetermineSpawn();
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString m_saveSlotName = "Goodies and Ghouls Save Data";
@@ -100,6 +103,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<ATile*> m_baseLockTiles;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<int> m_spawnList;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		ATile* m_baseTileLastHighlighted = nullptr;

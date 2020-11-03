@@ -16,6 +16,17 @@ class ATile;
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_20_RPC_WRAPPERS \
  \
+<<<<<<< HEAD
+	DECLARE_FUNCTION(execDetermineSpawn) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DetermineSpawn(); \
+		P_NATIVE_END; \
+	} \
+ \
+=======
+>>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 	DECLARE_FUNCTION(execLoadGame) \
 	{ \
 		P_FINISH; \
@@ -77,6 +88,17 @@ class ATile;
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+<<<<<<< HEAD
+	DECLARE_FUNCTION(execDetermineSpawn) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DetermineSpawn(); \
+		P_NATIVE_END; \
+	} \
+ \
+=======
+>>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 	DECLARE_FUNCTION(execLoadGame) \
 	{ \
 		P_FINISH; \
