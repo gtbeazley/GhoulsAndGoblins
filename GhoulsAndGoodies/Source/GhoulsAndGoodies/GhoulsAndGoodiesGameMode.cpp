@@ -273,7 +273,7 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 				{
 					for (ATile* l_tile : m_baseHighlightTiles)
 					{
-						l_tile->m_highlightedMaterial = m_canSelectMaterial;
+						//l_tile->m_highlightedMaterial = m_canSelectMaterial;
 						//l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_unhighlightedMaterial);
 						l_tile->GetStaticMeshComponent()->SetRenderCustomDepth(false);
 					}
@@ -285,7 +285,7 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 
 					for (ATile* l_tile : m_baseHighlightTiles)
 					{
-						l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
+						//l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
 						//l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_highlightedMaterial);
 						l_tile->GetStaticMeshComponent()->SetRenderCustomDepth(true);
 					}
@@ -305,7 +305,7 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_columns + 1] );
 					for (ATile* l_tile : m_baseHighlightTiles)
 					{
-						l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
+						//l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
 						//l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_highlightedMaterial);
 						l_tile->GetStaticMeshComponent()->SetRenderCustomDepth(true);
 					}
@@ -328,7 +328,7 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 					m_baseHighlightTiles.Add(m_mainTileBoard->m_tileList[l_iter + m_mainTileBoard->m_columns - 1] );
 					for (ATile* l_tile : m_baseHighlightTiles)
 					{
-						l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
+						//l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
 						
 						//l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_highlightedMaterial);
 						l_tile->GetStaticMeshComponent()->SetRenderCustomDepth(true);
@@ -350,7 +350,7 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 					m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[l_iter - m_mainTileBoard->m_columns - 1]);
 					for (ATile* l_tile : m_baseHighlightTiles)
 					{
-						l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
+						//l_tile->m_highlightedMaterial = m_baseUnselectedMaterial;
 						//l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_highlightedMaterial);
 
 						l_tile->GetStaticMeshComponent()->SetRenderCustomDepth(true);
@@ -471,7 +471,7 @@ void AGhoulsAndGoodiesGameMode::UpdateLockTiles()
 {
 	for (ATile* l_tile : m_baseLockTiles)
 	{
-		l_tile->m_unhighlightedMaterial = m_normalTileMaterial;
+		//l_tile->m_unhighlightedMaterial = m_normalTileMaterial;
 		//l_tile->GetStaticMeshComponent()->SetMaterial(0, m_normalTileMaterial);
 		l_tile->GetStaticMeshComponent()->SetRenderCustomDepth(false);
 	}
@@ -479,7 +479,7 @@ void AGhoulsAndGoodiesGameMode::UpdateLockTiles()
 	for (ATile* l_tile : m_baseLockTiles)
 	{
 		//l_tile->GetStaticMeshComponent()->SetMaterial(0, l_tile->m_unhighlightedMaterial);
-		l_tile->m_unhighlightedMaterial = m_baseSelectedMaterial;
+		//l_tile->m_unhighlightedMaterial = m_baseSelectedMaterial;
 		//l_tile->GetStaticMeshComponent()->SetMaterial(0, m_baseSelectedMaterial);
 		l_tile->GetStaticMeshComponent()->SetRenderCustomDepth(true);
 	}
