@@ -49,6 +49,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void DetermineSpawn();
+
+	UFUNCTION(BlueprintCallable)
+		void PlayPanelSlideAnimation();
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString m_saveSlotName = "Goodies and Ghouls Save Data";
@@ -156,6 +159,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		ABase* m_lockBase = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UWidgetAnimation* m_panelMoveAnimationRef;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UUserWidget* m_HUDWidgetRef;
 };
 
 

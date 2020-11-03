@@ -16,6 +16,14 @@ class ATile;
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_20_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execPlayPanelSlideAnimation) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlayPanelSlideAnimation(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDetermineSpawn) \
 	{ \
 		P_FINISH; \
@@ -84,6 +92,14 @@ class ATile;
 
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_GhoulsAndGoodiesGameMode_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPlayPanelSlideAnimation) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlayPanelSlideAnimation(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execDetermineSpawn) \
 	{ \

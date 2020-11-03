@@ -22,10 +22,13 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ATile_NoRegister();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_LoadGame();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_PlayPanelSlideAnimation();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SaveGame();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_UpdateLockTiles();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UWidgetAnimation_NoRegister();
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ABase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ATileBoard_NoRegister();
@@ -41,6 +44,7 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 			{ "HighlightTile", &AGhoulsAndGoodiesGameMode::execHighlightTile },
 			{ "LoadGame", &AGhoulsAndGoodiesGameMode::execLoadGame },
 			{ "NextWave", &AGhoulsAndGoodiesGameMode::execNextWave },
+			{ "PlayPanelSlideAnimation", &AGhoulsAndGoodiesGameMode::execPlayPanelSlideAnimation },
 			{ "SaveGame", &AGhoulsAndGoodiesGameMode::execSaveGame },
 			{ "SetTileInFocus", &AGhoulsAndGoodiesGameMode::execSetTileInFocus },
 			{ "SpawnBase", &AGhoulsAndGoodiesGameMode::execSpawnBase },
@@ -143,6 +147,28 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_PlayPanelSlideAnimation_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_PlayPanelSlideAnimation_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_PlayPanelSlideAnimation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGhoulsAndGoodiesGameMode, nullptr, "PlayPanelSlideAnimation", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_PlayPanelSlideAnimation_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_PlayPanelSlideAnimation_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_PlayPanelSlideAnimation()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_PlayPanelSlideAnimation_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -255,6 +281,14 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_HUDWidgetRef_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_HUDWidgetRef;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_panelMoveAnimationRef_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_panelMoveAnimationRef;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_lockBase_MetaData[];
 #endif
@@ -412,6 +446,7 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_HighlightTile, "HighlightTile" }, // 3713117304
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_LoadGame, "LoadGame" }, // 3416382165
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_NextWave, "NextWave" }, // 3909590007
+		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_PlayPanelSlideAnimation, "PlayPanelSlideAnimation" }, // 220100457
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SaveGame, "SaveGame" }, // 412109579
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SetTileInFocus, "SetTileInFocus" }, // 169358576
 		{ &Z_Construct_UFunction_AGhoulsAndGoodiesGameMode_SpawnBase, "SpawnBase" }, // 3013985194
@@ -425,6 +460,21 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_HUDWidgetRef_MetaData[] = {
+		{ "Category", "GhoulsAndGoodiesGameMode" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_HUDWidgetRef = { "m_HUDWidgetRef", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGhoulsAndGoodiesGameMode, m_HUDWidgetRef), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_HUDWidgetRef_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_HUDWidgetRef_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_panelMoveAnimationRef_MetaData[] = {
+		{ "Category", "GhoulsAndGoodiesGameMode" },
+		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_panelMoveAnimationRef = { "m_panelMoveAnimationRef", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGhoulsAndGoodiesGameMode, m_panelMoveAnimationRef), Z_Construct_UClass_UWidgetAnimation_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_panelMoveAnimationRef_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_panelMoveAnimationRef_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_lockBase_MetaData[] = {
 		{ "Category", "GhoulsAndGoodiesGameMode" },
@@ -675,6 +725,8 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_saveSlotName = { "m_saveSlotName", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGhoulsAndGoodiesGameMode, m_saveSlotName), METADATA_PARAMS(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_saveSlotName_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_saveSlotName_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_HUDWidgetRef,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_panelMoveAnimationRef,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_lockBase,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_fakeBase,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_baseUnselectedMaterial,
@@ -742,7 +794,7 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGhoulsAndGoodiesGameMode, 1881956803);
+	IMPLEMENT_CLASS(AGhoulsAndGoodiesGameMode, 1938965770);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AGhoulsAndGoodiesGameMode>()
 	{
 		return AGhoulsAndGoodiesGameMode::StaticClass();

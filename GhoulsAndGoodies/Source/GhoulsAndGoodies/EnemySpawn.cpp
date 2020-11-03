@@ -41,9 +41,10 @@ AEnemySpawn::AEnemySpawn()
 
 	m_spotLight = CreateDefaultSubobject<USpotLightComponent>("GlowLight");
 	m_spotLight->SetupAttachment(m_pumpkinStaticMesh);
-	m_spotLight->SetRelativeLocationAndRotation(FVector(0, 0, 30),FRotator(0, -90, 0));
+	m_spotLight->SetRelativeLocationAndRotation(FVector(0, -60, 30),FRotator(0, -90, 0));
 	m_spotLight->SetLightColor(m_lightColor);
 	m_spotLight->SetIntensity(100000.0);
+	m_spotLight->SetInnerConeAngle(m_spotLight->OuterConeAngle);
 
 
 }

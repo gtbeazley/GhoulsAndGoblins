@@ -15,7 +15,9 @@
 #include "GNGSaveGame.h"
 #include "TileBoard.h"
 #include "Tile.h"
+#include "UserWidget.h"
 
+#include "Animation/WidgetAnimation.h" 
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
@@ -137,6 +139,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 			{
 				m_candyCorn += 50;
 				m_gameState = STATE_Plan;
+				PlayPanelSlideAnimation();
 				DetermineSpawn();
 			} 
 		}
@@ -563,5 +566,14 @@ void AGhoulsAndGoodiesGameMode::DetermineSpawn()
 			m_spawnList.Add(UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1));
 			m_enemySpawns[m_spawnList.Last()]->TurnLightOn(true);
 		}
+	}
+}
+
+void AGhoulsAndGoodiesGameMode::PlayPanelSlideAnimation()
+{
+	if (m_panelMoveAnimationRef)
+	{ 
+		if (m_HUDWidgetRef)
+			m_HUDWidgetRef->PlayAnimation(m_panelMoveAnimationRef);
 	}
 }
