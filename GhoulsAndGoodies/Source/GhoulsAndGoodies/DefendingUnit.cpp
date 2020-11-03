@@ -112,3 +112,17 @@ void ADefendingUnit::PlaySpawnAnim()
 		m_mesh->PlayAnimation(m_spawnAnim, false);
 }
 
+void ADefendingUnit::PlayDespawnAnim()
+{
+	if (!m_despawnQueued)
+	{
+		if (m_despawnAnim)
+		{
+			m_despawnQueued = true;
+			GetMesh()->PlayAnimation(m_despawnAnim, false);
+		}
+		else
+			Despawn();
+	}
+}
+

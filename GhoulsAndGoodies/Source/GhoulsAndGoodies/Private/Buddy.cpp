@@ -19,7 +19,10 @@ ABuddy::ABuddy()
 	m_curHealth = m_fullHealth;
 	const ConstructorHelpers::FObjectFinder<USkeletalMesh> l_skeletalMesh(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Running.Anim_Buddy_Running'"));
 	const ConstructorHelpers::FObjectFinder<UClass> l_animBP(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Buddy_AnimBP.Buddy_AnimBP_C'"));
+	const ConstructorHelpers::FObjectFinder<UAnimSequence> l_despawnAnim(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Death_Anim.Anim_Buddy_Death_Anim'"));
 	
+	m_despawnAnim = l_despawnAnim.Object;
+
 	GetMesh()->SetSkeletalMesh(l_skeletalMesh.Object);
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 	GetMesh()->SetAnimClass(l_animBP.Object);

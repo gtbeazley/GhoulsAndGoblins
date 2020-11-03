@@ -16,6 +16,9 @@ AGrace::AGrace()
 {
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_skeletalMeshObject(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Grace/Anim_Grace_Floating.Anim_Grace_Floating'"));
 	static ConstructorHelpers::FObjectFinder<UClass> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Grace_AnimBP.Grace_AnimBP_C'"));
+	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_despawnAnim(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/Grace/Anim_Grace_Death_Anim.Anim_Grace_Death_Anim'"));
+
+	m_despawnAnim = l_despawnAnim.Object;
 
 	GetMesh()->SetSkeletalMesh(l_skeletalMeshObject.Object);
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);

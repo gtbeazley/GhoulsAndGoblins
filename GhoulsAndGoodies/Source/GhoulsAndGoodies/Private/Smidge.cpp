@@ -17,7 +17,9 @@ ASmidge::ASmidge()
 	m_curHealth = m_fullHealth;
 	const ConstructorHelpers::FObjectFinder<USkeletalMesh> l_skeletalMesh(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Smidge_Anim_Idle.Smidge_Anim_Idle'"));
 	static ConstructorHelpers::FObjectFinder<UClass> l_animBlueprint(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Smidge_AnimBP.Smidge_AnimBP_C'"));
+	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_despawnAnim(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/Smidge/Anim_Smidge_Death_Anim.Anim_Smidge_Death_Anim'"));
 
+	m_despawnAnim = l_despawnAnim.Object;
 
 	m_mesh->SetSkeletalMesh(l_skeletalMesh.Object);
 	m_mesh->SetAnimationMode(EAnimationMode::AnimationBlueprint);

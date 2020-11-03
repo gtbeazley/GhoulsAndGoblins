@@ -14,7 +14,9 @@ AMarvin::AMarvin()
 { 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_skeletalMeshObject(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Walk.Anim_Marvin_Walk'"));
 	const ConstructorHelpers::FObjectFinder<UClass> l_AnimClass(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Marvin_AnimBP.Marvin_AnimBP_C'"));
+	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_despawnAnim(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/Marvin/Anim_Marvin_Death_Anim.Anim_Marvin_Death_Anim'"));
 
+	m_despawnAnim = l_despawnAnim.Object;
 	GetMesh()->SetSkeletalMesh(l_skeletalMeshObject.Object);
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 	GetMesh()->SetAnimClass(l_AnimClass.Object);

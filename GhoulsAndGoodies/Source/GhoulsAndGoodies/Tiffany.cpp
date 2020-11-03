@@ -16,6 +16,9 @@ ATiffany::ATiffany()
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_meshAsset(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/TIFFANY/TIFFANY_IDLE.TIFFANY_IDLE'"));
 	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_spawnAnim(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/TIFFANY/Anim_Tiffany_Spawn_Anim.Anim_Tiffany_Spawn_Anim'"));
+	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_despawnAnim(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/TIFFANY/Anim_Tiffany_Death_Anim.Anim_Tiffany_Death_Anim'"));
+
+	m_despawnAnim = l_despawnAnim.Object;
 
 	m_spawnAnim = l_spawnAnim.Object;
 

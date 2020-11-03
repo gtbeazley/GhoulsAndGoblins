@@ -12,6 +12,7 @@
 #include "tile.h"
 #include "UserWidget.h"
 
+#include "Animation/AnimSequence.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SphereComponent.h"
 #include <Components/WidgetComponent.h> 
@@ -129,5 +130,20 @@ void AEnemyUnit::Attack()
 
 void AEnemyUnit::DealDamage()
 {
+}
+
+void AEnemyUnit::PlayDespawnAnimation()
+{
+	if (m_despawnQueued)
+	{
+		if (m_despawnAnim)
+		{
+			GetMesh()->PlayAnimation(m_despawnAnim, false);
+		}
+		else
+		{
+			Despawn();
+		}
+	}
 }
 

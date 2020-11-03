@@ -55,9 +55,18 @@ public:
 	UFUNCTION(BlueprintCallable)
 		virtual void DealDamage();
 
+	UFUNCTION(BlueprintCallable)
+		virtual void PlayDespawnAnimation();
+
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool m_despawnQueued = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimSequence* m_attackAnim;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimSequence* m_despawnAnim;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector4 m_lifeBarColour = FVector4(.5, .01, .5, 1);

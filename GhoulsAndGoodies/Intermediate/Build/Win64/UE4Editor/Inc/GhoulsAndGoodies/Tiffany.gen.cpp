@@ -322,7 +322,7 @@ void EmptyLinkFunctionForGeneratedCodeTiffany() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATiffany, 3794561410);
+	IMPLEMENT_CLASS(ATiffany, 2394048286);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ATiffany>()
 	{
 		return ATiffany::StaticClass();

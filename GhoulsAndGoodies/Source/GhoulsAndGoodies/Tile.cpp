@@ -291,7 +291,7 @@ void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)
 void ATile::DespawnUnit()
 {
 	m_defType = ETileDefenceType::DEF_None;
-	m_defenceUnit->Despawn();
+	m_defenceUnit->PlayDespawnAnim();
 	SetupTileMaterial();
 }
 

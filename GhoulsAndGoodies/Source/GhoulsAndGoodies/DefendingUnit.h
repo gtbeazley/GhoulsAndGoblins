@@ -41,6 +41,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		virtual void PlaySpawnAnim();
+
+	UFUNCTION(BlueprintCallable)
+		virtual void PlayDespawnAnim();
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -63,5 +66,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class UAnimSequence* m_spawnAnim;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimSequence* m_despawnAnim;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool m_despawnQueued = false;
+
 	ATile* m_owningTile;
+
+
 };
