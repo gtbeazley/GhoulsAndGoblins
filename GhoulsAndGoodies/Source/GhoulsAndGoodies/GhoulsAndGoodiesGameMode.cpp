@@ -121,6 +121,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 				m_wave--;
 				m_candyCorn += 40;
 				m_gameState = STATE_Base;
+				DetermineSpawn();
 				for (ATile* l_tile : m_baseLockTiles)
 				{
 					l_tile->SetDefenceUnitType(DEF_None);
@@ -136,6 +137,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 			{
 				m_candyCorn += 50;
 				m_gameState = STATE_Plan;
+				DetermineSpawn();
 			} 
 		}
 	}
@@ -162,6 +164,7 @@ void AGhoulsAndGoodiesGameMode::BeginPlay()
 	{
 		m_enemySpawns.AddUnique(Cast<AEnemySpawn>(l_outActor));
 	}
+	DetermineSpawn();
 }
 
 void AGhoulsAndGoodiesGameMode::NextWave()
@@ -198,9 +201,12 @@ void AGhoulsAndGoodiesGameMode::NextWave()
 		} 
 
 	}
-	for(int i = 0; i < ((m_enemyCount * m_wave) + 1) * 60; i++ )
-		if(i % 60 == 0)
-			m_enemySpawns[UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1)]->Spawn((TEnumAsByte<EEnemyUnitType>) UKismetMathLibrary::RandomIntegerInRange(0, 2));
+
+
+	for (int l_enemySpawn : m_spawnList)
+	{
+		m_enemySpawns[l_enemySpawn]->QueueSpawn((TEnumAsByte<EEnemyUnitType>)( UKismetMathLibrary::RandomIntegerInRange(0, 2) ));
+	}
 
 	m_gameState = EGNGGameState::STATE_Defend;
 }
@@ -538,5 +544,21 @@ void AGhoulsAndGoodiesGameMode::LoadGame()
 		m_wave = l_saveGame->m_wave;
 
 		l_gameInstance->m_loadGame = false;
+	}
+}
+
+void AGhoulsAndGoodiesGameMode::DetermineSpawn()
+{
+	for (int l_spawnerIndex : m_spawnList)
+	{
+		m_enemySpawns[l_spawnerIndex]->TurnLightOn(false);
+	}
+
+	m_spawnList.Empty();
+
+	for (int i = 0; i < ((m_enemyCount * (m_wave + 1)) + 1); i++)
+	{
+		m_spawnList.Add(UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1));
+		m_enemySpawns[m_spawnList.Last()]->TurnLightOn(true);
 	}
 }
