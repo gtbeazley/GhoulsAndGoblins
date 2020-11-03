@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_AEnemySpawn();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
-<<<<<<< HEAD
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemySpawn_QueueSpawn();
 	GHOULSANDGOODIES_API UEnum* Z_Construct_UEnum_GhoulsAndGoodies_EEnemyUnitType();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemySpawn_Spawn();
@@ -25,17 +24,12 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
 	ENGINE_API UClass* Z_Construct_UClass_USpotLightComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
-=======
-	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemySpawn_Spawn();
-	GHOULSANDGOODIES_API UEnum* Z_Construct_UEnum_GhoulsAndGoodies_EEnemyUnitType();
->>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 // End Cross Module References
 	void AEnemySpawn::StaticRegisterNativesAEnemySpawn()
 	{
 		UClass* Class = AEnemySpawn::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-<<<<<<< HEAD
 			{ "QueueSpawn", &AEnemySpawn::execQueueSpawn },
 			{ "Spawn", &AEnemySpawn::execSpawn },
 			{ "TurnLightOn", &AEnemySpawn::execTurnLightOn },
@@ -76,12 +70,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 		}
 		return ReturnFunction;
 	}
-=======
-			{ "Spawn", &AEnemySpawn::execSpawn },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
->>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 	struct Z_Construct_UFunction_AEnemySpawn_Spawn_Statics
 	{
 		struct EnemySpawn_eventSpawn_Parms
@@ -101,13 +89,9 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemySpawn_Spawn_Statics::Function_MetaDataParams[] = {
-<<<<<<< HEAD
 		{ "Comment", "//Called when to spawn an enemy unit\n//The type that is spawned will be determined by a_enemyType\n" },
 		{ "ModuleRelativePath", "EnemySpawn.h" },
 		{ "ToolTip", "Called when to spawn an enemy unit\nThe type that is spawned will be determined by a_enemyType" },
-=======
-		{ "ModuleRelativePath", "EnemySpawn.h" },
->>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemySpawn_Spawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemySpawn, nullptr, "Spawn", nullptr, nullptr, sizeof(EnemySpawn_eventSpawn_Parms), Z_Construct_UFunction_AEnemySpawn_Spawn_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AEnemySpawn_Spawn_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemySpawn_Spawn_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemySpawn_Spawn_Statics::Function_MetaDataParams)) };
@@ -120,7 +104,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 		}
 		return ReturnFunction;
 	}
-<<<<<<< HEAD
 	struct Z_Construct_UFunction_AEnemySpawn_TurnLightOn_Statics
 	{
 		struct EnemySpawn_eventTurnLightOn_Parms
@@ -160,8 +143,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 		}
 		return ReturnFunction;
 	}
-=======
->>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 	UClass* Z_Construct_UClass_AEnemySpawn_NoRegister()
 	{
 		return AEnemySpawn::StaticClass();
@@ -174,7 +155,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-<<<<<<< HEAD
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_spawnQueue_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_m_spawnQueue;
@@ -208,8 +188,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_pumpkinStaticMesh;
 #if WITH_METADATA
-=======
->>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_spawn_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_spawn;
@@ -222,13 +200,9 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GhoulsAndGoodies,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemySpawn_Statics::FuncInfo[] = {
-<<<<<<< HEAD
 		{ &Z_Construct_UFunction_AEnemySpawn_QueueSpawn, "QueueSpawn" }, // 2937354425
 		{ &Z_Construct_UFunction_AEnemySpawn_Spawn, "Spawn" }, // 1538119500
 		{ &Z_Construct_UFunction_AEnemySpawn_TurnLightOn, "TurnLightOn" }, // 3026469038
-=======
-		{ &Z_Construct_UFunction_AEnemySpawn_Spawn, "Spawn" }, // 2912581346
->>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawn_Statics::Class_MetaDataParams[] = {
@@ -237,7 +211,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 	};
 #endif
 #if WITH_METADATA
-<<<<<<< HEAD
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_spawnQueue_MetaData[] = {
 		{ "Category", "EnemySpawn" },
 		{ "ModuleRelativePath", "EnemySpawn.h" },
@@ -297,8 +270,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_pumpkinStaticMesh = { "m_pumpkinStaticMesh", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemySpawn, m_pumpkinStaticMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_pumpkinStaticMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_pumpkinStaticMesh_MetaData)) };
 #if WITH_METADATA
-=======
->>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_spawn_MetaData[] = {
 		{ "Category", "EnemySpawn" },
 		{ "EditInline", "true" },
@@ -307,7 +278,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_spawn = { "m_spawn", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemySpawn, m_spawn), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_spawn_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_spawn_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemySpawn_Statics::PropPointers[] = {
-<<<<<<< HEAD
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_spawnQueue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_spawnQueue_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_spawnInterval,
@@ -317,8 +287,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_lightColor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_spotLight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_pumpkinStaticMesh,
-=======
->>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawn_Statics::NewProp_m_spawn,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemySpawn_Statics::StaticCppClassTypeInfo = {
@@ -348,11 +316,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 		}
 		return OuterClass;
 	}
-<<<<<<< HEAD
 	IMPLEMENT_CLASS(AEnemySpawn, 1619640579);
-=======
-	IMPLEMENT_CLASS(AEnemySpawn, 1355769776);
->>>>>>> 2a301e53636fc4fec29cdfc6e430c3781bb3c352
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AEnemySpawn>()
 	{
 		return AEnemySpawn::StaticClass();

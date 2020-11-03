@@ -558,7 +558,10 @@ void AGhoulsAndGoodiesGameMode::DetermineSpawn()
 
 	for (int i = 0; i < ((m_enemyCount * (m_wave + 1)) + 1); i++)
 	{
-		m_spawnList.Add(UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1));
-		m_enemySpawns[m_spawnList.Last()]->TurnLightOn(true);
+		if (m_enemySpawns.Num() > 0)
+		{
+			m_spawnList.Add(UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1));
+			m_enemySpawns[m_spawnList.Last()]->TurnLightOn(true);
+		}
 	}
 }
