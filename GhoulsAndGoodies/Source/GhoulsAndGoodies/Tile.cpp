@@ -165,7 +165,7 @@ void ATile::SetupTileMaterial()
 		m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 		break;
 	}
-	m_mesh->SetMaterial(0, m_unhighlightedMaterial);
+	//m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 }
 
 void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
@@ -257,7 +257,7 @@ void ATile::MeshOnEndHover(UPrimitiveComponent* a_primCom)
 		if (m_gNGGameMode->m_fakeBase)
 			m_gNGGameMode->m_fakeBase->Destroy();
 		m_mesh->SetMaterial(0, m_unhighlightedMaterial);
-	m_mesh->SetRenderCustomDepth(false);
+		m_mesh->SetRenderCustomDepth(false);
 
 	}
 	if (m_fakeSpawn)
