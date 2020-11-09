@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeEsqueleto() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEsqueleto, 3251882350);
+	IMPLEMENT_CLASS(AEsqueleto, 3932679258);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AEsqueleto>()
 	{
 		return AEsqueleto::StaticClass();

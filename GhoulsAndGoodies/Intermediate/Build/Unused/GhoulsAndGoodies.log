@@ -1,13 +1,19 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls).
   Parsing headers for GhoulsAndGoodiesEditor
     Running UnrealHeaderTool "C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\GhoulsAndGoodies.uproject" "C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\GhoulsAndGoodiesEditor\Development\GhoulsAndGoodiesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GhoulsAndGoodiesEditor in 7.2665289 seconds
+  Reflection code generated for GhoulsAndGoodiesEditor in 5.4751425 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-GhoulsAndGoodies.lib
+  Building 7 actions with 8 processes...
+    [1/7] GhoulsAndGoodiesGameMode.cpp
+    [2/7] Module.GhoulsAndGoodies.gen.cpp
+    [3/7] EnemyUnit.cpp
+    [4/7] Module.GhoulsAndGoodies.cpp
+C:/Users/s181813/Documents/GitHub/GoodiesAndGhouls/GhoulsAndGoodies/Source/GhoulsAndGoodies/GNGPlayerController.cpp(47): warning C4458: declaration of 'm_camTraversal' hides class member
+    C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GNGPlayerController.h(32): note: see declaration of 'AGNGPlayerController::m_camTraversal'
+    [5/7] UE4Editor-GhoulsAndGoodies.lib
        Creating library C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.lib and object C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.exp
-    [2/3] UE4Editor-GhoulsAndGoodies.dll
+    [6/7] UE4Editor-GhoulsAndGoodies.dll
        Creating library C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.suppressed.lib and object C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.suppressed.exp
-    [3/3] GhoulsAndGoodiesEditor.target
-  Total time in Parallel executor: 1.00 seconds
-  Total execution time: 9.08 seconds
+    [7/7] GhoulsAndGoodiesEditor.target
+  Total time in Parallel executor: 12.18 seconds
+  Total execution time: 18.34 seconds

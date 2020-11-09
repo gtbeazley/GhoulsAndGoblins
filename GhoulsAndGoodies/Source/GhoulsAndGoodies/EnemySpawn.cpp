@@ -35,7 +35,7 @@ AEnemySpawn::AEnemySpawn()
 
 
 	m_pumpkinStaticMesh->SetStaticMesh(l_pumpkinMesh.Object); 
-	m_pumpkinStaticMesh->SetRelativeLocationAndRotation(FVector(-200, 0, -160), FRotator(0, 90, 0));
+	m_pumpkinStaticMesh->SetRelativeLocationAndRotation(FVector(200, 0, -160), FRotator(0, 90, 0));
 	m_pumpkinStaticMesh->SetRelativeScale3D(FVector(2.6));
 	m_pumpkinStaticMesh->SetCollisionResponseToAllChannels(ECR_Ignore);
 

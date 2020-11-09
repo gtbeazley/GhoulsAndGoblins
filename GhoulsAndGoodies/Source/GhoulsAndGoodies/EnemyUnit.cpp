@@ -52,7 +52,7 @@ AEnemyUnit::AEnemyUnit()
 	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
 	m_detectionSphere->SetCollisionProfileName("Detect");
 	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
-	//m_detectionSphere->bHiddenInGame = false;
+	m_detectionSphere->bHiddenInGame = false;
 
 	m_curHealth = m_fullHealth;
 
@@ -84,7 +84,7 @@ void AEnemyUnit::Tick(float DeltaTime)
 	UpdateLifeBar();
 	if (m_curHealth <= 0)
 	{
-		Despawn();
+		PlayDespawnAnimation();
 	}
 }
 
@@ -134,11 +134,12 @@ void AEnemyUnit::DealDamage()
 
 void AEnemyUnit::PlayDespawnAnimation()
 {
-	if (m_despawnQueued)
+	if (!m_despawnQueued)
 	{
 		if (m_despawnAnim)
 		{
 			GetMesh()->PlayAnimation(m_despawnAnim, false);
+			m_despawnQueued = true;
 		}
 		else
 		{

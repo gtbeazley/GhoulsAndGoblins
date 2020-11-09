@@ -314,6 +314,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_fullHealth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_fullHealth;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_targetList_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_m_targetList;
@@ -367,6 +371,13 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		{ "ModuleRelativePath", "EnemyUnit.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_fullHealth_MetaData[] = {
+		{ "Category", "EnemyUnit" },
+		{ "ModuleRelativePath", "EnemyUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_fullHealth = { "m_fullHealth", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_fullHealth), METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_fullHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_fullHealth_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetList_MetaData[] = {
 		{ "Category", "EnemyUnit" },
@@ -424,6 +435,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnQueued = { "m_despawnQueued", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AEnemyUnit), &Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnQueued_SetBit, METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnQueued_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnQueued_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyUnit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_fullHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetList,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetList_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_detectionSphere,
@@ -460,7 +472,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyUnit, 246281317);
+	IMPLEMENT_CLASS(AEnemyUnit, 2221301325);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AEnemyUnit>()
 	{
 		return AEnemyUnit::StaticClass();

@@ -393,8 +393,11 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 				l_middleLocation += DirTimesHalfLength;
 			}
 
+			if (m_lockBase)
+				m_lockBase->GetMesh()->SetRenderCustomDepth(false);
 			m_fakeBase = GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator(0, 0, 0));
 			m_fakeBase->GetMesh()->SetRenderCustomDepth(true);
+			m_fakeBase->GetMesh()->SetAnimationMode(EAnimationMode::AnimationSingleNode);
 
 		}
 
@@ -518,10 +521,11 @@ void AGhoulsAndGoodiesGameMode::UpdateLockTiles()
 		FVector DirTimesHalfLength = (l_locationOfLock3 - l_locationOfLock0) / 2;
 		l_middleLocation += DirTimesHalfLength;
 	}
-	if(m_lockBase)
-	m_lockBase->GetMesh()->SetRenderCustomDepth(false);
+	if(m_fakeBase)
+	m_fakeBase->GetMesh()->SetRenderCustomDepth(false);
 	m_lockBase = GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator(0, 0, 0));
 	m_lockBase->GetMesh()->SetRenderCustomDepth(true);
+	m_lockBase->GetMesh()->SetAnimationMode(EAnimationMode::AnimationSingleNode);
 
 }
 

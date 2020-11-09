@@ -69,7 +69,7 @@ public:
 		TEnumAsByte<ETileDefenceType> m_selectedUnitType = ETileDefenceType::DEF_None;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int m_enemyCount = 1;
+		int m_enemyCount = 3;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int m_enemiesDestroyed = 0;

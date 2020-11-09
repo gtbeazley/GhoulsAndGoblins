@@ -125,7 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeBuddy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABuddy, 3565389144);
+	IMPLEMENT_CLASS(ABuddy, 1971980293);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ABuddy>()
 	{
 		return ABuddy::StaticClass();

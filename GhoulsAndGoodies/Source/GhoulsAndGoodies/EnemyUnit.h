@@ -84,6 +84,7 @@ public:
 
 	TArray<ATile*> m_tilePath;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float m_fullHealth = 100.0f, m_curHealth = m_fullHealth;
 
 };

@@ -62,7 +62,7 @@ public:
 		float m_spawnTimer = 0.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_spawnInterval = 1.0f;
+		float m_spawnInterval = .5f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray< TEnumAsByte<EEnemyUnitType>> m_spawnQueue;
