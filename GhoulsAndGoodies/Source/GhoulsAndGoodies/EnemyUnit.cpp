@@ -144,6 +144,7 @@ void AEnemyUnit::PlayDespawnAnimation()
 		else
 		{
 			Despawn();
+			m_despawnQueued = true;
 		}
 	}
 }

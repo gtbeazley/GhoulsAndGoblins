@@ -52,7 +52,8 @@ void AMarvin::Tick(float a_deltaTime)
 					}
 
 					//Set target vector to enemy unit position
-					m_facingTarget = m_targetList[0]->GetActorLocation();
+					if (m_targetList.Num() > 0)
+						m_facingTarget = m_targetList[0]->GetActorLocation();
 
 					//Face the facing target
 					FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);

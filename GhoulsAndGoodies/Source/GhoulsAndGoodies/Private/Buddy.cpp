@@ -39,6 +39,7 @@ ABuddy::~ABuddy()
 
 void ABuddy::BeginPlay()
 {
+	Super::BeginPlay();
 }
 
 void ABuddy::Tick(float a_deltaTime)

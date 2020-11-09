@@ -35,7 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FFFCDFD2-194A-493D-9673-953770C38369}</ProjectGuid>
+    <ProjectGuid>{C8EC694E-147A-4DB7-8CBF-32550F130C75}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>UnrealHeaderTool</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

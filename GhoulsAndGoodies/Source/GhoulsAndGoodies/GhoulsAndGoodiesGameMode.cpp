@@ -145,7 +145,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 		}
 	}
 
-	UE_LOG(LogTemp, Log, TEXT("Current Game State: %d"), m_gameState);
+	UE_LOG(LogTemp, Log, TEXT("Enemies Destroyed: %d"), m_enemiesDestroyed);
 }
 
 void AGhoulsAndGoodiesGameMode::BeginPlay()
@@ -208,7 +208,7 @@ void AGhoulsAndGoodiesGameMode::NextWave()
 
 	for (int l_enemySpawn : m_spawnList)
 	{
-		m_enemySpawns[l_enemySpawn]->QueueSpawn((TEnumAsByte<EEnemyUnitType>)( UKismetMathLibrary::RandomIntegerInRange(0, 2) ));
+		m_enemySpawns[l_enemySpawn]->QueueSpawn((TEnumAsByte<EEnemyUnitType>)( UKismetMathLibrary::RandomIntegerInRange(0, 3) ));
 	}
 
 	m_gameState = EGNGGameState::STATE_Defend;

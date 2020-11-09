@@ -14,6 +14,7 @@
 
 AEsqueleto::AEsqueleto()
 { 
+	m_fullHealth = 10.0f;
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_skeletalMeshObject(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto.Anim_Esqueleto'"));
 	const ConstructorHelpers::FObjectFinder<UClass> l_AnimClass(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Esqueleto_AnimBP.Esqueleto_AnimBP_C'"));
 
@@ -38,7 +39,7 @@ void AEsqueleto::Attack()
 
 void AEsqueleto::Despawn()
 {
-	Attack();
+	DealDamage();
 }
 
 void AEsqueleto::DealDamage()

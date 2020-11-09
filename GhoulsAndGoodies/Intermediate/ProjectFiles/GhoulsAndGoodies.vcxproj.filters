@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GhoulsAndGoodies.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{43717279-B395-468B-9313-A410548FE0C3}</UniqueIdentifier>
+      <UniqueIdentifier>{126E36EA-41D6-454F-92AA-3C80E2C1466A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GhoulsAndGoodies.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\GhoulsAndGoodiesEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{E463CE2B-A173-4E80-97F4-7AB74F782466}</UniqueIdentifier>
+      <UniqueIdentifier>{C71583CD-BC73-4B59-8E0C-70951C82D197}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GhoulsAndGoodies">
-      <UniqueIdentifier>{D66F2DA4-86E3-428B-BDF9-5DFC5B947903}</UniqueIdentifier>
+      <UniqueIdentifier>{A93A9A66-FFDA-4BB7-9A94-8BE253C7C821}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\DefendingUnit.cpp">
       <Filter>Source\GhoulsAndGoodies</Filter>
@@ -180,7 +181,7 @@
       <Filter>Source\GhoulsAndGoodies</Filter>
     </ClInclude>
     <Filter Include="Source\GhoulsAndGoodies\Private">
-      <UniqueIdentifier>{2BAD3EBA-2580-4DD3-8AED-B66738CB5057}</UniqueIdentifier>
+      <UniqueIdentifier>{C5836CC6-7DCD-433E-ACDB-24A14F0DC8C9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Base.cpp">
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
@@ -194,6 +195,9 @@
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\DealDamage_AnimNotify.cpp">
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Despawn_AnimNotify.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\EnemyState.cpp">
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
     </ClCompile>
@@ -204,7 +208,7 @@
       <Filter>Source\GhoulsAndGoodies\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GhoulsAndGoodies\Public">
-      <UniqueIdentifier>{F4C6F605-A0AB-4738-9B6B-8AEAF49EBEE0}</UniqueIdentifier>
+      <UniqueIdentifier>{1A165EA5-5ED9-4CEE-8A72-6879F10BD327}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Base.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
@@ -218,6 +222,9 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\DealDamage_AnimNotify.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Despawn_AnimNotify.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\EnemyState.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
     </ClInclude>
@@ -227,15 +234,5 @@
     <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Spawned_AnimNotify.h">
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Despawn_AnimNotify.h">
-      <Filter>Source\GhoulsAndGoodies\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Despawn_AnimNotify.cpp">
-      <Filter>Source\GhoulsAndGoodies\Private</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
