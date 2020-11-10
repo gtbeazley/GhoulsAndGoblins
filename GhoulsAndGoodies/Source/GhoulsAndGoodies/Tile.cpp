@@ -214,13 +214,13 @@ void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 		case DEF_None:
 			break;
 		case DEF_Garry:
-			if(m_defType == DEF_None)
-			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), l_spawnRotation));
+			if (m_defType == DEF_None)
+				l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AGarry>(GetActorLocation(), l_spawnRotation));
 
 			break;
-		case DEF_Jimmy:			
-			if (m_defType == DEF_None) 
-			l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), l_spawnRotation));
+		case DEF_Jimmy:
+			if (m_defType == DEF_None)
+				l_spawnedObject = Cast<ADefendingUnit>(GetWorld()->SpawnActor<AJimmy>(GetActorLocation(), l_spawnRotation));
 
 			break;
 		case DEF_Tiffany:
@@ -241,12 +241,23 @@ void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 			l_spawnedObject->AttachToActor(this, *l_fATR);
 			l_spawnedObject->GetMesh()->SetAnimationMode(EAnimationMode::AnimationSingleNode);
 			l_spawnedObject->GetMesh()->SetRenderCustomDepth(true);
+			l_spawnedObject->GetMesh()->SetCustomDepthStencilValue(0);
+			m_mesh->SetCustomDepthStencilValue(0);
 			m_mesh->SetRenderCustomDepth(true);
 			//m_mesh->SetMaterial(0, m_highlightedMaterial);
 			m_fakeSpawn = l_spawnedObject;
 		}
-		if(m_defType != DEF_None)
-			m_mesh->SetMaterial(0, m_highlightedMaterial);
+		if (m_defType != DEF_None)
+		{
+			m_mesh->SetRenderCustomDepth(true);
+			m_mesh->SetCustomDepthStencilValue(2);
+			//m_mesh->SetMaterial(0, m_highlightedMaterial);
+		}
+		else
+		{
+
+			m_mesh->SetCustomDepthStencilValue(0);
+		}
 	}
 }
 

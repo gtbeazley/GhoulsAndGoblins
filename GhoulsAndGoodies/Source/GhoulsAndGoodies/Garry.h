@@ -44,7 +44,7 @@ public:
 		TArray<AEnemyUnit*> m_detectedEnemies;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackDamage = 20.0f;
+		float m_attackDamage = 40.0f;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float m_attackInterval = 3.0f;

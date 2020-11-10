@@ -11,7 +11,7 @@
 
 AJimmy::AJimmy()
 {
-	m_fullHealth = 300.0f;
+	m_fullHealth = 600;
 	m_curHealth = m_fullHealth;
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_staticMeshObject(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/JIMMY/JIMMY_ANIM_IDLE.JIMMY_ANIM_IDLE'"));

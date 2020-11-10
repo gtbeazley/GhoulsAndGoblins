@@ -41,13 +41,13 @@ public:
 		TArray<AEnemyUnit*> m_detectedEnemies;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackDamage = 10.0f;
+		float m_attackDamage = 5.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_attackTimer = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackInterval = .5;
+		float m_attackInterval = .1;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector m_facingTarget = FVector(0, 0, 0);

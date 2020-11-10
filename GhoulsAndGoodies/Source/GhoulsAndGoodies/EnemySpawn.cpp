@@ -38,6 +38,7 @@ AEnemySpawn::AEnemySpawn()
 	m_pumpkinStaticMesh->SetRelativeLocationAndRotation(FVector(200, 0, -160), FRotator(0, 90, 0));
 	m_pumpkinStaticMesh->SetRelativeScale3D(FVector(2.6));
 	m_pumpkinStaticMesh->SetCollisionResponseToAllChannels(ECR_Ignore);
+	m_pumpkinStaticMesh->SetCustomDepthStencilValue(4);
 
 	m_spotLight = CreateDefaultSubobject<USpotLightComponent>("GlowLight");
 	m_spotLight->SetupAttachment(m_pumpkinStaticMesh);
@@ -51,6 +52,7 @@ AEnemySpawn::AEnemySpawn()
 
 void AEnemySpawn::TurnLightOn(bool a_turnOn)
 {
+	m_pumpkinStaticMesh->SetRenderCustomDepth(a_turnOn);
 	if (a_turnOn)
 		m_lightColor = m_onColor;
 	else
@@ -64,6 +66,7 @@ void AEnemySpawn::BeginPlay()
 	 
 
 	m_pumpkinStaticMesh->SetCollisionResponseToAllChannels(ECR_Ignore);
+	m_pumpkinStaticMesh->SetCustomDepthStencilValue(2);
 }
 
 void AEnemySpawn::Spawn(TEnumAsByte<EEnemyUnitType> a_enemyType)

@@ -6,6 +6,7 @@
 #include "ConstructorHelpers.h"
 #include "EnemyUnit.h"
 
+#include "Components/CapsuleComponent.h"
 #include "Components/SphereComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/KismetMathLibrary.h"
@@ -75,7 +76,8 @@ void ASmidge::OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedCom
 {
 	if (Cast<AEnemyUnit>(a_otherActor))
 	{
-		m_detectedEnemies.AddUnique(Cast<AEnemyUnit>(a_otherActor));
+		if(Cast<UCapsuleComponent>(a_otherComp))
+			m_detectedEnemies.AddUnique(Cast<AEnemyUnit>(a_otherActor));
 
 	}
 }

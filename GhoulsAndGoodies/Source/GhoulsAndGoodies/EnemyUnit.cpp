@@ -13,6 +13,7 @@
 #include "UserWidget.h"
 
 #include "Animation/AnimSequence.h"
+#include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SphereComponent.h"
 #include <Components/WidgetComponent.h> 
@@ -25,12 +26,16 @@ AEnemyUnit::AEnemyUnit()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	GetCapsuleComponent()->SetCollisionResponseToChannel(ECC_Pawn, ECR_Ignore);
+
 	GetMesh()->SetSimulatePhysics(false);
 	GetMesh()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-	GetMesh()->SetCollisionObjectType(ECC_WorldDynamic);
 	GetMesh()->SetCollisionResponseToChannel(ECC_WorldStatic, ECR_Block);
+	GetMesh()->SetCollisionResponseToChannel(ECC_WorldDynamic, ECR_Ignore);
 	GetMesh()->SetRelativeLocation(FVector(0, 0, -88.0f));
 	GetMesh()->SetRelativeRotation(FRotator(0, -90.0f, 0));
+	GetMesh()->SetCustomDepthStencilValue(4);
+	GetMesh()->SetRenderCustomDepth(true);
 
 	m_lifeBarComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("Life Bar"));
 	m_lifeBarComponent->SetupAttachment(RootComponent);
@@ -52,7 +57,7 @@ AEnemyUnit::AEnemyUnit()
 	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
 	m_detectionSphere->SetCollisionProfileName("Detect");
 	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
-	m_detectionSphere->bHiddenInGame = false;
+	//m_detectionSphere->bHiddenInGame = false;
 
 	m_curHealth = m_fullHealth;
 
@@ -111,8 +116,13 @@ void AEnemyUnit::OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlapped
 {
 	if (Cast<ADefendingUnit>(a_otherActor))
 	{
-		m_targetList.AddUnique(Cast<ADefendingUnit>(a_otherActor));
-		GetController()->StopMovement();
+		if (Cast<USkeletalMeshComponent>(a_otherComp))
+		{
+			m_targetList.Add(Cast<ADefendingUnit>(a_otherActor));
+			GetController()->StopMovement();
+			Cast<AEnemyAIController>(GetController())->m_state == ENEMYSTATE_Attack;
+			Attack();
+		}
 	}
 }
 
@@ -120,7 +130,7 @@ void AEnemyUnit::OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedCo
 {
 	if (Cast<ADefendingUnit>(a_otherActor))
 	{
-		m_targetList.RemoveSingle(Cast<ADefendingUnit>(a_otherActor));
+		m_targetList.Remove(Cast<ADefendingUnit>(a_otherActor));
 	}
 }
 
@@ -138,13 +148,13 @@ void AEnemyUnit::PlayDespawnAnimation()
 	{
 		if (m_despawnAnim)
 		{
-			GetMesh()->PlayAnimation(m_despawnAnim, false);
 			m_despawnQueued = true;
+			GetMesh()->PlayAnimation(m_despawnAnim, false);
 		}
 		else
 		{
-			Despawn();
 			m_despawnQueued = true;
+			Despawn();
 		}
 	}
 }

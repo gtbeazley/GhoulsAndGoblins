@@ -74,6 +74,7 @@ void AGrace::Attack()
 {
 	if (m_targetList.Num() > 0)
 	{
+		if(!m_despawnQueued)
 		GetMesh()->PlayAnimation(m_attackAnim, false);
 	}
 }

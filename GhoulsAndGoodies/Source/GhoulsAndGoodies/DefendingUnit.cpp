@@ -9,6 +9,7 @@
 #include "UserWidget.h"
 
 #include "Animation/AnimSequence.h"
+#include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include"Components/SphereComponent.h"
 #include "Components/WidgetComponent.h"
@@ -21,15 +22,9 @@ ADefendingUnit::ADefendingUnit()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true; 
 	
-
-	
-	m_detectionSphere = CreateDefaultSubobject<USphereComponent>("Detection Sphere");
-	SetRootComponent(m_detectionSphere);
-	m_detectionSphere->InitSphereRadius(300);
-	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
-	m_detectionSphere->SetCollisionProfileName("Detect");
-	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
-	//m_detectionSphere->bHiddenInGame = false;
+	m_capsuleComponent = CreateDefaultSubobject<UCapsuleComponent>("DummyCapsule");
+	SetRootComponent(m_capsuleComponent);
+	m_capsuleComponent->SetCollisionObjectType(ECC_Pawn);
 
 	m_mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
 	m_mesh->SetGenerateOverlapEvents(true);
@@ -37,7 +32,18 @@ ADefendingUnit::ADefendingUnit()
 	GetMesh()->SetRelativeRotation(FRotator(0, 0, 0));
 	GetMesh()->SetRelativeLocation(FVector(0, 0, 0));
 	GetMesh()->SetWorldScale3D(FVector(2, 2, 2));
+	GetMesh()->SetCustomDepthStencilValue(0);
+	GetMesh()->SetCollisionResponseToChannel(ECC_Pawn, ECR_Block);
+	m_mesh->SetCollisionProfileName(TEXT("BlockAllDynamic"));
+	GetMesh()->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Overlap);
 	
+	m_detectionSphere = CreateDefaultSubobject<USphereComponent>("Detection Sphere");
+	m_detectionSphere->SetupAttachment(m_mesh);
+	m_detectionSphere->InitSphereRadius(500);
+	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
+	m_detectionSphere->SetCollisionProfileName("Detect");
+	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
+	//m_detectionSphere->bHiddenInGame = false;
 
 	m_curHealth = m_fullHealth;
 

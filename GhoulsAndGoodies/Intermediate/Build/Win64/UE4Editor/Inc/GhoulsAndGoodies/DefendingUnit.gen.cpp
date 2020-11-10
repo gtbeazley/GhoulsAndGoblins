@@ -24,6 +24,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ADefendingUnit_PlayDespawnAnim();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_ADefendingUnit_PlaySpawnAnim();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimSequence_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector4();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
@@ -201,6 +202,10 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_fullHealth;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_capsuleComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_capsuleComponent;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_mesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_mesh;
@@ -277,6 +282,14 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_fullHealth = { "m_fullHealth", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADefendingUnit, m_fullHealth), METADATA_PARAMS(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_fullHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_fullHealth_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_capsuleComponent_MetaData[] = {
+		{ "Category", "DefendingUnit" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "DefendingUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_capsuleComponent = { "m_capsuleComponent", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADefendingUnit, m_capsuleComponent), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_capsuleComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_capsuleComponent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_mesh_MetaData[] = {
 		{ "Category", "DefendingUnit" },
 		{ "EditInline", "true" },
@@ -313,6 +326,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_spawnAnim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_curHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_fullHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_capsuleComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_lifeBarComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_lifeBarColour,
@@ -345,7 +359,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADefendingUnit, 1649064213);
+	IMPLEMENT_CLASS(ADefendingUnit, 2817885369);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ADefendingUnit>()
 	{
 		return ADefendingUnit::StaticClass();

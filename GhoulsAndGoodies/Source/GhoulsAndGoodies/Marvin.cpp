@@ -79,6 +79,7 @@ void AMarvin::Attack()
 		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
 		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw - 90.0f, GetActorRotation().Roll));
 
+		if(!m_despawnQueued)
 		GetMesh()->PlayAnimation(m_attackAnim, false);
 	}
 

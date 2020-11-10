@@ -59,6 +59,9 @@ public:
 		USkeletalMeshComponent* m_mesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UCapsuleComponent* m_capsuleComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_fullHealth = 100.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_curHealth = 100.0f;

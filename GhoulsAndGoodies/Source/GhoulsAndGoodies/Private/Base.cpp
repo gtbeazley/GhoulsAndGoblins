@@ -28,11 +28,11 @@ ABase::ABase()
 	m_mesh->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 	m_mesh->SetAnimClass(l_animBlueprint.Object);
 	m_mesh->SetRelativeScale3D(FVector(.5, .5, .5));
-	m_mesh->SetCollisionProfileName(TEXT("BlockAllDynamic"));
+
+	m_detectionSphere->InitSphereRadius(0);
 
 
-
-	m_lifeBarComponent->SetRelativeLocation(FVector(0, 0, 600.0f));
+	m_lifeBarComponent->SetRelativeLocation(FVector(0, 0, 0));
 	//m_detectionSphere->bHiddenInGame = false;
 
 
