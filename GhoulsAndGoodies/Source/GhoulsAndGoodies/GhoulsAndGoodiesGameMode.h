@@ -124,38 +124,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		ATile* m_tileInFocus = nullptr;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_canNotSelectMaterial;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_canSelectMaterial;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_jimmyTileMaterial;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_garryTileMaterial;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_tiffanyTileMaterial;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_smidgeTileMaterial;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_baseTileMaterial;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UMaterial* m_normalTileMaterial;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_selectedTileMaterial;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_baseSelectedMaterial;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMaterial* m_baseUnselectedMaterial; 
+		UMaterial* m_fakeSpawnMaterial;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		ABase* m_fakeBase = nullptr;

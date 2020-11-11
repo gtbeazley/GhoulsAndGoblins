@@ -28,37 +28,7 @@ public:
 	//Called frame 
 	virtual void Tick(float a_deltaTime) override;
 
-	//Called when anything but detection enters the sphere
-	UFUNCTION(BlueprintCallable)
-		void OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp,
-			AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex,
-			bool a_fromSweep, const FHitResult& a_sweepResult);
-
-	//Called when anything but detection exits the sphere
-	UFUNCTION(BlueprintCallable)
-		void OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor,
-			UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex);
-
-	//Calls play animation in time intervals
-	UFUNCTION(BlueprintCallable)
-		void Attack();
-
 	//Called durin animation notify to deal damage to target enemy
 	virtual void DealDamage() override;
 public:
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TArray<AEnemyUnit*> m_detectedEnemies;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackDamage = 10.0f;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		float m_attackInterval = 3.0f;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		float m_attackTimer = 0.0f;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector m_facingTarget = FVector(0, 0, 0);
 };

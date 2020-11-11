@@ -26,8 +26,7 @@ ASmidge::ASmidge()
 	m_mesh->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 	m_mesh->SetAnimClass(l_animBlueprint.Object);
 
-	m_detectionSphere->OnComponentBeginOverlap.AddDynamic(this, &ASmidge::OnDetectionSphereOverlapBegin);
-	m_detectionSphere->OnComponentEndOverlap.AddDynamic(this, &ASmidge::OnDetectionSphereOverlapEnd);
+	m_detectionSphere->InitSphereRadius(300);
 }
 
 ASmidge::~ASmidge()
@@ -43,65 +42,8 @@ void ASmidge::BeginPlay()
 void ASmidge::Tick(float a_deltaTime)
 {
 	Super::Tick(a_deltaTime);
-	//Attack and timer logic
-	if (m_detectedEnemies.Num() > 0)
-	{
-		if (m_attackTimer > 0)
-		{
-			//Countdown the timer
-			m_attackTimer -= a_deltaTime;
-		}
-		else
-		{
-			//Restart timer and Attack
-			m_attackTimer = m_attackInterval;
-			Attack();
-		}
-
-		//Set target vector to enemy unit position
-		m_facingTarget = m_detectedEnemies[0]->GetActorLocation();
-
-		//Face the facing target
-		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
-		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw, GetActorRotation().Roll));
-	}
-	else
-	{
-		//If no enemy units are left reeset the timer
-		m_attackTimer = 0;
-	}
 }
-
-void ASmidge::OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex, bool a_fromSweep, const FHitResult& a_sweepResult)
-{
-	if (Cast<AEnemyUnit>(a_otherActor))
-	{
-		if(Cast<UCapsuleComponent>(a_otherComp))
-			m_detectedEnemies.AddUnique(Cast<AEnemyUnit>(a_otherActor));
-
-	}
-}
-
-void ASmidge::OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex)
-{
-	if (Cast<AEnemyUnit>(a_otherActor))
-	{
-		m_detectedEnemies.Remove(Cast<AEnemyUnit>(a_otherActor));
-	}
-}
-
-void ASmidge::Attack()
-{
-	if (m_detectedEnemies.Num() > 0)
-	{
-		//Face the facing target
-		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
-		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw + 90, GetActorRotation().Roll));
-	}
-	//Play attack animation
-	m_detectedEnemies[0]->m_curHealth -= m_attackDamage;
-}
-
+ 
 void ASmidge::DealDamage()
 {
 	m_detectedEnemies[0]->m_curHealth -= m_attackDamage;

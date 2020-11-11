@@ -52,7 +52,7 @@ void ATile::BeginPlay()
 	m_gNGGameMode = Cast<AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this));
 
 	m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-	m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
+	m_highlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 	m_mesh->SetMaterial(0, m_unhighlightedMaterial);
 }
 
@@ -71,24 +71,19 @@ void ATile::Tick(float DeltaTime)
 			switch (m_defType)
 			{
 			case ETileDefenceType::DEF_None: 
-				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
+				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial; 
 				break;
 			case ETileDefenceType::DEF_Base:
-				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial; 
 				break;
 			case ETileDefenceType::DEF_Tiffany:
-				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial; 
 				break;
 			case ETileDefenceType::DEF_Jimmy:
-				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial; 
 				break;
 			case ETileDefenceType::DEF_Garry:
-				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
+				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial; 
 				break;
 			}
 		}
@@ -144,27 +139,21 @@ void ATile::SetupTileMaterial()
 			{
 			case ETileDefenceType::DEF_None:
 				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canSelectMaterial;
 				break;
 			case ETileDefenceType::DEF_Base:
 				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 				break;
 			case ETileDefenceType::DEF_Tiffany:
 				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 				break;
 			case ETileDefenceType::DEF_Jimmy:
 				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 				break;
 			case ETileDefenceType::DEF_Garry:
 				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 				break;
 			case ETileDefenceType::DEF_Smidge:
 				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
-				m_highlightedMaterial = m_gNGGameMode->m_canNotSelectMaterial;
 				break;
 			}
 	}
@@ -250,6 +239,12 @@ void ATile::MeshOnBeginHover(UPrimitiveComponent* a_primCom)
 			m_mesh->SetRenderCustomDepth(true);
 			//m_mesh->SetMaterial(0, m_highlightedMaterial);
 			m_fakeSpawn = l_spawnedObject;
+			//m_fakeSpawn->GetMesh()->SetMaterial(0, m_gNGGameMode->m_fakeSpawnMaterial);
+			TArray<FName> l_materialNames = m_fakeSpawn->GetMesh()->GetMaterialSlotNames();
+			for (FName l_matName : l_materialNames)
+			{
+				m_fakeSpawn->GetMesh()->SetMaterialByName(l_matName, m_gNGGameMode->m_fakeSpawnMaterial);
+			}
 		}
 		if (m_defType != DEF_None)
 		{

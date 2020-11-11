@@ -44,6 +44,19 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		virtual void PlayDespawnAnim();
+
+	UFUNCTION(BlueprintCallable)
+		virtual void Attack();
+
+	UFUNCTION(BlueprintCallable)
+		void OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp,
+			AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex,
+			bool a_fromSweep, const FHitResult& a_sweepResult);
+
+	UFUNCTION(BlueprintCallable)
+		void OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor,
+			UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex);
+
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -74,6 +87,21 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_despawnQueued = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<class AEnemyUnit*> m_detectedEnemies;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_attackDamage = 40.0f;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float m_attackInterval = 3.0f;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float m_attackTimer = 0.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector m_facingTarget = FVector(0, 0, 0);
 
 	ATile* m_owningTile;
 

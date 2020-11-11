@@ -4,6 +4,7 @@
 #include "DefendingUnit.h"
 
 #include "ConstructorHelpers.h"
+#include "EnemyUnit.h"
 #include "Tile.h"
 #include "LifeBar_W.h"
 #include "UserWidget.h"
@@ -39,11 +40,13 @@ ADefendingUnit::ADefendingUnit()
 	
 	m_detectionSphere = CreateDefaultSubobject<USphereComponent>("Detection Sphere");
 	m_detectionSphere->SetupAttachment(m_mesh);
-	m_detectionSphere->InitSphereRadius(500);
+	m_detectionSphere->InitSphereRadius(0);
 	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
 	m_detectionSphere->SetCollisionProfileName("Detect");
 	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
-	//m_detectionSphere->bHiddenInGame = false;
+	m_detectionSphere->OnComponentBeginOverlap.AddDynamic(this, &ADefendingUnit::OnDetectionSphereOverlapBegin);
+	m_detectionSphere->OnComponentEndOverlap.AddDynamic(this, &ADefendingUnit::OnDetectionSphereOverlapEnd);
+	m_detectionSphere->bHiddenInGame = false;
 
 	m_curHealth = m_fullHealth;
 
@@ -75,14 +78,46 @@ void ADefendingUnit::BeginPlay()
 }
 
 // Called every frame
-void ADefendingUnit::Tick(float DeltaTime)
+void ADefendingUnit::Tick(float a_deltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(a_deltaTime);
+	if (m_attackDamage > 0)
+	{	
+		//Attack and timer logic
+		if (m_detectedEnemies.Num() > 0)
+		{
+			if (m_attackTimer > 0)
+			{
+				//Countdown the timer
+				m_attackTimer -= a_deltaTime;
+			}
+			else
+			{
+				//Restart timer and Attack
+				m_attackTimer = m_attackInterval;
+				Attack();
+			}
 
+			//Set target vector to enemy unit position
+			m_facingTarget = m_detectedEnemies[0]->GetActorLocation();
 
+			//Face the facing target
+			FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
+			GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw - 90, GetActorRotation().Roll));
+		}
+		else
+		{
+			//If no enemy units are left reeset the timer
+			m_attackTimer = 0;
+		}
+
+	}
+	
+	//Update the life bar component
 	if (IsValid(m_lifeBarComponent))
 	{
-		m_lifeBarComponent->SetWorldRotation(UKismetMathLibrary::FindLookAtRotation(m_lifeBarComponent->GetComponentLocation(),	UGameplayStatics::GetPlayerCameraManager(this, 0)->GetCameraLocation()));
+		FRotator l_lookAtRot = UKismetMathLibrary::FindLookAtRotation(m_lifeBarComponent->GetComponentLocation(), UGameplayStatics::GetPlayerCameraManager(this, 0)->GetCameraLocation());
+		m_lifeBarComponent->SetWorldRotation(FRotator(l_lookAtRot));
 		ULifeBar_W* l_lifeBar = Cast<ULifeBar_W>(m_lifeBarComponent->GetUserWidgetObject());
 		if (l_lifeBar)
 		{
@@ -92,6 +127,7 @@ void ADefendingUnit::Tick(float DeltaTime)
 		}
 	}
 
+	//Check to see if the defence unit is still alive
 	if (m_curHealth <= 0.0f)
 	{
 		m_owningTile->DespawnUnit();
@@ -129,6 +165,35 @@ void ADefendingUnit::PlayDespawnAnim()
 		}
 		else
 			Despawn();
+	}
+}
+
+void ADefendingUnit::Attack()
+{
+	if (m_detectedEnemies.Num() > 0)
+	{
+		//Face the facing target
+		FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
+		GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw, GetActorRotation().Roll));
+	}
+	//Play attack animation
+	m_detectedEnemies[0]->m_curHealth -= m_attackDamage;
+}
+
+void ADefendingUnit::OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex, bool a_fromSweep, const FHitResult& a_sweepResult)
+{
+	if (Cast<AEnemyUnit>(a_otherActor))
+	{
+		if (Cast<UCapsuleComponent>(a_otherComp))
+			m_detectedEnemies.AddUnique(Cast<AEnemyUnit>(a_otherActor)); 
+	}
+}
+
+void ADefendingUnit::OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex)
+{
+	if (Cast<AEnemyUnit>(a_otherActor))
+	{
+		m_detectedEnemies.Remove(Cast<AEnemyUnit>(a_otherActor));
 	}
 }
 

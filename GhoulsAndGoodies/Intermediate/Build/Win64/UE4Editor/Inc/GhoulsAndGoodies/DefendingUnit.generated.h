@@ -8,6 +8,9 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 class USkeletalMeshComponent;
 #ifdef GHOULSANDGOODIES_DefendingUnit_generated_h
 #error "DefendingUnit.generated.h already included, missing '#pragma once' in DefendingUnit.h"
@@ -15,6 +18,40 @@ class USkeletalMeshComponent;
 #define GHOULSANDGOODIES_DefendingUnit_generated_h
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_DefendingUnit_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_overlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_otherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_a_otherBodyIndex); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDetectionSphereOverlapEnd(Z_Param_a_overlappedComp,Z_Param_a_otherActor,Z_Param_a_otherComp,Z_Param_a_otherBodyIndex); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnDetectionSphereOverlapBegin) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_overlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_otherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_a_otherBodyIndex); \
+		P_GET_UBOOL(Z_Param_a_fromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_a_sweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDetectionSphereOverlapBegin(Z_Param_a_overlappedComp,Z_Param_a_otherActor,Z_Param_a_otherComp,Z_Param_a_otherBodyIndex,Z_Param_a_fromSweep,Z_Param_Out_a_sweepResult); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAttack) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Attack(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execPlayDespawnAnim) \
 	{ \
@@ -58,6 +95,40 @@ class USkeletalMeshComponent;
 
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_DefendingUnit_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_overlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_otherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_a_otherBodyIndex); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDetectionSphereOverlapEnd(Z_Param_a_overlappedComp,Z_Param_a_otherActor,Z_Param_a_otherComp,Z_Param_a_otherBodyIndex); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnDetectionSphereOverlapBegin) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_overlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_otherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_a_otherBodyIndex); \
+		P_GET_UBOOL(Z_Param_a_fromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_a_sweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDetectionSphereOverlapBegin(Z_Param_a_overlappedComp,Z_Param_a_otherActor,Z_Param_a_otherComp,Z_Param_a_otherBodyIndex,Z_Param_a_fromSweep,Z_Param_Out_a_sweepResult); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAttack) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Attack(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execPlayDespawnAnim) \
 	{ \

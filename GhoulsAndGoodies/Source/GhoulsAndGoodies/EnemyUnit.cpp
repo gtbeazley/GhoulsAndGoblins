@@ -57,7 +57,7 @@ AEnemyUnit::AEnemyUnit()
 	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
 	m_detectionSphere->SetCollisionProfileName("Detect");
 	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
-	m_detectionSphere->bHiddenInGame = false;
+	//m_detectionSphere->bHiddenInGame = false;
 
 	m_curHealth = m_fullHealth;
 
@@ -82,7 +82,7 @@ void AEnemyUnit::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (m_targetList.Num() <= 0)
 	{
-		
+
 		Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Move;
 	}
 	else
@@ -109,12 +109,18 @@ void AEnemyUnit::Tick(float DeltaTime)
 
 	m_targetToRemove.Empty();
 
-	for(ADefendingUnit* l_target : m_targetList)
-		if(Cast<ADefendingUnit>(l_target)->m_despawnQueued)
+	for (ADefendingUnit* l_target : m_targetList)
+		if (Cast<ADefendingUnit>(l_target)->m_despawnQueued)
 			m_targetToRemove.Add(Cast<ADefendingUnit>(l_target));
 
-	for(ADefendingUnit* l_targetToRemove : m_targetToRemove)
+	for (ADefendingUnit* l_targetToRemove : m_targetToRemove)
+	{
 		m_targetList.Remove(Cast<ADefendingUnit>(l_targetToRemove));
+		UE_LOG(LogTemp, Log, TEXT("Targets Left  : %d"), m_targetList.Num());
+		FString l_name = l_targetToRemove->GetName();
+		UE_LOG(LogTemp, Log, TEXT("Target Removed  : %s"), *l_name);
+
+	}
 }
 
 void AEnemyUnit::Despawn()
@@ -142,11 +148,11 @@ void AEnemyUnit::OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlapped
 	{
 		if (Cast<USkeletalMeshComponent>(a_otherComp) && !Cast<ADefendingUnit>(a_otherActor)->m_despawnQueued)
 		{
-			m_targetList.Add(Cast<ADefendingUnit>(a_otherActor));
+			m_targetList.AddUnique(Cast<ADefendingUnit>(a_otherActor));
 			GetController()->StopMovement();
 			Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Attack; 
 
-			UE_LOG(LogTemp, Log, TEXT("Defending unit entered"));
+			//UE_LOG(LogTemp, Log, TEXT("Defending unit entered"));
 		}
 	}
 }
@@ -173,6 +179,7 @@ void AEnemyUnit::PlayDespawnAnimation()
 {
 	if (!m_despawnQueued)
 	{
+		GetMesh()->SetCollisionResponseToChannel(ECC_Pawn, ECR_Ignore);
 		if (m_despawnAnim)
 		{
 			m_despawnQueued = true;

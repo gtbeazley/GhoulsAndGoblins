@@ -21,34 +21,7 @@ public:
 
 	virtual void Tick(float a_deltaTime) override;
 
-	UFUNCTION(BlueprintCallable)
-		void OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlappedComp,
-			AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex,
-			bool a_fromSweep, const FHitResult& a_sweepResult);
-
-	UFUNCTION(BlueprintCallable)
-		void OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor,
-			UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex);
-
-	UFUNCTION(BlueprintCallable)
-		void Attack();
-
-		virtual void DealDamage() override;
+	virtual void DealDamage() override;
 public: 
 
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TArray<AEnemyUnit*> m_detectedEnemies;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackDamage = 5.0f;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackTimer = 0;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackInterval = .1;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector m_facingTarget = FVector(0, 0, 0);
 };

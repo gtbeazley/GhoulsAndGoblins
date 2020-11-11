@@ -33,40 +33,13 @@ AGhoulsAndGoodiesGameMode::AGhoulsAndGoodiesGameMode()
 
 	PrimaryActorTick.bCanEverTick = true;
 
-	m_mainTileBoard = Cast<ATileBoard>(UGameplayStatics::GetActorOfClass(this, ATileBoard::StaticClass()));
-
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_canNotSelectMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Red.Red'"));
-	m_canNotSelectMaterial = l_canNotSelectMaterial.Object;
-
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_canSelectMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Green.Green'"));
-	m_canSelectMaterial = l_canSelectMaterial.Object;
-
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_jimmyTileMaterial(TEXT("Material'/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.M_Tech_Hex_Tile_Pulse'"));
-	m_jimmyTileMaterial = l_jimmyTileMaterial.Object;
-
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_garryTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/DarkPurple.DarkPurple'"));
-	m_garryTileMaterial = l_garryTileMaterial.Object;
-
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_tifannyTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Yellow.Yellow'"));
-	m_tiffanyTileMaterial = l_tifannyTileMaterial.Object;
-
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_smidgeTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Blue.Blue'"));
-	m_smidgeTileMaterial = l_smidgeTileMaterial.Object;
-
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_baseTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Purple.Purple'"));
-	m_baseTileMaterial = l_baseTileMaterial.Object;
+	m_mainTileBoard = Cast<ATileBoard>(UGameplayStatics::GetActorOfClass(this, ATileBoard::StaticClass())); 
 
 	static ConstructorHelpers::FObjectFinder<UMaterial> l_normalTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/M_ground.M_ground'"));
 	m_normalTileMaterial = l_normalTileMaterial.Object;
 
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_selectedTileMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Blue.Blue'"));
-	m_selectedTileMaterial = l_selectedTileMaterial.Object;
-
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_baseSelectedMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/Brown.Brown'"));
-	m_baseSelectedMaterial = l_baseSelectedMaterial.Object; 
-
-	static ConstructorHelpers::FObjectFinder<UMaterial> l_baseUnselectedMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/LightBrown.LightBrown'"));
-	m_baseUnselectedMaterial = l_baseUnselectedMaterial.Object;
+	static ConstructorHelpers::FObjectFinder<UMaterial> l_fakeSpawnMaterial(TEXT("Material'/Game/TopDownCPP/ASSETS/MATERIAL/BasicMaterials/FakeSpawn.FakeSpawn'"));
+	m_fakeSpawnMaterial = l_fakeSpawnMaterial.Object;
 }
 
 void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
@@ -230,7 +203,7 @@ void AGhoulsAndGoodiesGameMode::NextWave()
 	{
 		for (int l_enemySpawn : m_spawnList)
 		{
-			m_enemySpawns[l_enemySpawn]->QueueSpawn((TEnumAsByte<EEnemyUnitType>)( UKismetMathLibrary::RandomIntegerInRange(0, 3) ));
+			m_enemySpawns[l_enemySpawn]->QueueSpawn(ATT_Marvin);//(TEnumAsByte<EEnemyUnitType>)( UKismetMathLibrary::RandomIntegerInRange(0, 3) ));
 		}
 
 	}
@@ -441,7 +414,7 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 			m_fakeBase->GetMesh()->SetRenderCustomDepth(true);
 			m_fakeBase->GetMesh()->SetAnimationMode(EAnimationMode::AnimationSingleNode);
 			m_fakeBase->GetMesh()->SetCustomDepthStencilValue(3);
-
+			m_fakeBase->GetMesh()->SetMaterial(0, m_fakeSpawnMaterial);
 		}
 
 		m_baseLastTileIndex = l_iter;
@@ -570,6 +543,7 @@ void AGhoulsAndGoodiesGameMode::UpdateLockTiles()
 	m_lockBase->GetMesh()->SetRenderCustomDepth(true);
 	m_lockBase->GetMesh()->SetAnimationMode(EAnimationMode::AnimationSingleNode);
 	m_lockBase->GetMesh()->SetCustomDepthStencilValue(3);
+	m_lockBase->GetMesh()->SetMaterial(0, m_fakeSpawnMaterial);
 
 }
 
@@ -608,8 +582,8 @@ void AGhoulsAndGoodiesGameMode::DetermineSpawn()
 	m_enemySpawnsAllowedToSpawnFrom.Empty();
 	for (int i = 0; i < m_wave + 1; i++)
 	{
-		
-		m_enemySpawnsAllowedToSpawnFrom.Add(UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1));
+		int l_chosenSpawn = UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1);
+		m_enemySpawnsAllowedToSpawnFrom.Add(l_chosenSpawn);
 	}
 
 
@@ -619,7 +593,7 @@ void AGhoulsAndGoodiesGameMode::DetermineSpawn()
 	{
 		if (m_enemySpawns.Num() > 0)
 		{
-			m_spawnList.Add(UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawnsAllowedToSpawnFrom.Num() - 1));
+			m_spawnList.Add(m_enemySpawnsAllowedToSpawnFrom[UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawnsAllowedToSpawnFrom.Num() - 1)]);
 			m_enemySpawns[m_spawnList.Last()]->TurnLightOn(true);
 		}
 	}

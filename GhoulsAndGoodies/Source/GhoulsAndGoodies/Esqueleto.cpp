@@ -5,16 +5,19 @@
 
 #include"ConstructorHelpers.h"
 #include "DefendingUnit.h"
+#include "Jimmy.h"
 #include "GhoulsAndGoodiesGameMode.h"
 
 #include "Animation/AnimBlueprint.h"
 #include "Animation/AnimSequence.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
+//#include "Kismet/KismetSystemLibrary.h"
 
 AEsqueleto::AEsqueleto()
 { 
 	m_fullHealth = 10.0f;
+	m_attackDamage = 200.0f;
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_skeletalMeshObject(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/Esqueleto/Anim_Esqueleto.Anim_Esqueleto'"));
 	const ConstructorHelpers::FObjectFinder<UClass> l_AnimClass(TEXT("AnimBlueprint'/Game/TopDownCPP/Blueprints/Esqueleto_AnimBP.Esqueleto_AnimBP_C'"));
 
@@ -45,7 +48,11 @@ void AEsqueleto::Tick(float a_deltaTime)
 void AEsqueleto::Attack()
 {
 	//Play animation
-	GetMesh()->PlayAnimation(m_attackAnim, false);
+	if (!m_despawnQueued)
+	{
+		m_despawnQueued = true;
+		GetMesh()->PlayAnimation(m_attackAnim, false);
+	}
 	 
 }
 
@@ -56,10 +63,30 @@ void AEsqueleto::Despawn()
 
 void AEsqueleto::DealDamage()
 { 
-	for (ADefendingUnit* l_target : m_targetList)
-	{
+	TArray<TEnumAsByte<EObjectTypeQuery>> l_traceObjectTypes; 
+	l_traceObjectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_Pawn));
 
-		l_target->m_curHealth -= m_attackDamage;
+	TArray<AActor*> l_ignoreActors; 
+	UGameplayStatics::GetAllActorsOfClass(this, AEnemyUnit::StaticClass(), l_ignoreActors);
+
+	TArray<AActor*> l_outActors;
+
+	UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), 600, l_traceObjectTypes, ADefendingUnit::StaticClass(), l_ignoreActors, l_outActors);
+
+
+	for (AActor* l_outActor : l_outActors)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Name: %s"), *l_outActor->GetName());
+		ADefendingUnit* l_defUnit = Cast<ADefendingUnit>(l_outActor);
+
+		if (l_defUnit)
+		{
+			if (Cast<AJimmy>(l_outActor))
+				l_defUnit->m_curHealth -= m_attackDamage * 2;
+			else
+				l_defUnit->m_curHealth -= m_attackDamage;
+		}
+		
 	}
 	Cast<AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this))->m_enemiesDestroyed++;
 	Destroy(true, true);
