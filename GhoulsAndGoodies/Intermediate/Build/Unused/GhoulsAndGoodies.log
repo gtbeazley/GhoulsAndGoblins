@@ -1,13 +1,26 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls).
   Parsing headers for GhoulsAndGoodiesEditor
     Running UnrealHeaderTool "C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\GhoulsAndGoodies.uproject" "C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\GhoulsAndGoodiesEditor\Development\GhoulsAndGoodiesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GhoulsAndGoodiesEditor in 5.326599 seconds
+  Reflection code generated for GhoulsAndGoodiesEditor in 5.404341 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-GhoulsAndGoodies.lib
+  Building 16 actions with 8 processes...
+    [1/16] GhoulsAndGoodies.init.gen.cpp
+    [2/16] Buddy.gen.cpp
+    [3/16] EnemyUnit.gen.cpp
+    [4/16] Marvin.gen.cpp
+    [5/16] Esqueleto.gen.cpp
+    [6/16] Grace.gen.cpp
+    [7/16] Marvin.cpp
+    [8/16] Esqueleto.cpp
+    [9/16] Grace.cpp
+    [10/16] Buddy.cpp
+    [11/16] GhoulsAndGoodiesGameMode.cpp
+    [12/16] EnemyUnit.cpp
+    [13/16] Module.GhoulsAndGoodies.cpp
+    [14/16] UE4Editor-GhoulsAndGoodies.lib
        Creating library C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.lib and object C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.exp
-    [2/3] UE4Editor-GhoulsAndGoodies.dll
+    [15/16] UE4Editor-GhoulsAndGoodies.dll
        Creating library C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.suppressed.lib and object C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.suppressed.exp
-    [3/3] GhoulsAndGoodiesEditor.target
-  Total time in Parallel executor: 0.87 seconds
-  Total execution time: 6.83 seconds
+    [16/16] GhoulsAndGoodiesEditor.target
+  Total time in Parallel executor: 11.93 seconds
+  Total execution time: 17.99 seconds

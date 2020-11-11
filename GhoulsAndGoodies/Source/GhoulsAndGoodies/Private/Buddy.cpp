@@ -25,12 +25,7 @@ ABuddy::ABuddy()
 
 	GetMesh()->SetSkeletalMesh(l_skeletalMesh.Object);
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	GetMesh()->SetAnimClass(l_animBP.Object);
-
-	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_animFinder(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/Buddy/Anim_Buddy_Attacking_Anim.Anim_Buddy_Attacking_Anim'"));
-	m_attackAnim = l_animFinder.Object;
-
-	
+	GetMesh()->SetAnimClass(l_animBP.Object); 
 }
 
 ABuddy::~ABuddy()
@@ -40,47 +35,13 @@ ABuddy::~ABuddy()
 void ABuddy::BeginPlay()
 {
 	Super::BeginPlay();
+	m_attackSpeed = 2;
 }
 
 void ABuddy::Tick(float a_deltaTime)
 {
 	Super::Tick(a_deltaTime);
-	if (Cast<AEnemyAIController>(GetController()))
-		if (Cast<AEnemyAIController>(GetController())->m_state == ENEMYSTATE_Attack)
-		{//Attack and timer logic
-			if (m_targetList.Num() > 0)
-			{
-				//Set target vector to enemy unit position
-				m_facingTarget = m_targetList[0]->GetActorLocation();
-
-				//Face the facing target
-				FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
-				GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw - 90, GetActorRotation().Roll));
-				if (m_attackTimer > 0)
-				{
-					//Countdown the timer
-					m_attackTimer -= a_deltaTime;
-				}
-				else
-				{
-					//Restart timer and Attack
-					m_attackTimer = m_attackInterval;
-					Attack();
-				}
-
-			}
-			else
-			{
-				//If no enemy units are left reset the timer
-				m_attackTimer = 0;
-			}
-		}
-}
-
-void ABuddy::Attack()
-{
-	if(!m_despawnQueued)
-	GetMesh()->PlayAnimation(m_attackAnim, false);
+	 
 }
 
 void ABuddy::DealDamage()

@@ -369,6 +369,11 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_m_baseHighlightTiles;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_baseHighlightTiles_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_enemySpawnsAllowedToSpawnFrom_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_m_enemySpawnsAllowedToSpawnFrom;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_m_enemySpawnsAllowedToSpawnFrom_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_enemySpawns_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_m_enemySpawns;
@@ -612,6 +617,14 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_baseHighlightTiles = { "m_baseHighlightTiles", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGhoulsAndGoodiesGameMode, m_baseHighlightTiles), METADATA_PARAMS(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_baseHighlightTiles_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_baseHighlightTiles_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_baseHighlightTiles_Inner = { "m_baseHighlightTiles", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ATile_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_enemySpawnsAllowedToSpawnFrom_MetaData[] = {
+		{ "Category", "GhoulsAndGoodiesGameMode" },
+		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_enemySpawnsAllowedToSpawnFrom = { "m_enemySpawnsAllowedToSpawnFrom", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGhoulsAndGoodiesGameMode, m_enemySpawnsAllowedToSpawnFrom), METADATA_PARAMS(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_enemySpawnsAllowedToSpawnFrom_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_enemySpawnsAllowedToSpawnFrom_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_enemySpawnsAllowedToSpawnFrom_Inner = { "m_enemySpawnsAllowedToSpawnFrom", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_enemySpawns_MetaData[] = {
 		{ "Category", "GhoulsAndGoodiesGameMode" },
 		{ "ModuleRelativePath", "GhoulsAndGoodiesGameMode.h" },
@@ -749,6 +762,8 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_baseLockTiles_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_baseHighlightTiles,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_baseHighlightTiles_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_enemySpawnsAllowedToSpawnFrom,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_enemySpawnsAllowedToSpawnFrom_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_enemySpawns,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_enemySpawns_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGhoulsAndGoodiesGameMode_Statics::NewProp_m_candyCorn,
@@ -794,7 +809,7 @@ void EmptyLinkFunctionForGeneratedCodeGhoulsAndGoodiesGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGhoulsAndGoodiesGameMode, 1938965770);
+	IMPLEMENT_CLASS(AGhoulsAndGoodiesGameMode, 631218849);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AGhoulsAndGoodiesGameMode>()
 	{
 		return AGhoulsAndGoodiesGameMode::StaticClass();

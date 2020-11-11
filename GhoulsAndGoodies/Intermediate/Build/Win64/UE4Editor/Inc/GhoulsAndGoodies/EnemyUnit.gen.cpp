@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_AEnemyUnit();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
-	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_Attack();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_DealDamage();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_Despawn();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_OnDetectionSphereOverlapBegin();
@@ -27,6 +26,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_OnDetectionSphereOverlapEnd();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_PlayDespawnAnimation();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemyUnit_UpdateLifeBar();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_ADefendingUnit_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
@@ -37,7 +37,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 	{
 		UClass* Class = AEnemyUnit::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "Attack", &AEnemyUnit::execAttack },
 			{ "DealDamage", &AEnemyUnit::execDealDamage },
 			{ "Despawn", &AEnemyUnit::execDespawn },
 			{ "OnDetectionSphereOverlapBegin", &AEnemyUnit::execOnDetectionSphereOverlapBegin },
@@ -46,28 +45,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 			{ "UpdateLifeBar", &AEnemyUnit::execUpdateLifeBar },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_AEnemyUnit_Attack_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyUnit_Attack_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "EnemyUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyUnit_Attack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyUnit, nullptr, "Attack", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyUnit_Attack_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemyUnit_Attack_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AEnemyUnit_Attack()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyUnit_Attack_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AEnemyUnit_DealDamage_Statics
 	{
@@ -314,9 +291,22 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_facingTarget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_m_facingTarget;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_fullHealth_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_fullHealth;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_attackSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_attackSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_targetToRemove_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_m_targetToRemove;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_targetToRemove_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_targetList_MetaData[];
 #endif
@@ -339,10 +329,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_despawnAnim;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_attackAnim_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_attackAnim;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_despawnQueued_MetaData[];
 #endif
 		static void NewProp_m_despawnQueued_SetBit(void* Obj);
@@ -356,7 +342,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GhoulsAndGoodies,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemyUnit_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AEnemyUnit_Attack, "Attack" }, // 2372822233
 		{ &Z_Construct_UFunction_AEnemyUnit_DealDamage, "DealDamage" }, // 842072679
 		{ &Z_Construct_UFunction_AEnemyUnit_Despawn, "Despawn" }, // 2741057594
 		{ &Z_Construct_UFunction_AEnemyUnit_OnDetectionSphereOverlapBegin, "OnDetectionSphereOverlapBegin" }, // 2245266770
@@ -372,12 +357,34 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_facingTarget_MetaData[] = {
+		{ "Category", "EnemyUnit" },
+		{ "ModuleRelativePath", "EnemyUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_facingTarget = { "m_facingTarget", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_facingTarget), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_facingTarget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_facingTarget_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_fullHealth_MetaData[] = {
 		{ "Category", "EnemyUnit" },
 		{ "ModuleRelativePath", "EnemyUnit.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_fullHealth = { "m_fullHealth", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_fullHealth), METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_fullHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_fullHealth_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_attackSpeed_MetaData[] = {
+		{ "Category", "EnemyUnit" },
+		{ "ModuleRelativePath", "EnemyUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_attackSpeed = { "m_attackSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_attackSpeed), METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_attackSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_attackSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetToRemove_MetaData[] = {
+		{ "Category", "EnemyUnit" },
+		{ "ModuleRelativePath", "EnemyUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetToRemove = { "m_targetToRemove", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_targetToRemove), METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetToRemove_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetToRemove_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetToRemove_Inner = { "m_targetToRemove", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ADefendingUnit_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetList_MetaData[] = {
 		{ "Category", "EnemyUnit" },
@@ -417,13 +424,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnAnim = { "m_despawnAnim", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_despawnAnim), Z_Construct_UClass_UAnimSequence_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnAnim_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnAnim_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_attackAnim_MetaData[] = {
-		{ "Category", "EnemyUnit" },
-		{ "ModuleRelativePath", "EnemyUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_attackAnim = { "m_attackAnim", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyUnit, m_attackAnim), Z_Construct_UClass_UAnimSequence_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_attackAnim_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_attackAnim_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnQueued_MetaData[] = {
 		{ "Category", "EnemyUnit" },
 		{ "ModuleRelativePath", "EnemyUnit.h" },
@@ -435,14 +435,17 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnQueued = { "m_despawnQueued", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AEnemyUnit), &Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnQueued_SetBit, METADATA_PARAMS(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnQueued_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnQueued_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyUnit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_facingTarget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_fullHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_attackSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetToRemove,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetToRemove_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetList,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_targetList_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_detectionSphere,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_lifeBarColour,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnAnim,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_attackAnim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyUnit_Statics::NewProp_m_despawnQueued,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemyUnit_Statics::StaticCppClassTypeInfo = {
@@ -472,7 +475,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyUnit, 2221301325);
+	IMPLEMENT_CLASS(AEnemyUnit, 991281808);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AEnemyUnit>()
 	{
 		return AEnemyUnit::StaticClass();

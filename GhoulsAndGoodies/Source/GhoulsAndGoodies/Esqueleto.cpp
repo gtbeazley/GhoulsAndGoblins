@@ -30,6 +30,18 @@ AEsqueleto::~AEsqueleto()
 {
 }
 
+void AEsqueleto::Tick(float a_deltaTime)
+{
+	Super::Tick(a_deltaTime);
+
+	if (m_targetList.Num() > 0)
+	{
+		Attack();
+	}
+}
+
+
+
 void AEsqueleto::Attack()
 {
 	//Play animation

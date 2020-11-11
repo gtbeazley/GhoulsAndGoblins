@@ -18,7 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeMarvin() {}
 	GHOULSANDGOODIES_API UClass* Z_Construct_UClass_AEnemyUnit();
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AMarvin_Tick();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
 	void AMarvin::StaticRegisterNativesAMarvin()
 	{
@@ -75,18 +74,6 @@ void EmptyLinkFunctionForGeneratedCodeMarvin() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_attackDamage_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_attackDamage;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_facingTarget_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_m_facingTarget;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_attackInterval_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_attackInterval;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_attackTimer_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_attackTimer;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -113,32 +100,8 @@ void EmptyLinkFunctionForGeneratedCodeMarvin() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackDamage = { "m_attackDamage", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMarvin, m_attackDamage), METADATA_PARAMS(Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackDamage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackDamage_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMarvin_Statics::NewProp_m_facingTarget_MetaData[] = {
-		{ "Category", "Marvin" },
-		{ "ModuleRelativePath", "Marvin.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMarvin_Statics::NewProp_m_facingTarget = { "m_facingTarget", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMarvin, m_facingTarget), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AMarvin_Statics::NewProp_m_facingTarget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMarvin_Statics::NewProp_m_facingTarget_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackInterval_MetaData[] = {
-		{ "Category", "Marvin" },
-		{ "ModuleRelativePath", "Marvin.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackInterval = { "m_attackInterval", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMarvin, m_attackInterval), METADATA_PARAMS(Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackInterval_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackInterval_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackTimer_MetaData[] = {
-		{ "Category", "Marvin" },
-		{ "ModuleRelativePath", "Marvin.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackTimer = { "m_attackTimer", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMarvin, m_attackTimer), METADATA_PARAMS(Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackTimer_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackTimer_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMarvin_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackDamage,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMarvin_Statics::NewProp_m_facingTarget,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackInterval,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMarvin_Statics::NewProp_m_attackTimer,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMarvin_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMarvin>::IsAbstract,
@@ -167,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeMarvin() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMarvin, 1500339738);
+	IMPLEMENT_CLASS(AMarvin, 2061152331);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AMarvin>()
 	{
 		return AMarvin::StaticClass();

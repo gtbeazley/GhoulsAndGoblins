@@ -145,7 +145,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 		}
 	}
 
-	UE_LOG(LogTemp, Log, TEXT("Enemies Destroyed: %d"), m_enemiesDestroyed);
+	//UE_LOG(LogTemp, Log, TEXT("Enemies Destroyed: %d"), m_enemiesDestroyed);
 }
 
 void AGhoulsAndGoodiesGameMode::BeginPlay()
@@ -605,13 +605,21 @@ void AGhoulsAndGoodiesGameMode::DetermineSpawn()
 		m_enemySpawns[l_spawnerIndex]->TurnLightOn(false);
 	}
 
+	m_enemySpawnsAllowedToSpawnFrom.Empty();
+	for (int i = 0; i < m_wave + 1; i++)
+	{
+		
+		m_enemySpawnsAllowedToSpawnFrom.Add(UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1));
+	}
+
+
 	m_spawnList.Empty();
 
 	for (int i = 0; i < ((m_enemyCount * (m_wave + 1)) + 1); i++)
 	{
 		if (m_enemySpawns.Num() > 0)
 		{
-			m_spawnList.Add(UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawns.Num() - 1));
+			m_spawnList.Add(UKismetMathLibrary::RandomIntegerInRange(0, m_enemySpawnsAllowedToSpawnFrom.Num() - 1));
 			m_enemySpawns[m_spawnList.Last()]->TurnLightOn(true);
 		}
 	}

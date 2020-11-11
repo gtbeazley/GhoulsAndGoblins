@@ -19,8 +19,9 @@ public:
 	//Destructor
 	virtual ~AEsqueleto();
 
+	virtual void Tick(float a_deltaTime) override;
 
-	virtual void Attack() override;
+	virtual void Attack();
 
 	virtual void Despawn() override;
 
@@ -30,4 +31,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_attackDamage = 60.0f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UAnimSequence* m_attackAnim;
 };

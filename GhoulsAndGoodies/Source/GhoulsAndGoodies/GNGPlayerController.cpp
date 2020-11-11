@@ -44,7 +44,6 @@ void AGNGPlayerController::BeginPlay()
 
 			}
 
-			int m_camTraversal = 0;
 
 		}
 	}

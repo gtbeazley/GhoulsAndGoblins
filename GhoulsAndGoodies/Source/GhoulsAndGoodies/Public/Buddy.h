@@ -25,20 +25,9 @@ public:
 	//Called every frame
 	virtual void Tick(float a_deltaTime) override;
 
-	//Called to play attack animation
-	virtual void Attack() override;
-
 	//Called during attack animation to deal damage to opponent
 	virtual void DealDamage() override;
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackTimer = 0;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float m_attackInterval = 3;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector m_facingTarget = { 0, 0, 0 };
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_attackDamage = 20;

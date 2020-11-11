@@ -34,14 +34,6 @@ struct FHitResult;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAttack) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Attack(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execOnDetectionSphereOverlapEnd) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_a_overlappedComp); \
@@ -100,14 +92,6 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->DealDamage(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execAttack) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Attack(); \
 		P_NATIVE_END; \
 	} \
  \

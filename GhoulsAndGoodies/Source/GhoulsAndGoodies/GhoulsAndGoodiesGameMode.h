@@ -102,6 +102,9 @@ public:
 		TArray<AEnemySpawn*> m_enemySpawns;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<int> m_enemySpawnsAllowedToSpawnFrom;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<ATile*> m_baseHighlightTiles;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

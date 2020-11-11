@@ -57,7 +57,7 @@ AEnemyUnit::AEnemyUnit()
 	m_detectionSphere->SetCollisionObjectType(ECC_GameTraceChannel1);
 	m_detectionSphere->SetCollisionProfileName("Detect");
 	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
-	//m_detectionSphere->bHiddenInGame = false;
+	m_detectionSphere->bHiddenInGame = false;
 
 	m_curHealth = m_fullHealth;
 
@@ -80,9 +80,12 @@ void AEnemyUnit::BeginPlay()
 void AEnemyUnit::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if(m_targetList.Num() <= 0)
+	if (m_targetList.Num() <= 0)
+	{
+		
 		Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Move;
-	else 	  
+	}
+	else
 		Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Attack;
 
 
@@ -91,6 +94,27 @@ void AEnemyUnit::Tick(float DeltaTime)
 	{
 		PlayDespawnAnimation();
 	}
+
+
+	if (Cast<AEnemyAIController>(GetController()))
+		if (Cast<AEnemyAIController>(GetController())->m_state == ENEMYSTATE_Attack)
+		{
+			if (m_targetList.Num() > 0)
+			{
+				m_facingTarget = m_targetList[0]->GetActorLocation();
+				FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
+				GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw - 90, GetActorRotation().Roll));
+			}
+		}
+
+	m_targetToRemove.Empty();
+
+	for(ADefendingUnit* l_target : m_targetList)
+		if(Cast<ADefendingUnit>(l_target)->m_despawnQueued)
+			m_targetToRemove.Add(Cast<ADefendingUnit>(l_target));
+
+	for(ADefendingUnit* l_targetToRemove : m_targetToRemove)
+		m_targetList.Remove(Cast<ADefendingUnit>(l_targetToRemove));
 }
 
 void AEnemyUnit::Despawn()
@@ -116,27 +140,30 @@ void AEnemyUnit::OnDetectionSphereOverlapBegin(UPrimitiveComponent* a_overlapped
 {
 	if (Cast<ADefendingUnit>(a_otherActor))
 	{
-		if (Cast<USkeletalMeshComponent>(a_otherComp))
+		if (Cast<USkeletalMeshComponent>(a_otherComp) && !Cast<ADefendingUnit>(a_otherActor)->m_despawnQueued)
 		{
 			m_targetList.Add(Cast<ADefendingUnit>(a_otherActor));
 			GetController()->StopMovement();
-			Cast<AEnemyAIController>(GetController())->m_state == ENEMYSTATE_Attack;
-			Attack();
+			Cast<AEnemyAIController>(GetController())->m_state = ENEMYSTATE_Attack; 
+
+			UE_LOG(LogTemp, Log, TEXT("Defending unit entered"));
 		}
 	}
 }
 
 void AEnemyUnit::OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor, UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex)
 {
-	if (Cast<ADefendingUnit>(a_otherActor))
-	{
-		m_targetList.Remove(Cast<ADefendingUnit>(a_otherActor));
-	}
+	//if (Cast<ADefendingUnit>(a_otherActor))
+	//{ 
+	//	UE_LOG(LogTemp, Log, TEXT("Defending unit exited by component"));
+	//	m_targetList.Remove(Cast<ADefendingUnit>(a_otherActor)); 
+	//	//FString l_componentName = a_otherComp->GetFName().ToString();
+	//	//UE_LOG(LogTemp, Log, TEXT("Defending unit exited by component : %s"), l_componentName);
+	//	FName MyName = a_otherComp->GetFName();
+	//	UE_LOG(LogTemp, Warning, TEXT("My Name: %s"), *MyName.ToString());
+	//}
 }
 
-void AEnemyUnit::Attack()
-{
-}
 
 void AEnemyUnit::DealDamage()
 {

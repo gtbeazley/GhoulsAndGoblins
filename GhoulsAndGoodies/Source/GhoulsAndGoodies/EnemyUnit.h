@@ -49,8 +49,6 @@ public:
 		void OnDetectionSphereOverlapEnd(UPrimitiveComponent* a_overlappedComp, AActor* a_otherActor,
 			UPrimitiveComponent* a_otherComp, int32 a_otherBodyIndex);
 
-	UFUNCTION(BlueprintCallable)
-		virtual void Attack();
 
 	UFUNCTION(BlueprintCallable)
 		virtual void DealDamage();
@@ -62,8 +60,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_despawnQueued = false;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UAnimSequence* m_attackAnim;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimSequence* m_despawnAnim;
@@ -80,11 +76,21 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<ADefendingUnit*> m_targetList;
 
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<ADefendingUnit*> m_targetToRemove;
+
 	ULifeBar_W* m_lifeBarWidgetObject;
 
 	TArray<ATile*> m_tilePath;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float m_attackSpeed = 1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float m_fullHealth = 100.0f, m_curHealth = m_fullHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector m_facingTarget;
 
 };

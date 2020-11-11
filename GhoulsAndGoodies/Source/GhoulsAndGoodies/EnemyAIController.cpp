@@ -3,13 +3,16 @@
 
 #include "EnemyAIController.h"
 
-#include "DefendingUnit.h"
 #include "Base.h"
+#include "DefendingUnit.h"
+#include "GhoulsAndGoodiesGameMode.h"
+#include "Tile.h"
 
 #include <BehaviorTree/BlackboardData.h>
 #include <BehaviorTree/BlackboardComponent.h>
 #include <BehaviorTree/BehaviorTree.h>
 #include <GameFramework/Character.h>
+#include <Kismet/KismetMathLibrary.h>
 #include <Kismet/GameplayStatics.h>
 
 #include <ConstructorHelpers.h>
@@ -37,8 +40,16 @@ void AEnemyAIController::BeginPlay()
 	UBlackboardComponent* l_outBoard = nullptr;
 	if(m_bBData)
 	UseBlackboard(m_bBData, l_outBoard);
-	if(l_outBoard != nullptr)
-	l_outBoard->SetValueAsObject("CharacterTarget", Cast<UObject>(UGameplayStatics::GetActorOfClass(this, ABase::StaticClass())));
+	if (l_outBoard != nullptr)
+	{
+		AGhoulsAndGoodiesGameMode* l_gNGGameMode = Cast <AGhoulsAndGoodiesGameMode>(UGameplayStatics::GetGameMode(this));
+		if (l_gNGGameMode && l_gNGGameMode->m_baseLockTiles.Num() - 1 >= 3)
+		{
+			int l_randIter = UKismetMathLibrary::RandomIntegerInRange(0, 3);
+			l_outBoard->SetValueAsObject("CharacterTarget", Cast<UObject>(l_gNGGameMode->m_baseLockTiles[l_randIter]));
+		}
+	}
+
 	if(m_behTree)
 	RunBehaviorTree(m_behTree);
 }
