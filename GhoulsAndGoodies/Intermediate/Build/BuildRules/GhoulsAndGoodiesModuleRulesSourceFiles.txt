@@ -1,3 +1,15 @@
+<<<<<<< Updated upstream
 C:\Users\s181462\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodies.Build.cs
 C:\Users\s181462\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies.Target.cs
 C:\Users\s181462\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodiesEditor.Target.cs
+=======
+<<<<<<< HEAD
+C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodies.Build.cs
+C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies.Target.cs
+C:\Users\s191246\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodiesEditor.Target.cs
+=======
+C:\Users\s181462\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies\GhoulsAndGoodies.Build.cs
+C:\Users\s181462\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodies.Target.cs
+C:\Users\s181462\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Source\GhoulsAndGoodiesEditor.Target.cs
+>>>>>>> 37673ded65e6ca666e79adc7e337144ecffa4c36
+>>>>>>> Stashed changes
