@@ -13,6 +13,8 @@
 
 ATiffany::ATiffany()
 {  
+	m_attackInterval = .02f;
+	m_attackDamage = 10.0f;
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> l_meshAsset(TEXT("SkeletalMesh'/Game/TopDownCPP/ASSETS/ANIMATION/TIFFANY/TIFFANY_IDLE.TIFFANY_IDLE'"));
 	static ConstructorHelpers::FObjectFinder<UAnimSequence> l_spawnAnim(TEXT("AnimSequence'/Game/TopDownCPP/ASSETS/ANIMATION/TIFFANY/Anim_Tiffany_Spawn_Anim.Anim_Tiffany_Spawn_Anim'"));
@@ -44,6 +46,8 @@ void ATiffany::Tick(float a_deltaTime)
 
 
 void ATiffany::DealDamage() {
-	m_detectedEnemies[0]->m_curHealth -= m_attackDamage;
+	if (m_detectedEnemies.Num() > 0)
+		if (m_detectedEnemies[0])
+			m_detectedEnemies[0]->m_curHealth -= m_attackDamage;
 
 }

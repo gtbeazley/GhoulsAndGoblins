@@ -47,5 +47,6 @@ void ABuddy::Tick(float a_deltaTime)
 void ABuddy::DealDamage()
 {
 	if (m_targetList.Num() > 0)
-		m_targetList[0]->m_curHealth -= m_attackDamage;
+		if(m_targetList[0])
+			m_targetList[0]->m_curHealth -= m_attackDamage;
 }

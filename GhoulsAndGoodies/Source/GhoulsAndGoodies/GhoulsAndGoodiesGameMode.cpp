@@ -88,9 +88,11 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 			//m_tileInFocus->GetStaticMeshComponent()->SetMaterial(0, m_selectedTileMaterial);
 		}
 
+		//During Defend Game
 		if (m_gameState == STATE_Defend)
 		{
 			AActor* m_base = UGameplayStatics::GetActorOfClass(this, ABase::StaticClass());
+			//When the base doesn't exist
 			if (!IsValid(m_base))
 			{
 				m_wave--;
@@ -101,6 +103,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 				{
 					l_tile->SetDefenceUnitType(DEF_None);
 				}
+				ResetLockTiles();
 				TArray<AActor*> l_outActors;
 				UGameplayStatics::GetAllActorsOfClass(this, AEnemyUnit::StaticClass(), l_outActors);     
 				for (AActor* l_outActor : l_outActors)
@@ -110,6 +113,7 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 			}
 			else if (Cast<ABase>(m_base)->m_curHealth > 0 && (m_enemyCount * m_wave) + 1 <= m_enemiesDestroyed)
 			{
+				//If the base still exists but all enemies are destroyed
 				m_candyCorn += 50;
 				m_gameState = STATE_Plan;
 				PlayPanelSlideAnimation();
@@ -145,6 +149,7 @@ void AGhoulsAndGoodiesGameMode::BeginPlay()
 
 void AGhoulsAndGoodiesGameMode::NextWave()
 {
+	//Start the Next Wave
 	m_enemiesDestroyed = 0;
 	m_wave++;
 	if (m_mainTileBoard != nullptr)
@@ -178,6 +183,7 @@ void AGhoulsAndGoodiesGameMode::NextWave()
 
 	}
 
+	//Queue the spawning enemies
 	if (m_wave % 10 == 0)
 	{
 		for (int l_enemySpawn : m_spawnList)
@@ -203,7 +209,7 @@ void AGhoulsAndGoodiesGameMode::NextWave()
 	{
 		for (int l_enemySpawn : m_spawnList)
 		{
-			m_enemySpawns[l_enemySpawn]->QueueSpawn(ATT_Marvin);//(TEnumAsByte<EEnemyUnitType>)( UKismetMathLibrary::RandomIntegerInRange(0, 3) ));
+			m_enemySpawns[l_enemySpawn]->QueueSpawn((TEnumAsByte<EEnemyUnitType>)( UKismetMathLibrary::RandomIntegerInRange(0, 3) ));
 		}
 
 	}
@@ -313,7 +319,7 @@ void AGhoulsAndGoodiesGameMode::HighlightTile(ATile* a_highlightedTile)
 						l_tile->GetStaticMeshComponent()->SetRenderCustomDepth(true);
 					}
 				}
-				else if (a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - 1]))
+				else if (l_iter > 0 && a_highlightedTile->IsNeighbour(m_mainTileBoard->m_tileList[l_iter - 1]))
 				{
 					if (m_mainTileBoard->m_tileList[l_iter - 1]->m_defType == DEF_None)
 					{
@@ -545,6 +551,15 @@ void AGhoulsAndGoodiesGameMode::UpdateLockTiles()
 	m_lockBase->GetMesh()->SetCustomDepthStencilValue(3);
 	m_lockBase->GetMesh()->SetMaterial(0, m_fakeSpawnMaterial);
 
+}
+
+void AGhoulsAndGoodiesGameMode::ResetLockTiles()
+{
+	for (int i = 0; i < m_baseLockTiles.Num(); i++)
+	{
+		m_baseHighlightTiles[i] = m_baseLockTiles[i];
+	}
+	UpdateLockTiles();
 }
 
 

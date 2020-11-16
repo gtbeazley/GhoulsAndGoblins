@@ -71,20 +71,22 @@ void AEnemySpawn::BeginPlay()
 
 void AEnemySpawn::Spawn(TEnumAsByte<EEnemyUnitType> a_enemyType)
 {
+	FVector l_randomPoint = UKismetMathLibrary::RandomPointInBoundingBox(GetActorLocation(), FVector(20, 20, 1));
+	FVector l_spawnPoint = FVector(l_randomPoint.X, l_randomPoint.Y, GetActorLocation().Z);
 	AActor* l_spawnedObject = nullptr;
 	switch (a_enemyType)
 	{
 	case ATT_Marvin:
-		l_spawnedObject = GetWorld()->SpawnActor<AMarvin>( GetActorLocation(), GetActorRotation());
+		l_spawnedObject = GetWorld()->SpawnActor<AMarvin>(l_spawnPoint, GetActorRotation());
 		break;
 	case ATT_Grace:
-		l_spawnedObject = GetWorld()->SpawnActor<AGrace>(GetActorLocation(), GetActorRotation());
+		l_spawnedObject = GetWorld()->SpawnActor<AGrace>(l_spawnPoint, GetActorRotation());
 		break;
 	case ATT_Esqueleto:
-		l_spawnedObject = GetWorld()->SpawnActor<AEsqueleto>(GetActorLocation(), GetActorRotation());
+		l_spawnedObject = GetWorld()->SpawnActor<AEsqueleto>(l_spawnPoint, GetActorRotation());
 		break;
 	case ATT_Buddy:
-		l_spawnedObject = GetWorld()->SpawnActor<ABuddy>(GetActorLocation(), GetActorRotation());
+		l_spawnedObject = GetWorld()->SpawnActor<ABuddy>(l_spawnPoint, GetActorRotation());
 		break;
 	}
 }

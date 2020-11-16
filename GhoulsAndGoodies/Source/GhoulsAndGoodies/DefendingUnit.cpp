@@ -46,7 +46,7 @@ ADefendingUnit::ADefendingUnit()
 	m_detectionSphere->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Ignore);
 	m_detectionSphere->OnComponentBeginOverlap.AddDynamic(this, &ADefendingUnit::OnDetectionSphereOverlapBegin);
 	m_detectionSphere->OnComponentEndOverlap.AddDynamic(this, &ADefendingUnit::OnDetectionSphereOverlapEnd);
-	m_detectionSphere->bHiddenInGame = false;
+	//m_detectionSphere->bHiddenInGame = false;
 
 	m_curHealth = m_fullHealth;
 
@@ -130,12 +130,15 @@ void ADefendingUnit::Tick(float a_deltaTime)
 	//Check to see if the defence unit is still alive
 	if (m_curHealth <= 0.0f)
 	{
+		if(m_owningTile)
 		m_owningTile->DespawnUnit();
 	}
 }
 
 void ADefendingUnit::Despawn()
 {
+	m_despawnQueued = true;
+
 	Destroy(true, true);
 }
 

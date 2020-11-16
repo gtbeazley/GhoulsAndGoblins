@@ -42,6 +42,9 @@ public:
 		void UpdateLockTiles();
 
 	UFUNCTION(BlueprintCallable)
+		void ResetLockTiles();
+
+	UFUNCTION(BlueprintCallable)
 		void SaveGame();
 
 	UFUNCTION(BlueprintCallable)

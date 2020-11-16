@@ -48,6 +48,14 @@ class ATile;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execResetLockTiles) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ResetLockTiles(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execUpdateLockTiles) \
 	{ \
 		P_FINISH; \
@@ -122,6 +130,14 @@ class ATile;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->SaveGame(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execResetLockTiles) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ResetLockTiles(); \
 		P_NATIVE_END; \
 	} \
  \

@@ -80,6 +80,24 @@ void AEnemyUnit::BeginPlay()
 void AEnemyUnit::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	m_targetToRemove.Empty();
+
+	for (ADefendingUnit* l_target : m_targetList)
+		if (l_target)
+		{
+			if (l_target->m_despawnQueued)
+				m_targetToRemove.Add(l_target);
+		}
+		else
+			m_targetToRemove.Add(l_target);
+			
+	for (ADefendingUnit* l_targetToRemove : m_targetToRemove)
+	{
+		m_targetList.Remove(Cast<ADefendingUnit>(l_targetToRemove));
+
+	}
+
 	if (m_targetList.Num() <= 0)
 	{
 
@@ -99,28 +117,15 @@ void AEnemyUnit::Tick(float DeltaTime)
 	if (Cast<AEnemyAIController>(GetController()))
 		if (Cast<AEnemyAIController>(GetController())->m_state == ENEMYSTATE_Attack)
 		{
-			if (m_targetList.Num() > 0)
+			if (m_targetList.Num() > 0 && m_despawnQueued)
 			{
-				m_facingTarget = m_targetList[0]->GetActorLocation();
+				if(m_targetList[0])
+					m_facingTarget = m_targetList[0]->GetActorLocation();
 				FRotator m_faceRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), m_facingTarget);
 				GetMesh()->SetWorldRotation(FRotator(GetActorRotation().Pitch, m_faceRotation.Yaw - 90, GetActorRotation().Roll));
 			}
 		}
 
-	m_targetToRemove.Empty();
-
-	for (ADefendingUnit* l_target : m_targetList)
-		if (Cast<ADefendingUnit>(l_target)->m_despawnQueued)
-			m_targetToRemove.Add(Cast<ADefendingUnit>(l_target));
-
-	for (ADefendingUnit* l_targetToRemove : m_targetToRemove)
-	{
-		m_targetList.Remove(Cast<ADefendingUnit>(l_targetToRemove));
-		UE_LOG(LogTemp, Log, TEXT("Targets Left  : %d"), m_targetList.Num());
-		FString l_name = l_targetToRemove->GetName();
-		UE_LOG(LogTemp, Log, TEXT("Target Removed  : %s"), *l_name);
-
-	}
 }
 
 void AEnemyUnit::Despawn()

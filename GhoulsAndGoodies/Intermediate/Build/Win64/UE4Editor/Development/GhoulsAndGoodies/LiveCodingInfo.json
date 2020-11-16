@@ -2,38 +2,38 @@
 	"RemapUnityFiles": 
 	{
 		"Module.GhoulsAndGoodies.cpp.obj": [
-			"DefendingUnit.cpp.obj",
 			"EnemyAIController.cpp.obj",
-			"EnemySpawn.cpp.obj",
-			"EnemyUnit.cpp.obj",
 			"EnemyUnitType.cpp.obj",
 			"Esqueleto.cpp.obj",
-			"Garry.cpp.obj",
 			"GhoulsAndGoodies.cpp.obj",
 			"GhoulsAndGoodiesCharacter.cpp.obj",
-			"GhoulsAndGoodiesGameMode.cpp.obj",
 			"GhoulsAndGoodiesPlayerController.cpp.obj",
 			"GNGGameInstance.cpp.obj",
 			"GNGGameState.cpp.obj",
 			"GNGPawn.cpp.obj",
 			"GNGPlayerController.cpp.obj",
 			"GNGSaveGame.cpp.obj",
-			"Grace.cpp.obj",
 			"Jimmy.cpp.obj",
 			"LifeBar_W.cpp.obj",
-			"Marvin.cpp.obj",
 			"Base.cpp.obj",
-			"Buddy.cpp.obj",
 			"DamageSphere.cpp.obj",
 			"DealDamage_AnimNotify.cpp.obj",
 			"Despawn_AnimNotify.cpp.obj",
 			"EnemyState.cpp.obj",
-			"Smidge.cpp.obj",
 			"Spawned_AnimNotify.cpp.obj",
-			"Tiffany.cpp.obj",
-			"Tile.cpp.obj",
 			"TileBoard.cpp.obj",
-			"TileDefenceType.cpp.obj"
+			"TileDefenceType.cpp.obj",
+			"DefendingUnit.cpp.obj",
+			"EnemySpawn.cpp.obj",
+			"EnemyUnit.cpp.obj",
+			"Garry.cpp.obj",
+			"GhoulsAndGoodiesGameMode.cpp.obj",
+			"Grace.cpp.obj",
+			"Marvin.cpp.obj",
+			"Buddy.cpp.obj",
+			"Smidge.cpp.obj",
+			"Tiffany.cpp.obj",
+			"Tile.cpp.obj"
 		],
 		"Module.GhoulsAndGoodies.gen.cpp.obj": [
 			"Base.gen.cpp.obj",
@@ -49,9 +49,7 @@
 			"EnemyUnitType.gen.cpp.obj",
 			"Esqueleto.gen.cpp.obj",
 			"Garry.gen.cpp.obj",
-			"GhoulsAndGoodies.init.gen.cpp.obj",
 			"GhoulsAndGoodiesCharacter.gen.cpp.obj",
-			"GhoulsAndGoodiesGameMode.gen.cpp.obj",
 			"GhoulsAndGoodiesPlayerController.gen.cpp.obj",
 			"GNGGameInstance.gen.cpp.obj",
 			"GNGGameState.gen.cpp.obj",
@@ -67,7 +65,9 @@
 			"Tiffany.gen.cpp.obj",
 			"Tile.gen.cpp.obj",
 			"TileBoard.gen.cpp.obj",
-			"TileDefenceType.gen.cpp.obj"
+			"TileDefenceType.gen.cpp.obj",
+			"GhoulsAndGoodies.init.gen.cpp.obj",
+			"GhoulsAndGoodiesGameMode.gen.cpp.obj"
 		]
 	}
 }

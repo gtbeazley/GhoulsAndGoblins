@@ -46,5 +46,7 @@ void AGarry::Tick(float a_deltaTime)
 
 void AGarry::DealDamage()
 {
-	m_detectedEnemies[0]->m_curHealth -= m_attackDamage;
+	if (m_detectedEnemies.Num() > 0)
+		if (m_detectedEnemies[0])
+			m_detectedEnemies[0]->m_curHealth -= m_attackDamage;
 }

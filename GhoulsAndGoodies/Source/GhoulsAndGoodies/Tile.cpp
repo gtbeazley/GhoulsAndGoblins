@@ -172,6 +172,7 @@ void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
 	case ETileDefenceType::DEF_Tiffany:
 		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_TiffanyFullCost;
 		m_plannedToDeploy = true;
+		m_mesh->SetCustomDepthStencilValue(2);
 		break;
 	case ETileDefenceType::DEF_Jimmy:
 		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_JimmyFullCost;
@@ -299,7 +300,7 @@ void ATile::MeshOnClick(UPrimitiveComponent* a_primCom, FKey a_inKey)
 }
 
 void ATile::DespawnUnit()
-{
+{ 
 	m_defType = ETileDefenceType::DEF_None;
 	m_defenceUnit->PlayDespawnAnim();
 	SetupTileMaterial();
