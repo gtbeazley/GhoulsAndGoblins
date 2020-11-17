@@ -7,6 +7,7 @@
 #include "Base.h"
 #include "DefendingUnit.h"
 #include "GhoulsAndGoodiesGameMode.h"
+#include "GNGGameInstance.h"
 #include "Jimmy.h"
 #include "Garry.h"
 #include "Smidge.h"
@@ -138,6 +139,7 @@ void ATile::SetupTileMaterial()
 		switch (m_defType)
 			{
 			case ETileDefenceType::DEF_None:
+				m_mesh->SetCustomDepthStencilValue(0);
 				m_unhighlightedMaterial = m_gNGGameMode->m_normalTileMaterial;
 				break;
 			case ETileDefenceType::DEF_Base:
@@ -166,23 +168,28 @@ void ATile::SetDefenceUnitType(TEnumAsByte<ETileDefenceType> a_defType)
 
 	m_defType = a_defType;
 
+	bool l_loadGame = Cast<UGNGGameInstance>(GetGameInstance())->m_loadGame;
 	
 	switch (a_defType)
 	{
 	case ETileDefenceType::DEF_Tiffany:
+		if(!l_loadGame)
 		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_TiffanyFullCost;
 		m_plannedToDeploy = true;
 		m_mesh->SetCustomDepthStencilValue(2);
 		break;
 	case ETileDefenceType::DEF_Jimmy:
+		if(!l_loadGame)
 		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_JimmyFullCost;
 		m_plannedToDeploy = true;
 		break;
 	case ETileDefenceType::DEF_Garry:
+		if(!l_loadGame)
 		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_GarryFullCost;
 		m_plannedToDeploy = true;
 		break;
 	case ETileDefenceType::DEF_Smidge:		
+		if(!l_loadGame)
 		m_gNGGameMode->m_candyCorn -= m_gNGGameMode->m_SmidgeFullCost;
 		m_plannedToDeploy = true;
 		break;

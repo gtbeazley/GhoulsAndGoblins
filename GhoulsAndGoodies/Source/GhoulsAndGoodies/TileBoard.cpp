@@ -30,7 +30,7 @@ void ATileBoard::BeginPlay()
 
 void ATileBoard::SetUpBoard()
 {
-
+	int l_tileNum = 0;
 	//Spawn The entire board of Tiles
 	for (int l_row = 0; l_row < m_rows; l_row++)
 	{
@@ -46,10 +46,12 @@ void ATileBoard::SetUpBoard()
 
 			//Attach tile to tile board
 			l_newTile->AttachToActor(this, l_aTR);
+			
+			l_newTile->m_iterID = l_tileNum;
 
 			//Add tile to list
 			m_tileList.Add(l_newTile);
-
+			l_tileNum++;
 		}
 	}
 

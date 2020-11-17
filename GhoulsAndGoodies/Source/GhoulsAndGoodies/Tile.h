@@ -71,12 +71,13 @@ protected:
 	virtual void BeginPlay() override;
 
 
+
+public:
+
 	//Static mesh of the tile
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* m_mesh;
 
-
-public:
 	//Reference to the defence unit that this tile owns
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class ADefendingUnit* m_defenceUnit;
@@ -104,5 +105,7 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_plannedToDeploy = false;
-	
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int m_iterID;
 };

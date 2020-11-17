@@ -218,10 +218,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATile); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATile)
 
 
-#define GhoulsAndGoodies_Source_GhoulsAndGoodies_Tile_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__m_mesh() { return STRUCT_OFFSET(ATile, m_mesh); }
-
-
+#define GhoulsAndGoodies_Source_GhoulsAndGoodies_Tile_h_17_PRIVATE_PROPERTY_OFFSET
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_Tile_h_14_PROLOG
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_Tile_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

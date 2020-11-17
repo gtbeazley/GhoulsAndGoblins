@@ -130,6 +130,13 @@ void AGhoulsAndGoodiesGameMode::BeginPlay()
 	Super::BeginPlay(); 
 
 	m_mainTileBoard = Cast<ATileBoard>(UGameplayStatics::GetActorOfClass(this, ATileBoard::StaticClass()));
+
+	TArray<AActor*> l_outActors;
+	UGameplayStatics::GetAllActorsOfClass(this, AEnemySpawn::StaticClass(), l_outActors);
+	for (AActor* l_outActor : l_outActors)
+	{
+		m_enemySpawns.AddUnique(Cast<AEnemySpawn>(l_outActor));
+	}
 	if (m_mainTileBoard)
 	{
 		m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[0]);
@@ -137,14 +144,8 @@ void AGhoulsAndGoodiesGameMode::BeginPlay()
 		m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[0 + m_mainTileBoard->m_columns]);
 		m_baseHighlightTiles.AddUnique(m_mainTileBoard->m_tileList[1 + m_mainTileBoard->m_columns]);
 		UpdateLockTiles();
+		LoadGame();
 	}
-	TArray<AActor*> l_outActors;
-	UGameplayStatics::GetAllActorsOfClass(this, AEnemySpawn::StaticClass(), l_outActors);
-	for (AActor* l_outActor : l_outActors)
-	{
-		m_enemySpawns.AddUnique(Cast<AEnemySpawn>(l_outActor));
-	}
-	DetermineSpawn();
 }
 
 void AGhoulsAndGoodiesGameMode::NextWave()
@@ -548,7 +549,7 @@ void AGhoulsAndGoodiesGameMode::UpdateLockTiles()
 	m_lockBase = GetWorld()->SpawnActor<ABase>(l_middleLocation, FRotator(0, 0, 0));
 	m_lockBase->GetMesh()->SetRenderCustomDepth(true);
 	m_lockBase->GetMesh()->SetAnimationMode(EAnimationMode::AnimationSingleNode);
-	m_lockBase->GetMesh()->SetCustomDepthStencilValue(3);
+	m_lockBase->GetMesh()->SetCustomDepthStencilValue(0);
 	m_lockBase->GetMesh()->SetMaterial(0, m_fakeSpawnMaterial);
 
 }
@@ -557,6 +558,7 @@ void AGhoulsAndGoodiesGameMode::ResetLockTiles()
 {
 	for (int i = 0; i < m_baseLockTiles.Num(); i++)
 	{
+		m_baseLockTiles[i]->m_mesh->SetCustomDepthStencilValue(0);
 		m_baseHighlightTiles[i] = m_baseLockTiles[i];
 	}
 	UpdateLockTiles();
@@ -565,10 +567,55 @@ void AGhoulsAndGoodiesGameMode::ResetLockTiles()
 
 void AGhoulsAndGoodiesGameMode::SaveGame()
 {
-
+	//Create Save Game Object
 	UGNGSaveGame * l_saveGame = Cast<UGNGSaveGame>(UGameplayStatics::CreateSaveGameObject(UGNGSaveGame::StaticClass()));
 
+	//Save the wave
 	l_saveGame->m_wave = m_wave;
+
+	//Save the candy corn
+	l_saveGame->m_candyCorn = m_candyCorn;
+	UE_LOG(LogTemp, Warning, TEXT("Saved candyCorn %d for candyCorn %d"), l_saveGame->m_candyCorn, m_candyCorn);
+
+	//Save the game state
+	l_saveGame->m_gameState = (int)m_gameState;
+	
+	//Find all defending units
+	TArray<AActor*> l_outActors;
+	UGameplayStatics::GetAllActorsOfClass(this, ADefendingUnit::StaticClass(), l_outActors);
+
+	for (AActor* l_actor : l_outActors)
+	{
+		//Make sure its a defending unit
+		ADefendingUnit* l_defUnit = Cast<ADefendingUnit>(l_actor);
+		if (l_defUnit)
+		{
+			if (l_defUnit->m_owningTile)
+			{
+				//Save the tile its on
+				l_saveGame->m_owningTileNumbers.Add(l_defUnit->m_owningTile->m_iterID);
+				//Save the health it has left
+				l_saveGame->m_defHealths.Add(l_defUnit->m_curHealth);
+				//Save the defence unit type
+				l_saveGame->m_defUnitTypes.Add(l_defUnit->m_owningTile->m_defType);
+				UE_LOG(LogTemp, Warning, TEXT("Tile saved %s iter %d health %f unit type %d"), *l_defUnit->m_owningTile->GetName(), 
+					l_defUnit->m_owningTile->m_iterID, l_defUnit->m_curHealth, l_defUnit->m_owningTile->m_defType);
+			}
+		}
+	}
+	
+	//Save the base lock tile numbers
+	for (int i = 0; i < 4; i++)
+	{
+		l_saveGame->m_baseLockTiles[i] = m_baseLockTiles[i]->m_iterID;
+	}
+
+	//Save the list of spawns
+	for (int l_spawnIter : m_spawnList)
+	{
+		l_saveGame->m_spawnList.Add(l_spawnIter);
+	}
+
 	UGameplayStatics::SaveGameToSlot(l_saveGame, m_saveSlotName, 0);
 }
 
@@ -580,10 +627,67 @@ void AGhoulsAndGoodiesGameMode::LoadGame()
 		UGNGSaveGame* l_saveGame = Cast<UGNGSaveGame>(UGameplayStatics::CreateSaveGameObject(UGNGSaveGame::StaticClass()));
 
 		l_saveGame = Cast<UGNGSaveGame>(UGameplayStatics::LoadGameFromSlot(m_saveSlotName, 0));
+		if (l_saveGame)
+		{//Load wave number
+			m_wave = l_saveGame->m_wave;
+			//Load candy corn
+			m_candyCorn = l_saveGame->m_candyCorn;
+			UE_LOG(LogTemp, Warning, TEXT("Loaded candyCorn %d for candyCorn %d"), l_saveGame->m_candyCorn, m_candyCorn);
+			//Load game state
+			m_gameState = (TEnumAsByte<EGNGGameState>)l_saveGame->m_gameState;
+			
+			//Check Tile board exists
+			if (m_mainTileBoard)
+			{
+				for (int i = 0; i < 4; i++)
+				{ 
+					//Set Highlight Tiles
+					m_baseHighlightTiles[i] = m_mainTileBoard->m_tileList[l_saveGame->m_baseLockTiles[i]]; 
+					UpdateLockTiles();
+				}
+				for (int i = 0; i < l_saveGame->m_owningTileNumbers.Num(); i++)
+				{
+					//Load the iterator for the owning tile
+					int l_tileIter = l_saveGame->m_owningTileNumbers[i];
+					if ((TEnumAsByte<ETileDefenceType>)l_saveGame->m_defUnitTypes[i] == DEF_Base && m_gameState != STATE_Base)
+					{
+						//Spawn the base
+						SpawnBase();
+						m_baseLockTiles[0]->m_defenceUnit->m_curHealth = l_saveGame->m_defHealths[i];
+					}
+					else
+					{
+						if (m_mainTileBoard->m_tileList[l_tileIter])
+						{
+							//Set Tile defence unit type
+							m_mainTileBoard->m_tileList[l_tileIter]->SetDefenceUnitType((TEnumAsByte<ETileDefenceType>)l_saveGame->m_defUnitTypes[i]);
+							//Spawn defence unit
+							m_mainTileBoard->m_tileList[l_tileIter]->SetupDefUnit();
+							//Load defence units health
+							m_mainTileBoard->m_tileList[l_tileIter]->m_defenceUnit->m_curHealth = l_saveGame->m_defHealths[i];
+						}
+					}
 
-		m_wave = l_saveGame->m_wave;
+				}
+			}
 
+			m_spawnList = l_saveGame->m_spawnList;
+			for (int l_spawnIter : m_spawnList)
+			{
+				if (m_enemySpawns.Num() > 0)
+				{
+
+					m_enemySpawns[l_spawnIter]->TurnLightOn(true);
+				}
+			}
+		}
 		l_gameInstance->m_loadGame = false;
+	}
+	else
+	{
+
+		DetermineSpawn();
+		UpdateLockTiles();
 	}
 }
 
