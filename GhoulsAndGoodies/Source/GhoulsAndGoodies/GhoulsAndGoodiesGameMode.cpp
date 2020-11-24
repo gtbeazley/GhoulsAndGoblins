@@ -110,6 +110,10 @@ void AGhoulsAndGoodiesGameMode::Tick(float a_deltaTime)
 				{
 					l_outActor->Destroy(true, true);
 				}
+				for (AEnemySpawn* l_enemySpawn : m_enemySpawns)
+				{
+					l_enemySpawn->Reset();
+				}
 			}
 			else if (Cast<ABase>(m_base)->m_curHealth > 0 && (m_enemyCount * m_wave) + 1 <= m_enemiesDestroyed)
 			{

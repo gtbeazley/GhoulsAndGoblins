@@ -35,6 +35,10 @@ public:
 	//a_turnOn determines whether to turn it on or not
 	UFUNCTION(BlueprintCallable)
 		void TurnLightOn(bool a_turnOn);
+
+	//Called to reset to no spawns queued
+	UFUNCTION(BlueprintCallable)
+		void Reset();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

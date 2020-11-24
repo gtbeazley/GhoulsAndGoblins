@@ -1,14 +1,50 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls).
+  Creating makefile for GhoulsAndGoodiesEditor (no existing makefile)
   Parsing headers for GhoulsAndGoodiesEditor
     Running UnrealHeaderTool "C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\GhoulsAndGoodies.uproject" "C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\GhoulsAndGoodiesEditor\Development\GhoulsAndGoodiesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GhoulsAndGoodiesEditor in 5.2416242 seconds
+  Reflection code generated for GhoulsAndGoodiesEditor in 6.2233211 seconds
+  [Adaptive unity build] Excluded from GhoulsAndGoodies.gen unity file: Base.gen.cpp, Buddy.gen.cpp, DamageSphere.gen.cpp, DealDamage_AnimNotify.gen.cpp, DefendingUnit.gen.cpp, EnemyAIController.gen.cpp, EnemySpawn.gen.cpp, EnemyState.gen.cpp, EnemyUnit.gen.cpp, EnemyUnitType.gen.cpp, Esqueleto.gen.cpp, Garry.gen.cpp, GhoulsAndGoodies.init.gen.cpp, GhoulsAndGoodiesCharacter.gen.cpp, GhoulsAndGoodiesGameMode.gen.cpp, GhoulsAndGoodiesPlayerController.gen.cpp, GNGGameInstance.gen.cpp, GNGGameState.gen.cpp, GNGPawn.gen.cpp, GNGPlayerController.gen.cpp, GNGSaveGame.gen.cpp, Grace.gen.cpp, Jimmy.gen.cpp, LifeBar_W.gen.cpp, Marvin.gen.cpp, Smidge.gen.cpp, Spawned_AnimNotify.gen.cpp, Tiffany.gen.cpp, Tile.gen.cpp, TileBoard.gen.cpp, TileDefenceType.gen.cpp
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] GhoulsAndGoodiesGameMode.cpp
-    [2/4] UE4Editor-GhoulsAndGoodies.lib
+  Building 38 actions with 8 processes...
+    [1/38] Default.rc2
+    [2/38] SharedPCH.Engine.cpp
+    [3/38] DealDamage_AnimNotify.gen.cpp
+    [4/38] DamageSphere.gen.cpp
+    [5/38] EnemyUnitType.gen.cpp
+    [6/38] EnemySpawn.gen.cpp
+    [7/38] DefendingUnit.gen.cpp
+    [8/38] GhoulsAndGoodiesGameMode.gen.cpp
+    [9/38] Base.gen.cpp
+    [10/38] GhoulsAndGoodies.init.gen.cpp
+    [11/38] EnemyState.gen.cpp
+    [12/38] GNGGameInstance.gen.cpp
+    [13/38] GhoulsAndGoodiesCharacter.gen.cpp
+    [14/38] Garry.gen.cpp
+    [15/38] Esqueleto.gen.cpp
+    [16/38] EnemyUnit.gen.cpp
+    [17/38] GNGGameState.gen.cpp
+    [18/38] GNGPlayerController.gen.cpp
+    [19/38] GNGPawn.gen.cpp
+    [20/38] GNGSaveGame.gen.cpp
+    [21/38] Grace.gen.cpp
+    [22/38] Jimmy.gen.cpp
+    [23/38] EnemyAIController.gen.cpp
+    [24/38] Spawned_AnimNotify.gen.cpp
+    [25/38] GhoulsAndGoodiesPlayerController.gen.cpp
+    [26/38] Marvin.gen.cpp
+    [27/38] Tile.gen.cpp
+    [28/38] Tiffany.gen.cpp
+    [29/38] TileBoard.gen.cpp
+    [30/38] Module.GhoulsAndGoodies.gen.cpp
+    [31/38] TileDefenceType.gen.cpp
+    [32/38] Smidge.gen.cpp
+    [33/38] Buddy.gen.cpp
+    [34/38] LifeBar_W.gen.cpp
+    [35/38] Module.GhoulsAndGoodies.cpp
+    [36/38] UE4Editor-GhoulsAndGoodies.lib
        Creating library C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.lib and object C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.exp
-    [3/4] UE4Editor-GhoulsAndGoodies.dll
+    [37/38] UE4Editor-GhoulsAndGoodies.dll
        Creating library C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.suppressed.lib and object C:\Users\s181813\Documents\GitHub\GoodiesAndGhouls\GhoulsAndGoodies\Intermediate\Build\Win64\UE4Editor\Development\GhoulsAndGoodies\UE4Editor-GhoulsAndGoodies.suppressed.exp
-    [4/4] GhoulsAndGoodiesEditor.target
-  Total time in Parallel executor: 4.14 seconds
-  Total execution time: 10.07 seconds
+    [38/38] GhoulsAndGoodiesEditor.target
+  Total time in Parallel executor: 32.86 seconds
+  Total execution time: 60.20 seconds

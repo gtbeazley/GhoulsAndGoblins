@@ -59,6 +59,12 @@ void AEnemySpawn::TurnLightOn(bool a_turnOn)
 		m_lightColor = m_offColor;
 }
 
+void AEnemySpawn::Reset()
+{
+	m_spawnQueue.Empty();
+	m_spawnTimer = 0;
+}
+
 // Called when the game starts or when spawned
 void AEnemySpawn::BeginPlay()
 {

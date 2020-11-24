@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execReset) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Reset(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execTurnLightOn) \
 	{ \
 		P_GET_UBOOL(Z_Param_a_turnOn); \
@@ -44,6 +52,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define GhoulsAndGoodies_Source_GhoulsAndGoodies_EnemySpawn_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execReset) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Reset(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execTurnLightOn) \
 	{ \

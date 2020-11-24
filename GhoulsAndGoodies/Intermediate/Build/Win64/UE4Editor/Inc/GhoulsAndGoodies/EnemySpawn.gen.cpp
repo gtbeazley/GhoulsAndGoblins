@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 	UPackage* Z_Construct_UPackage__Script_GhoulsAndGoodies();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemySpawn_QueueSpawn();
 	GHOULSANDGOODIES_API UEnum* Z_Construct_UEnum_GhoulsAndGoodies_EEnemyUnitType();
+	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemySpawn_Reset();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemySpawn_Spawn();
 	GHOULSANDGOODIES_API UFunction* Z_Construct_UFunction_AEnemySpawn_TurnLightOn();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
@@ -31,6 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 		UClass* Class = AEnemySpawn::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "QueueSpawn", &AEnemySpawn::execQueueSpawn },
+			{ "Reset", &AEnemySpawn::execReset },
 			{ "Spawn", &AEnemySpawn::execSpawn },
 			{ "TurnLightOn", &AEnemySpawn::execTurnLightOn },
 		};
@@ -67,6 +69,30 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemySpawn_QueueSpawn_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemySpawn_Reset_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemySpawn_Reset_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Called to reset to no spawns queued\n" },
+		{ "ModuleRelativePath", "EnemySpawn.h" },
+		{ "ToolTip", "Called to reset to no spawns queued" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemySpawn_Reset_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemySpawn, nullptr, "Reset", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemySpawn_Reset_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemySpawn_Reset_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemySpawn_Reset()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemySpawn_Reset_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -201,6 +227,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemySpawn_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AEnemySpawn_QueueSpawn, "QueueSpawn" }, // 2937354425
+		{ &Z_Construct_UFunction_AEnemySpawn_Reset, "Reset" }, // 2451169116
 		{ &Z_Construct_UFunction_AEnemySpawn_Spawn, "Spawn" }, // 1538119500
 		{ &Z_Construct_UFunction_AEnemySpawn_TurnLightOn, "TurnLightOn" }, // 3026469038
 	};
@@ -316,7 +343,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemySpawn, 1619640579);
+	IMPLEMENT_CLASS(AEnemySpawn, 3264641655);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<AEnemySpawn>()
 	{
 		return AEnemySpawn::StaticClass();

@@ -4,14 +4,12 @@
 		"Module.GhoulsAndGoodies.cpp.obj": [
 			"DefendingUnit.cpp.obj",
 			"EnemyAIController.cpp.obj",
-			"EnemySpawn.cpp.obj",
 			"EnemyUnit.cpp.obj",
 			"EnemyUnitType.cpp.obj",
 			"Esqueleto.cpp.obj",
 			"Garry.cpp.obj",
 			"GhoulsAndGoodies.cpp.obj",
 			"GhoulsAndGoodiesCharacter.cpp.obj",
-			"GhoulsAndGoodiesGameMode.cpp.obj",
 			"GhoulsAndGoodiesPlayerController.cpp.obj",
 			"GNGGameInstance.cpp.obj",
 			"GNGGameState.cpp.obj",
@@ -33,7 +31,9 @@
 			"Tiffany.cpp.obj",
 			"Tile.cpp.obj",
 			"TileBoard.cpp.obj",
-			"TileDefenceType.cpp.obj"
+			"TileDefenceType.cpp.obj",
+			"EnemySpawn.cpp.obj",
+			"GhoulsAndGoodiesGameMode.cpp.obj"
 		],
 		"Module.GhoulsAndGoodies.gen.cpp.obj": [
 			"Base.gen.cpp.obj",
@@ -43,13 +43,11 @@
 			"DefendingUnit.gen.cpp.obj",
 			"Despawn_AnimNotify.gen.cpp.obj",
 			"EnemyAIController.gen.cpp.obj",
-			"EnemySpawn.gen.cpp.obj",
 			"EnemyState.gen.cpp.obj",
 			"EnemyUnit.gen.cpp.obj",
 			"EnemyUnitType.gen.cpp.obj",
 			"Esqueleto.gen.cpp.obj",
 			"Garry.gen.cpp.obj",
-			"GhoulsAndGoodies.init.gen.cpp.obj",
 			"GhoulsAndGoodiesCharacter.gen.cpp.obj",
 			"GhoulsAndGoodiesGameMode.gen.cpp.obj",
 			"GhoulsAndGoodiesPlayerController.gen.cpp.obj",
@@ -67,7 +65,9 @@
 			"Tiffany.gen.cpp.obj",
 			"Tile.gen.cpp.obj",
 			"TileBoard.gen.cpp.obj",
-			"TileDefenceType.gen.cpp.obj"
+			"TileDefenceType.gen.cpp.obj",
+			"EnemySpawn.gen.cpp.obj",
+			"GhoulsAndGoodies.init.gen.cpp.obj"
 		]
 	}
 }
