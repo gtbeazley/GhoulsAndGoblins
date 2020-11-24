@@ -46,6 +46,7 @@ void ASmidge::Tick(float a_deltaTime)
  
 void ASmidge::DealDamage()
 {
+
 	if(m_detectedEnemies.Num() > 0)
 		if(m_detectedEnemies[0])
 			m_detectedEnemies[0]->m_curHealth -= m_attackDamage;

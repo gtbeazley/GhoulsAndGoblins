@@ -103,6 +103,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector m_facingTarget = FVector(0, 0, 0);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector m_projectileSpawnOffset = FVector(0, 0, 0);
+
 	ATile* m_owningTile;
 
 

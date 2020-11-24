@@ -235,4 +235,38 @@
       <Filter>Source\GhoulsAndGoodies\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Projectile.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Smidge_Projectile.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Garry_Projectile.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Tiffany_Projectile.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GhoulsAndGoodies\Public\Grace_Projectile.h">
+      <Filter>Source\GhoulsAndGoodies\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Projectile.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Smidge_Projectile.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Garry_Projectile.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Tiffany_Projectile.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GhoulsAndGoodies\Private\Grace_Projectile.cpp">
+      <Filter>Source\GhoulsAndGoodies\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
