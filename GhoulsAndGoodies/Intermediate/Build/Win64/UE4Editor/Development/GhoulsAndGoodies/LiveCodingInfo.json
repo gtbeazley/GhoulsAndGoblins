@@ -28,17 +28,17 @@
 			"DealDamage_AnimNotify.cpp.obj",
 			"Despawn_AnimNotify.cpp.obj",
 			"EnemyState.cpp.obj",
-			"Smidge.cpp.obj",
-			"Spawned_AnimNotify.cpp.obj",
-			"Tiffany.cpp.obj",
-			"Tile.cpp.obj",
-			"TileBoard.cpp.obj",
-			"TileDefenceType.cpp.obj",
 			"Garry_Projectile.cpp.obj",
 			"Grace_Projectile.cpp.obj",
 			"Projectile.cpp.obj",
+			"Smidge.cpp.obj",
 			"Smidge_Projectile.cpp.obj",
-			"Tiffany_Projectile.cpp.obj"
+			"Spawned_AnimNotify.cpp.obj",
+			"Tiffany_Projectile.cpp.obj",
+			"Tiffany.cpp.obj",
+			"Tile.cpp.obj",
+			"TileBoard.cpp.obj",
+			"TileDefenceType.cpp.obj"
 		],
 		"Module.GhoulsAndGoodies.gen.cpp.obj": [
 			"Base.gen.cpp.obj",
@@ -55,6 +55,7 @@
 			"Esqueleto.gen.cpp.obj",
 			"Garry.gen.cpp.obj",
 			"Garry_Projectile.gen.cpp.obj",
+			"GhoulsAndGoodies.init.gen.cpp.obj",
 			"GhoulsAndGoodiesCharacter.gen.cpp.obj",
 			"GhoulsAndGoodiesGameMode.gen.cpp.obj",
 			"GhoulsAndGoodiesPlayerController.gen.cpp.obj",
@@ -76,8 +77,7 @@
 			"Tiffany_Projectile.gen.cpp.obj",
 			"Tile.gen.cpp.obj",
 			"TileBoard.gen.cpp.obj",
-			"TileDefenceType.gen.cpp.obj",
-			"GhoulsAndGoodies.init.gen.cpp.obj"
+			"TileDefenceType.gen.cpp.obj"
 		]
 	}
 }

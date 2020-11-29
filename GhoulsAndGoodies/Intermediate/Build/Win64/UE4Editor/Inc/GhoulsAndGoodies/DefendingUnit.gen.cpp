@@ -355,6 +355,10 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_projectileSpawnOffset_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_m_projectileSpawnOffset;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_facingTarget_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_m_facingTarget;
@@ -440,6 +444,13 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		{ "ModuleRelativePath", "DefendingUnit.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_projectileSpawnOffset_MetaData[] = {
+		{ "Category", "DefendingUnit" },
+		{ "ModuleRelativePath", "DefendingUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_projectileSpawnOffset = { "m_projectileSpawnOffset", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADefendingUnit, m_projectileSpawnOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_projectileSpawnOffset_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_projectileSpawnOffset_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_facingTarget_MetaData[] = {
 		{ "Category", "DefendingUnit" },
@@ -555,6 +566,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_detectionSphere = { "m_detectionSphere", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADefendingUnit, m_detectionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_detectionSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_detectionSphere_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADefendingUnit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_projectileSpawnOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_facingTarget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_attackTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADefendingUnit_Statics::NewProp_m_attackInterval,
@@ -599,7 +611,7 @@ void EmptyLinkFunctionForGeneratedCodeDefendingUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADefendingUnit, 2370772654);
+	IMPLEMENT_CLASS(ADefendingUnit, 1037619564);
 	template<> GHOULSANDGOODIES_API UClass* StaticClass<ADefendingUnit>()
 	{
 		return ADefendingUnit::StaticClass();
